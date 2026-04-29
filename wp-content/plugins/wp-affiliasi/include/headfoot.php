@@ -256,7 +256,7 @@ function cbthemehead() {
 	wp_enqueue_script("jquery");
 	wp_enqueue_script( 'dtree', plugins_url('/wp-affiliasi/dtree.js'));
 	wp_enqueue_script( 'tooltip', plugins_url('/wp-affiliasi/stickytooltip.js'));
-	wp_enqueue_style( 'wp-affiliasi', plugins_url('/wp-affiliasi/wp-affiliasi.css'));
+	wp_enqueue_style( 'wp-affiliasi', plugins_url('/wp-affiliasi/wp-affiliasi.css'), array(), time());
 	/*	
 	wp_enqueue_style( 'dtree', plugins_url('/wp-affiliasi/dtree.css'));
 	wp_enqueue_style( 'tooltip', plugins_url('/wp-affiliasi/stickytooltip.css'));

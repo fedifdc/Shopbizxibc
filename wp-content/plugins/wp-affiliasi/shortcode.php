@@ -247,71 +247,73 @@ function cb_memberarea() {
 	$showtxt = '';
 	if (isset($user_ID) && is_numeric($user_ID) && $user_ID > 0) {
 		$menuoption = get_option('menuoption');
+		$current_hal = $_GET['hal'] ?? 'home';
+		
+		$showtxt .= '<div class="wpaff-dashboard">';
+		$showtxt .= '<nav class="wpaff-nav">';
+		
 		if (is_array($menuoption)) {
-			//$showtxt .= '<p><a href="'.site_url().'/?page_id='.get_the_ID().'&hal=home">Home</a>';
-			$showtxt .= '<p>';
 			if (isset($menuoption['home_cek']) && $menuoption['home_cek'] == 1) { 
-				$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=home">';
-				if ($menuoption['home_label'] != '') { $showtxt .= $menuoption['home_label']; } else { $showtxt .= 'Home';}
-				$showtxt .= '</a>';
+				$label = $menuoption['home_label'] != '' ? $menuoption['home_label'] : 'Home';
+				$active = $current_hal == 'home' ? 'active' : '';
+				$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=home" class="'.$active.'">'.$label.'</a>';
 			}
 			if (isset($menuoption['profil_cek']) && $menuoption['profil_cek'] == 1) { 
-				$showtxt .= ' | <a href="'.site_url().'/?page_id='.get_the_ID().'&hal=profil">';
-				if ($menuoption['profil_label'] != '') { $showtxt .= $menuoption['profil_label']; } else { $showtxt .= 'Profil';}
-				$showtxt .= '</a>';
+				$label = $menuoption['profil_label'] != '' ? $menuoption['profil_label'] : 'Profil';
+				$active = $current_hal == 'profil' ? 'active' : '';
+				$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=profil" class="'.$active.'">'.$label.'</a>';
 			}
 			if (isset($menuoption['laporan_cek']) && $menuoption['laporan_cek'] == 1) { 
-				$showtxt .= ' | <a href="'.site_url().'/?page_id='.get_the_ID().'&hal=laporan">';
-				if ($menuoption['laporan_label'] != '') { $showtxt .= $menuoption['laporan_label']; } else { $showtxt .= 'Laporan';}
-				$showtxt .= '</a>';
+				$label = $menuoption['laporan_label'] != '' ? $menuoption['laporan_label'] : 'Laporan';
+				$active = $current_hal == 'laporan' ? 'active' : '';
+				$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=laporan" class="'.$active.'">'.$label.'</a>';
 			}
 			if (isset($menuoption['banner_cek']) && $menuoption['banner_cek'] == 1) { 
-				$showtxt .= ' | <a href="'.site_url().'/?page_id='.get_the_ID().'&hal=promosi">';
-				if ($menuoption['banner_label'] != '') { $showtxt .= $menuoption['banner_label']; } else { $showtxt .= 'Banner';}
-				$showtxt .= '</a>';
+				$label = $menuoption['banner_label'] != '' ? $menuoption['banner_label'] : 'Banner';
+				$active = $current_hal == 'promosi' ? 'active' : '';
+				$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=promosi" class="'.$active.'">'.$label.'</a>';
 			}
 			if (isset($menuoption['klien_cek']) && $menuoption['klien_cek'] == 1) { 
-				$showtxt .= ' | <a href="'.site_url().'/?page_id='.get_the_ID().'&hal=klien">';
-				if ($menuoption['klien_label'] != '') { $showtxt .= $menuoption['klien_label']; } else { $showtxt .= 'Klien';}
-				$showtxt .= '</a>';
+				$label = $menuoption['klien_label'] != '' ? $menuoption['klien_label'] : 'Klien';
+				$active = $current_hal == 'klien' ? 'active' : '';
+				$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=klien" class="'.$active.'">'.$label.'</a>';
 			}
 			if (isset($menuoption['jaringan_cek']) && $menuoption['jaringan_cek'] == 1) { 
-				$showtxt .= ' | <a href="'.site_url().'/?page_id='.get_the_ID().'&hal=jaringan">';
-				if ($menuoption['jaringan_label'] != '') { $showtxt .= $menuoption['jaringan_label']; } else { $showtxt .= 'Jaringan';}
-				$showtxt .= '</a>';
+				$label = $menuoption['jaringan_label'] != '' ? $menuoption['jaringan_label'] : 'Jaringan';
+				$active = $current_hal == 'jaringan' ? 'active' : '';
+				$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=jaringan" class="'.$active.'">'.$label.'</a>';
 			}
 			if (isset($menuoption['download_cek']) && $menuoption['download_cek'] == 1) { 
-				$showtxt .= ' | <a href="'.site_url().'/?page_id='.get_the_ID().'&hal=download">';
-				if ($menuoption['download_label'] != '') { $showtxt .= $menuoption['download_label']; } else { $showtxt .= 'Download';}
-				$showtxt .= '</a>';
+				$label = $menuoption['download_label'] != '' ? $menuoption['download_label'] : 'Download';
+				$active = $current_hal == 'download' ? 'active' : '';
+				$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=download" class="'.$active.'">'.$label.'</a>';
 			}
 			if (isset($menuoption['upgrade_cek']) && $menuoption['upgrade_cek'] == 1) { 
 				if ($wpdb->get_var("SELECT `membership` FROM `wp_member` WHERE idwp = ".$user_ID) == 1) {
-					$showtxt .= ' | <a href="'.site_url().'/?page_id='.get_the_ID().'&hal=order&idproduk=premium">';
-					if ($menuoption['upgrade_label'] != '') { $showtxt .= $menuoption['upgrade_label']; } else { $showtxt .= 'Upgrade';}
-					$showtxt .= '</a>';
+					$label = $menuoption['upgrade_label'] != '' ? $menuoption['upgrade_label'] : 'Upgrade';
+					$active = $current_hal == 'order' ? 'active' : '';
+					$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=order&idproduk=premium" class="'.$active.'">'.$label.'</a>';
 				}
 			}
 			if (isset($menuoption['logout_cek']) && $menuoption['logout_cek'] == 1) { 
-				$showtxt .= ' | <a href="'.wp_logout_url(site_url()).'">';
-				if ($menuoption['logout_label'] != '') { $showtxt .= $menuoption['logout_label']; } else { $showtxt .= 'Logout';}
-				$showtxt .= '</a>';
+				$label = $menuoption['logout_label'] != '' ? $menuoption['logout_label'] : 'Logout';
+				$showtxt .= '<a href="'.wp_logout_url(site_url()).'">'.$label.'</a>';
 			}		
-			$showtxt .= '</p>';
 		} else {
-			$showtxt .= '<p><a href="'.site_url().'/?page_id='.get_the_ID().'&hal=home">Home</a> | 
-			<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=profil">Profil</a> | 
-			<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=laporan">Laporan</a> | 
-			<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=promosi">Banner</a> | 
-			<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=klien">Klien</a> | 
-			<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=jaringan">Jaringan</a> | 
-			<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=download">Download</a>';
+			$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=home" class="'.($current_hal == 'home' ? 'active' : '').'">Home</a>';
+			$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=profil" class="'.($current_hal == 'profil' ? 'active' : '').'">Profil</a>';
+			$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=laporan" class="'.($current_hal == 'laporan' ? 'active' : '').'">Laporan</a>';
+			$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=promosi" class="'.($current_hal == 'promosi' ? 'active' : '').'">Banner</a>';
+			$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=klien" class="'.($current_hal == 'klien' ? 'active' : '').'">Klien</a>';
+			$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=jaringan" class="'.($current_hal == 'jaringan' ? 'active' : '').'">Jaringan</a>';
+			$showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=download" class="'.($current_hal == 'download' ? 'active' : '').'">Download</a>';
+			
 			if ($wpdb->get_var("SELECT `membership` FROM `wp_member` WHERE idwp = ".$user_ID) == 1) {
-			 $showtxt .= ' | <a href="'.site_url().'/?page_id='.get_the_ID().'&hal=order&idproduk=premium">Upgrade</a>'; 
+			 $showtxt .= '<a href="'.site_url().'/?page_id='.get_the_ID().'&hal=order&idproduk=premium" class="'.($current_hal == 'order' ? 'active' : '').'">Upgrade</a>'; 
 			}
-			$showtxt .= '
-			| <a href="'.wp_logout_url(site_url()).'">Logout</a></p>';
+			$showtxt .= '<a href="'.wp_logout_url(site_url()).'">Logout</a>';
 		}
+		$showtxt .= '</nav>';
 
 		$memberpage = '';
 		if (isset($_GET['hal'])) { $memberpage = $_GET['hal']; }
@@ -335,6 +337,7 @@ function cb_memberarea() {
 		exit;
 	}
 
+	$showtxt .= '</div>';
 	return $showtxt;
 }
 
