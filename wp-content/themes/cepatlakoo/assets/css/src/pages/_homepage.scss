@@ -1,0 +1,72 @@
+.homepage-widget {
+    padding: 90px 0;
+}
+
+h4.section-title {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.vc_separator h4 {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 25px !important;
+    font-weight: 400;
+}
+
+.vc_tienda_vc_featured_brand .vc_controls>.vc_controls-out-tl {
+    left: 40% !important;
+    top: 40% !important;
+}
+#lookbook-widget.homepage-widget {
+    padding-top: 0;
+}
+#promo-widget.homepage-widget,
+#promo-widget-newsletter.homepage-widget {
+    padding: 0;
+}
+
+.full-promo {
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.promo-content {
+    max-width: 500px;
+    margin: 20% auto;
+}
+/*----- Theme features -----*/
+
+#theme-features-widget.homepage-widget {
+    padding: 50px;
+    border-bottom: solid 1px #dedede;
+}
+
+.theme-features .feature-item {
+    text-align: center;
+}
+
+.theme-features .feature-item .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: $color-primary;
+}
+
+.theme-features .feature-item h3 {
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+
+
+/*----- Brands Section -----*/
+
+#brands-widget.homepage-widget {
+    border-bottom: solid 1px #dedede;
+}

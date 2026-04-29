@@ -1,0 +1,1158 @@
+# Translation of Plugins - Jetpack VideoPress - Stable (latest release) in Indonesian
+# This file is distributed under the same license as the Plugins - Jetpack VideoPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-11 08:38:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: id\n"
+"Project-Id-Version: Plugins - Jetpack VideoPress - Stable (latest release)\n"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:166
+msgid "Something went wrong. Please try again."
+msgstr "Ada yang salah! Harap coba lagi."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-block-editor-content.php:126
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-block-editor-content.php:127
+msgid "VideoPress Video Player"
+msgstr "Pemutar Video VideoPress"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2704
+msgid "Sorry, something is wrong with your Jetpack connection."
+msgstr "Maaf, ada yang salah dengan koneksi Jetpack Anda."
+
+#: jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php:61
+msgid "Akismet Anti-spam"
+msgstr "Akismet Anti-spam"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:57
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:66
+msgid "Comprehensive site security, including VaultPress Backup, Scan, and Akismet Anti-spam."
+msgstr "Keamanan situs komprehensif yang mencakup VaultPress Backup, VaultPress Scan, dan Akismet Anti-spam."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-videopress-rest-api-v1-settings.php:53
+msgid "If the VideoPress videos should be private by default"
+msgstr "Menentukan apakah video VideoPress berstatus pribadi secara default"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-videopress-rest-api-v1-settings.php:136
+msgid "VideoPress settings updated successfully."
+msgstr "Pengaturan VideoPress berhasil diperbarui."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:173
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:7
+#: jetpack_vendor/automattic/jetpack-videopress/build/admin/index.js:5
+msgid "Included"
+msgstr "Disertakan"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/video/block.json
+msgctxt "block title"
+msgid "VideoPress"
+msgstr "VideoPress"
+
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/video/block.json
+msgctxt "block description"
+msgid "Embed a video from your media library or upload a new one with VideoPress."
+msgstr "Sematkan video dari pustaka media atau unggah yang baru dengan VideoPress."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-site.php:26
+msgid "Could not fetch site information from the service"
+msgstr "Tidak dapat mengambil informasi situs dari layanan ini"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:135
+msgid "Supports 38 languages"
+msgstr "Mendukung 38 bahasa"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:65
+msgid "The caption of the video."
+msgstr "Caption video."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:120
+msgid "The time in the video to use as the poster frame."
+msgstr "Waktu dalam video yang digunakan sebagai bingkai poster."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:128
+msgid "Whether the time is in milliseconds or seconds."
+msgstr "Waktu dihitung dalam milidetik atau detik."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:134
+msgid "The attachment id of the poster image."
+msgstr "ID lampiran gambar poster."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-admin-ui.php:266
+msgid "Attachment Preview"
+msgstr "Pratinjau Lampiran"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-admin-ui.php:396
+#: jetpack_vendor/automattic/jetpack-videopress/build/admin/index.js:14
+msgid "File name"
+msgstr "Nama file"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-admin-ui.php:400
+msgid "File URL:"
+msgstr "URL Berkas:"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-admin-ui.php:403
+msgid "Copy URL to clipboard"
+msgstr "Salin URL ke papan klip"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-admin-ui.php:407
+#: jetpack_vendor/automattic/jetpack-videopress/build/admin/index.js:12
+#: jetpack_vendor/automattic/jetpack-videopress/build/admin/index.js:13
+#: jetpack_vendor/automattic/jetpack-videopress/build/admin/index.js:15
+msgid "Edit video details"
+msgstr "Sunting detail video"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-uploader-rest-endpoints.php:35
+msgid "The ID of the attachment you want to upload to VideoPress"
+msgstr "ID lampiran yang ingin Anda unggah ke VideoPress"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-uploader.php:75
+msgid "Invalid attachment ID"
+msgstr "ID lampiran tidak valid"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-uploader.php:78
+msgid "File not found"
+msgstr "Berkas tidak ditemukan"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-uploader.php:81
+msgid "Mime type not supported"
+msgstr "Tipe MIME tidak didukung"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-videopresstoken.php:28
+msgid "You need to connect Jetpack before being able to upload a video to VideoPress."
+msgstr "Anda perlu menghubungkan Jetpack agar dapat mengunggah video ke VideoPress."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/tus/class-tus-client.php:549
+msgid "Unable to create resource."
+msgstr "Tidak dapat membuat sumber daya."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-admin-ui.php:56
+msgctxt "The Jetpack VideoPress product name, without the Jetpack prefix"
+msgid "VideoPress"
+msgstr "VideoPress"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:136
+msgctxt "Backup Product Disclaimer"
+msgid "* Subject to your usage and storage limit."
+msgstr "* Tergantung penggunaan dan batas penyimpanan Anda."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:137
+msgctxt "Backup Product Disclaimer"
+msgid "Learn more"
+msgstr "Baca selengkapnya"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:116
+msgid "Post to social networks"
+msgstr "Poskan ke jejaring sosial"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:117
+msgid "Schedule publishing"
+msgstr "Jadwalkan publikasi"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:118
+msgid "Supports the major social networks"
+msgstr "Mendukung sebagian besar jejaring sosial"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:89
+msgctxt "Scan Product Feature"
+msgid "Access to latest Firewall rules"
+msgstr "Akses ke aturan Firewall terbaru"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:126
+msgid "Over 20,000 listed vulnerabilities"
+msgstr "Lebih dari 20.000 kerentanan terdaftar"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:127
+msgid "Daily automatic scans"
+msgstr "Pemindaian otomatis harian"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:128
+msgid "Check plugin and theme version status"
+msgstr "Periksa status versi plugin dan tema"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:129
+msgid "Easy to navigate and use"
+msgstr "Mudah dinavigasi dan digunakan"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-ajax.php:99
+msgid "You cannot view this video."
+msgstr "Anda tidak dapat menonton video ini."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-ajax.php:94
+msgid "need a guid"
+msgstr "butuh panduan"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-ajax.php:106
+msgid "Could not obtain a VideoPress playback JWT. Please try again later. (empty upload token)"
+msgstr "Tidak dapat memperoleh JWT pemutaran ulang VideoPress. Silakan coba lagi. (token unggah kosong)"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:89
+msgid "How to determine if the video should be public or private"
+msgstr "Cara menentukan video publik atau privat"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:922
+msgid "My Jetpack dashboard"
+msgstr "Dasbor Jetpack Saya"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-ajax.php:111
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-ajax.php:179
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-videopresstoken.php:124
+msgid "Could not obtain a VideoPress upload JWT. Please try again later."
+msgstr "Tidak dapat memperoleh JWT unggahan VideoPress. Silakan coba lagi nanti."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-ajax.php:186
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-videopresstoken.php:132
+msgid "Could not obtain a VideoPress upload JWT. Please try again later. (empty upload token)"
+msgstr "Tidak dapat memperoleh JWT unggahan VideoPress. Silakan coba lagi nanti. (token unggahan kosong)"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:83
+msgid "Activation failed. Plugin is not installed"
+msgstr "Aktivasi gagal. Plugin belum diinstal."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-wpcom-products.php:109
+msgid "Unable to fetch the products list from WordPress.com"
+msgstr "Tidak dapat memuat daftar produk dari WordPress.com"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:106
+msgid "Manage unlimited contacts"
+msgstr "Kelola kontak tanpa batas"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:107
+msgid "Manage billing and create invoices"
+msgstr "Kelola penagihan dan buat invoice"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:108
+msgid "Fully integrated with WordPress & WooCommerce"
+msgstr "Terintegrasi sepenuhnya dengan WordPress & WooCommerce"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:109
+msgid "Infinitely customizable with integrations and extensions"
+msgstr "Penyesuaian tanpa batas dengan berbagai integrasi dan ekstensi"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:76
+msgctxt "Security Product Feature"
+msgid "Real-time cloud backups with 10GB storage"
+msgstr "Pencadangan awan real-time dengan ruang penyimpanan 10GB"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:77
+msgctxt "Security Product Feature"
+msgid "Automated real-time malware scan"
+msgstr "Pemindaian malware real time otomatis"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:78
+msgctxt "Security Product Feature"
+msgid "One-click fixes for most threats"
+msgstr "Perbaikan yang mudah untuk sebagian besar ancaman"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:79
+msgctxt "Security Product Feature"
+msgid "Comment & form spam protection"
+msgstr "Perlindungan spam untuk komentar & formulir"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:118
+msgid "Check your site performance"
+msgstr "Memeriksa performa situs Anda"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:119
+msgid "Enable improvements in one click"
+msgstr "Mengaktifkan perbaikan dengan mudah"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:120
+msgid "Standalone free plugin for those focused on speed"
+msgstr "Plugin mandiri gratis bagi mereka yang berfokus pada kecepatan"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:133
+msgid "Instant search and indexing"
+msgstr "Pencarian dan pengindeksan instan"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:134
+msgid "Powerful filtering"
+msgstr "Penyaringan yang andal"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:136
+msgid "Spelling correction"
+msgstr "Pengoreksi ejaan"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:205
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:232
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:258
+msgid "The product class handler is not implemented"
+msgstr "Handler kelas produk tidak diterapkan"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-module-product.php:140
+msgid "Error activating Jetpack plugin"
+msgstr "Terjadi error saat mengaktifkan plugin Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:118
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:147
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-module-product.php:146
+msgid "Error activating Jetpack module"
+msgstr "Terjadi error saat mengaktifkan modul Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-products.php:319
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:34
+msgid "Product slug"
+msgstr "Slug produk"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-products.php:326
+msgid "Production action to execute"
+msgstr "Kegiatan produksi yang harus dijalankan"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:99
+msgid "Save every change"
+msgstr "Simpan setiap perubahan"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:65
+msgid "Basic tools for a successful site"
+msgstr "Peralatan wajib agar situs berhasil"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:136
+msgid "The product argument must be a string."
+msgstr "Argumen product harus berupa string."
+
+#. translators: 1: wp_default_scripts. 2: Name of the domain being aliased.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:580
+msgid "Textdomain aliases should be registered before the %1$s hook. This notice was triggered by the %2$s domain."
+msgstr "Alias textdomain harus didaftarkan sebelum %1$s kait tindakan. Peringatan berikut dipicu oleh domain %2$s."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:297
+msgid "The required \"nonce\" parameter is missing."
+msgstr "Parameter “nonce” yang dibutuhkan hilang."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:83
+#: jetpack_vendor/automattic/jetpack-videopress/build/admin/index.js:12
+msgid "Display download option and allow viewers to download this video"
+msgstr "Tampilkan pilihan unduhan dan izinkin pengunjung untuk mengunduh video ini"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:238
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:301
+msgid "If text fields should be converted to latin1 in checksum calculation."
+msgstr "Jika bidang teks harus dikonversi ke latin1 dalam perhitungan checksum."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:256
+msgid "Column mappings"
+msgstr "Pemetaan kolom"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:266
+msgid "Number of histogram buckets."
+msgstr "Jumlah bin histogram."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:271
+msgid "Start ID for the histogram"
+msgstr "ID awal untuk histogram"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:276
+msgid "End ID for the histogram"
+msgstr "ID akhir untuk histogram"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:281
+msgid "Strip non-ascii characters?"
+msgstr "Hapus karakter non-ascii?"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:286
+msgid "Shared Salt to use when generating checksum"
+msgstr "Shared Salt untuk digunakan saat membuat checksum"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:296
+msgid "Do we want the checksum or object ids."
+msgstr "Apakah kita menginginkan checksum atau object id."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php:85
+msgid "No valid event name or type."
+msgstr "Tidak ada nama atau jenis acara yang valid."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:170
+msgid "Jetpack doesn't have a connected owner."
+msgstr "Tidak ada pemilik yang tersambung ke Jetpack."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:180
+msgid "License attach request failed."
+msgstr "Permintaan melampirkan lisensi gagal."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:211
+msgid "Failed to attach your Jetpack license(s). Please try reconnecting Jetpack."
+msgstr "Gagal melampirkan lisensi Jetpack Anda. Coba hubungkan Jetpack kembali."
+
+#. translators: %s is a comma-separated list of license keys.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:230
+msgid "The following Jetpack licenses are invalid, already in use, or revoked: %s"
+msgstr "Lisensi Jetpack berikut tidak valid, sudah dipakai, atau dicabut: %s"
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:254
+msgid "Your password is too weak: Looks like you are including easy to guess information about yourself. Try something a little more unique."
+msgstr "Kata sandi Anda terlalu lemah: Sepertinya Anda memasukkan informasi diri yang gampang ditebak. Coba hal lain yang lebih unik."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:500
+msgid "Sync has been aborted because the IXR client is missing."
+msgstr "Sinkronisasi telah dihentikan karena klien IXR tidak ada."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:43
+msgid "Data Modules that should be included in Full Sync"
+msgstr "Modul Data yang harus disertakan dalam Sinkronisasi Penuh"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:48
+msgid "User IDs to include in Full Sync or \"initial\""
+msgstr "ID Pengguna yang akan disertakan dalam Sinkronisasi Penuh atau \"awal\""
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:52
+msgid "Post IDs to include in Full Sync"
+msgstr "ID Pos yang akan disertakan dalam Sinkronisasi Penuh"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:57
+msgid "Comment IDs to include in Full Sync"
+msgstr "ID Komentar yang akan disertakan dalam Sinkronisasi Penuh"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:75
+msgid "Comma seperated list of additional fields that should be included in status."
+msgstr "Daftar kolom tambahan yang dipisahkan koma yang harus disertakan dalam status."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:93
+msgid "New Sync health status"
+msgstr "Status kesehatan Sinkronisasi baru"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:129
+msgid "Name of Sync module"
+msgstr "Nama modul Sinkronisasi"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:134
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:261
+msgid "Object Type"
+msgstr "Jenis Objek"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:139
+msgid "Objects Identifiers"
+msgstr "Pengenal Objek"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:157
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:197
+msgid "Name of Sync queue."
+msgstr "Nama antrean Sinkronisasi."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:215
+msgid "Name of Sync module."
+msgstr "Nama modul Sinkronisasi."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:220
+msgid "Size of batches"
+msgstr "Ukuran batch"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:199
+msgid "Every Jetpack site needs at least one connected admin for the features to work properly. Please connect to your WordPress.com account via the button below. Once you connect, you may refresh this page to see an option to change the connection owner."
+msgstr "Setiap situs Jetpack memerlukan setidaknya satu admin terhubung agar fitur bisa berfungsi dengan benar. Hubungkan ke akun WordPress.com Anda melalui tombol di bawah. Setelah terhubung, Anda dapat menyegarkan halaman ini guna melihat pilihan untuk mengubah pemilik koneksi."
+
+#. translators: URL to Jetpack support doc regarding the primary user.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:209
+msgid "<a href='%s' target='_blank' rel='noopener noreferrer'>Learn more</a> about the connection owner and what will break if you do not have one."
+msgstr "<a href='%s' target='_blank' rel='noopener noreferrer'>Pelajari selengkapnya</a> tentang pemilik koneksi dan apa yang akan terganggu jika Anda tidak memilikinya."
+
+#. translators: URL to contact Jetpack support.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:225
+msgid "As always, feel free to <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">contact our support team</a> if you have any questions."
+msgstr "Seperti biasa, jangan segan untuk <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">menghubungi tim dukungan kami</a> jika Anda mempunyai pertanyaan."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:121
+msgid "You can choose to transfer connection ownership to one of these already-connected admins:"
+msgstr "Anda dapat memilih untuk mengalihkan kepemilikan koneksi ke salah satu admin yang telah terhubung ini:"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:139
+msgid "Set new connection owner"
+msgstr "Tetapkan pemilik koneksi baru"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:112
+msgid "Important notice about your Jetpack connection:"
+msgstr "Pemberitahuan penting tentang koneksi Jetpack Anda:"
+
+#. translators: WordPress User, if available.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:115
+msgid "Warning! You are about to delete the Jetpack connection owner (%s) for this site, which may cause some of your Jetpack features to stop working."
+msgstr "Peringatan! Anda akan menghapus pemilik koneksi Jetpack (%s) untuk situs ini, dan dapat menyebabkan beberapa fitur Jetpack Anda berhenti berfungsi."
+
+#. translators: "%s" is the name of a paramter. It can be either "secret_1" or
+#. "state".
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:196
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:215
+msgid "The required \"%s\" parameter is malformed."
+msgstr "Parameter wajib \"%s\" salah format."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:223
+msgid "Verification secrets not found"
+msgstr "Kode rahasia verifikasi tidak ditemukan"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:231
+msgid "Verification took too long"
+msgstr "Verifikasi terlalu lama"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:239
+msgid "Verification secrets are empty"
+msgstr "Kode rahasia verifikasi kosong"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:250
+msgid "Verification secrets are incomplete"
+msgstr "Kode rahasia verifikasi tidak lengkap"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:258
+msgid "Secret mismatch"
+msgstr "Ketidaksesuaian kode rahasia"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:381
+msgid "No user tokens found"
+msgstr "Token pengguna tidak ditemukan"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:386
+msgid "No primary user defined"
+msgstr "Pengguna utama tidak ditentukan"
+
+#. translators: %s is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:391
+msgid "No token for user %d"
+msgstr "Tidak ada token untuk pengguna %d"
+
+#. translators: %s is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:396
+msgid "Token for user %d is malformed"
+msgstr "Token untuk pengguna %d salah dibuat"
+
+#. translators: %1$d is the ID of the requested user. %2$d is the user ID found
+#. in the token.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:400
+msgid "Requesting user_id %1$d does not match token user_id %2$d"
+msgstr "Meminta user_id %1$d tidak cocok dengan token user_id %2$d"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:431
+msgid "No blog token found"
+msgstr "Token blog tidak ditemukan"
+
+#. translators: %d is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:458
+msgid "Invalid token for user %d"
+msgstr "Token untuk pengguna tidak valid %d"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:460
+msgid "Invalid blog token"
+msgstr "Token blog tidak valid"
+
+#. translators: %s is the full datetime of the last heart beat e.g. 2020-01-01
+#. 12:21:23
+#: jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php:256
+msgid "Last heartbeat sent at: %s"
+msgstr "Terakhir dikirim dengan cepat di:  %s"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1184
+msgid "Jetpack experienced an issue trying to save options (cannot_save_secrets). We suggest that you contact your hosting provider, and ask them for help checking that the options table is writable on your site."
+msgstr "Jetpack mengalami gangguan saat menyimpan pilihan (cannot_save_secrets). Kami sarankan untuk menghubungi penyedia hosting Anda dan meminta bantuan untuk memastikan tabel pilihan di situs Anda dapat ditulisi."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1892
+msgid "Invalid Registration State"
+msgstr "Status Registrasi Tidak Valid"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-plugin-storage.php:131
+msgid "You cannot call this method until Jetpack Config is configured"
+msgstr "Anda tidak dapat menggunakan metode ini hingga Jetpack Config dikonfigurasi"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:125
+msgid "The request method is missing."
+msgstr "Metode permintaan tidak ditemukan."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:152
+msgid "Set to false will trigger the site to disconnect."
+msgstr "Mengatur ke false akan memicu situs untuk memutus sambungan."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:157
+msgid "The isActive argument should be set to false."
+msgstr "Argumen isActive harus diatur ke false."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:218
+msgid "Indicates where the registration action was triggered for tracking/segmentation purposes"
+msgstr "Mengindikasikan tempat dipicunya tindakan pendaftaran untuk tujuan pelacakan/segmentasi"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:222
+msgid "The registration nonce"
+msgstr "Nonce pendaftaran"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:226
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:247
+#: jetpack_vendor/automattic/jetpack-connection/src/identity-crisis/class-rest-endpoints.php:62
+msgid "URI of the admin page where the user should be redirected after connection flow"
+msgstr "URI halaman admin tempat diarahkannya pengguna setelah alur penyambungan"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:230
+msgid "Indicates from what plugin the request is coming from"
+msgstr "Menunjukkan plugin yang membuat permintaan"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:264
+msgid "New user token"
+msgstr "Token pengguna baru"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:269
+msgid "Is connection owner"
+msgstr "Adalah pemilik koneksi"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:287
+msgid "New owner"
+msgstr "Pemilik baru"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:890
+msgid "Invalid user token is provided"
+msgstr "Token pengguna yang disertakan tidak valid"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:896
+msgid "Invalid user id is provided"
+msgstr "ID pengguna yang disertakan tidak valid"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:902
+msgid "Site is not connected"
+msgstr "Situs tidak terhubung."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:945
+msgid "Failed to disconnect the site as it appears already disconnected."
+msgstr "Gagal memutus sambungan situs. Tampaknya situs sudah terputus."
+
+#. translators: %s is the script handle.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:407
+msgid "Script \"%s\" depends on wp-i18n but does not specify \"textdomain\""
+msgstr "Skrip \"%s\" bergantung pada wp-i18n tetapi tidak menentukan \"textdomain\""
+
+#. translators: %1$s is a PHP class name.
+#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:188
+msgid "Unable to load class %1$s. Please add the package that contains it using composer and make sure you are requiring the Jetpack autoloader"
+msgstr "Tidak dapat memuat kelas %1$s. Harap tambahkan paket yang berisi situs menggunakan composer dan pastikan Anda mengharuskan Jetpack autoloader"
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:367
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:441
+msgid "Blog is already registered"
+msgstr "Blog telah terdaftar"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-error-handler.php:728
+msgid "Your connection with WordPress.com seems to be broken. If you're experiencing issues, please try reconnecting."
+msgstr "Sambungan Anda dengan WordPress.com mungkin terputus. Jika mengalami masalah ini, silakan sambungkan ulang."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1060
+msgid "New owner is same as existing owner"
+msgstr "Pemilik yang baru sama dengan pemilik yang sudah ada"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:123
+msgctxt "Backup Product Feature"
+msgid "30-day archive & activity log*"
+msgstr "Arsip & log aktivitas dalam 30 hari*"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:121
+msgctxt "Backup Product Feature"
+msgid "Real-time cloud backups"
+msgstr "Pencadangan cloud real time"
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:405
+msgid "Missing parameter \"last_detached_count\"."
+msgstr "Parameter \"last_detached_count\" tidak ditemukan."
+
+#. translators: %s: The literal parameter name. Should not be translated.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:260
+msgid "%s must be a non-negative integer."
+msgstr "%s harus berupa bilangan bulat positif."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:121
+msgctxt "VideoPress Product Feature"
+msgid "1TB of storage"
+msgstr "Ruang penyimpanan sebesar 1 TB"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:122
+msgctxt "VideoPress Product Feature"
+msgid "Built into WordPress editor"
+msgstr "Kompatibel dengan Editor WordPress"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:123
+msgctxt "VideoPress Product Feature"
+msgid "Ad-free and customizable player"
+msgstr "Pemutar bebas iklan dan dapat disesuaikan"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:124
+msgctxt "VideoPress Product Feature"
+msgid "Unlimited users"
+msgstr "Pengguna tanpa batas"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:123
+msgid "Help your site visitors find answers instantly so they keep reading and buying. Great for sites with a lot of content."
+msgstr "Bantu pengunjung situs agar langsung menemukan jawaban sehingga mereka akan tetap membaca dan membeli. Baik untuk situs dengan banyak konten."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:100
+msgid "Save time and get better responses by automatically blocking spam from your comments and forms."
+msgstr "Hemat waktu dan dapatkan tanggapan yang lebih baik dengan memblokir spam secara otomatis dari komentar dan formulir Anda."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:110
+msgctxt "Anti-Spam Product Feature"
+msgid "Comment and form spam protection"
+msgstr "Perlindungan spam untuk komentar dan formulir"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:111
+msgctxt "Anti-Spam Product Feature"
+msgid "Block spam without CAPTCHAs"
+msgstr "Blokir spam tanpa CAPTCHA"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:112
+msgctxt "Anti-Spam Product Feature"
+msgid "Advanced stats"
+msgstr "Statistik tingkat lanjut"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:111
+msgid "Never lose a word, image, page, or time worrying about your site with automated backups & one-click restores."
+msgstr "Tidak ada kata, gambar, halaman, atau waktu yang hilang karena mengkhawatirkan situs Anda dengan pencadangan otomatis & pemulihan yang mudah."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:124
+msgctxt "Backup Product Feature"
+msgid "One-click restores"
+msgstr "Pemulihan yang mudah"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:122
+msgctxt "Backup Product Feature"
+msgid "10GB of backup storage"
+msgstr "Ruang penyimpanan cadangan sebesar 10 GB"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:76
+msgid "Automatic scanning and one-click fixes keep your site one step ahead of security threats and malware."
+msgstr "Pemindaian otomatis dan perbaikan dengan mudah memastikan situs Anda lebih siap menghadapi ancaman keamanan dan malware."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:86
+msgctxt "Scan Product Feature"
+msgid "Automated daily scanning"
+msgstr "Pemindaian harian otomatis"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:87
+msgctxt "Scan Product Feature"
+msgid "One-click fixes for most issues"
+msgstr "Perbaikan yang mudah untuk sebagian besar kendala"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:88
+msgctxt "Scan Product Feature"
+msgid "Instant email notifications"
+msgstr "Notifikasi email instan"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:74
+msgid "Secure and speed up your site for free with Jetpack's powerful WordPress tools."
+msgstr "Amankan dan tingkatkan kecepatan situs Anda secara gratis dengan peralatan WordPresss Jetpack yang andal."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:84
+msgid "Speed up your site with optimized images"
+msgstr "Tingkatkan kecepatan situs dengan gambar yang dioptimasi"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:85
+msgid "Protect your site against bot attacks"
+msgstr "Lindungi situs Anda dari serangan bot"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:86
+msgid "Get notifications if your site goes offline"
+msgstr "Dapatkan pemberitahuan jika situs Anda offline"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:87
+msgid "Enhance your site with dozens of other features"
+msgstr "Tingkatkan situs Anda dengan puluhan fitur lainnya"
+
+#. Plugin Name of the plugin
+#: jetpack-videopress.php
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-admin-ui.php:55
+#: jetpack_vendor/automattic/jetpack-videopress/build/admin/index.js:10
+#: jetpack_vendor/automattic/jetpack-videopress/build/admin/index.js:12
+msgid "Jetpack VideoPress"
+msgstr "Jetpack VideoPress"
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:316
+msgid "Could not set this license key. Please try again."
+msgstr "Tidak dapat mengatur kunci lisensi ini. Harap coba lagi."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-attachment-videopress-data.php:172
+msgid "VideoPress Data"
+msgstr "Data VideoPress"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:45
+msgid "The post id for the attachment."
+msgstr "Id pos untuk lampiran."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:433
+msgid "This attachment cannot be updated yet."
+msgstr "Lampiran ini belum dapat diperbarui."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:509
+msgid "Attachment meta was not found."
+msgstr "Meta lampiran tidak ditemukan."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:574
+msgid "Video meta updated successfully."
+msgstr "Meta video berhasil diperbarui."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:53
+msgid "The title of the video."
+msgstr "Judul video."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:59
+msgid "The description of the video."
+msgstr "Deskripsi video."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:71
+msgid "The video content rating. One of G, PG-13 or R-17"
+msgstr "Rating konten video. Salah satu dari G, PG-13, atau R-17"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php:77
+msgid "Display the share menu in the player."
+msgstr "Tampilkan menu berbagi pada pemutar."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php:78
+msgid "You aren’t authorized to do that."
+msgstr "Anda tidak diotorisasi untuk melakukannya."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:812
+msgid "Unable to verify your request."
+msgstr "Tidak dapat memverifikasi permintaan Anda."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:162
+msgid "Invalid user identifier."
+msgstr "Pengidentifikasi pengguna tidak valid."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:175
+msgid "User not found."
+msgstr "Pengguna tidak ditemukan."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:217
+msgid "Passwords may not contain the character \"\\\"."
+msgstr "Kata sandi tidak boleh berisi karakter \"\\\"."
+
+#. translators: %d is a number of characters in the password.
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:224
+msgid "Password must be at least %d characters."
+msgstr "Kata sandi setidaknya harus terdiri dari %d karakter."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:230
+msgid "This password is too easy to guess: you can improve it by adding additional uppercase letters, lowercase letters, or numbers."
+msgstr "Kata sandi ini terlalu mudah ditebak: Anda dapat meningkatkannya dengan memberi tambahan huruf besar, huruf kecil, atau angka."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:235
+msgid "This password is too easy to guess: you can improve it by mixing both letters and numbers."
+msgstr "Kata sandi ini terlalu mudah ditebak: Anda dapat meningkatkannya dengan mencampurkan huruf dan angka."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:240
+msgid "This password is too easy to guess: you can improve it by including special characters such as !#=?*&."
+msgstr "Kata sandi ini terlalu mudah ditebak: Anda dapat meningkatkannya dengan menyertakan karakter spesial seperti !#=?*&."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:248
+msgid "This is a very common password. Choose something that will be harder for others to guess."
+msgstr "Ini merupakan kata sandi yang paling umum. Pilihlah yang sulit ditebak oleh orang lain."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-attachment-field-videopress.php:86
+msgid "Unique VideoPress ID"
+msgstr "ID VideoPress unik"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:189
+msgid "Activating"
+msgstr "Mengaktifkan"
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:452
+msgid "Jetpack is already connected."
+msgstr "Jetpack sudah tersambung."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:465
+msgid "Valid user is required."
+msgstr "Pengguna yang valid diperlukan."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:476
+msgid "A non-empty nonce must be supplied."
+msgstr "Nonce yang tidak kosong harus disediakan."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:500
+msgid "Failed to fetch user token from WordPress.com."
+msgstr "Gagal memperoleh token pengguna dari WordPress.com."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1050
+msgid "New owner is not admin"
+msgstr "Pemilik yang baru bukan admin"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1068
+msgid "New owner is not connected"
+msgstr "Pemilik yang baru tidak terhubung"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1088
+msgid "Could not confirm new owner."
+msgstr "Tidak dapat mengonfirmasi pemilik yang baru."
+
+#. translators: %s is UTC offset, e.g. "+1"
+#: jetpack_vendor/automattic/jetpack-sync/src/class-functions.php:541
+msgid "UTC%s"
+msgstr "UTC%s"
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:284
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:385
+msgid "Valid user is required"
+msgstr "Pengguna yang valid dibutuhkan"
+
+#. translators: "%s" is the name of a paramter. It can be either "secret_1" or
+#. "state".
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:187
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:206
+msgid "The required \"%s\" parameter is missing."
+msgstr "Parameter wajib \"%s\" tidak ditemukan."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:321
+msgid "There was an issue validating this request."
+msgstr "Terjadi masalah saat memvalidasi permintaan ini."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:531
+msgid "The required \"local_user\" parameter is missing."
+msgstr "Parameter “local_user” yang dibutuhkan hilang."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/modules/class-plugins.php:246
+msgid "Unknown Plugin Update Failure"
+msgstr "Kegagalan Pembaruan Plugin Tidak Diketahui"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:982
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:74
+msgid "You are not allowed to install plugins on this site."
+msgstr "Anda tidak diizinkan untuk menginstal plugin di situs ini."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:854
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:53
+msgid "You are not allowed to activate plugins on this site."
+msgstr "Anda tidak diizinkan untuk mengaktifkan plugin di situs ini."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:350
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:385
+#: jetpack_vendor/automattic/jetpack-protect-status/src/class-plan.php:84
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-plan.php:80
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-plan.php:176
+msgid "Unable to fetch the requested data."
+msgstr "Tidak bisa mengambil data yang diminta."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-purchases.php:48
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-recommendations-evaluation.php:74
+msgid "Your site is not connected to Jetpack."
+msgstr "Situs Anda tidak terhubung dengan Jetpack."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:342
+msgid "There was an unspecified error registering the site"
+msgstr "Terjadi error yang tidak ditentukan saat mendaftarkan situs Anda"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-post-connection-jitm.php:59
+msgid "New free service: Show USPS shipping rates on your store! Added bonus: print shipping labels without leaving WooCommerce."
+msgstr "Layanan gratis baru: Tampilkan tarif pengiriman USPS di toko Anda! Bonus tambahan: mencetak label pengiriman tanpa keluar dari WooCommerce."
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-post-connection-jitm.php:62
+msgid "New free service: Show Canada Post shipping rates on your store!"
+msgstr "Layanan gratis baru: Tampilkan tarif pengiriman Canada Post di toko Anda!"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1457
+msgid "PHP's XML extension is not available. Jetpack requires the XML extension to communicate with WordPress.com. Please contact your hosting provider to enable PHP's XML extension."
+msgstr "Ekstensi XML PHP tidak tersedia. Jetpack mengharuskan ekstensi XML berkomunikasi dengan WordPress.com. Hubungi penyedia hosting Anda untuk mengaktifkan ekstensi XML PHP."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:138
+msgid "This request method is not supported."
+msgstr "Metode permintaan ini tidak didukung."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:146
+msgid "This request method does not support body parameters."
+msgstr "Metode permintaan ini tidak mendukung parameter isi."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:180
+msgid "The request is not signed correctly."
+msgstr "Permintaan tidak ditandatangani dengan benar."
+
+#. translators: %d is an integer indicating the number of minutes.
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:672
+msgid "Every %d minutes"
+msgstr "Setiap %d menit"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:568
+msgid "Sync has been blocked from WordPress.com because it would cause an identity crisis"
+msgstr "Sinkronisasi diblokir dari WordPress.com karena dapat menyebabkan krisis identitas"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-ajax.php:234
+msgid "A valid post_id is required."
+msgstr "Diperlukan post_id yang valid."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-ajax.php:241
+msgid "That post does not have a VideoPress video associated to it."
+msgstr "Pos tersebut tidak memiliki video VideoPress yang dikaitkan."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-ajax.php:247
+msgid "Status updated"
+msgstr "Status diperbarui"
+
+#. translators: %s: URL to parse.
+#: jetpack_vendor/automattic/jetpack-connection/src/identity-crisis/class-identity-crisis.php:451
+msgid "Cannot parse URL %s"
+msgstr "Tidak dapat menguraikan URL %s"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/identity-crisis/class-identity-crisis.php:244
+msgid "Jetpack Safe Mode"
+msgstr "Mode Aman Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/identity-crisis/class-rest-endpoints.php:130
+msgid "Could not confirm safe mode."
+msgstr "Tidak dapat mengonfirmasi mode aman."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/identity-crisis/class-rest-endpoints.php:147
+msgid "Could not delete sync error option."
+msgstr "Tidak dapat menghapus pilihan error sinkronisasi."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/identity-crisis/class-rest-endpoints.php:161
+msgid "Could not confirm migration."
+msgstr "Tidak dapat mengonfirmasi migrasi."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-admin-ui.php:404
+#: jetpack_vendor/automattic/jetpack-videopress/build/admin/index.js:12
+msgid "Copied!"
+msgstr "Telah disalin!"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:56
+#: jetpack_vendor/automattic/jetpack-connection/src/identity-crisis/class-rest-endpoints.php:221
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:37
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:818
+msgid ""
+"You do not have the correct user permissions to perform this action.\n"
+"\t\t\tPlease contact your site admin if you think this is a mistake."
+msgstr ""
+"Anda tidak memiliki izin pengguna yang tepat untuk melakukan tindakan ini.\n"
+"\t\t\tHubungi admin situs jika Anda yakin ini adalah sebuah kesalahan."
+
+#. translators: %s: The literal parameter name. Should not be translated.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:237
+msgid "%s must be a string."
+msgstr "%s harus berupa string."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:670
+msgid "Every minute"
+msgstr "Setiap menit"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/utility-functions.php:101
+msgid "Invalid image URL"
+msgstr "URL gambar tidak valid"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/utility-functions.php:51
+msgid "Invalid Video GUID!"
+msgstr "GUID Video tidak valid!"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:183
+msgid "Success!"
+msgstr "Berhasil"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:188
+msgid "Activated"
+msgstr "Diaktifkan"
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-ajax.php:211
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-ajax.php:218
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-videopresstoken.php:96
+#: jetpack_vendor/automattic/jetpack-videopress/src/class-videopresstoken.php:102
+msgid "Could not obtain a VideoPress upload token. Please try again later."
+msgstr "Tak bisa mengambil token unggah VideoPress. Silakan coba lagi nanti."
+
+#: jetpack_vendor/automattic/jetpack-videopress/src/videopress-divi/class-videopress-divi-module.php:51
+#: jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/video/index.js:9
+msgid "VideoPress"
+msgstr "VideoPress"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1478
+msgid "Error Details: Jetpack ID is empty. Do not publicly post this error message! %s"
+msgstr "Rincian Galat: ID Jetpack kosong. Jangan mempublikasikan pesan galat ini! %s"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1485
+msgid "Error Details: Jetpack ID is not a scalar. Do not publicly post this error message! %s"
+msgstr "Rincian Galat: ID Jetpack bukanlah sebuah skalar. Jangan mempublikasikan pesan galat ini! %s"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1492
+msgid "Error Details: Jetpack ID begins with a numeral. Do not publicly post this error message! %s"
+msgstr "Rincian Galat: ID Jetpack dimulai dengan angka. Jangan mempublikasikan pesan galat ini! %s"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2437
+msgid "The WP.com user ID of the connected user"
+msgstr "ID pengguna WP.com dari pengguna yang terhubung"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2442
+msgid "The WP.com username of the connected user"
+msgstr "Nama pengguna WP.com dari pengguna yang terhubung"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2447
+msgid "The WP.com user email of the connected user"
+msgstr "Email pengguna WP.com dari pengguna yang terhubung"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2452
+msgid "The number of sites of the connected WP.com user"
+msgstr "Jumlah situs dari pengguna WP.com yang terhubung"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2474
+msgid "Jetpack Plugin Version"
+msgstr "Versi Plugin Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2480
+msgid "The Client ID/WP.com Blog ID of this site"
+msgstr "ID Klien/ID Blog WP.com di situs ini"
+
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:95
+msgid "There was an error installing your plugin"
+msgstr "Terjadi kesalahan saat memasang plugin Anda"
+
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:101
+msgid "An unknown error occurred during installation"
+msgstr "Terjadi kesalahan yang tidak diketahui selama pemasangan"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:187
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:13
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:29
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:30
+msgid "Activate"
+msgstr "Aktifkan"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:202
+msgid "Connect to WordPress.com"
+msgstr "Hubungkan ke WordPress.com"
+
+#: jetpack-videopress.php:128
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:190
+#: jetpack_vendor/automattic/jetpack-videopress/build/admin/index.js:13
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-initializer.php:167
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-initializer.php:168
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:921
+msgid "My Jetpack"
+msgstr "Jetpack Saya"
+
+#. translators: %s is a command like "prompt"
+#: jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php:236
+msgid "%s is not a valid command."
+msgstr "%s bukanlah perintah yang sah."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:132
+msgid "An administrator for this blog must set up the Jetpack connection."
+msgstr "Seorang administrator blog ini harus mengatur sambungan Jetpacknya."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:137
+msgid "You need to register your Jetpack before connecting it."
+msgstr "Anda perlu mendaftarkan Jetpack Anda sebelum menghubungkannya."
+
+#. translators: Error description string.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2629
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:225
+msgid "Error Details: %s"
+msgstr "Detil Galat:%s"
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2264
+msgid "Domain `%1$s` just failed is_usable_domain check as it is empty."
+msgstr "Domain `%1$s` baru gagal dalam pemeriksaan is_usable_domain karena kosong."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2297
+msgid "Domain `%1$s` just failed is_usable_domain check as it is in the forbidden array."
+msgstr "Domain `%1$s` baru gagal dalam pemeriksaan is_usable_domain karena array yang dilarang."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2312
+msgid "Domain `%1$s` just failed is_usable_domain check as it uses an invalid top level domain."
+msgstr "Domain `%1$s` baru gagal dalam pemeriksaan is_usable_domain karena menggunakan domain level atas yang tidak valid."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2327
+msgid "Domain `%1$s` just failed is_usable_domain check as it is a subdomain of WordPress.com."
+msgstr "Domain `%1$s` baru gagal dalam pemeriksaan is_usable_domain karena merupakan subdomain dari WordPress.com."

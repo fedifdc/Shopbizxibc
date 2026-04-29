@@ -1,0 +1,302 @@
+.rtl #wpbody {
+	width: 99%;
+}
+.bd-header-wrapper h3 {
+	background-position-x: 100%;
+	padding-left: 0;
+	padding-right: 40px;
+}
+.bd-header-wrapper .pull-right {
+	text-align: left;
+}
+.bd-menu-setting {
+	float: right;
+}
+.bd-menu-setting .bd-active-tab:after {
+	right: 0;
+	left: -2px;
+}
+.bd-settings-wrappers .postbox {
+	border-right: 2px solid #E5E5E5;
+	border-left: none;
+}
+.bd-settings-wrappers .postbox ul.bdp-settings > li p b {
+	float: right;
+}
+.bdp-blog-template-search-cover {
+	float: left;
+}
+#btnSetBlogTemplate {
+	float: right;
+	right: 20px;
+	left: auto;
+}
+.ui-dialog .ui-dialog-buttonpane .bdp_template_close {
+	float: left;
+}
+.ui-dialog.bdp_template_model .ui-dialog-titlebar-close {
+	left: 20px !important;
+	right: auto !important;
+}
+.ui-dialog-buttonpane .bdp-div-default-style {
+	text-align: right;
+}
+.bdp-template-search {
+	padding-right: 0;
+	padding-left: 24px;
+}
+.bdp-template-search-clear {
+	left: 10px;
+	right: auto;
+}
+.select_button_upper_div > div {
+	text-align: right;
+}
+.bd-title-tooltip:before,
+.bd-settings-wrappers .postbox td .bd-title-tooltip {
+	left: auto;
+	right: 20px;
+}
+.bd-settings-wrappers .input-type-number-button {
+	border-right: 1px solid #dddddd;
+	border-left: none;
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+}
+.wp-admin .bd-form-class .input-type-number input {
+	float: right;
+	padding-right: 20px;
+	padding-left: 0;
+}
+.bd-settings-wrappers .input-type-number {
+	margin-left: 0px;
+	margin-right: 0;
+}
+.rtl .ui-buttonset .ui-button,
+.rtl .chosen-container-multi .chosen-choices li {
+	float: right;
+}
+.rtl .chosen-container-single .chosen-single div {
+	left: 10px;
+	right: auto;
+}
+.rtl .chosen-container-single .chosen-single span {
+	margin-left: 26px;
+	margin-right: 0;
+}
+.grid_col_space .ui-corner-all {
+	float: left;
+}
+.rtl .ui-buttonset .ui-button.ui-state-active.ui-corner-left {
+	background-color: #e21130 !important;
+	border-color: #e21130 !important;
+}
+.rtl .bd-form-class .green #bdp-options-button.ui-state-active {
+	background: #44c767 none repeat scroll 0 0 !important;
+	border-color: #44c767 !important;
+}
+.rtl .bd-form-class .ui-buttonset .ui-button.ui-state-active.ui-corner-right {
+	background-color: #44c767 !important;;
+	border-color: #44c767 !important;;
+}
+.bd-menu-setting > ul > li {
+	padding: 22px 15px 22px 10px;
+	text-align: right;
+}
+.bd-menu-setting > ul > li i {
+	float: right;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+div.bdp-newfeature:before, div.bdp-change:before, div.bdp-bugfix:before {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0
+}
+.bdp-panel-wrapper {
+	float: right;
+}
+div.bdp-right-panel-wrapper {
+	float: left;
+}
+.bdp-get-license-key .bdp-panel-width {
+	text-indent: 0;
+}
+.bdp-get-license-key .bdp-panel-width b,
+.bdp-txt-lable,
+.bdp-control-input {
+	float: right;
+}
+.wrap .page-title-action {
+	display: inline-block;
+}
+.bdp-typography-wrapper .bdp-typography-cover,
+.bdp-key-title,
+.bd-form-class .bdp-setting-description b.note {
+	float: right;
+}
+.bd-settings-wrappers .postbox .bdp-left {
+	float: right;
+	padding-right: 0;
+	padding-left: 30px;
+}
+input.bdp_select_template,
+input.bdp-reset-data {
+	margin-right: 0;
+	margin-left: 40px;
+}
+input[type="checkbox"], input[type="radio"] {
+	margin: 0 0 0 5px;
+}
+.bd-form-class .controls_preset {
+	padding-right: 35px;
+	padding-left: 0;
+}
+.bdp-tooltips-icon {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.bd-form-class .bdp-setting-description.bdp-setting-pagination {
+	right: 35px;
+	top: 10px;
+	left: 0;
+}
+.bdp-key-title {
+	margin-right: 0;
+	margin-left: 8px;
+}
+.ui-buttonset {
+	margin-left: 7px;
+	margin-right: 0px !important;
+}
+.bdp-setting-description.bdp-note {
+	padding-right: 55px;
+	padding-left: 0;
+}
+.bd-form-class .bdp-setting-description {
+	right: -20px;
+	left: 0;
+}
+.range-slider__value,
+.range-slider__value_day {
+	margin-left: 0;
+	margin-right: 20px;
+}
+.slide_val > span {
+	border-left: 8px solid #696969;
+	border-right: 0px solid #696969;
+	margin-right: 12px;
+	margin-left: 0;
+}
+.bdp-tooltips-icon.bdp-tooltips-icon-social {
+	float: right;
+	z-index: 9;
+}
+.social-share-theme {
+	padding-left: 0;
+	padding-right: 50px;
+}
+.social-share-theme .social-cover input {
+	right: -35px;
+	left: 0;
+}
+.tmce-active {
+	padding-right: 35px;
+	padding-left: 0;
+}
+.div-pre {
+	margin-right: 35px;
+	margin-left: 0;
+}
+.exclude_category_list_div label,
+.disable_link.bdp-link-disable,
+.exclude_tag_list_div label,
+.disable_link.bdp-link-disable {
+	margin-right: 35px !important;
+	margin-left: 0;
+}
+.bd-form-class .bdp-setting-description.button-loadmore {
+	margin-right: 55px;
+	margin-left: 0;
+}
+#txtSocialText {
+	margin-left: 0;
+	margin-right: 37px;
+}
+.bd-form-class .blg_order fieldset.buttonset {
+	padding-left: 0;
+	padding-right: 35px;
+}
+.bd-form-class .color-palette span {
+	float: right;
+}
+.ui-dialog-buttonpane .bdp-div-default-style label input {
+	margin-left: 5px;
+}
+
+@media screen and (max-width: 767px) {
+	.bd-menu-setting > ul > li {
+		text-align: center;
+		line-height: 30px;
+		padding: 10px;
+	}
+	.bd-menu-setting > ul > li i {
+		float: none;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.bd-settings-wrappers .postbox .bdp-left {
+		width: 100%;
+		padding-left: 0;
+	}
+	.bd-settings-wrappers .postbox .bdp-right.bdp-preset-position .bdp-tooltips-icon,
+	.bdp-right .bdp-tooltips-icon,
+	.bdp-typography-label .bdp-tooltips-icon {
+		display: none;
+	}
+	.bd-form-class .controls_preset {
+		padding-right: 0;
+	}
+	.bd-form-class .color-option.preset {
+		margin: 0 0px 10px 10px;
+	}
+	.bd-form-class .bdp-setting-description {
+		padding-right: 0;
+		right: 0;
+	}
+	.exclude_category_list_div label,
+	.disable_link.bdp-link-disable,
+	.exclude_tag_list_div label,
+	.disable_link,
+	.disable_link.bdp-link-disable {
+		margin-right: 0px !important;
+		margin-left: 0;
+	}
+	.social-share-theme {
+		padding-right: 20px;
+	}
+	.bd-form-class .bdp-setting-description.bdp-setting-pagination {
+		right: 0;
+	}
+	.tmce-active {
+		padding-right: 0;
+	}
+	.div-pre {
+		margin-right: 0;
+	}
+	.bd-form-class .blg_order fieldset.buttonset {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.select_button_upper_div .bdp_selected_template_image {
+		margin-right: 35px;
+		margin-left: 0;
+	}
+}

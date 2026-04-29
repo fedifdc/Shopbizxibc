@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin Resi\n"
+"POT-Creation-Date: 2020-02-11 10:04+0000\n"
+"PO-Revision-Date: 2022-03-24 06:57+0000\n"
+"Last-Translator: admin <gama@tonjoo.com>\n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: __;_e;_n_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"Report-Msgid-Bugs-To: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: libs/tonjoo-license/view/license-manager.php:214
+#: libs/tonjoo-license/view/license-manager.php:217
+#, php-format
+msgid "(expired soon, <a href=\"%s\" target=\"_blank\">click to renew</a>)"
+msgstr ""
+"(segera berakhir, <a href=\"%s\" target=\"_blank\">klik untuk "
+"memperpanjang</a>)"
+
+#: libs/tonjoo-license/view/license-manager.php:173
+msgid "Activated"
+msgstr "Aktif"
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:341
+msgid "Activation Success"
+msgstr "Aktivasi Sukses"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:113
+msgid "Can't connect to server. Please try again."
+msgstr "Tidak dapat terhubung dengan server. Silahkan coba lagi."
+
+#: libs/tonjoo-license/view/license-manager.php:205
+msgid "Check License"
+msgstr "Cek Lisensi"
+
+#: inc/order-status-and-action.php:84
+msgid "Courier"
+msgstr "Kurir"
+
+#: libs/tonjoo-license/view/license-manager.php:203
+msgid "Deactivate"
+msgstr "Nonaktifkan"
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:400
+msgid "Deactivation Success"
+msgstr "Berhasil dinonaktifkan"
+
+#: inc/plugin-option-page-general.php:67
+msgid "Email Body"
+msgstr "Isi Email"
+
+#: inc/plugin-option-page-general.php:62
+msgid "Email Subject"
+msgstr "Subjek Email"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:136
+#: libs/tonjoo-license/tonjoo-license-api.php:163
+#: libs/tonjoo-license/tonjoo-license-api.php:205
+#: libs/tonjoo-license/tonjoo-license-api.php:262
+#: libs/tonjoo-license/tonjoo-license-api.php:328
+#, php-format
+msgid "Error: %s. Please contact us through the forum to resolve this."
+msgstr "Error: %s. Silahkan hubungi kami melalui forum untuk mengatasi ini."
+
+#: libs/tonjoo-license/tonjoo-license-api.php:128
+#: libs/tonjoo-license/tonjoo-license-api.php:147
+#: libs/tonjoo-license/tonjoo-license-api.php:192
+#: libs/tonjoo-license/tonjoo-license-api.php:249
+#, php-format
+msgid "Error: %s. Please try again."
+msgstr "Error: %s. Silahkan coba lagi."
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:308
+#: libs/tonjoo-license/tonjoo-license-handler.php:387
+msgid "Error: Authentication Failed. Please try again"
+msgstr "Error: Autentikasi Gagal. Silahkan coba lagi"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:240
+#: libs/tonjoo-license/tonjoo-license-api.php:268
+#: libs/tonjoo-license/tonjoo-license-api.php:308
+#: libs/tonjoo-license/tonjoo-license-handler.php:207
+#: libs/tonjoo-license/tonjoo-license-manager.php:267
+msgid "Error: Can't connect to server"
+msgstr "Error: Tidak dapat terhubung dengan server"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:102
+#: libs/tonjoo-license/tonjoo-license-api.php:181
+#: libs/tonjoo-license/tonjoo-license-api.php:222
+#: libs/tonjoo-license/tonjoo-license-api.php:283
+msgid "Error: License key is empty"
+msgstr "Error: Kode lisensi kosong"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:123
+msgid ""
+"Error: The license is already in use. If you sure this license is belongs to "
+"you and no other sites are using this license, please contact us at the "
+"forum."
+msgstr ""
+"Error: Lisensi telah digunakan. Jika Anda yakin lisensi ini adalah milik "
+"Anda dan tidak ada website lain yang menggunakannya, silahkan kontak kami "
+"melalui forum."
+
+#: libs/tonjoo-license/view/license-manager.php:183
+msgid "Expired"
+msgstr "Berakhir"
+
+#: libs/tonjoo-license/view/license-manager.php:220
+#, php-format
+msgid "Expired at: %s"
+msgstr "Berakhir pada: %s"
+
+#: libs/tonjoo-license/view/license-manager.php:246
+msgid "Have you tried our other cool stuffs?"
+msgstr "Sudahkah Anda mencoba produk kami lainnya?"
+
+#: libs/tonjoo-license/view/license-manager.php:257
+msgid "Help Center"
+msgstr "Pusat Bantuan"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:125
+msgid "Hide Notice"
+msgstr "Jangan Tampilkan Lagi"
+
+#. Author URI of the plugin
+msgid "https://tonjoostudio.com/"
+msgstr "https://tonjoostudio.com/"
+
+#. URI of the plugin
+msgid "https://tonjoostudio.com/product/plugin-kirim-resi/"
+msgstr "https://tonjoostudio.com/product/plugin-kirim-resi/"
+
+#: libs/tonjoo-license/view/license-manager.php:267
+msgid "I have a problem with my license"
+msgstr "Saya mempunyai masalah dengan lisensi saya"
+
+#: libs/tonjoo-license/view/license-manager.php:263
+msgid "I want to upgrade/renew my license"
+msgstr "Saya ingin mengupgrade lisensi saya"
+
+#: inc/plugin-option-page-general.php:79
+msgid "If Email Body is empty, these template files will be used:"
+msgstr "Jika isi email kosong, template berikut yang akan digunakan:"
+
+#: libs/tonjoo-license/view/license-manager.php:222
+msgid "Input your license key"
+msgstr "Masukkan kode lisensi"
+
+#: libs/tonjoo-license/view/license-manager.php:230
+msgid "Last Check"
+msgstr "Terakhir Dicek"
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:372
+#: libs/tonjoo-license/tonjoo-license-handler.php:418
+msgid "License key is empty"
+msgstr "Kode lisensi kosong"
+
+#: libs/tonjoo-license/view/license-manager.php:165
+msgid "License Status"
+msgstr "Status Lisensi"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:124
+msgid "Manage License"
+msgstr "Kelola Lisensi"
+
+#: libs/tonjoo-license/view/license-manager.php:260
+msgid "My Licenses"
+msgstr "Lisensi Saya"
+
+#: libs/tonjoo-license/view/license-manager.php:189
+msgid "Not Activated"
+msgstr "Not Activated"
+
+#: inc/send-email.php:64
+msgid "Order shipping information"
+msgstr "Informasi pengiriman pesanan"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:95
+#, php-format
+msgid "Please activate your <strong>%s</strong> license."
+msgstr "Harap aktivasi lisensi <strong>%s</strong> Anda."
+
+#. Name of the plugin
+msgid "Plugin Resi"
+msgstr "Plugin Resi"
+
+#. Description of the plugin
+msgid "Plugin untuk mengirim nomor resi pada pelanggan."
+msgstr "Plugin untuk mengirim nomor resi pada pelanggan."
+
+#: libs/tonjoo-license/view/license-manager.php:205
+msgid "Renew License"
+msgstr "Perbarui Lisensi"
+
+#: inc/order-status-and-action.php:103
+msgid "Service"
+msgstr "Layanan"
+
+#: inc/send-email.php:129
+msgid "Shipping Courier"
+msgstr "Kurir Pengiriman"
+
+#: libs/tonjoo-license/view/license-manager.php:268
+msgid "Support Forum"
+msgstr "Support Forum"
+
+#. Author of the plugin
+msgid "Tonjoo Studio"
+msgstr "Tonjoo Studio"
+
+#: inc/order-status-and-action.php:63 inc/order-status-and-action.php:77
+msgid "Tracking"
+msgstr "Resi"
+
+#: inc/order-status-and-action.php:109 inc/send-email.php:131
+msgid "Tracking Number"
+msgstr "Nomor Resi"
+
+#: libs/tonjoo-license/view/license-manager.php:171
+msgid "Trial Activated"
+msgstr "Trial Aktif"
+
+#: libs/tonjoo-license/view/license-manager.php:181
+msgid "Trial Expired"
+msgstr "Trial Berakhir"
+
+#: libs/tonjoo-license/view/license-manager.php:264
+msgid "Upgrade License"
+msgstr "Upgrade Lisensi"
+
+#: libs/tonjoo-license/view/license-manager.php:211
+#, php-format
+msgid "Valid until: %s"
+msgstr "Aktif sampai: %s"
+
+#: inc/send-email.php:130
+msgid "Website"
+msgstr "Website"
+
+#: libs/tonjoo-license/view/license-manager.php:259
+msgid "Where can I get my licenses?"
+msgstr "Dimana saya dapat melihat lisensi saya"
+
+#: libs/tonjoo-license/view/license-manager.php:196
+msgid "Your License Code"
+msgstr "Lisensi Kode Anda"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:92
+#, php-format
+msgid "Your license for <strong>%s</strong> has expired."
+msgstr "Lisensi Anda untuk <strong>%s</strong> telah berakhir."
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:99
+#, php-format
+msgid "Your license for <strong>%s</strong> will ended soon."
+msgstr "Lisensi Anda untuk <strong>%s</strong> akan segera berakhir."
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:325
+#, php-format
+msgid "Your license has expired at %s"
+msgstr "Lisensi Anda telah berakhir pada %s"
+
+#: inc/send-email.php:11
+msgid "Your order has been shipped"
+msgstr "Pesanan anda telah dikirim"
+
+#: inc/send-email.php:13
+msgid "Your order tracking number"
+msgstr "Nomor resi"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:90
+#, php-format
+msgid "Your trial for <strong>%s</strong> has ended."
+msgstr "Trial Anda untuk <strong>%s</strong> telah berakhir."
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:101
+#, php-format
+msgid "Your trial license for <strong>%s</strong> will ended soon."
+msgstr "Trial Anda untuk <strong>%s</strong> akan segera berakhir."

@@ -1,0 +1,151 @@
+.bdp_single.famous .bdp_blog_template,
+.bdp_single.famous .post-navigation,
+.bdp_single.famous .author-avatar-div,
+.bdp_single.famous .related_post_wrap,
+.bdp_single.famous:not(.bdp_single_product) .comments-area,
+.bdp_single_product.famous .woocommerce-Reviews {
+    display: inline-block;
+    margin: 0 0 40px;
+    width: 100%;
+    position: relative;
+    background: #ffffff;
+    padding: 10px;
+}
+.bdp_single_product.famous .comments-area{
+    padding: 0;
+}
+.bdp_single_product.famous  > .bdp-post-image{
+    width: auto;
+}
+.famous > .category-link,
+.famous > .post-title,
+.famous > .post-meta,
+.famous > .post-share-div,
+.famous > .bdp-post-image {
+    display: inline-block;
+    margin: 0 0 20px;
+    width: 100%;
+}
+.bdp_single.famous .bdp_blog_template .post_content {
+    padding: 0;
+    margin: 20px 0 15px;
+}
+.bdp_single.famous .post-footer-meta {
+    display: inline-block;
+    position: relative;
+    margin: 0 0 15px;
+    width: 100%;
+}
+.famous .post-footer-meta .tags {
+    display: inline-block;
+}
+.famous .post-footer-meta .display_post_views {
+    width: auto;
+    float: right;
+}
+.single .bdp_single.famous .navigation.post-navigation {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.famous .navigation.post-navigation .previous-post {
+    border-right: 1px solid #dddddd;
+}
+.famous .author-avatar-div .avtar-img {
+    display: inline-block;
+    float: left;
+}
+.famous .author-avatar-div .avtar-img img {
+    border-radius: 5px;
+    width: 100%;
+}
+.famous .author-avatar-div .author_content {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+    width: calc(100% - 180px);
+}
+.bdp_single.famous .related_post_wrap,
+.bdp_single.famous:not(.bdp_single_product) .comments-area,
+.bdp_single_product.famous .woocommerce-Reviews {
+    border-top: 1px solid #dddddd;
+    padding: 30px 0 0;
+}
+.bdp_single.famous .comments-area .comments-title {
+    margin: 0 0 30px;
+    padding: 0;
+}
+.bdp_single.famous .comments-area .comment-list {
+    border: none;
+}
+.bdp_single.famous .comments-area .comment-respond {
+    border-top: 1px solid #dddddd;
+    margin: 30px 0 0;
+    padding: 0;
+}
+.bdp_single.famous .post-share-div > div {
+    display: inline-block;
+    float: none;
+    margin-right: 10px;
+    width: auto;
+    vertical-align: top;
+}
+.bdp_single_product.famous .bdp_related_woocommerce_price_wrap,
+.bdp_single_product.famous .bdp_related_product_woocommerce_add_to_cart_wrap {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+.bdp_single_product.famous .bdp_related_product_woocommerce_add_to_cart_wrap {
+    margin: 10px 0;
+}
+.bdp_single.famous .post-share-div.center_position {
+    text-align: center;
+}
+.bdp_single.famous .post-share-div.right_position {
+    text-align: right;
+}
+.bdp_single .bdp_social_share_postion {
+    display: inline-block;
+}
+.bdp_single .related_post_div .related_post_content,
+.bdp_single .related_post_div .bdp-related-post-meta,
+.bdp_single.bdp_single_download .related_post_div .bdp_edd_download_buy_button,
+.bdp_single.bdp_single_download .related_post_div .edd_purchase_submit_wrapper,
+.bdp_single.bdp_single_download .related_post_div .bdp_edd_price_wrapper {
+    text-align: left;
+}
+.bdp_single .relatedposts .relatedthumb .relatedthumb_content_wrap .related_post_content {
+    padding-left: 0;
+}
+.bdp_single .related_post_div .bdp_edd_download_buy_button {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.bdp_single .related_post_div .relatedthumb a.bdp_edd_view_button,
+.bdp_single .related_post_div .relatedthumb a.edd-add-to-cart {
+    width: auto;
+}
+.bdp_single.famous.right .related_post_wrap,
+.bdp_single.famous.left .related_post_wrap {
+    padding: 10px;
+}
+.bdp_single_product.famous .bdp-pinterest-share-image {
+    top:45px;
+}
+@media screen and (max-width: 767px) {
+    .famous .post-footer-meta .display_post_views {
+        width: 100%;
+        margin-top: 15px;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 480px) {
+    .famous .author-avatar-div .author_content {
+        margin-left: 0;
+        width: 100%;
+    }
+    .famous .navigation.post-navigation .previous-post {
+        border-bottom: 1px solid #dddddd;
+        border-right: 0;
+    }
+}

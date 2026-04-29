@@ -1,0 +1,132 @@
+        /* Modal loading spinner */
+        .loading-spinner {
+            border: 4px solid #f3f3f3; /* Light grey */
+            border-top: 4px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        
+        /* Spinner animation */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Center spinner inside modal */
+        #airway-bill-tracking-modal .loading-spinner {
+            display: block;
+            text-align: center;
+        }
+        
+        .container-tracking {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #view-history-btn {
+            background-color: darkorange;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #view-history-btn:hover {
+            background-color: darkorange;
+        }
+
+        #airway-bill-tracking-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            overflow-y: auto;
+        }
+
+        .modal-content-tracking {
+            background-color: white;
+            width: 90%;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #888;
+        }
+
+        .history-timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+
+        .history-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .timeline-circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: darkorange;
+            margin-right: 15px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .timeline-circle.connected::before {
+            content: '';
+            position: absolute;
+            width: 2px;
+            height: 200px;
+            background-color: darkorange;
+            left: 9px;
+            top: 20px;
+            z-index: 1;
+        }
+
+        .history-content {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+        }
+
+        .status-icon {
+            margin-right: 15px;
+            font-size: 18px;
+            color: darkorange;
+        }
+
+        .history-content .desc {
+            flex-grow: 1;
+            text-align: left;
+            font-weight: bold;
+            word-wrap: break-word;
+        }
+
+        .history-content .date {
+            color: #666;
+            font-size: 0.8em;
+        }

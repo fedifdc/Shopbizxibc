@@ -1,0 +1,661 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin Ongkos Kirim - Multi Vendor Addon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-04 07:23+0000\n"
+"PO-Revision-Date: 2022-07-13 09:48+0000\n"
+"Last-Translator: admin <gama@tonjoo.com>\n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.6.2"
+
+#: libs/tonjoo-license/view/license-form.php:152
+#: libs/tonjoo-license/view/license-form.php:155
+#, php-format
+msgid "(expired soon, <a href=\"%s\" target=\"_blank\">click to renew</a>)"
+msgstr ""
+"(segera berakhir, <a href=\"%s\" target=\"_blank\">klik untuk "
+"memperpanjang</a>)"
+
+#: classes/class-pokmv-vendor-table.php:139
+msgid "Action"
+msgstr "Aksi"
+
+#: libs/tonjoo-license/view/license-form.php:111
+msgid "Activated"
+msgstr "Aktif"
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:338
+msgid "Activation Success"
+msgstr "Aktivasi Sukses"
+
+#. Description of the plugin
+msgid "Add multiple vendor capability for Plugin Ongkos Kirim"
+msgstr "Menambahkan dukungan multi vendor pada Plugin Ongkos Kirim"
+
+#: classes/class-pokmv-taxonomy.php:59
+msgid "Add New Vendor"
+msgstr "Buat Vendor Baru"
+
+#: classes/integrations/class-pokmv-wc-marketplace.php:53
+#: templates/dokan/product-shipping.php:37
+msgid "Add shipping insurance fee on checkout"
+msgstr "Tambahkan biaya asuransi pada saat checkout"
+
+#: classes/integrations/class-pokmv-wc-marketplace.php:62
+#: templates/dokan/product-shipping.php:42
+msgid "Add timber packing fee on checkout"
+msgstr "Tambahkan biaya packing kayu pada saat checkout"
+
+#: classes/class-pokmv-vendor-table.php:232
+msgid "All origins"
+msgstr "Semua asal"
+
+#: classes/class-pokmv-taxonomy.php:55
+msgid "All Vendors"
+msgstr "Semua Vendor"
+
+#: classes/integrations/class-pokmv-dokan.php:83
+#: classes/integrations/class-pokmv-dokan.php:87
+#: classes/integrations/class-pokmv-dokan.php:101
+msgid "Are you cheating?"
+msgstr "Are you cheating?"
+
+#: templates/admin/edit-vendor-legacy-2.php:7
+#: templates/admin/edit-vendor-legacy.php:124
+#: templates/admin/edit-vendor.php:122
+msgid "Back to Vendor List"
+msgstr "Kembali ke Daftar Vendor"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:113
+msgid "Can't connect to server. Please try again."
+msgstr "Tidak dapat terhubung dengan server. Silahkan coba lagi."
+
+#: libs/tonjoo-license/view/license-form.php:143
+msgid "Check License"
+msgstr "Cek Lisensi"
+
+#: templates/dokan/wizard-shipping.php:30
+msgid "Continue"
+msgstr "Lanjut"
+
+#: classes/class-pokmv-vendor-table.php:138
+#: classes/integrations/class-pokmv-wcfm.php:165
+#: templates/admin/edit-vendor-legacy-2.php:47
+#: templates/admin/edit-vendor-legacy.php:47 templates/admin/edit-vendor.php:45
+#: templates/dokan/vendor-shipping.php:18
+#: templates/wc-marketplace/front-shipping.php:13
+msgid "Couriers"
+msgstr "Kurir"
+
+#: libs/tonjoo-license/view/license-form.php:141
+msgid "Deactivate"
+msgstr "Nonaktifkan"
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:397
+msgid "Deactivation Success"
+msgstr "Berhasil dinonaktifkan"
+
+#: templates/admin/setting.php:14
+msgid "Detected multi vendor platform:"
+msgstr "Platform multi vendor yang terdeteksi:"
+
+#: templates/dokan/product-shipping.php:18
+#, php-format
+msgid "Dimensions (%s)"
+msgstr "Dimensi (%s)"
+
+#: classes/class-pokmv-vendor-table.php:210
+#: classes/class-pokmv-vendor-table.php:212
+msgid "Edit Setting"
+msgstr "Pengaturan"
+
+#: classes/class-pokmv-taxonomy.php:56
+msgid "Edit Vendor"
+msgstr "Edit Vendor"
+
+#: classes/integrations/class-pokmv-wcfm.php:67
+msgid "Enable"
+msgstr "Aktifkan"
+
+#: templates/admin/setting.php:3
+msgid "Enable Multi Vendor Shipping"
+msgstr "Aktifkan Pengiriman Multi Vendor"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:136
+#: libs/tonjoo-license/tonjoo-license-api.php:163
+#: libs/tonjoo-license/tonjoo-license-api.php:205
+#: libs/tonjoo-license/tonjoo-license-api.php:262
+#: libs/tonjoo-license/tonjoo-license-api.php:328
+#, php-format
+msgid "Error: %s. Please contact us through the forum to resolve this."
+msgstr "Error: %s. Silahkan hubungi kami lewat forum untuk mengatasi ini."
+
+#: libs/tonjoo-license/tonjoo-license-api.php:128
+#: libs/tonjoo-license/tonjoo-license-api.php:147
+#: libs/tonjoo-license/tonjoo-license-api.php:192
+#: libs/tonjoo-license/tonjoo-license-api.php:249
+#, php-format
+msgid "Error: %s. Please try again."
+msgstr "Error: %s. Silahkan coba lagi."
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:305
+#: libs/tonjoo-license/tonjoo-license-handler.php:384
+msgid "Error: Authentication Failed. Please try again"
+msgstr "Error: Autentikasi Gagal. Silahkan coba lagi"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:240
+#: libs/tonjoo-license/tonjoo-license-api.php:268
+#: libs/tonjoo-license/tonjoo-license-api.php:308
+#: libs/tonjoo-license/tonjoo-license-handler.php:204
+#: libs/tonjoo-license/tonjoo-license-manager.php:267
+msgid "Error: Can't connect to server"
+msgstr "Error: Tidak dapat terhubung dengan server"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:102
+#: libs/tonjoo-license/tonjoo-license-api.php:181
+#: libs/tonjoo-license/tonjoo-license-api.php:222
+#: libs/tonjoo-license/tonjoo-license-api.php:283
+msgid "Error: License key is empty"
+msgstr "Error: Kode lisensi kosong"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:123
+msgid ""
+"Error: The license is already in use. If you sure this license is belongs to "
+"you and no other sites are using this license, please contact us at the "
+"forum."
+msgstr ""
+"Error: Lisensi telah digunakan. Jika Anda yakin lisensi ini adalah milik "
+"Anda dan tidak ada website lain yang menggunakannya, silahkan kontak kami "
+"melalui forum."
+
+#: libs/tonjoo-license/view/license-form.php:121
+msgid "Expired"
+msgstr "Berakhir"
+
+#: libs/tonjoo-license/view/license-form.php:158
+#, php-format
+msgid "Expired at: %s"
+msgstr "Berakhir pada: %s"
+
+#: templates/admin/edit-vendor-legacy-2.php:69
+#: templates/admin/edit-vendor-legacy.php:71 templates/admin/edit-vendor.php:69
+msgid "Filter Courier Services"
+msgstr "Filter Layanan Kurir"
+
+#: libs/tonjoo-license/view/license-form.php:174
+#, php-format
+msgid "Find your license code at <a href=\"%1$s\" target=\"_blank\">%2$s</a>."
+msgstr "Temukan kode lisensimu di <a href=\"%1$s\" target=\"_blank\">%2$s</a>."
+
+#: classes/class-pokmv-vendor-table.php:240
+msgid "Get Vendors"
+msgstr "Tampilkan Vendor"
+
+#: templates/dokan/product-shipping.php:27
+msgid "Height"
+msgstr "Tinggi"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:125
+msgid "Hide Notice"
+msgstr "Jangan Tampilkan Lagi"
+
+#. Author URI of the plugin
+msgid "https://tonjoostudio.com"
+msgstr "https://tonjoostudio.com"
+
+#. URI of the plugin
+msgid "https://tonjoostudio.com/addons/woo-ongkir-multi-vendor/"
+msgstr "https://tonjoostudio.com/addons/woo-ongkir-multi-vendor/"
+
+#: templates/admin/setting.php:4
+msgid "If disabled, shipping costs will be calculated from main store location"
+msgstr ""
+"Jika dinonaktifkan, maka ongkos kirim akan dihitung dari lokasi toko utama"
+
+#: libs/tonjoo-license/view/license-form.php:175
+#, php-format
+msgid ""
+"If you have problems with the license, reach us at <a href=\"%s\" "
+"target=\"_blank\">Our Forum</a>."
+msgstr ""
+"Jika kamu punya masalah dengan lisensi, hubungi kami melalui <a href=\"%s\" "
+"target=\"_blank\">Forum Kami</a>."
+
+#: templates/admin/edit-vendor-legacy-2.php:33
+#: templates/admin/edit-vendor-legacy.php:33 templates/admin/edit-vendor.php:33
+msgid "Input city name..."
+msgstr "Masukkan nama kota..."
+
+#: libs/tonjoo-license/view/license-form.php:160
+msgid "Input your license key"
+msgstr "Masukkan kode lisensi"
+
+#: libs/tonjoo-license/view/license-form.php:168
+msgid "Last Check"
+msgstr "Terakhir Dicek"
+
+#: templates/dokan/product-shipping.php:21
+msgid "Length"
+msgstr "Panjang"
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:369
+#: libs/tonjoo-license/tonjoo-license-handler.php:415
+msgid "License key is empty"
+msgstr "Kode lisensi kosong"
+
+#: libs/tonjoo-license/view/license-form.php:103
+msgid "License Status"
+msgstr "Status Lisensi"
+
+#: templates/admin/edit-vendor-legacy-2.php:22
+#: templates/admin/edit-vendor-legacy.php:22 templates/admin/edit-vendor.php:22
+msgid "Location of the vendor"
+msgstr "Lokasi vendor"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:124
+msgid "Manage License"
+msgstr "Kelola Lisensi"
+
+#: classes/class-pokmv-taxonomy.php:169 templates/admin/setting.php:57
+msgid "Manage Vendors"
+msgstr "Kelola Vendor"
+
+#: classes/class-pokmv-admin.php:65
+msgid "Multi Vendor"
+msgstr "Multi Vendor"
+
+#: plugin-ongkos-kirim-multi-vendor.php:119
+#, php-format
+msgid ""
+"Multi Vendor addon requires Plugin Ongkos Kirim at least version %s, please "
+"update your Plugin Ongkos Kirim before using this addon."
+msgstr ""
+"Addon Multi Vendor membutuhkan Plugin Ongkos Kirim minimal versi %s, "
+"silahkan update Plugin Ongkos Kirim Anda sebelum menggunakan addon ini."
+
+#: plugin-ongkos-kirim-multi-vendor.php:130
+msgid ""
+"Multi Vendor addon requires Plugin Ongkos Kirim to be installed and active."
+msgstr ""
+"Addon Multi Vendor membutuhkan Plugin Ongkos Kirim terpasang dan aktif."
+
+#: classes/class-pokmv-taxonomy.php:60
+msgid "New Vendor Name"
+msgstr "Nama Vendor Baru"
+
+#: templates/admin/edit-vendor-legacy-2.php:75
+#: templates/admin/edit-vendor-legacy.php:77 templates/admin/edit-vendor.php:75
+#: templates/admin/setting.php:9
+msgid "No"
+msgstr "Tidak"
+
+#: templates/admin/setting.php:44
+msgid ""
+"No third-party multi vendor platform are detected, vendor management are "
+"using vendor taxonomy on Products."
+msgstr ""
+"Tidak ada platform multi vendor yang terdeteksi, manajemen vendor gunakan "
+"taxonomy vendor di Products."
+
+#: classes/class-pokmv-taxonomy.php:164 classes/class-pokmv-taxonomy.php:220
+#: classes/class-pokmv-taxonomy.php:258
+msgid "No vendor"
+msgstr "Tanpa vendor"
+
+#: libs/tonjoo-license/view/license-form.php:127
+msgid "Not Activated"
+msgstr "Tidak Aktif"
+
+#: classes/class-pokmv-vendor-table.php:137
+msgid "Origin"
+msgstr "Asal Pengiriman"
+
+#: templates/wc-vendors/admin-shipping.php:5
+#: templates/wc-vendors/front-shipping.php:5
+msgid "Origin city of the shipping."
+msgstr "Kota asal pengiriman."
+
+#: classes/integrations/class-pokmv-dokan.php:97
+msgid "Pemission denied"
+msgstr "Pemission denied"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:95
+#, php-format
+msgid "Please activate your <strong>%s</strong> license."
+msgstr "Harap aktivasi lisensi <strong>%s</strong> Anda."
+
+#. Name of the plugin
+msgid "Plugin Ongkos Kirim - Multi Vendor Addon"
+msgstr "Plugin Ongkos Kirim - Multi Vendor Addon"
+
+#: classes/class-pokmv-taxonomy.php:62
+msgid "Popular Vendors"
+msgstr "Vendor Populer"
+
+#: libs/tonjoo-license/view/license-form.php:143
+msgid "Renew License"
+msgstr "Perbarui Lisensi"
+
+#: templates/admin/edit-vendor-legacy-2.php:105
+#: templates/admin/edit-vendor-legacy.php:123
+#: templates/admin/edit-vendor.php:121
+msgid "Save Setting"
+msgstr "Simpan Pengaturan"
+
+#: classes/class-pokmv-vendor-table.php:229
+msgid "Search vendor"
+msgstr "Cari vendor"
+
+#: classes/class-pokmv-taxonomy.php:61
+msgid "Search Vendors"
+msgstr "Cari Vendor"
+
+#: classes/integrations/class-pokmv-dokan.php:226
+#: classes/integrations/class-pokmv-dokan.php:233
+#: templates/admin/edit-vendor-legacy-2.php:26
+#: templates/admin/edit-vendor-legacy.php:26 templates/admin/edit-vendor.php:26
+#: templates/fields/origin.php:2 templates/fields/origin.php:9
+msgid "Select city"
+msgstr "Pilih kota"
+
+#: templates/admin/edit-vendor-legacy-2.php:49
+#: templates/admin/edit-vendor-legacy.php:49 templates/admin/edit-vendor.php:47
+msgid "Select couriers that used by vendor"
+msgstr "Pilih kurir yang digunakan vendor"
+
+#: classes/integrations/class-pokmv-wcfm.php:172
+msgid "Select preferred couriers for your shipping service."
+msgstr "Pilih kurir yang akan diaktifkan di toko Anda."
+
+#: classes/class-pokmv-taxonomy.php:163
+msgid "Select vendor"
+msgstr "Pilih Vendor"
+
+#: classes/integrations/class-pokmv-dokan.php:227
+#: classes/integrations/class-pokmv-dokan.php:234
+#: templates/admin/edit-vendor-legacy-2.php:27
+#: templates/admin/edit-vendor-legacy.php:27 templates/admin/edit-vendor.php:27
+#: templates/admin/edit-vendor.php:34 templates/fields/origin.php:3
+#: templates/fields/origin.php:10
+msgid "Select your store location"
+msgstr "Pilih kota asal toko Anda"
+
+#: templates/admin/setting.php:54
+msgid "Set vendor's shipping origin and shipping couriers."
+msgstr "Atur asal pengiriman vendor dan kurir yang digunakan."
+
+#: templates/dokan/product-shipping.php:4
+msgid "Set your product shipping"
+msgstr "Atur pengiriman produk Anda"
+
+#: classes/class-pokmv-admin.php:128
+#, php-format
+msgid "Setting for %s has been updated"
+msgstr "Pengaturan untuk %s telah berhasil disimpan"
+
+#: classes/class-pokmv-shipping.php:89 classes/class-pokmv-shipping.php:148
+msgid "Ship from"
+msgstr "Dikirim dari"
+
+#: classes/class-pokmv-shipping.php:87
+msgid "Ship weight"
+msgstr "Berat pengiriman"
+
+#: classes/integrations/class-pokmv-dokan.php:44
+#: classes/integrations/class-pokmv-dokan.php:130
+#: classes/integrations/class-pokmv-product-vendors.php:91
+#: classes/integrations/class-pokmv-product-vendors.php:91
+#: classes/integrations/class-pokmv-wc-marketplace.php:223
+#: classes/integrations/class-pokmv-wc-vendors.php:47
+#: templates/dokan/product-shipping.php:3
+msgid "Shipping"
+msgstr "Pengiriman"
+
+#: classes/integrations/class-pokmv-wcfm.php:59
+#: classes/integrations/class-pokmv-wcfm.php:145
+msgid "Shipping By Plugin Ongkos Kirim"
+msgstr "Pengiriman Oleh Plugin Ongkos Kirim"
+
+#: classes/integrations/class-pokmv-wcfm.php:42
+msgid "Shipping by Plugin Ongkos Kirim"
+msgstr "Pengiriman oleh Plugin Ongkos Kirim"
+
+#: classes/integrations/class-pokmv-wcfm.php:149
+msgid ""
+"Shipping By Plugin Ongkos Kirim is disabled by Admin. Please contact admin "
+"for details"
+msgstr ""
+"Pengiriman Oleh Plugin Ongkos Kirim telah dinonaktifkan oleh Admin. Silahkan "
+"hubungi admin untuk lebih detil"
+
+#: classes/integrations/class-pokmv-product-vendors.php:165
+msgid "Shipping cost:"
+msgstr "Ongkos kirim:"
+
+#: classes/integrations/class-pokmv-dokan.php:243
+msgid "Shipping Courier"
+msgstr "Kurir"
+
+#: templates/wc-vendors/admin-shipping.php:9
+#: templates/wc-vendors/front-shipping.php:14
+msgid "Shipping Couriers"
+msgstr "Kurir Pengiriman"
+
+#: templates/custom-taxonomy/add-fields.php:8
+#: templates/custom-taxonomy/edit-fields.php:12
+#: templates/product-vendors/add-taxonomy-fields.php:8
+#: templates/product-vendors/edit-taxonomy-fields.php:12
+#: templates/product-vendors/vendor-setting-shipping.php:26
+#: templates/wc-marketplace/admin-manage-vendor.php:11
+#: templates/wc-marketplace/admin-manage-vendor.php:13
+#: templates/yith-vendors/add-taxonomy-fields.php:7
+#: templates/yith-vendors/edit-taxonomy-fields.php:12
+msgid "Shipping couriers"
+msgstr "Kurir pengiriman"
+
+#: templates/yith-vendors/admin-vendor-fields.php:7
+msgid "Shipping couriers: "
+msgstr "Kurir pengiriman:"
+
+#: classes/class-pokmv-shipping.php:83
+msgid "Shipping from"
+msgstr "Dikirim dari"
+
+#: classes/integrations/class-pokmv-wc-marketplace.php:52
+msgid "Shipping insurance"
+msgstr "Asuransi pengiriman"
+
+#: classes/integrations/class-pokmv-wcfm.php:153
+#: templates/dokan/vendor-shipping.php:11
+#: templates/wc-vendors/admin-shipping.php:2
+#: templates/wc-vendors/front-shipping.php:3
+msgid "Shipping Origin"
+msgstr "Asal Pengiriman"
+
+#: classes/integrations/class-pokmv-dokan.php:223
+#: classes/integrations/class-pokmv-wc-marketplace.php:177
+#: templates/custom-taxonomy/add-fields.php:3
+#: templates/custom-taxonomy/edit-fields.php:3
+#: templates/product-vendors/add-taxonomy-fields.php:3
+#: templates/product-vendors/edit-taxonomy-fields.php:3
+#: templates/product-vendors/vendor-registration-form.php:2
+#: templates/product-vendors/vendor-setting-shipping.php:18
+#: templates/wc-marketplace/admin-manage-vendor.php:3
+#: templates/wc-marketplace/admin-manage-vendor.php:5
+#: templates/wc-marketplace/front-shipping.php:7
+#: templates/yith-vendors/add-taxonomy-fields.php:2
+#: templates/yith-vendors/edit-taxonomy-fields.php:3
+msgid "Shipping origin"
+msgstr "Asal pengiriman"
+
+#: templates/yith-vendors/admin-vendor-fields.php:2
+msgid "Shipping origin: "
+msgstr "Asal pengiriman:"
+
+#: classes/integrations/class-pokmv-product-vendors.php:161
+msgid "Shipping service:"
+msgstr "Jasa pengiriman:"
+
+#: templates/admin/edit-vendor-legacy.php:6 templates/admin/edit-vendor.php:6
+msgid "Shipping setting for"
+msgstr "Pengaturan pengiriman untuk"
+
+#: templates/admin/edit-vendor-legacy-2.php:9
+msgid "Shipping setting for : "
+msgstr "Pengaturan pengiriman untuk : "
+
+#: templates/dokan/vendor-shipping.php:3
+msgid "Shipping setting for Plugin Ongkos Kirim"
+msgstr "Pengaturan pengiriman untuk Plugin Ongkos Kirim"
+
+#: templates/product-vendors/vendor-setting-shipping.php:9
+msgid "Shipping Settings"
+msgstr "Pengaturan Pengiriman"
+
+#: classes/integrations/class-pokmv-dokan.php:110
+msgid "Shipping settings has been updated"
+msgstr "Pengaturan pengiriman berhasil disimpan"
+
+#: templates/dokan/wizard-shipping.php:13
+msgid "Shipping Setup"
+msgstr "Pengaturan Pengiriman"
+
+#: templates/dokan/wizard-shipping.php:31
+msgid "Skip this step"
+msgstr "Lewati"
+
+#: templates/admin/setting.php:45
+msgid "Supported third-party multi vendor platform:"
+msgstr "Platform multi vendor yang didukung:"
+
+#: classes/integrations/class-pokmv-wcfm.php:160
+msgid "This is your store location"
+msgstr "Lokasi toko Anda"
+
+#: classes/integrations/class-pokmv-wc-marketplace.php:61
+msgid "Timber packing"
+msgstr "Packing kayu"
+
+#. Author of the plugin
+msgid "Tonjoo Studio"
+msgstr "Tonjoo Studio"
+
+#: libs/tonjoo-license/view/license-form.php:109
+msgid "Trial Activated"
+msgstr "Trial Aktif"
+
+#: libs/tonjoo-license/view/license-form.php:119
+msgid "Trial Expired"
+msgstr "Trial Berakhir"
+
+#: classes/integrations/class-pokmv-wcfm.php:74
+msgid "Uncheck this to disable shipping calculation by Plugin Ongkos Kirim."
+msgstr ""
+"Kosongkan ini untuk menonaktifkan perhitungan ongkir oleh Plugin Ongkos "
+"Kirim."
+
+#: templates/dokan/vendor-shipping.php:26
+msgid "Update Settings"
+msgstr "Update Settings"
+
+#: classes/class-pokmv-taxonomy.php:58
+msgid "Update Vendor"
+msgstr "Update Vendor"
+
+#: templates/admin/edit-vendor-legacy-2.php:70
+#: templates/admin/edit-vendor-legacy.php:72 templates/admin/edit-vendor.php:70
+msgid "Use specific services for each courier"
+msgstr "Gunakan layanan spesifik untuk masing-masing kurir"
+
+#: libs/tonjoo-license/view/license-form.php:149
+#, php-format
+msgid "Valid until: %s"
+msgstr "Aktif sampai: %s"
+
+#: classes/class-pokmv-taxonomy.php:217 classes/class-pokmv-taxonomy.php:254
+#: classes/class-pokmv-vendor-table.php:136
+msgid "Vendor"
+msgstr "Vendor"
+
+#: classes/class-pokmv-taxonomy.php:122
+#: templates/admin/edit-vendor-legacy-2.php:21
+#: templates/admin/edit-vendor-legacy.php:21 templates/admin/edit-vendor.php:21
+msgid "Vendor Location"
+msgstr "Lokasi Vendor"
+
+#: templates/product-vendors/vendor-registration-form.php:4
+msgid "Vendor location or the origin of your product shipping."
+msgstr "Lokasi vendor atau asal pengiriman produk."
+
+#: templates/admin/setting.php:53
+msgid "Vendor Shipping Setting"
+msgstr "Pengaturan Pengiriman Vendor"
+
+#: classes/class-pokmv-taxonomy.php:303
+msgid "Vendor:"
+msgstr "Vendor:"
+
+#: classes/class-pokmv-admin.php:82
+msgid "Vendors"
+msgstr "Vendor"
+
+#: classes/class-pokmv-taxonomy.php:57
+msgid "View Vendor"
+msgstr "Lihat Vendor"
+
+#: templates/dokan/product-shipping.php:13
+msgid "Weight"
+msgstr "Berat"
+
+#: templates/dokan/product-shipping.php:24
+msgid "Width"
+msgstr "Lebar"
+
+#: templates/admin/edit-vendor-legacy-2.php:77
+#: templates/admin/edit-vendor-legacy.php:79 templates/admin/edit-vendor.php:77
+#: templates/admin/setting.php:11
+msgid "Yes"
+msgstr "Iya"
+
+#: classes/integrations/class-pokmv-dokan.php:65
+msgid "You have no permission to view this page"
+msgstr "Kamu tidak memilihi hak untuk mengakses halaman ini"
+
+#: libs/tonjoo-license/view/license-form.php:134
+msgid "Your License Code"
+msgstr "Kode Lisensi Anda"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:92
+#, php-format
+msgid "Your license for <strong>%s</strong> has expired."
+msgstr "Lisensi Anda untuk <strong>%s</strong> telah berakhir."
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:99
+#, php-format
+msgid "Your license for <strong>%s</strong> will ended soon."
+msgstr "Lisensi Anda untuk <strong>%s</strong> akan segera berakhir."
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:322
+#, php-format
+msgid "Your license has expired at %s"
+msgstr "Lisensi Anda telah berakhir pada %s"
+
+#: templates/wc-vendors/admin-shipping.php:12
+msgid "Your shipping couriers"
+msgstr "Kurir pengiriman Anda"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:90
+#, php-format
+msgid "Your trial for <strong>%s</strong> has ended."
+msgstr "Trial Anda untuk <strong>%s</strong> telah berakhir."
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:101
+#, php-format
+msgid "Your trial license for <strong>%s</strong> will ended soon."
+msgstr "Trial Anda untuk <strong>%s</strong> akan segera berakhir."

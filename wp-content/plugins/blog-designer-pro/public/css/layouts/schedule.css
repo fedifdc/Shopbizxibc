@@ -1,0 +1,269 @@
+.blog_template.schedule .bdp-post-meta {
+    float: none;
+	margin-right: 30px;
+	padding: 0 40px 0 15px;
+	display: table-cell;
+	width: 30%;
+	vertical-align: top;
+}
+.blog_template.schedule .schedule-content-wrap {
+    padding: 30px;
+    background: #ffffff;
+    margin-bottom: 50px;
+    position: relative;
+    display: table-cell;
+    width: 70%;
+    vertical-align: top;
+    float: none;
+}
+.blog_template.schedule .schedule-inner {
+    display: inline-flex;
+}
+.blog_template.schedule .inner-first {
+    margin-bottom: 30px;
+}
+.blog_template.schedule .schedule-image-wrapper {
+    width: 30%;
+    float: left;
+}
+.blog_template.schedule .post-content {
+    width: 70%;
+    float: right;
+    margin-left: 30px;
+}
+.blog_template.schedule .schedule-time {
+    margin-bottom: 30px;
+}
+.blog_template.schedule .schedule-time a {
+    margin: 0;
+    background: #a6a6a6;
+    width: 100px;
+    padding: 10px 15px;
+    color: #ffffff;
+}
+.blog_template.schedule .schedule-time a:hover {
+    color: #fff;
+}
+.blog_template.schedule .schedule-content-wrap:after {
+    content: '';
+    display: block;
+    width: 0px;
+    position: absolute;
+    height: 100%;
+    border: 2px solid #e21130;
+    background: #123;
+    top: 0;
+    bottom: 0;
+    left: -30px;
+}
+.blog_template.schedule .schedule-wrap {
+    display: table;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.blog_template.schedule .schedule-circle:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #e21130;
+    top: 0;
+    bottom: 0;
+    left: -33px;
+}
+.blog_template.schedule .blog_template.schedule {
+    display: inline-block;
+    width: 100%;
+}
+.blog_template.schedule .meta-archive {
+    margin: 0 0 20px 0;
+    text-align: right;
+}
+.blog_template.schedule .meta-archive a {
+    background: #e21130;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+}
+.blog_template.schedule .meta-types {
+    margin-bottom: 50px;
+}
+.blog_template.schedule .tags {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.blog_template.schedule .tags a {
+    background: #a5a5a5;
+    padding: 5px 5px 6px 5px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    margin: 4px 0px 4px 20px;
+    width: auto;
+    font-size: 12px;
+}
+.bdp-preview-box .blog_template.schedule .tags a{
+    padding: 3px 5px 0px 5px;
+}
+.blog_template.schedule .meta-comment span,
+.blog_template.schedule .meta-comment span a,
+.blog_template.schedule .meta-comment span i{
+    font-size: 14px;
+}
+.blog_template.schedule .postcontent{
+    display: inline-block;
+    width: 100%;
+    margin: 0px 0 20px 0;
+}
+.blog_template.schedule .tags a:after {
+    content: '';
+    position: absolute;
+    left: -20px;
+    border-style: solid;
+    border-width: 16px 20px 15px 0;
+    border-color: transparent #a5a5a5 transparent transparent;
+    top: 0;
+}
+.blog_template.schedule .meta-comment {
+    margin-bottom: 10px;
+    text-align: right;
+}
+.blog_template.schedule .meta-comment p {
+    margin: 10px 0;
+}
+.blog_template.schedule .meta-comment p a {
+    color: #a5a5a5;
+}
+.blog_template.schedule .meta-comment p a:hover {
+    color: #123;
+}
+.blog_template.schedule .meta-comment p a .comment-name {
+    margin-right: 10px;
+}
+.blog_template.schedule .bdp-author-avatar {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.blog_template.schedule .bdp-author-avatar img {
+    border-radius: 50%;
+    margin-bottom: 3px;
+    float: right;
+}
+.blog_template.schedule .bdp-author-avatar .author {
+    display: inline-block;
+    width: 100%;
+}
+
+.blog_template.schedule .post-content .read-more-div {
+    display: inline-block;
+    float: left;
+}
+.blog_template.schedule .post-title{
+    margin-top: 0; 
+}
+.blog_template.schedule .post-title,
+.blog_template.schedule .post-category {
+    margin-bottom : 10px !important;
+}
+.blog_template.schedule .post-category i {
+    margin-right : 5px !important;
+}
+.blog_template.schedule .bdp_social_share_postion {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.blog_template.schedule .bdp_social_share_postion.center_position {
+    text-align: center;
+}
+.blog_template.schedule .bdp_social_share_postion.center_position .social-component {
+    float: none;
+    display: inline-block;
+    width: auto;
+}
+.blog_template.schedule .bdp_social_share_postion.right_position .social-component {
+    float: right;
+    width: auto;
+}
+.blog_template.schedule .bdp-custom-tag {
+    display: inline-block;
+    width: 100%;
+}
+.bdp-preview-box .blog_template.schedule .tags a {
+    padding: 0px 5px 3px 5px !important;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.blog_template.schedule .schedule-inner {
+		display: inline-block;
+		width: 100%;
+	}
+	.blog_template.schedule .schedule-image-wrapper,
+	.blog_template.schedule .post-content {
+		width: 100%;
+		display: inline-block;
+		float: none;
+	}
+	.blog_template.schedule .post-content {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 480px) {
+    .blog_template.schedule .schedule-wrap {
+        margin-bottom: 10px;
+    }
+	.blog_template.schedule .schedule-wrap,
+	.blog_template.schedule .bdp-post-meta,
+    .blog_template.schedule .schedule-content-wrap,
+    .blog_template.schedule .schedule-inner,
+    .blog_template.schedule .schedule-image-wrapper,
+    .blog_template.schedule .post-content {
+		display: inline-block;
+		width: 100%;
+    }
+    .blog_template.schedule .bdp-wrapper-like {
+        padding-left: 0;
+    }
+    .blog_template.schedule .bdp-post-meta {
+        background: #f7f7f7;
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 5px #e21130;
+        padding: 10px;
+        border-radius: 5px;
+        position: relative;
+		margin-right: 0;
+    }
+	.blog_template.schedule .bdp-author-avatar {
+		float: none;
+		margin: 0px 10px 10px 0px;
+		text-align: right;
+	}
+	
+	.blog_template.schedule .meta-comment p {
+		margin: 2px 0;
+        text-align: left;
+        margin-bottom: 0 !important;
+	}
+	.blog_template.schedule .meta-archive {
+		position: absolute;
+		top: 20px;
+	}
+	.blog_template.schedule .bdp-author-avatar {
+		margin-bottom: 0;
+	}
+	.blog_template.schedule .schedule-content-wrap:after {
+		left: 0;
+    }
+    .blog_template.schedule .tags {
+        text-align: left;
+    }
+    .blog_template.schedule .schedule-circle:after{
+        left: -3px !important;
+    }
+}

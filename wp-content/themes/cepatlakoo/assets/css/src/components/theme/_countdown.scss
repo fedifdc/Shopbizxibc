@@ -1,0 +1,103 @@
+#countdown-container.home-widget {
+    background: #151515;
+    padding: 0;
+    position: relative;
+}
+
+#countdown-container .section-title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    padding: 0 40px;
+    width: 200px;
+    margin-bottom: 0;
+}
+
+#countdown,
+#countdown_qv {
+    text-align: center;
+    position: relative;
+    &[data-state="loading"] {
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            z-index: 3;
+            background-color: #ffffff;
+            background-image: url(../../images/loader.gif);
+            background-position: center;
+            background-size: 14px;
+            background-repeat: no-repeat;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        #timer {
+            opacity: 0;
+        }
+    }
+}
+
+#countdown .number-container,
+#countdown_qv .number-container {
+    display: inline-block;
+    width: 20%;
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 5px;
+    max-width: 20%;
+}
+
+#countdown #timer,
+#countdown_qv #timer {
+    font-size: 0;
+    margin: 0 -5px;
+    text-align: left;
+}
+
+body.woocommerce-order-received #countdown #timer,
+body.woocommerce-order-received #countdown_qv #timer {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#countdown .number-container:last-child,
+#countdown_qv .number-container:last-child {
+    margin-right: 0;
+}
+
+#countdown .number-container .number,
+#countdown_qv .number-container .number {
+    width: 100%;
+    display: inline-block;
+    font-size: 3vmax;
+    font-weight: 700 !important;
+    text-align: center;
+    padding: 10px 5%;
+    border: 1px solid #999;
+    border-radius: 5px;
+    line-height: 1;
+    box-shadow: 0 1px 5px 0 #ccc;
+}
+
+#countdown .number-container .text,
+#countdown_qv .number-container .text {
+    font-size: 11px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.coutndown-head {
+    margin-bottom: 20px;
+}
+
+
+.summary #countdown-widget {
+    margin-bottom: 20px;
+}

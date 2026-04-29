@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-family-title;
+	font-weight: 500;
+	color: $color-dark;
+	line-height: 120%;
+
+	a {
+		color: $color-dark;
+		transition: color ease-in-out .2s;
+	}
+
+	article.hentry & {
+		line-height: 120%;
+	}
+}
+
+.font-body {
+	font-family: $font-family-body !important;
+}

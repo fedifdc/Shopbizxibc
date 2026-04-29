@@ -1,0 +1,305 @@
+.glamour-post-wrapper {
+    float: left;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.glamour-blog {
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+.glamour-blog .label_featured_post {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #000000;
+    padding: 3px 6px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.bdp_acf_field .bdp_acf_link {
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0;
+}
+.bdp_archive .glamour-opacity {
+    top: -10px;
+}
+.glamour_cover .bdp-row {
+	margin: 0;
+}
+.glamour-opacity {
+    background: rgba(0,0,0, 0.4);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.glamour-inner {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    width: 100%;
+}
+.glamour-inner .post-title h2 a {
+    margin: 15px 0;
+}
+.glamour-inner .post-content {
+    margin: 10px 0;
+    color: #fff;
+}
+.glamour-inner .tags,
+.glamour-inner .post-categories {
+    margin: 10px 0;
+}
+.glamour-inner .post-categories a {
+    color: #f5c034;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 12px
+}
+.bdp_wrapper .bdp_blog_template .glamour-blog-footer {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px; 
+}
+.bdp_wrapper .bdp_blog_template .footer-entry .glamour-meta a {
+    font-size: 14px;
+    font-weight: normal;
+}
+.footer-entry .glamour-footer-icon {
+    float: right;
+}
+.glamour-social-cover .glamour-social-links-closed i,
+.footer-entry .glamour-footer-icon span a i {
+    color: #f5c034;
+    border: 2px solid #f5c034;
+    padding: 8px;
+    border-radius: 50%;
+}
+.glamour-social-cover .glamour-social-links-closed i:hover,
+.footer-entry .glamour-footer-icon span a i:hover {
+    background: #f5c034;
+    color: #ffffff !important;
+}
+.footer-entry .glamour-meta div {
+    display: block;
+    float: left;
+    /* cursor: pointer; */
+}
+.footer-entry .post-meta.glamour-meta {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+.footer-entry .glamour-meta div .bdp-separator {
+    display: inline-block;
+    margin: 0 7px;
+}
+.footer-entry .glamour-meta div a i {
+    margin-right: 8px;
+}
+.footer-entry .glamour-footer-icon .bdp-wrapper-like a .bdp-count {
+    display: none;
+}
+
+.bdp_archive.glamour .glamour-inner .post-title h2 {
+    margin: 15px 0;
+}
+.bdp_archive.glamour .glamour-inner .post-content {
+    margin: 10px 0;
+    font-size: 14px;
+}
+.bdp_archive.glamour .author-avatar-div {
+    display: flex;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.bdp_archive.glamour .author-avatar-div .author_content {
+    margin-left: 20px;
+}
+.bdp_archive.glamour .author-avatar-div .author_content .social-component {
+    width: auto;
+}
+.glamour-social-div-closed {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.bdp_archive.glamour .social-share ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bdp_archive.glamour .social-share ul li a {
+    border: 1px solid #cccccc;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 8px 0;
+    text-align: center;
+    width: 38px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    box-shadow: none;
+    border-radius: 50%;
+}
+.bdp_archive.glamour .social-share ul li a:hover {
+    color: #ffffff;
+}
+
+.glamour .glamour-social-cover {
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    bottom: -100px;
+    z-index: 1;
+    background: #000;
+    padding: 15px;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+.glamour .glamour-social-cover.show {
+    bottom: 0 !important;
+    opacity: 1;
+}
+.bdp_blog_template .glamour-social-cover .social-component .social-share {
+    float: none;
+    margin-bottom: 10px;
+}
+.bdp_blog_template.glamour-post-wrapper .read-more-div {
+    margin-bottom: 10px;
+}
+.bdp_wrapper.glamour .bdp_blog_template.glamour-post-wrapper .bdp-wrapper-like > span{
+    position: absolute;
+    right: 3px;
+    bottom: 25px;
+}
+
+@media screen and (min-width: 981px) {
+    .column_layout_1 .glamour-post-wrapper {
+        width: 100%;
+    }
+    .column_layout_2 .glamour-post-wrapper {
+        width: 50%;
+    }
+    .column_layout_3 .glamour-post-wrapper {
+        width: 33.3333333%;
+    }
+    .column_layout_4 .glamour-post-wrapper {
+        width: 25%;
+    }
+
+    .column_layout_1 .glamour-post-wrapper:nth-child(n) {
+        clear: both;
+    }
+    .column_layout_2 .glamour-post-wrapper:nth-child(2n + 1) {
+        clear: both;
+    }
+    .column_layout_3 .glamour-post-wrapper:nth-child(3n + 1) {
+        clear: both;
+    }
+    .column_layout_4 .glamour-post-wrapper:nth-child(4n + 1) {
+        clear: both;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 980px) {
+    .column_layout_ipad_1 .glamour-post-wrapper {
+        width: 100%;
+    }
+    .column_layout_ipad_2 .glamour-post-wrapper {
+        width: 50%;
+    }
+    .column_layout_ipad_3 .glamour-post-wrapper {
+        width: 33.3333333%;
+    }
+    .column_layout_ipad_4 .glamour-post-wrapper {
+        width: 25%;
+    }
+
+    .column_layout_ipad_1 .glamour-post-wrapper:nth-child(n) {
+        clear: both;
+    }
+    .column_layout_ipad_2 .glamour-post-wrapper:nth-child(2n + 1) {
+        clear: both;
+    }
+    .column_layout_ipad_3 .glamour-post-wrapper:nth-child(3n + 1) {
+        clear: both;
+    }
+    .column_layout_ipad_4 .glamour-post-wrapper:nth-child(4n + 1) {
+        clear: both;
+    }
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+    .column_layout_tablet_1 .glamour-post-wrapper {
+        width: 100%;
+    }
+    .column_layout_tablet_2 .glamour-post-wrapper {
+        width: 50%;
+    }
+    .column_layout_tablet_3 .glamour-post-wrapper {
+        width: 33.3333333%;
+    }
+    .column_layout_tablet_4 .glamour-post-wrapper {
+        width: 25%;
+    }
+
+    .column_layout_tablet_1 .glamour-post-wrapper:nth-child(n) {
+        clear: both;
+    }
+    .column_layout_tablet_2 .glamour-post-wrapper:nth-child(2n + 1) {
+        clear: both;
+    }
+    .column_layout_tablet_3 .glamour-post-wrapper:nth-child(3n + 1) {
+        clear: both;
+    }
+    .column_layout_tablet_4 .glamour-post-wrapper:nth-child(4n + 1) {
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .column_layout_mobile_1 .glamour-post-wrapper {
+        width: 100%;
+    }
+    .column_layout_mobile_2 .glamour-post-wrapper {
+        width: 50%;
+    }
+    .column_layout_mobile_3 .glamour-post-wrapper {
+        width: 33.3333333%;
+    }
+    .column_layout_mobile_4 .glamour-post-wrapper {
+        width: 25%;
+    }
+
+    .column_layout_mobile_1 .glamour-post-wrapper:nth-child(n) {
+        clear: both;
+    }
+    .column_layout_mobile_2 .glamour-post-wrapper:nth-child(2n + 1) {
+        clear: both;
+    }
+    .column_layout_mobile_3 .glamour-post-wrapper:nth-child(3n + 1) {
+        clear: both;
+    }
+    .column_layout_mobile_4 .glamour-post-wrapper:nth-child(4n + 1) {
+        clear: both;
+    }
+}

@@ -1,0 +1,422 @@
+.pedal_blog {
+    -webkit-box-shadow: 0 0 8px #cccccc;
+    box-shadow: 0 0 8px #cccccc;
+    display: inline-block;
+    padding: 35px 15%;
+    background: #ffffff;
+    margin-bottom: 40px;
+    position: relative;
+    width: 100%;
+    padding-right: 30px;
+}
+.pedal_blog > div {
+    margin-bottom: 1.5em;
+}
+.pedal_blog .bdp-post-format {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: 0.3;
+}
+.pedal_blog .post-meta-cats-tags > div {
+    margin-bottom: 5px;
+}
+.pedal_blog .post-meta-cats-tags {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.category-link.bdp_has_links a, .tags.bdp_has_links a {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.bdp_acf_field .bdp_acf_link {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 8px 0;
+}
+.pedal_blog .label_featured_post {
+    position: relative;
+    top: 0px;
+    text-align: center;
+}
+.pedal_blog .label_featured_post span {
+    z-index: 1;
+    color: #ffffff;
+    background: #000000;
+    padding: 10px;
+    font-size: 14px;
+}
+.pedal_blog .post-title {
+    text-align: center;
+    color: #353535;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.pedal_blog .post-title h2 {
+    margin: 0;
+    word-break: break-all;
+}
+.pedal_blog .post-meta {
+    text-align: left;
+    margin: 0 0 1.5em 0;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.bdp_wrapper .blog_template.pedal_blog .post-meta > span {
+    display: inline-block;
+    margin-right: 15px;
+}
+.pedal_blog .post-meta > span.bdp-wrapper-like {
+    padding: 0;
+}
+.pedal_blog .post-meta > span:last-child {
+    margin-right: 0;
+}
+.pedal_blog > .bdp-post-image {
+    display: inline-block;
+    position: relative;
+}
+.pedal_blog > .bdp-post-image figure {
+    width: auto;
+}
+.pedal_blog > .bdp-post-image img.wp-post-image {
+    width: auto;
+}
+.pedal_blog > .bdp-post-image .bdp-post-image-cover {
+    position: relative;
+    display: inline-block;
+}
+.pedal_blog > .bdp-post-image:not(.post-video) {
+    margin-top: 60px !important;
+}
+.blog_template.pedal_blog .post-video {
+    width: 100% !important;
+}
+.pedal_blog > .bdp-post-image.bdp-no-thumbnail {
+    /* margin: 0 -50px 20px;  */
+    text-align: center;
+}
+.bdp-preview-box .pedal_blog > .bdp-post-image.bdp-no-thumbnail {
+    margin: 0 -115px 20px; 
+}
+.bdp-post-image-cover .bdp-author-avatar  {
+    width: 50px;
+    position: absolute;
+    margin: 0;
+    left: -12%;
+    top: 75px;
+    z-index: 1;
+}
+.bdp_blog_template.blog_template.pedal_blog:before {
+    position: absolute;
+    border-left: 1px solid #eee;
+    content: "";
+    left: 9%;
+    top: 0;
+    height: 100%;
+}
+.bdp-post-image .bdp-post-image-cover .bd_ad_container{
+    word-break: break-all !important;
+}
+/* .pedal_blog > .bdp-post-image.bdp-no-thumbnail .bdp-author-avatar { 
+    position: relative;
+    top: 70px;
+} */
+.bdp_wrapper .pedal_blog .bdp-post-image figure.slide img {
+    box-shadow: none;
+}
+.bdp_blog_template .social-component.large.right .social-share .count {
+    margin-top: 4px !important;
+}
+.bdp_blog_template.pedal_blog .social-component {
+    margin-top: 0;
+}
+.bdp_archive.pedal .author-avatar-div {
+    box-shadow: 0 0 15px -10px #000;
+    padding: 20px;
+    margin-bottom: 2em;
+}
+.bdp_archive.pedal .author-avatar-div .avtar-img { 
+    margin-right: 1em;
+}
+.blog_template.pedal_blog .bdp_social_share_postion {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.blog_template.pedal_blog .bdp_social_share_postion.center_position {
+    text-align: center;
+}
+.blog_template.pedal_blog .bdp_social_share_postion.center_position .social-component {
+    float: none;
+    display: inline-block;
+    width: auto;
+}
+.blog_template.pedal_blog .bdp_social_share_postion.right_position .social-component {
+    float: right;
+    width: auto;
+}
+.category-link.bdp_has_links,.tags.bdp_has_links {
+    text-align: left;
+}
+.pedal_blog .post-title h2 a, .pedal_blog .pedal_blog .post-title h2 {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.category-link.bdp_has_links a,.tags.bdp_has_links a,.category-link.taxonomies.product_tag.bdp_has_links a,.category-link.taxonomies.download_tag.bdp_has_links a,.category-link.taxonomies.pa_color.bdp_has_links a,.category-link.taxonomies.pa_size.bdp_has_links a {
+    background: #eee;
+    padding: 5px 10px;
+    margin-right: 6px;
+}
+.category-link.bdp_has_links,.tags.bdp_has_links,.category-link.taxonomies.product_cat.bdp_has_links,.category-link.taxonomies.product_tag.bdp_has_links,.category-link.taxonomies.pa_color.bdp_has_links,.category-link.taxonomies.pa_size.bdp_has_links,.category-link.taxonomies.download_category.bdp_has_links,.category-link.taxonomies.download_tag.bdp_has_links {
+    border-bottom: 1px solid #eee;
+    padding: 10px 10px 5px;
+} 
+.category-link.bdp_has_links,.category-link.taxonomies.product_cat.bdp_has_links,.category-link.taxonomies.download_category.bdp_has_links{
+    border-top: 1px solid #eee;
+    padding: 10px 10px;
+}
+.bdp-date-link{
+    color:#000;
+    background: #eee;
+    width: 50px;
+    text-align: center;
+    padding: 5px 6px;
+}
+.bdp-month-link{
+    background: #000;
+    color:#fff;
+    padding: 5px 6px;
+    width: 50px;
+    text-align: center;
+}
+.bdp_archive .bdp-date-link {
+    background: #eee;
+    color:#000;
+    width: 50px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.bdp_archive .bdp-month-link {
+    background: #000;
+    color:#fff;
+    width: 50px;
+    text-align: center;
+    line-height: 16px;
+}
+span.post-date.bdp_has_links {
+    position: absolute;
+    left: -12%;
+}
+.pedal_blog .bdp_date_author_div {
+	position: absolute;
+	right: 66px;
+    text-align: center;
+}
+.bdp_template_preview_model .pedal_blog .bdp_date_author_div {
+	right: -75px;
+}
+.bdp_archive .pedal_blog .bdp_date_author_div {
+    right: 56%;
+}
+.pedal_blog .post-date.bdp_has_links {
+	display: inline-flex;
+}
+.pedal_blog .bdp_date_author_div .bdp-author-avatar img {
+	width: 50px;
+}
+.pedal_blog .bdp-author-avatar {
+	margin-top: 10px;
+}
+.pedal_blog .bdp-post-image.bdp_image_thumbnail > .bdp_date_author_div{
+    position: absolute;
+    left: -110% ;
+    z-index: 999;
+}
+/* .bdp_wrapper .pedal_blog img {
+	width: 50%;
+} */
+.bdp_blog_template.blog_template.pedal_blog {
+    padding-top: 0;
+}
+.read_more_div {
+    padding-top: 20px;
+}
+.pedal_blog .more-tag i {
+    padding-left: 5px;
+    top: 1px;
+    position: relative;
+}
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+    .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .post-date.bdp_has_links{
+        left: -60px;
+    }
+    .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .bdp-post-image-cover .bdp-author-avatar{
+        left: -121%;
+    }
+
+    .bdp-preview-box .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .post-date.bdp_has_links{
+        left: 20px;
+    }
+    .bdp-preview-box .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .bdp-post-image-cover .bdp-author-avatar{
+        left: 40%;
+    }
+    .pedal_cover.bdp_archive.pedal .blog_template.pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image .post-date.bdp_has_links{
+        left: -9%;
+    }
+    .pedal_cover.bdp_archive.pedal .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image .bdp-post-image-cover .bdp-author-avatar{
+        left: -9%;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .post-date.bdp_has_links{
+        left: -43px;
+    }
+    .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .bdp-post-image-cover .bdp-author-avatar{
+        left: -89%;
+    }
+
+    .bdp-preview-box .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .post-date.bdp_has_links{
+        left: 20px;
+    }
+    .bdp-preview-box .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .bdp-post-image-cover .bdp-author-avatar{
+        left: 40%;
+    }
+    .pedal_cover.bdp_archive.pedal .blog_template.pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image .post-date.bdp_has_links{
+        left: -9%;
+    }
+    .pedal_cover.bdp_archive.pedal .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image .bdp-post-image-cover .bdp-author-avatar{
+        left: -9%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .post-date.bdp_has_links{
+        left: -43px;
+    }
+    .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .bdp-post-image-cover .bdp-author-avatar{
+        left: -85%;
+    }
+
+    .bdp-preview-box .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .post-date.bdp_has_links{
+        left: -43px;
+    }
+    .bdp-preview-box .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .bdp-post-image-cover .bdp-author-avatar{
+        left: -85%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 1023px) {
+    /* .bdp_archive .pedal_blog.bdp_blog_single_post_wrapp .bdp-post-image.bdp-no-thumbnail .bdp-post-image-cover .bdp-author-avatar{
+        left: -401%;
+    } */
+    .pedal_blog .bdp_date_author_div{
+        position: absolute;
+        left: -110% ;
+        z-index: 999;
+    }
+}
+@media screen and (max-width: 640px) {
+    .bdp_archive.pedal .author-avatar-div {
+        display: inline-block;
+        width: 100%;
+    }
+    .bdp_archive.pedal .author-avatar-div > div {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .bdp_archive.pedal .author-avatar-div .avtar-img {  
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+    .pedal_blog .bdp-author-avatar {
+        width: 70px;
+        height: 70px;
+        top: -40px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .pedal_blog .read_more_div .more-tag {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .pedal_blog {
+        padding: 35px 10% 35px 0%;
+    }
+    .pedal_blog .bdp-author-avatar {
+        width: 33px;
+        top: 70px;
+        left: -60px;
+    }
+    span.post-date.bdp_has_links {
+        left: -65px;
+    }
+    .bdp_blog_template.blog_template.pedal_blog:before {
+        left: 37px;
+    }
+    .pedal_blog > .bdp-post-image.bdp-no-thumbnail {
+        margin: 60px 0px !important;
+        text-align: center;
+    }
+    /* .pedal_blog > .bdp-post-image.bdp-no-thumbnail .bdp-author-avatar {
+        left: -188px;
+    } */
+    .blog_template.pedal_blog .post-video {
+        width: 100% !important;
+        left: 20px;
+        top: 22px;
+    }
+    .pedal_blog > .post-content-main{
+        word-break: break-word;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .pedal_blog {
+        padding: 35px 12%;
+    }
+    .bdp_blog_template.blog_template.pedal_blog:before {
+        left: 15%;
+    }
+    .pedal_blog .bdp-author-avatar, span.post-date.bdp_has_links {
+        left: -80px;
+    }
+    /* .pedal_blog > .bdp-post-image.bdp-no-thumbnail .bdp-author-avatar {
+        left: -327px;
+    } */
+    .pedal_blog > .bdp-post-image.bdp-no-thumbnail {
+        margin: 60px 0px !important;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1023px) { 
+    .post-content-main {
+        width: calc(100% - 80px);
+        float: right;
+    }
+    .bdp_blog_template > .bdp-post-image {
+        width: calc(100% - 80px);
+        float: right;
+    }
+   
+}
+@media only screen and (min-width: 375px) and (max-width: 410px) {
+    /* .pedal_blog > .bdp-post-image.bdp-no-thumbnail .bdp-author-avatar {
+        left: -170px;
+    } */
+}
+
+.bdp_archive .pedal_blog .bdp_date_author_div {
+	left: 7% !important;
+	top: 50px !important;
+	right: initial !important;
+}
+.bdp_archive .pedal_blog .bdp_date_author_div .bdp-author-avatar img{
+    margin-right: 0;
+}

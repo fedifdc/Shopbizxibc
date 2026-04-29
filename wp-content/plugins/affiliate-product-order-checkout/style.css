@@ -1,0 +1,42 @@
+/* Responsif */
+@media (max-width: 768px) {
+    .affiliate-payment-confirmation-form {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .affiliate-payment-confirmation-form input[type="submit"] {
+        padding: 10px;
+    }
+
+    .affiliate-payment-confirmation-form h2 {
+        font-size: 22px;
+    }
+
+    .affiliate-payment-confirmation-form h3 {
+        font-size: 18px;
+    }
+    .form-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .form-row label {
+        flex: 1;
+        margin-right: 10px;
+    }
+    
+    .form-select,
+    .form-input {
+        flex: 2;
+    }   
+}
+.woocommerce-cart-form.ui.form {
+    width: fit-content;
+  }
+
+.disabled-payment-affiliate {
+	pointer-events: none;
+  	cursor: default;
+}

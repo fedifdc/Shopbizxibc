@@ -1,0 +1,21 @@
+.contact-trigger {
+    position: absolute;
+    top: -1px;
+    left: 20px;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: solid 1px #eee;
+    z-index: 2;
+    cursor: pointer;
+
+    i.icon {
+        margin-left: 0;
+    }
+
+    &:hover {
+        background: $color-primary;
+        color: #fff;
+    }
+}

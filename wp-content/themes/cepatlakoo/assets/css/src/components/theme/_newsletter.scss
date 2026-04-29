@@ -1,0 +1,62 @@
+.newsletter-widget {
+	h2 {
+	    text-transform: uppercase;
+	    font-size: 42px;
+	    letter-spacing: 2px;
+	}
+
+	p {
+	    font-size: 18px;
+	}
+}
+
+.yikes-mailchimp-container {
+	input {
+	    padding: 15px 20px !important;
+	    width: 100% !important;
+	    display: block !important;
+	}
+}
+
+.yikes-easy-mc-form {
+	.field-no-label,
+	label {
+	    width: 100% !important;
+	}
+
+	.yikes-easy-mc-submit-button {
+	    display: block;
+	    width: auto !important;
+	    margin-top: .5em !important;
+	    min-height: 40px;
+	    padding: 20px 50px !important;
+	    cursor: pointer;
+	    margin: 0 auto;
+	}
+
+	input {
+	    width: 100% !important;
+	    border: 0 !important;
+	}
+
+	label {
+	    padding-right: 0 !important;
+	}
+
+	.submit-button-inline-label .yikes-easy-mc-submit-button {
+	    padding: 12px 30px !important;
+	    margin: 0 !important;
+	    font-size: 16px;
+	    border: 0;
+	    background-color: $color-primary;
+	}
+}
+
+.wpb_wrapper .yikes-easy-mc-form input[type=text],
+.wpb_wrapper .yikes-easy-mc-form input[type=url],
+.wpb_wrapper .yikes-easy-mc-form input[type=email],
+.wpb_wrapper .yikes-easy-mc-form input[type=number],
+.wpb_wrapper .yikes-easy-mc-form select {
+    background-color: #ffffff;
+    border: 1px solid #aaa;
+}

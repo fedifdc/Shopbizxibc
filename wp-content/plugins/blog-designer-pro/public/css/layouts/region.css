@@ -1,0 +1,257 @@
+.blog_template.bdp_blog_template.region {
+    margin-bottom: 40px;
+    float: left;
+    width: 100%;
+    box-shadow: 3px 3px rgba(70, 70, 70, 0.15);
+    -moz-box-shadow: 3px 3px rgba(70, 70, 70, 0.15);
+    -webkit-box-shadow: 3px 3px rgba(70, 70, 70, 0.15);
+    box-sizing: border-box;
+    position: relative;
+}
+.blog_template.bdp_blog_template.region .label_featured_post {
+    position: absolute;
+    left: 40px;
+    top: 0;
+    z-index: 1;
+    color: #ffffff;
+    background: #000000;
+    border: 1px solid #000000;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+.region .bdp_edd_price_wrapper {
+    padding: 0 40px;
+}
+.region .bdp_edd_download_buy_button,
+.region .blog_header,
+.region .post_content_wrap {
+    padding: 20px 40px;
+}
+.bdp_acf_field .bdp_acf_link {
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0;
+}
+.region .post_content_wrap,
+.region .bdp_woocommerce_meta_box{
+    padding: 0 40px 20px;
+}
+.region .blog_footer .social-component {
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+.bdp_blog_template.region .bdp-pinterest-share-image {
+    bottom: 15px;
+    left: 15px;
+}
+.bdp_archive.region .region .tags {
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+.bdp_archive.region .region .bdp-post-image {
+    display: inline-block;
+    width: 100%;
+}
+.bdp_blog_template.region > .bdp-post-image {    
+    margin-bottom: 15px;
+}
+.blog_template.bdp_blog_template.region .blog_footer {
+    float: left;
+    background: #FAFAFA;
+    width: 100%;
+    padding: 0 40px 10px 40px;
+}
+.region .footer_meta {
+    float: left;
+    font-size: 14px;
+}
+.region .tags {
+    float: left;
+    margin-top: 10px;
+}
+.region .blog_footer span a {
+    padding-top: 3px;
+    margin-bottom: 15px;
+}
+.region .category-link {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: 14px;
+}
+.region .posted_by {
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+}
+.region .metacomments {
+    float: right;
+    position: relative;
+}
+.bdp_blog_template.region .screen-reader-text {
+    display: none;
+}
+.bdp_blog_template.region span.article_comments a {
+    display: block;
+    height: 23px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 23px;
+}
+.bdp_blog_template.region span.article_comments span {
+    font-size: 14px;
+    padding: 0;
+}
+.bdp_blog_template.region span.article_comments {
+    margin-top: 5px;
+    clear: both;
+    line-height: normal;
+}
+.bdp_blog_template.region .metadatabox {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.bdp_blog_template.region .comment_wrapper {
+    float: left;
+    margin-right: 10px;
+}
+.region .post_content {
+    margin-bottom: 15px;
+}
+.bdp_blog_template.region a.more-tag {
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
+}
+.bdp_blog_template.region .post_content p {
+    margin-bottom: 10px;
+}
+.bdp-load-more {
+    margin-top: 20px;
+}
+.blog_header h2 {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 0;
+    width: 100%;
+    word-wrap: break-word;
+}
+.blog_template.bdp_archive.region {
+    display: inline-block;
+    width: 100%;
+}
+.bdp_blog_template.region .blog_header h2 {
+    margin: 0;
+}
+.bdp_blog_template.region .label_featured_post + .blog_header {
+    padding: 35px 40px 0;
+}
+.bdp_blog_template.region .blog_header {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px 40px 0;
+    width: 100%;
+}
+.bdp_archive.region .author-avatar-div img.avatar {
+    border-radius: 50%;
+}
+.bdp_archive.region .author-avatar-div {
+    background-color: #333333;
+    border: 1px solid #dddddd;
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding: 30px 15px;
+    width: 100%;
+    float: left;
+}
+.bdp_archive.region .author-avatar-div .avtar-img {
+    display: inline-flex;
+    float: left;
+    margin-right: 15px;
+}
+.bdp_archive.region .author-avatar-div .avtar-img a {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 0 auto;
+}
+.bdp_archive.region .author-avatar-div .author_content .author a {
+    font-style: oblique;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.bdp_archive.region .author-avatar-div .author_content .author a:hover {
+    color: #fff;
+}
+.bdp_archive.region .avtar-img a img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.bdp_archive.region .social-component {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+.bdp_archive.region .author-avatar-div .social-component.large,
+.bdp_archive.region .author-avatar-div .social-component {
+    float: none;
+    margin-top: 0;
+    width: auto;
+}
+.bdp_blog_template .taxonomy_region .category-link {
+    margin: 10px 10px 30px 0;
+}
+.blog_template.region .bdp_social_share_postion {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.blog_template.region .bdp_social_share_postion.center_position {
+    text-align: center;
+}
+.blog_template.region .bdp_social_share_postion.center_position .social-component {
+    float: none;
+    display: inline-block;
+    width: auto;
+}
+.blog_template.region .bdp_social_share_postion.right_position .social-component {
+    float: right;
+    width: auto;
+}
+@media screen and (max-width: 480px) {
+    .bdp_blog_template.region .blog_header {
+        padding: 15px 0px 0;
+    }
+    .blog_template.bdp_blog_template.region .blog_footer {
+        padding: 0 0 10px 0;
+    }
+    .region .post_content_wrap {
+        padding: 0 0 20px;
+    }
+    .blog_template.bdp_blog_template.region {
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .blog_footer span {
+        padding: 0;
+    }
+    .region .footer_meta {
+        float: left;
+        margin-top: 5px;
+        text-align: left;
+    }
+    .posted_by,
+    .tags {
+        float: left;
+    }
+}

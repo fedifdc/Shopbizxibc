@@ -1,0 +1,227 @@
+.bdp_wrapper.bdp_post_list.ticker {
+    max-width: 100% !important;
+}
+.bdp_wrapper.bdp_post_list.ticker > h3 {
+    text-transform: capitalize;
+}
+button.slick-next,
+button.slick-prev {
+    cursor: pointer
+}
+
+.blog-ticker-wrapper,
+.blog-ticker-wrapper * {
+    box-sizing: border-box;
+    outline: 0
+}
+
+.ticker-title {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 15px;
+    white-space: nowrap;
+    font-size: 16px;
+    border-right: 12px solid #fff;
+    float: left
+}
+
+.blog-tickers {
+    position: relative;
+    height: 100%;
+    overflow: hidden
+}
+
+.blog-ticker-wrapper .blog-tickers ul {
+    display: block;
+    height: 100%;
+    list-style: none!important;
+    padding: 0!important;
+    margin: 0;
+    width: 100%;
+    line-height: inherit!important
+}
+
+.blog-ticker-effect-scroll .blog-tickers ul {
+    position: relative;
+    margin-top: 0!important
+}
+
+.blog-ticker-effect-scroll .blog-tickers ul li {
+    display: list-item;
+    float: left;
+    position: relative;
+    width: auto
+}
+
+.blog-tickers ul li {
+    white-space: nowrap;
+    overflow: hidden!important;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    -webkit-transition: color .2s linear;
+    -moz-transition: color .2s linear;
+    -o-transition: color .2s linear;
+    transition: color .2s linear;
+    position: absolute;
+    width: 100%;
+    display: none;
+    color: #333;
+    margin: 0!important;
+    padding: 0!important;
+    line-height: inherit
+}
+
+.blog-tickers ul li a {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    padding: 0 10px;
+    color: #333;
+    position: relative;
+    display: block;
+    overflow: hidden
+}
+
+.blog-ticker-controls {
+    position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    float: right
+}
+
+.blog-ticker-controls div {
+    width: 30px;
+    float: left;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    outline: 0;
+    border-left: solid 1px #eee;
+    background-color: #f6f6f6
+}
+
+.blog-ticker-controls div:hover {
+    background-color: #eee
+}
+
+.blog-ticker-arrow {
+    margin: auto;
+    display: inline-block;
+    height: 8px;
+    position: relative;
+    width: 8px;
+    color: #999
+}
+
+.blog-ticker-arrow::after {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    content: '';
+    display: inline-block;
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 8px
+}
+
+.blog-ticker-arrow.blog-ticker-arrow-next {
+    -moz-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg);
+    left: -3px
+}
+
+.blog-ticker-arrow.blog-ticker-arrow-prev {
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    left: 3px
+}
+
+.blog-ticker-arrow::before {
+    background-color: #fff
+}
+
+.blog-ticker-play {
+    position: relative;
+    width: 0;
+    height: 12px;
+    display: inline-block;
+    margin-left: -5px
+}
+
+.blog-ticker-wrapper .ticker-title>span {
+    width: 0;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    bottom: 0;
+    margin: auto
+}
+
+.blog-ticker-wrapper {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    font-size: 14px;
+    border: 2px solid #404040;
+    margin-bottom: 20px;
+    position: relative;
+    height: 40px;
+    line-height: 36px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.blog-ticker-italic .blog-ticker-anchor {
+    font-style: italic
+}
+
+.wpos-bold .blog-ticker-anchor {
+    font-weight: 700
+}
+
+.ticker-style-title {
+    color: #FFF;
+}
+/*Individual Ticker CSS*/
+.ticker-title>span {
+    width: 0;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    bottom: 0;
+    margin: auto;
+}
+
+.blog-ticker-controls .blog-ticker-arrows {
+    background-color: #f6f6f6;
+    border-color: #999999;
+}
+
+.blog-ticker-controls .blog-ticker-arrows:hover {
+    background-color: #eeeeee;
+}
+
+@media only screen and (max-width:530px) {
+    .blog-ticker-wrapper .ticker-title {
+        display: none!important
+    }
+}

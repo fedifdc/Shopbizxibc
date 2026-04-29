@@ -1,0 +1,869 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-25 01:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: tonjoo-payment-confirmation.php:94 classes/class-tpc-admin.php:106
+#: classes/class-tpc-admin.php:106
+msgid "Settings"
+msgstr ""
+
+#: classes/class-tpc-admin.php:103
+msgid "Confirmations"
+msgstr ""
+
+#: classes/class-tpc-admin.php:104
+msgid "Orders"
+msgstr ""
+
+#: classes/class-tpc-admin.php:105
+msgid "Report"
+msgstr ""
+
+#: classes/class-tpc-admin.php:118
+msgid "General"
+msgstr ""
+
+#: classes/class-tpc-admin.php:122
+msgid "Form"
+msgstr ""
+
+#: classes/class-tpc-admin.php:126
+msgid "Messages"
+msgstr ""
+
+#: classes/class-tpc-admin.php:130
+msgid "Email"
+msgstr ""
+
+#: classes/class-tpc-admin.php:208
+msgid "Settings saved"
+msgstr ""
+
+#: classes/class-tpc-admin.php:265 classes/class-tpc-admin.php:273
+#: classes/class-tpc-admin.php:480
+msgid "Confirmation"
+msgstr ""
+
+#: classes/class-tpc-admin.php:275 views/admin/setting-general.php:21
+msgid "Edit Page"
+msgstr ""
+
+#: classes/class-tpc-admin.php:276 views/admin/setting-general.php:22
+msgid "View Page"
+msgstr ""
+
+#: classes/class-tpc-admin.php:306
+msgid "Order ID not found"
+msgstr ""
+
+#: classes/class-tpc-admin.php:321
+msgid "Transfer date format not valid"
+msgstr ""
+
+#: classes/class-tpc-admin.php:362
+msgid "The payment has been confirmed."
+msgstr ""
+
+#: classes/class-tpc-admin.php:387
+msgid "The payment has been rejected."
+msgstr ""
+
+#: classes/class-tpc-admin.php:406 classes/class-tpc-admin.php:461
+#, php-format
+msgid "Payment confirmed. Order status for %s has changed to %s."
+msgstr ""
+
+#: classes/class-tpc-admin.php:410 classes/class-tpc-admin.php:439
+msgid "Success"
+msgstr ""
+
+#: classes/class-tpc-admin.php:416 classes/class-tpc-admin.php:445
+msgid "Order not found"
+msgstr ""
+
+#: classes/class-tpc-admin.php:435 classes/class-tpc-admin.php:464
+#, php-format
+msgid "Payment rejected. Order status for %s has changed to %s."
+msgstr ""
+
+#: classes/class-tpc-admin.php:499
+msgid "Quick View"
+msgstr ""
+
+#: classes/class-tpc-admin.php:512
+msgid "Confirm payment"
+msgstr ""
+
+#: classes/class-tpc-admin.php:513
+msgid "Reject payment"
+msgstr ""
+
+#: classes/class-tpc-admin.php:531 classes/class-tpc-admin.php:536
+msgid "Orders updated"
+msgstr ""
+
+#: classes/class-tpc-admin.php:549
+msgid "Payment confirmation"
+msgstr ""
+
+#: classes/class-tpc-admin.php:598
+msgid "Confirm payment: "
+msgstr ""
+
+#: classes/class-tpc-admin.php:602 classes/class-tpc-wc-hooks.php:158
+msgid "Confirm Payment"
+msgstr ""
+
+#: classes/class-tpc-admin.php:603
+msgid "Confirm the payment"
+msgstr ""
+
+#: classes/class-tpc-admin.php:608
+msgid "Reject Payment"
+msgstr ""
+
+#: classes/class-tpc-admin.php:609
+msgid "Reject the payment"
+msgstr ""
+
+#: classes/class-tpc-admin.php:626
+msgid "Payment Confirmation Page"
+msgstr ""
+
+#: classes/class-tpc-admin.php:651
+msgid "Are you sure ?"
+msgstr ""
+
+#: classes/class-tpc-admin.php:652
+msgid ""
+"Please tell the reason why you reject this payment. We will notify the "
+"customer about it."
+msgstr ""
+
+#: classes/class-tpc-admin.php:654
+msgid "Order ID and Customer Email must be in the form"
+msgstr ""
+
+#: classes/class-tpc-admin.php:673
+msgid "Payment Confirmation"
+msgstr ""
+
+#: classes/class-tpc-email-confirmed-payment.php:23
+msgid "Confirmed payment"
+msgstr ""
+
+#: classes/class-tpc-email-confirmed-payment.php:24
+msgid "Email sent to the customer when admin confirms the payment."
+msgstr ""
+
+#: classes/class-tpc-email-confirmed-payment.php:49
+msgid "We received your payment for order #{order_number} on {site_title}"
+msgstr ""
+
+#: classes/class-tpc-email-confirmed-payment.php:58
+msgid "Thankyou for your payment"
+msgstr ""
+
+#: classes/class-tpc-email-confirmed-payment.php:118
+msgid "Thank you. Your order will be processed soon."
+msgstr ""
+
+#: classes/class-tpc-email-new-submission.php:23
+msgid "New payment confirmation"
+msgstr ""
+
+#: classes/class-tpc-email-new-submission.php:24
+msgid ""
+"Email sent to the admin when a customer submits a new payment confirmation."
+msgstr ""
+
+#: classes/class-tpc-email-new-submission.php:51
+msgid "[{site_title}]: Payment received for #{order_number}"
+msgstr ""
+
+#: classes/class-tpc-email-new-submission.php:60
+msgid "Payment received for #{order_number}"
+msgstr ""
+
+#: classes/class-tpc-email-new-submission.php:119
+msgid "Go visit your site dashboard to check the details."
+msgstr ""
+
+#: classes/class-tpc-email-rejected-payment.php:23
+msgid "Rejected payment"
+msgstr ""
+
+#: classes/class-tpc-email-rejected-payment.php:24
+msgid "Email sent to the customer when admin rejects the payment."
+msgstr ""
+
+#: classes/class-tpc-email-rejected-payment.php:49
+msgid ""
+"Sorry, we did not receive your payment for order #{order_number} on "
+"{site_title}"
+msgstr ""
+
+#: classes/class-tpc-email-rejected-payment.php:58
+msgid "We did not receive your payment"
+msgstr ""
+
+#: classes/class-tpc-email-rejected-payment.php:118
+msgid "Please make sure you have completed the payment."
+msgstr ""
+
+#: classes/class-tpc-fields.php:36
+msgid "Order ID"
+msgstr ""
+
+#: classes/class-tpc-fields.php:40 classes/class-tpc-fields.php:51
+#: classes/class-tpc-fields.php:62 classes/class-tpc-fields.php:94
+#: classes/class-tpc-fields.php:105 classes/class-tpc-fields.php:127
+msgid "Placeholder"
+msgstr ""
+
+#: classes/class-tpc-fields.php:47
+msgid "Customer Email"
+msgstr ""
+
+#: classes/class-tpc-fields.php:58
+msgid "Customer Name"
+msgstr ""
+
+#: classes/class-tpc-fields.php:69 classes/class-tpc-report-table.php:169
+#: views/admin/setting-general.php:122
+msgid "Transfer Date"
+msgstr ""
+
+#: classes/class-tpc-fields.php:74 classes/class-tpc-report-table.php:166
+#: views/admin/setting-general.php:121
+msgid "Transfer Amount"
+msgstr ""
+
+#: classes/class-tpc-fields.php:79 classes/class-tpc-report-table.php:172
+#: views/admin/setting-general.php:123
+msgid "Bank"
+msgstr ""
+
+#: classes/class-tpc-fields.php:83
+msgid "Bank options (separate with comma)"
+msgstr ""
+
+#: classes/class-tpc-fields.php:90
+msgid "Customer Bank"
+msgstr ""
+
+#: classes/class-tpc-fields.php:101
+msgid "Customer Bank Account"
+msgstr ""
+
+#: classes/class-tpc-fields.php:112
+msgid "Attached Photo"
+msgstr ""
+
+#: classes/class-tpc-fields.php:116
+msgid "Max file size"
+msgstr ""
+
+#: classes/class-tpc-fields.php:123
+msgid "Note"
+msgstr ""
+
+#: classes/class-tpc-fields.php:134
+msgid "Recaptcha V2"
+msgstr ""
+
+#: classes/class-tpc-fields.php:138
+msgid "Site Key"
+msgstr ""
+
+#: classes/class-tpc-fields.php:142
+msgid "Secret Key"
+msgstr ""
+
+#: classes/class-tpc-form.php:330
+msgid "The customer sends the payment confirmation."
+msgstr ""
+
+#: classes/class-tpc-report-table.php:68
+msgid "No order found"
+msgstr ""
+
+#: classes/class-tpc-report-table.php:157
+msgid "Order"
+msgstr ""
+
+#: classes/class-tpc-report-table.php:160 views/admin/setting-general.php:119
+msgid "Order Date"
+msgstr ""
+
+#: classes/class-tpc-report-table.php:163 views/admin/setting-general.php:120
+msgid "Order Total"
+msgstr ""
+
+#: classes/class-tpc-report-table.php:175 views/admin/setting-general.php:124
+msgid "Photo"
+msgstr ""
+
+#: classes/class-tpc-report-table.php:178 views/admin/setting-general.php:125
+msgid "Order Status"
+msgstr ""
+
+#: classes/class-tpc-report-table.php:181 views/admin/setting-general.php:126
+msgid "Payment Status"
+msgstr ""
+
+#: classes/class-tpc-report-table.php:201
+#: classes/class-tpc-report-table.php:208
+#: classes/class-tpc-report-table.php:218
+msgid "Waiting"
+msgstr ""
+
+#: classes/class-tpc-report-table.php:204
+#: classes/class-tpc-report-table.php:220
+msgid "Confirmed"
+msgstr ""
+
+#: classes/class-tpc-report-table.php:206
+msgid "Rejected"
+msgstr ""
+
+#: classes/class-tpc-report-table.php:245
+msgid "View"
+msgstr ""
+
+#: classes/class-tpc-wc-hooks.php:66 classes/class-tpc-wc-hooks.php:82
+msgid "Waiting Confirmation"
+msgstr ""
+
+#: classes/class-tpc-wc-hooks.php:137 views/admin/metabox-order-view.php:52
+msgid "Confirm"
+msgstr ""
+
+#: classes/class-tpc-wc-hooks.php:156
+msgid "Edit Payment Confirmation"
+msgstr ""
+
+#: classes/class-tpc-wc-hooks.php:220
+msgid "Payment Confirmations"
+msgstr ""
+
+#: classes/class-tpc-wc-hooks.php:223
+msgid "All Status"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-api.php:102
+#: libs/tonjoo-license/tonjoo-license-api.php:181
+#: libs/tonjoo-license/tonjoo-license-api.php:222
+#: libs/tonjoo-license/tonjoo-license-api.php:283
+msgid "Error: License key is empty"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-api.php:113
+msgid "Can't connect to server. Please try again."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-api.php:123
+msgid ""
+"Error: The license is already in use. If you sure this license is belongs to "
+"you and no other sites are using this license, please contact us at the "
+"forum."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-api.php:128
+#: libs/tonjoo-license/tonjoo-license-api.php:147
+#: libs/tonjoo-license/tonjoo-license-api.php:192
+#: libs/tonjoo-license/tonjoo-license-api.php:249
+#, php-format
+msgid "Error: %s. Please try again."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-api.php:136
+#: libs/tonjoo-license/tonjoo-license-api.php:163
+#: libs/tonjoo-license/tonjoo-license-api.php:205
+#: libs/tonjoo-license/tonjoo-license-api.php:262
+#: libs/tonjoo-license/tonjoo-license-api.php:328
+#, php-format
+msgid "Error: %s. Please contact us through the forum to resolve this."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-api.php:240
+#: libs/tonjoo-license/tonjoo-license-api.php:268
+#: libs/tonjoo-license/tonjoo-license-api.php:308
+#: libs/tonjoo-license/tonjoo-license-handler.php:204
+#: libs/tonjoo-license/tonjoo-license-manager.php:267
+msgid "Error: Can't connect to server"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:305
+#: libs/tonjoo-license/tonjoo-license-handler.php:384
+msgid "Error: Authentication Failed. Please try again"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:322
+#, php-format
+msgid "Your license has expired at %s"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:338
+msgid "Activation Success"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:369
+#: libs/tonjoo-license/tonjoo-license-handler.php:415
+msgid "License key is empty"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:397
+msgid "Deactivation Success"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:90
+#, php-format
+msgid "Your trial for <strong>%s</strong> has ended."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:92
+#, php-format
+msgid "Your license for <strong>%s</strong> has expired."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:95
+#, php-format
+msgid "Please activate your <strong>%s</strong> license."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:99
+#, php-format
+msgid "Your license for <strong>%s</strong> will ended soon."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:101
+#, php-format
+msgid "Your trial license for <strong>%s</strong> will ended soon."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:124
+msgid "Manage License"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:125
+msgid "Hide Notice"
+msgstr ""
+
+#: views/admin/metabox-order-view.php:32
+#, php-format
+msgid "The customer has sent the proof of payment on %s."
+msgstr ""
+
+#: views/admin/metabox-order-view.php:37
+#, php-format
+msgid "It was confirmed by admin on %s."
+msgstr ""
+
+#: views/admin/metabox-order-view.php:39
+#, php-format
+msgid "It was rejected by admin on %s"
+msgstr ""
+
+#: views/admin/metabox-order-view.php:42
+#, php-format
+msgid "with reason %s"
+msgstr ""
+
+#: views/admin/metabox-order-view.php:47 views/admin/metabox-order-view.php:58
+msgid "Click here to edit"
+msgstr ""
+
+#: views/admin/metabox-order-view.php:53
+msgid "Reject"
+msgstr ""
+
+#: views/admin/metabox-order-view.php:58
+msgid "The customer has not sent the proof of payment yet."
+msgstr ""
+
+#: views/admin/metabox-order.php:36
+msgid "Attached photo"
+msgstr ""
+
+#: views/admin/metabox-order.php:47
+msgid "Update"
+msgstr ""
+
+#: views/admin/metabox-order.php:48
+msgid "Cancel"
+msgstr ""
+
+#: views/admin/setting-email.php:6
+msgid "Additional on-hold order email content"
+msgstr ""
+
+#: views/admin/setting-email.php:10
+msgid ""
+"Additional messages will be attached to the email sent to the customer after "
+"the order is placed. The placeholder [confirmation_url] will generate the "
+"confirmation page url."
+msgstr ""
+
+#: views/admin/setting-email.php:14
+#, php-format
+msgid ""
+"There are also 3 email notifications for payment confirmation. An email will "
+"be sent to the admin when the customer submits a new payment confirmation, "
+"and 2 emails will be sent to the customers when the admin confirms or "
+"rejects the payment. You can change these emails setting in %s."
+msgstr ""
+
+#: views/admin/setting-form.php:8
+msgid "Available Fields"
+msgstr ""
+
+#: views/admin/setting-form.php:9
+msgid ""
+"Click on these buttons to add the field to the form. Each field can only be "
+"used once."
+msgstr ""
+
+#: views/admin/setting-form.php:18
+msgid "Custom CSS"
+msgstr ""
+
+#: views/admin/setting-form.php:19
+msgid "Use this field to add custom style to your form"
+msgstr ""
+
+#: views/admin/setting-form.php:27
+msgid "Field Setting"
+msgstr ""
+
+#: views/admin/setting-form.php:33
+msgid "Required field?"
+msgstr ""
+
+#: views/admin/setting-form.php:42
+msgid "Additional class"
+msgstr ""
+
+#: views/admin/setting-general.php:9
+msgid "Confirmation Page"
+msgstr ""
+
+#: views/admin/setting-general.php:15
+msgid ""
+"Confirmation Page are unavailable until the license is activated. Please "
+"activate the license."
+msgstr ""
+
+#: views/admin/setting-general.php:25
+msgid "Confirmation page is not found."
+msgstr ""
+
+#: views/admin/setting-general.php:26
+#, php-format
+msgid ""
+"Create the page with clicking <strong>Generate Page</strong> or create a "
+"page with following shortcode: %s"
+msgstr ""
+
+#: views/admin/setting-general.php:28
+msgid "Generate Page"
+msgstr ""
+
+#: views/admin/setting-general.php:34
+msgid "Payment Methods"
+msgstr ""
+
+#: views/admin/setting-general.php:43
+msgid "Give a check on the payment method that needs confirmation."
+msgstr ""
+
+#: views/admin/setting-general.php:48
+msgid "Confirmed Order Status"
+msgstr ""
+
+#: views/admin/setting-general.php:57
+msgid "Set order status after admin confirm the payment."
+msgstr ""
+
+#: views/admin/setting-general.php:62
+msgid "Rejected Order Status"
+msgstr ""
+
+#: views/admin/setting-general.php:71
+msgid "Set order status after admin reject the payment."
+msgstr ""
+
+#: views/admin/setting-general.php:76
+msgid "Make The Form Only Accessible to Logged In Users"
+msgstr ""
+
+#: views/admin/setting-general.php:83
+msgid "This feature will prevent spams from unauthorized users."
+msgstr ""
+
+#: views/admin/setting-general.php:88
+msgid "Submission Limit"
+msgstr ""
+
+#: views/admin/setting-general.php:92
+msgid ""
+"Limit how many times the customer can send the payment confirmation for each "
+"order. The limits will prevent spam on the form. Leave it empty if you dont "
+"want to limit the submission."
+msgstr ""
+
+#: views/admin/setting-general.php:97
+msgid "Redirect After Submission"
+msgstr ""
+
+#: views/admin/setting-general.php:101
+#, php-format
+msgid ""
+"Fill this field with your custom URL if you want redirect user after "
+"successful form submission. You can also use %s on the URL to generate the "
+"Order ID."
+msgstr ""
+
+#: views/admin/setting-general.php:106
+msgid "Thankyou Page Content"
+msgstr ""
+
+#: views/admin/setting-general.php:110
+msgid ""
+"Message that will appear on the thankyou page. The placeholder "
+"[confirmation_url] will generate the confirmation page url."
+msgstr ""
+
+#: views/admin/setting-general.php:115
+msgid "Report Columns"
+msgstr ""
+
+#: views/admin/setting-general.php:128
+msgid "Select columns you want to display in the report page."
+msgstr ""
+
+#: views/admin/setting-messages.php:9
+msgid "Successful Submission"
+msgstr ""
+
+#: views/admin/setting-messages.php:17
+msgid "Failed Submission"
+msgstr ""
+
+#: views/admin/setting-messages.php:25
+msgid "Error - Required Fields"
+msgstr ""
+
+#: views/admin/setting-messages.php:33
+msgid "Error - Email Format"
+msgstr ""
+
+#: views/admin/setting-messages.php:41
+msgid "Error - Order Not Found"
+msgstr ""
+
+#: views/admin/setting-messages.php:49
+msgid "Error - Order & Email Not Found"
+msgstr ""
+
+#: views/admin/setting-messages.php:57
+msgid "Error - Pending Order & Email Not Found"
+msgstr ""
+
+#: views/admin/setting-messages.php:65
+msgid "Error - Date Format"
+msgstr ""
+
+#: views/admin/setting-messages.php:73
+msgid "Error - Required File"
+msgstr ""
+
+#: views/admin/setting-messages.php:81
+msgid "Error - File Size"
+msgstr ""
+
+#: views/admin/setting-messages.php:89
+msgid "Error - File Type"
+msgstr ""
+
+#: views/admin/setting-messages.php:97
+msgid "Error - Failed to Upload"
+msgstr ""
+
+#: views/admin/setting-messages.php:105
+msgid "Error - Recaptcha Required"
+msgstr ""
+
+#: views/admin/setting-messages.php:113
+msgid "Error - Invalid Recaptcha"
+msgstr ""
+
+#: views/admin/setting-messages.php:121
+msgid "Error - Submission Limit Reached"
+msgstr ""
+
+#: views/admin/setting-no-wc.php:2 views/admin/setting.php:2
+msgid "Payment Confirmation Settings"
+msgstr ""
+
+#: views/admin/setting-no-wc.php:5
+msgid "This plugin only works if WooCommerce installed and activated."
+msgstr ""
+
+#: views/admin/setting.php:9
+msgid "Documentation"
+msgstr ""
+
+#: views/admin/setting.php:10 libs/tonjoo-license/view/license-manager.php:268
+msgid "Support Forum"
+msgstr ""
+
+#: views/admin/setting.php:24
+msgid "Save Setting"
+msgstr ""
+
+#. %s: Customer billing full name
+#: views/emails/admin-new-payment-confirmation.php:20
+#, php-format
+msgid "You’ve received a payment from %s for this order:"
+msgstr ""
+
+#: views/emails/customer-confirmed-payment.php:19
+msgid "We have confirms your payment for this order:"
+msgstr ""
+
+#: views/emails/customer-rejected-payment.php:19
+msgid "Sorry, we have to reject your payment this order:"
+msgstr ""
+
+#: views/emails/customer-rejected-payment.php:32
+msgid "The reason:"
+msgstr ""
+
+#: views/front/form-payment-confirmation.php:29
+msgid "Submit"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:165
+msgid "License Status"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:171
+msgid "Trial Activated"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:173
+msgid "Activated"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:181
+msgid "Trial Expired"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:183
+msgid "Expired"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:189
+msgid "Not Activated"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:196
+msgid "Your License Code"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:203
+msgid "Deactivate"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:205
+msgid "Renew License"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:205
+msgid "Check License"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:211
+#, php-format
+msgid "Valid until: %s"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:214
+#: libs/tonjoo-license/view/license-manager.php:217
+#, php-format
+msgid "(expired soon, <a href=\"%s\" target=\"_blank\">click to renew</a>)"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:220
+#, php-format
+msgid "Expired at: %s"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:222
+msgid "Input your license key"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:230
+msgid "Last Check"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:246
+msgid "Have you tried our other cool stuffs?"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:257
+msgid "Help Center"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:259
+msgid "Where can I get my licenses?"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:260
+msgid "My Licenses"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:263
+msgid "I want to upgrade/renew my license"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:264
+msgid "Upgrade License"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-manager.php:267
+msgid "I have a problem with my license"
+msgstr ""
+
+#. Name of the plugin
+msgid "Plugin Konfirmasi Pembayaran"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin for payment confirmation woocommerce."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.tonjoostudio.com/product/plugin-konfirmasi-pembayaran"
+msgstr ""
+
+#. Author of the plugin
+msgid "Tonjoo Studio"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.tonjoostudio.com/"
+msgstr ""

@@ -1,0 +1,267 @@
+#your-profile .select2 {
+	width: 350px !important;
+}
+.pokmv-couriers label {
+	display: block;
+	margin-bottom: 0 !important;
+	font-weight: normal !important;
+}
+.pokmv-couriers.pro {
+	column-count: 3;
+}
+.init-select2,
+.select2-ajax {
+	width: 100%;
+}
+
+/* custom taxonomy */
+.pokmv-fields .init-select2,
+.pokmv-fields .select2-ajax,
+.pokmv-fields .pokmv-couriers {
+	width: 95%;
+}
+.pokmv-taxonomy-metabox {
+	padding-top: 6px;
+}
+.pokmv-taxonomy-metabox a {
+	display: block;
+	margin-top: 10px;
+}
+
+/* product vendors */
+.wcpv-term-additional-settings .select2-container {
+	width: 95% !important;
+}
+
+/* marketplace */
+.vendor-preview-form .init-select2,
+.vendor-preview-form .select2-ajax {
+	width: 350px;
+}
+.vendor-preview-form .shipping-couriers {
+	vertical-align: top;
+}
+.vendor-preview-form .pokmv-couriers {
+	max-width: 600px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 1em 0;
+}
+
+/* setting page */
+h4.pokmv-status {
+	margin: 0;
+	color: #faa026;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+}
+.pok-setting .setting-table .setting-option .allowed-vendor-setting-options input {
+	display: none;
+}
+.pok-setting .setting-table .setting-option .allowed-vendor-setting-options label {
+	background-color: #f0f0f0;
+	margin-bottom: 2px;
+	height: 25px;
+	line-height: 25px;
+	max-width: 200px;
+	padding-left: 25px;
+	padding-right: 5px;
+	position: relative;
+	color: rgba(0,0,0,.7);
+}
+.pok-setting .setting-table .setting-option .allowed-vendor-setting-options label:before {
+	content: '';
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+.pok-setting .setting-table .setting-option .allowed-vendor-setting-options input:checked + label {
+	color: #444;
+}
+.pok-setting .setting-table .setting-option .allowed-vendor-setting-options input:checked + label:after {
+	content: "\f147";
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	left: 0px;
+	top: 7px;
+	color: #faa026;
+	font-size: 24px;
+	font-family: dashicons;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	line-height: 11px;
+}
+.pok-setting .setting-table .setting-option .allowed-vendor-setting-options input:disabled + label {
+	color: rgba(0,0,0,.3);
+	cursor: not-allowed;
+}
+.pok-setting .setting-table .setting-option .allowed-vendor-setting-options input:disabled + label:before {
+	background: #e0e0e0;
+	opacity: 0;
+}
+.pokmv-notice {
+	background: #fff;
+	border-left: 4px solid #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	padding: 1px 12px;
+}
+.pok-report #col-left {
+	width: 65%;
+}
+.pok-report #col-right {
+	width: 35%;
+}
+.pokmv-vendors .widefat th {
+	padding: 0 10px;
+}
+.pokmv-vendors .column-action {
+	width: 1%;
+	white-space: nowrap;
+}
+.pokmv-vendors a {
+	cursor: pointer;
+}
+.pokmv-vendors .column-action .delete {
+	color: #a00;
+}
+.pokmv-vendors .actions input[name="s"] {
+	height: 28px;
+}
+.pokmv-vendors .actions select {
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+}
+.pokmv-vendors .setting-section .back {
+	background-color: #fff;
+	display: inline-block;
+	margin-bottom: 15px;
+	text-decoration: none;
+	padding: 2px 8px 2px 2px;
+	border: 1px solid #ddd;
+}
+.pokmv-vendor-edit {
+	display: flex;
+}
+.pokmv-vendor-edit-side {
+	width: 280px;
+	flex-shrink: 0;
+	background: #f8f8f8;
+	padding: 20px;
+}
+.pokmv-vendor-edit-side h5 {
+	margin-top: 0;
+	margin-bottom: 2px;
+	font-weight: normal;
+	opacity: .7;
+}
+.pokmv-vendor-edit-side h4 {
+	margin: 0;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service > div {
+	margin-bottom: 10px;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service > div > p {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service {
+	background: transparent;
+	border: 0;
+	padding: 0;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options {
+	border: 1px solid #ccc;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options input {
+	display: none;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options label {
+	background-color: #f8f8f8;
+	margin-bottom: 2px;
+	margin-top: 0;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 25px;
+	padding-right: 5px;
+	position: relative;
+	color: rgba(0,0,0,.7);
+	display: block;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options.pro label {
+	max-width: none;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options label:before {
+	content: '';
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options input:checked + label {
+	color: #444;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options input:checked + label:after {
+	content: "\f147";
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	left: 0px;
+	top: 7px;
+	color: #faa026;
+	font-size: 24px;
+	font-family: dashicons;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	line-height: 11px;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options input:disabled + label {
+	color: rgba(0,0,0,.3);
+	cursor: not-allowed;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options input:disabled + label:before {
+	background: #e0e0e0;
+	opacity: 0;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options h5 {
+	padding: 6px 10px 0;
+	font-weight: 700;
+	margin: 0;
+	font-size: 13px;
+	cursor: pointer;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options p {
+	font-weight: normal;
+	color: #999;
+	margin: 0;
+	font-size: 12px;
+	display: block;
+	padding: 0 10px 6px;
+	cursor: pointer;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options .courier-service-options {
+	display: none;
+	column-count: 2;
+	padding: 12px;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options.expand .courier-service-options {
+	display: block;
+}
+.pokmv-vendors .setting-option .options-specific-vendor-service .service-options input:disabled + label:before {
+	background: #e0e0e0;
+	opacity: 0;
+}

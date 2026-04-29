@@ -1,0 +1,908 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tonjoo Payment Confirmation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-25 01:35+0000\n"
+"PO-Revision-Date: 2022-03-24 06:55+0000\n"
+"Last-Translator: admin <gama@tonjoo.com>\n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.4.2"
+
+#: libs/tonjoo-license/view/license-manager.php:214
+#: libs/tonjoo-license/view/license-manager.php:217
+#, php-format
+msgid "(expired soon, <a href=\"%s\" target=\"_blank\">click to renew</a>)"
+msgstr ""
+"(segera berakhir, <a href=\"%s\" target=\"_blank\">klik untuk "
+"memperpanjang</a>)"
+
+#: classes/class-tpc-email-new-submission.php:51
+msgid "[{site_title}]: Payment received for #{order_number}"
+msgstr "[{site_title}]: Pembayaran diterima untuk #{order_number}"
+
+#: libs/tonjoo-license/view/license-manager.php:173
+msgid "Activated"
+msgstr "Aktif"
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:338
+msgid "Activation Success"
+msgstr "Aktivasi Sukses"
+
+#: views/admin/setting-form.php:42
+msgid "Additional class"
+msgstr "Class tambahan"
+
+#: views/admin/setting-email.php:10
+msgid ""
+"Additional messages will be attached to the email sent to the customer after "
+"the order is placed. The placeholder [confirmation_url] will generate the "
+"confirmation page url."
+msgstr ""
+"Konten tambahan yang akan ditampilkan pada email setelah customer melakuan "
+"order. Placeholder [confirmation_url] akan diganti dengan url halaman "
+"konfirmasi."
+
+#: views/admin/setting-email.php:6
+msgid "Additional on-hold order email content"
+msgstr "Konten tambahan pada email order on-hold"
+
+#: classes/class-tpc-wc-hooks.php:223
+msgid "All Status"
+msgstr "Semua Status"
+
+#: classes/class-tpc-admin.php:651
+msgid "Are you sure ?"
+msgstr "Apakah Anda yakin ?"
+
+#: classes/class-tpc-fields.php:112
+msgid "Attached Photo"
+msgstr "Lampiran Foto"
+
+#: views/admin/metabox-order.php:36
+msgid "Attached photo"
+msgstr "Lampiran foto"
+
+#: views/admin/setting-form.php:8
+msgid "Available Fields"
+msgstr "Field yang Tersedia"
+
+#: classes/class-tpc-fields.php:79 classes/class-tpc-report-table.php:172
+#: views/admin/setting-general.php:123
+msgid "Bank"
+msgstr "Bank"
+
+#: classes/class-tpc-fields.php:83
+msgid "Bank options (separate with comma)"
+msgstr "Pilihan bank (pisahkan dengan koma)"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:113
+msgid "Can't connect to server. Please try again."
+msgstr "Tidak dapat terhubung dengan server. Silahkan coba lagi."
+
+#: views/admin/metabox-order.php:48
+msgid "Cancel"
+msgstr "Batal"
+
+#: libs/tonjoo-license/view/license-manager.php:205
+msgid "Check License"
+msgstr "Cek Lisensi"
+
+#: views/admin/metabox-order-view.php:47 views/admin/metabox-order-view.php:58
+msgid "Click here to edit"
+msgstr "Klik disini untuk menyunting"
+
+#: views/admin/setting-form.php:9
+msgid ""
+"Click on these buttons to add the field to the form. Each field can only be "
+"used once."
+msgstr ""
+"Klik pada tombol-tombol berikut untuk menambahkan field ke dalam form. "
+"Setiap field hanya bisa digunakan sekali."
+
+#: classes/class-tpc-wc-hooks.php:137 views/admin/metabox-order-view.php:52
+msgid "Confirm"
+msgstr "Konfirmasi"
+
+#: classes/class-tpc-admin.php:602 classes/class-tpc-wc-hooks.php:158
+msgid "Confirm Payment"
+msgstr "Konfirmasi Pembayaran"
+
+#: classes/class-tpc-admin.php:512
+msgid "Confirm payment"
+msgstr "Konfirmasi pembayaran"
+
+#: classes/class-tpc-admin.php:598
+msgid "Confirm payment: "
+msgstr "Konfirmasi pembayaran:"
+
+#: classes/class-tpc-admin.php:603
+msgid "Confirm the payment"
+msgstr "Konfirmasi pembayaran"
+
+#: classes/class-tpc-admin.php:265 classes/class-tpc-admin.php:273
+#: classes/class-tpc-admin.php:480
+msgid "Confirmation"
+msgstr "Konfirmasi"
+
+#: views/admin/setting-general.php:9
+msgid "Confirmation Page"
+msgstr "Halaman Konfirmasi"
+
+#: views/admin/setting-general.php:15
+msgid ""
+"Confirmation Page are unavailable until the license is activated. Please "
+"activate the license."
+msgstr ""
+"Halaman Konfirmasi tidak dapat digunakan jika lisensi tidak aktif. Mohon "
+"aktifkan lisensi terlebih dulu."
+
+#: views/admin/setting-general.php:25
+msgid "Confirmation page is not found."
+msgstr "Halaman konfirmasi tidak ditemukan."
+
+#: classes/class-tpc-admin.php:103
+msgid "Confirmations"
+msgstr "Konfirmasi"
+
+#: classes/class-tpc-report-table.php:204
+#: classes/class-tpc-report-table.php:220
+msgid "Confirmed"
+msgstr "Terkonfirmasi"
+
+#: views/admin/setting-general.php:48
+msgid "Confirmed Order Status"
+msgstr "Status Order yang Pembayarannya Terkonfirmasi"
+
+#: classes/class-tpc-email-confirmed-payment.php:23
+msgid "Confirmed payment"
+msgstr "Pembayaran terkonfirmasi"
+
+#: views/admin/setting-general.php:26
+#, php-format
+msgid ""
+"Create the page with clicking <strong>Generate Page</strong> or create a "
+"page with following shortcode: %s"
+msgstr ""
+"Buat halaman konfirmasi dengan mengklik <strong>Buat Laman</strong> atau "
+"buat sebuah laman dengan shortcode berikut: %s"
+
+#: views/admin/setting-form.php:18
+msgid "Custom CSS"
+msgstr "CSS Kustom"
+
+#: classes/class-tpc-fields.php:90
+msgid "Customer Bank"
+msgstr "Bank Customer"
+
+#: classes/class-tpc-fields.php:101
+msgid "Customer Bank Account"
+msgstr "Nama Rekening Customer"
+
+#: classes/class-tpc-fields.php:47
+msgid "Customer Email"
+msgstr "Email Customer"
+
+#: classes/class-tpc-fields.php:58
+msgid "Customer Name"
+msgstr "Nama Customer"
+
+#: libs/tonjoo-license/view/license-manager.php:203
+msgid "Deactivate"
+msgstr "Nonaktifkan"
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:397
+msgid "Deactivation Success"
+msgstr "Berhasil dinonaktifkan"
+
+#: views/admin/setting.php:9
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+#: classes/class-tpc-admin.php:275 views/admin/setting-general.php:21
+msgid "Edit Page"
+msgstr "Edit Laman"
+
+#: classes/class-tpc-wc-hooks.php:156
+msgid "Edit Payment Confirmation"
+msgstr "Edit "
+
+#: classes/class-tpc-admin.php:130
+msgid "Email"
+msgstr "Email"
+
+#: classes/class-tpc-email-new-submission.php:24
+msgid ""
+"Email sent to the admin when a customer submits a new payment confirmation."
+msgstr ""
+"Email yang dikirim ke admin ketika ada customer yang mengirimkan konfirmasi "
+"pembayaran."
+
+#: classes/class-tpc-email-confirmed-payment.php:24
+msgid "Email sent to the customer when admin confirms the payment."
+msgstr "Email yang dikirim ke customer setelah admin mengonfirmasi pembayaran."
+
+#: classes/class-tpc-email-rejected-payment.php:24
+msgid "Email sent to the customer when admin rejects the payment."
+msgstr "Email yang dikirim ke customer ketika admin menolak pembayaran."
+
+#: views/admin/setting-messages.php:65
+msgid "Error - Date Format"
+msgstr "Error - Format Tanggal"
+
+#: views/admin/setting-messages.php:33
+msgid "Error - Email Format"
+msgstr "Error - Format Email"
+
+#: views/admin/setting-messages.php:97
+msgid "Error - Failed to Upload"
+msgstr "Error - Gagal Mengunggah"
+
+#: views/admin/setting-messages.php:81
+msgid "Error - File Size"
+msgstr "Error - Ukuran Berkas"
+
+#: views/admin/setting-messages.php:89
+msgid "Error - File Type"
+msgstr "Error - Tipe Berkas"
+
+#: views/admin/setting-messages.php:113
+msgid "Error - Invalid Recaptcha"
+msgstr "Error - Kesalahan Recaptcha"
+
+#: views/admin/setting-messages.php:49
+msgid "Error - Order & Email Not Found"
+msgstr "Error - Order & Email Tidak Ditemukan"
+
+#: views/admin/setting-messages.php:41
+msgid "Error - Order Not Found"
+msgstr "Error - Order Tidak Ditemukan"
+
+#: views/admin/setting-messages.php:57
+msgid "Error - Pending Order & Email Not Found"
+msgstr "Error - Order Pending & Email Tidak Ditemukan"
+
+#: views/admin/setting-messages.php:105
+msgid "Error - Recaptcha Required"
+msgstr "Error - Recaptcha Belum Dicentang"
+
+#: views/admin/setting-messages.php:25
+msgid "Error - Required Fields"
+msgstr "Error - Field Wajib Diisi"
+
+#: views/admin/setting-messages.php:73
+msgid "Error - Required File"
+msgstr "Error - Berkas Diperlukan"
+
+#: views/admin/setting-messages.php:121
+msgid "Error - Submission Limit Reached"
+msgstr "Error - Batas Pengiriman"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:136
+#: libs/tonjoo-license/tonjoo-license-api.php:163
+#: libs/tonjoo-license/tonjoo-license-api.php:205
+#: libs/tonjoo-license/tonjoo-license-api.php:262
+#: libs/tonjoo-license/tonjoo-license-api.php:328
+#, php-format
+msgid "Error: %s. Please contact us through the forum to resolve this."
+msgstr "Error: %s. Silahkan hubungi kami melalui forum untuk mengatasi ini."
+
+#: libs/tonjoo-license/tonjoo-license-api.php:128
+#: libs/tonjoo-license/tonjoo-license-api.php:147
+#: libs/tonjoo-license/tonjoo-license-api.php:192
+#: libs/tonjoo-license/tonjoo-license-api.php:249
+#, php-format
+msgid "Error: %s. Please try again."
+msgstr "Error: %s. Silahkan coba lagi."
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:305
+#: libs/tonjoo-license/tonjoo-license-handler.php:384
+msgid "Error: Authentication Failed. Please try again"
+msgstr "Error: Autentikasi Gagal. Silahkan coba lagi"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:240
+#: libs/tonjoo-license/tonjoo-license-api.php:268
+#: libs/tonjoo-license/tonjoo-license-api.php:308
+#: libs/tonjoo-license/tonjoo-license-handler.php:204
+#: libs/tonjoo-license/tonjoo-license-manager.php:267
+msgid "Error: Can't connect to server"
+msgstr "Error: Tidak dapat terhubung dengan server"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:102
+#: libs/tonjoo-license/tonjoo-license-api.php:181
+#: libs/tonjoo-license/tonjoo-license-api.php:222
+#: libs/tonjoo-license/tonjoo-license-api.php:283
+msgid "Error: License key is empty"
+msgstr "Error: Kode lisensi kosong"
+
+#: libs/tonjoo-license/tonjoo-license-api.php:123
+msgid ""
+"Error: The license is already in use. If you sure this license is belongs to "
+"you and no other sites are using this license, please contact us at the "
+"forum."
+msgstr ""
+"Error: Lisensi telah digunakan. Jika Anda yakin lisensi ini adalah milik "
+"Anda dan tidak ada website lain yang menggunakannya, silahkan kontak kami "
+"melalui forum."
+
+#: libs/tonjoo-license/view/license-manager.php:183
+msgid "Expired"
+msgstr "Berakhir"
+
+#: libs/tonjoo-license/view/license-manager.php:220
+#, php-format
+msgid "Expired at: %s"
+msgstr "Berakhir pada: %s"
+
+#: views/admin/setting-messages.php:17
+msgid "Failed Submission"
+msgstr "Ketika Gagal Mengirim"
+
+#: views/admin/setting-form.php:27
+msgid "Field Setting"
+msgstr "Pengaturan Field"
+
+#: views/admin/setting-general.php:101
+#, php-format
+msgid ""
+"Fill this field with your custom URL if you want redirect user after "
+"successful form submission. You can also use %s on the URL to generate the "
+"Order ID."
+msgstr ""
+"Isi field ini dengan URL kustom jika Anda ingin mengalihkan user ke halaman "
+"lain setelah berhasil mengirim konfirmasi pembayaran. Anda juga bisa "
+"menggunakan %s pada URL untuk menampilkan Order ID."
+
+#: classes/class-tpc-admin.php:122
+msgid "Form"
+msgstr "Form"
+
+#: classes/class-tpc-admin.php:118
+msgid "General"
+msgstr "Umum"
+
+#: views/admin/setting-general.php:28
+msgid "Generate Page"
+msgstr "Buat Laman"
+
+#: views/admin/setting-general.php:43
+msgid "Give a check on the payment method that needs confirmation."
+msgstr ""
+"Berikan centang pada metode pembayaran yang butuh proses konfirmasi "
+"pembayaran."
+
+#: classes/class-tpc-email-new-submission.php:119
+msgid "Go visit your site dashboard to check the details."
+msgstr "Silahkan cek dashboard website Anda untuk melihat detilnya."
+
+#: libs/tonjoo-license/view/license-manager.php:246
+msgid "Have you tried our other cool stuffs?"
+msgstr "Sudahkah Anda mencoba produk kami lainnya?"
+
+#: libs/tonjoo-license/view/license-manager.php:257
+msgid "Help Center"
+msgstr "Pusat Bantuan"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:125
+msgid "Hide Notice"
+msgstr "Jangan Tampilkan Lagi"
+
+#. Author URI of the plugin
+msgid "http://www.tonjoostudio.com/"
+msgstr "http://www.tonjoostudio.com/"
+
+#. URI of the plugin
+msgid "http://www.tonjoostudio.com/product/plugin-konfirmasi-pembayaran"
+msgstr "http://www.tonjoostudio.com/product/plugin-konfirmasi-pembayaran"
+
+#: libs/tonjoo-license/view/license-manager.php:267
+msgid "I have a problem with my license"
+msgstr "Saya mempunayi masalah dengan lisensi saya"
+
+#: libs/tonjoo-license/view/license-manager.php:263
+msgid "I want to upgrade/renew my license"
+msgstr "Saya ingin mengupgrade lisensi saya"
+
+#: libs/tonjoo-license/view/license-manager.php:222
+msgid "Input your license key"
+msgstr "Masukkan kode lisensi"
+
+#: views/admin/metabox-order-view.php:37
+#, php-format
+msgid "It was confirmed by admin on %s."
+msgstr "Telah terkonfirmasi oleh admin pada %s."
+
+#: views/admin/metabox-order-view.php:39
+#, php-format
+msgid "It was rejected by admin on %s"
+msgstr "Telah ditolak oleh admin pada %s"
+
+#: libs/tonjoo-license/view/license-manager.php:230
+msgid "Last Check"
+msgstr "Terakhir Dicek"
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:369
+#: libs/tonjoo-license/tonjoo-license-handler.php:415
+msgid "License key is empty"
+msgstr "Kode lisensi kosong"
+
+#: libs/tonjoo-license/view/license-manager.php:165
+msgid "License Status"
+msgstr "Status Lisensi"
+
+#: views/admin/setting-general.php:92
+msgid ""
+"Limit how many times the customer can send the payment confirmation for each "
+"order. The limits will prevent spam on the form. Leave it empty if you dont "
+"want to limit the submission."
+msgstr ""
+"Tentukan batas berapa kali customer dapat mengirimkan konfirmasi pembayaran "
+"untuk setiap order. Batasan ini juga dapat mencegah spam. Biarkan kosong "
+"jika Anda tidak ingin menerapkan batas pada pengiriman konfirmasi."
+
+#: views/admin/setting-general.php:76
+msgid "Make The Form Only Accessible to Logged In Users"
+msgstr "Buat Form Konfirmasi Hanya Dapat Diakses Oleh User yang Sudah Login"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:124
+msgid "Manage License"
+msgstr "Kelola Lisensi"
+
+#: classes/class-tpc-fields.php:116
+msgid "Max file size"
+msgstr "Ukuran maksimal berkas"
+
+#: views/admin/setting-general.php:110
+msgid ""
+"Message that will appear on the thankyou page. The placeholder "
+"[confirmation_url] will generate the confirmation page url."
+msgstr ""
+"Pesan yang akan tampil pada halaman thankyou. Placeholder [confirmation_url] "
+"akan diganti dengan url halaman konfirmasi."
+
+#: classes/class-tpc-admin.php:126
+msgid "Messages"
+msgstr "Pesan"
+
+#: libs/tonjoo-license/view/license-manager.php:260
+msgid "My Licenses"
+msgstr "Lisensi Saya"
+
+#: classes/class-tpc-email-new-submission.php:23
+msgid "New payment confirmation"
+msgstr "Konfirmasi pembayaran baru"
+
+#: classes/class-tpc-report-table.php:68
+msgid "No order found"
+msgstr "Tidak ada pesanan ditemukan"
+
+#: libs/tonjoo-license/view/license-manager.php:189
+msgid "Not Activated"
+msgstr "Tidak Aktif"
+
+#: classes/class-tpc-fields.php:123
+msgid "Note"
+msgstr "Catatan"
+
+#: classes/class-tpc-report-table.php:157
+msgid "Order"
+msgstr "Order"
+
+#: classes/class-tpc-report-table.php:160 views/admin/setting-general.php:119
+msgid "Order Date"
+msgstr "Tgl. Order"
+
+#: classes/class-tpc-fields.php:36
+msgid "Order ID"
+msgstr "Order ID"
+
+#: classes/class-tpc-admin.php:654
+msgid "Order ID and Customer Email must be in the form"
+msgstr "Order ID dan Email Customer harus ada di dalam form"
+
+#: classes/class-tpc-admin.php:306
+msgid "Order ID not found"
+msgstr "Order ID tidak ditemukan"
+
+#: classes/class-tpc-admin.php:416 classes/class-tpc-admin.php:445
+msgid "Order not found"
+msgstr "Order tidak ditemukan"
+
+#: classes/class-tpc-report-table.php:178 views/admin/setting-general.php:125
+msgid "Order Status"
+msgstr "Status Order"
+
+#: classes/class-tpc-report-table.php:163 views/admin/setting-general.php:120
+msgid "Order Total"
+msgstr "Total"
+
+#: classes/class-tpc-admin.php:104
+msgid "Orders"
+msgstr "Orders"
+
+#: classes/class-tpc-admin.php:531 classes/class-tpc-admin.php:536
+msgid "Orders updated"
+msgstr "Order diupdate"
+
+#: classes/class-tpc-admin.php:673
+msgid "Payment Confirmation"
+msgstr "Konfirmasi pembayaran"
+
+#: classes/class-tpc-admin.php:549
+msgid "Payment confirmation"
+msgstr "Konfirmasi pembayaran"
+
+#: classes/class-tpc-admin.php:626
+msgid "Payment Confirmation Page"
+msgstr "Payment Confirmation Page"
+
+#: views/admin/setting-no-wc.php:2 views/admin/setting.php:2
+msgid "Payment Confirmation Settings"
+msgstr "Pengaturan Konfirmasi Pembayaran"
+
+#: classes/class-tpc-wc-hooks.php:220
+msgid "Payment Confirmations"
+msgstr "Konfirmasi Pembayaran"
+
+#: classes/class-tpc-admin.php:406 classes/class-tpc-admin.php:461
+#, php-format
+msgid "Payment confirmed. Order status for %s has changed to %s."
+msgstr "Pembayaran terkonfirmasi. Status order %s berubah menjadi %s."
+
+#: views/admin/setting-general.php:34
+msgid "Payment Methods"
+msgstr "Metode Pembayaran"
+
+#: classes/class-tpc-email-new-submission.php:60
+msgid "Payment received for #{order_number}"
+msgstr "Pembayaran diterima untuk #{order_number}"
+
+#: classes/class-tpc-admin.php:435 classes/class-tpc-admin.php:464
+#, php-format
+msgid "Payment rejected. Order status for %s has changed to %s."
+msgstr "Pembayaran ditolak. Status order %s berubah menjadi %s."
+
+#: classes/class-tpc-report-table.php:181 views/admin/setting-general.php:126
+msgid "Payment Status"
+msgstr "Status Bayar"
+
+#: classes/class-tpc-report-table.php:175 views/admin/setting-general.php:124
+msgid "Photo"
+msgstr "Foto"
+
+#: classes/class-tpc-fields.php:40 classes/class-tpc-fields.php:51
+#: classes/class-tpc-fields.php:62 classes/class-tpc-fields.php:94
+#: classes/class-tpc-fields.php:105 classes/class-tpc-fields.php:127
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:95
+#, php-format
+msgid "Please activate your <strong>%s</strong> license."
+msgstr "Harap aktivasi lisensi <strong>%s</strong> Anda."
+
+#: classes/class-tpc-email-rejected-payment.php:118
+msgid "Please make sure you have completed the payment."
+msgstr "Mohon pastikan Anda telah melakukan pembayaran."
+
+#: classes/class-tpc-admin.php:652
+msgid ""
+"Please tell the reason why you reject this payment. We will notify the "
+"customer about it."
+msgstr ""
+"Mohon tuliskan alasan kenapa kamu menolak pembayaran ini. Kami akan memberi "
+"tahu customer tentang ini."
+
+#. Description of the plugin
+msgid "Plugin for payment confirmation woocommerce."
+msgstr "Plugin untuk konfirmasi pembayaran woocommerce."
+
+#. Name of the plugin
+msgid "Plugin Konfirmasi Pembayaran"
+msgstr "Plugin Konfirmasi Pembayaran"
+
+#: classes/class-tpc-admin.php:499
+msgid "Quick View"
+msgstr "Quick View"
+
+#: classes/class-tpc-fields.php:134
+msgid "Recaptcha V2"
+msgstr "Recaptcha V2"
+
+#: views/admin/setting-general.php:97
+msgid "Redirect After Submission"
+msgstr "Redirect Setelah Mengirim"
+
+#: views/admin/metabox-order-view.php:53
+msgid "Reject"
+msgstr "Tolak"
+
+#: classes/class-tpc-admin.php:608
+msgid "Reject Payment"
+msgstr "Tolak pembayaran"
+
+#: classes/class-tpc-admin.php:513
+msgid "Reject payment"
+msgstr "Tolak pembayaran"
+
+#: classes/class-tpc-admin.php:609
+msgid "Reject the payment"
+msgstr "Tolak pembayaran"
+
+#: classes/class-tpc-report-table.php:206
+msgid "Rejected"
+msgstr "Ditolak"
+
+#: views/admin/setting-general.php:62
+msgid "Rejected Order Status"
+msgstr "Status Order yang Pembayarannya Ditolak"
+
+#: classes/class-tpc-email-rejected-payment.php:23
+msgid "Rejected payment"
+msgstr "Pembayaran tertolak"
+
+#: libs/tonjoo-license/view/license-manager.php:205
+msgid "Renew License"
+msgstr "Perbarui Lisensi"
+
+#: classes/class-tpc-admin.php:105
+msgid "Report"
+msgstr "Rekap"
+
+#: views/admin/setting-general.php:115
+msgid "Report Columns"
+msgstr "Kolom Rekap"
+
+#: views/admin/setting-form.php:33
+msgid "Required field?"
+msgstr "Wajib diisi?"
+
+#: views/admin/setting.php:24
+msgid "Save Setting"
+msgstr "Simpan Pengaturan"
+
+#: classes/class-tpc-fields.php:142
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: views/admin/setting-general.php:128
+msgid "Select columns you want to display in the report page."
+msgstr "Pilih kolom yang ingin Anda tampilkan pada halaman rekap."
+
+#: views/admin/setting-general.php:57
+msgid "Set order status after admin confirm the payment."
+msgstr ""
+"Pilih status yang akan dipasangkan ke order jika admin mengonfirmasi "
+"pembayaran."
+
+#: views/admin/setting-general.php:71
+msgid "Set order status after admin reject the payment."
+msgstr ""
+"Pilih status yang akan dipasangkan ke order jika admin menolak pembayaran."
+
+#: tonjoo-payment-confirmation.php:94 classes/class-tpc-admin.php:106
+#: classes/class-tpc-admin.php:106
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: classes/class-tpc-admin.php:208
+msgid "Settings saved"
+msgstr "Pengaturan telah tersimpan"
+
+#: classes/class-tpc-fields.php:138
+msgid "Site Key"
+msgstr "Site Key"
+
+#: classes/class-tpc-email-rejected-payment.php:49
+msgid ""
+"Sorry, we did not receive your payment for order #{order_number} on "
+"{site_title}"
+msgstr ""
+"Maaf, kami belum menerima pembayaran untuk #{order_number} di {site_title}"
+
+#: views/emails/customer-rejected-payment.php:19
+msgid "Sorry, we have to reject your payment this order:"
+msgstr "Maaf, kami menolak pembayaran Anda untuk order ini:"
+
+#: views/admin/setting-general.php:88
+msgid "Submission Limit"
+msgstr "Batas Pengiriman"
+
+#: views/front/form-payment-confirmation.php:29
+msgid "Submit"
+msgstr "Kirim"
+
+#: classes/class-tpc-admin.php:410 classes/class-tpc-admin.php:439
+msgid "Success"
+msgstr "Sukses"
+
+#: views/admin/setting-messages.php:9
+msgid "Successful Submission"
+msgstr "Pengiriman Sukses"
+
+#: views/admin/setting.php:10 libs/tonjoo-license/view/license-manager.php:268
+msgid "Support Forum"
+msgstr "Forum Dukungan"
+
+#: classes/class-tpc-email-confirmed-payment.php:118
+msgid "Thank you. Your order will be processed soon."
+msgstr "Terima kasih. Order Anda akan kami proses segera."
+
+#: classes/class-tpc-email-confirmed-payment.php:58
+msgid "Thankyou for your payment"
+msgstr "Terima kasih atas pembayaran Anda"
+
+#: views/admin/setting-general.php:106
+msgid "Thankyou Page Content"
+msgstr "Konten Halaman Thankyou"
+
+#: views/admin/metabox-order-view.php:58
+msgid "The customer has not sent the proof of payment yet."
+msgstr "Customer belum mengirim bukti pembayaran."
+
+#: views/admin/metabox-order-view.php:32
+#, php-format
+msgid "The customer has sent the proof of payment on %s."
+msgstr "Customer telah mengirim bukti pembayaran pada %s."
+
+#: classes/class-tpc-form.php:330
+msgid "The customer sends the payment confirmation."
+msgstr "Customer telah mengirim konfirmasi pembayaran."
+
+#: classes/class-tpc-admin.php:362
+msgid "The payment has been confirmed."
+msgstr "Pembayaran telah terkonfirmasi."
+
+#: classes/class-tpc-admin.php:387
+msgid "The payment has been rejected."
+msgstr "Pembayaran ditolak."
+
+#: views/emails/customer-rejected-payment.php:32
+msgid "The reason:"
+msgstr "Alasan:"
+
+#: views/admin/setting-email.php:14
+#, php-format
+msgid ""
+"There are also 3 email notifications for payment confirmation. An email will "
+"be sent to the admin when the customer submits a new payment confirmation, "
+"and 2 emails will be sent to the customers when the admin confirms or "
+"rejects the payment. You can change these emails setting in %s."
+msgstr ""
+"Disini juga ada 3 notifikasi email untuk konfirmasi pembayaran. Sebuah email "
+"akan dikirim ke admin ketika customer mengirim konfirmasi pembayaran, "
+"sedangkan 2 email akan dikirim ke customer ketika admin mengnfirmasi atau "
+"menolak pembayaran. Anda bisa mengubah pengaturan email ini di %s."
+
+#: views/admin/setting-general.php:83
+msgid "This feature will prevent spams from unauthorized users."
+msgstr ""
+"Fitur ini akan mengurangi spam oleh orang yang tidak bertanggung jawab."
+
+#: views/admin/setting-no-wc.php:5
+msgid "This plugin only works if WooCommerce installed and activated."
+msgstr "Plugin ini hanya bekerja jika WooCommerce aktif."
+
+#. Author of the plugin
+msgid "Tonjoo Studio"
+msgstr "Tonjoo Studio"
+
+#: classes/class-tpc-fields.php:74 classes/class-tpc-report-table.php:166
+#: views/admin/setting-general.php:121
+msgid "Transfer Amount"
+msgstr "Jumlah Transfer"
+
+#: classes/class-tpc-fields.php:69 classes/class-tpc-report-table.php:169
+#: views/admin/setting-general.php:122
+msgid "Transfer Date"
+msgstr "Tanggal Transfer"
+
+#: classes/class-tpc-admin.php:321
+msgid "Transfer date format not valid"
+msgstr "Format tanggal transfer tidak valid"
+
+#: libs/tonjoo-license/view/license-manager.php:171
+msgid "Trial Activated"
+msgstr "Trial Aktif"
+
+#: libs/tonjoo-license/view/license-manager.php:181
+msgid "Trial Expired"
+msgstr "Trial Berakhir"
+
+#: views/admin/metabox-order.php:47
+msgid "Update"
+msgstr "Update"
+
+#: libs/tonjoo-license/view/license-manager.php:264
+msgid "Upgrade License"
+msgstr "Upgrade License"
+
+#: views/admin/setting-form.php:19
+msgid "Use this field to add custom style to your form"
+msgstr "Gunakan field ini untuk menambahkan CSS ke dalam website Anda"
+
+#: libs/tonjoo-license/view/license-manager.php:211
+#, php-format
+msgid "Valid until: %s"
+msgstr "Berlaku hingga: %s"
+
+#: classes/class-tpc-report-table.php:245
+msgid "View"
+msgstr "Lihat"
+
+#: classes/class-tpc-admin.php:276 views/admin/setting-general.php:22
+msgid "View Page"
+msgstr "Lihat Laman"
+
+#: classes/class-tpc-report-table.php:201
+#: classes/class-tpc-report-table.php:208
+#: classes/class-tpc-report-table.php:218
+msgid "Waiting"
+msgstr "Menunggu"
+
+#: classes/class-tpc-wc-hooks.php:66 classes/class-tpc-wc-hooks.php:82
+msgid "Waiting Confirmation"
+msgstr "Menunggu Konfirmasi"
+
+#: classes/class-tpc-email-rejected-payment.php:58
+msgid "We did not receive your payment"
+msgstr "Kami belum menerima pembayaran"
+
+#: views/emails/customer-confirmed-payment.php:19
+msgid "We have confirms your payment for this order:"
+msgstr "Kami telah mengonfirmasi pembayaran Anda untuk order ini:"
+
+#: classes/class-tpc-email-confirmed-payment.php:49
+msgid "We received your payment for order #{order_number} on {site_title}"
+msgstr ""
+"Kami telah menerima pembayaran Anda untuk order #{order_number} pada "
+"{site_title}"
+
+#: libs/tonjoo-license/view/license-manager.php:259
+msgid "Where can I get my licenses?"
+msgstr "Dimana saya dapat melihat lisensi saya"
+
+#: views/admin/metabox-order-view.php:42
+#, php-format
+msgid "with reason %s"
+msgstr "dengan alasan %s"
+
+#: libs/tonjoo-license/view/license-manager.php:196
+msgid "Your License Code"
+msgstr "Kode Lisensi Anda"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:92
+#, php-format
+msgid "Your license for <strong>%s</strong> has expired."
+msgstr "Lisensi Anda untuk <strong>%s</strong> telah berakhir."
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:99
+#, php-format
+msgid "Your license for <strong>%s</strong> will ended soon."
+msgstr "Lisensi Anda untuk <strong>%s</strong> akan segera berakhir."
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:322
+#, php-format
+msgid "Your license has expired at %s"
+msgstr "Lisensi Anda telah berakhir pada %s"
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:90
+#, php-format
+msgid "Your trial for <strong>%s</strong> has ended."
+msgstr "Trial Anda untuk <strong>%s</strong> telah berakhir."
+
+#: libs/tonjoo-license/tonjoo-license-manager.php:101
+#, php-format
+msgid "Your trial license for <strong>%s</strong> will ended soon."
+msgstr "Trial Anda untuk <strong>%s</strong> akan segera berakhir."
+
+#. %s: Customer billing full name
+#: views/emails/admin-new-payment-confirmation.php:20
+#, php-format
+msgid "You’ve received a payment from %s for this order:"
+msgstr "Anda menerima pembayaran dari %s untuk order ini:"

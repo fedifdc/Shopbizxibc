@@ -1,0 +1,4015 @@
+# Translation of YITH WooCommerce Points and Rewards in Romanian
+# This file is distributed under the same license as the YITH WooCommerce Points and Rewards package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-03 15:10:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ro\n"
+"Project-Id-Version: YITH WooCommerce Points and Rewards\n"
+
+#: assets/js/blocks/blocks.js:1
+#: includes/blocks/src/blocks/ywpar-rewards-points-message/index.js:10
+msgid "Show rewards points message in cart and checkout."
+msgstr "Afișați mesajul cu punctele de recompensă în coș și în finalizarea comenzii."
+
+#: assets/js/blocks/blocks.js:1
+#: includes/blocks/src/blocks/ywpar-rewards-points-message/index.js:9
+msgid "Rewards Points Message for cart and checkout"
+msgstr "Mesaj cu puncte de recompensă pentru coș și finalizare"
+
+#: assets/js/blocks/blocks.js:1
+#: includes/blocks/src/blocks/ywpar-cart-points-message/index.js:10
+msgid "Show points message in cart and checkout."
+msgstr "Afișați mesajul cu puncte în coș și finalizarea comenzii."
+
+#: assets/js/blocks/blocks.js:1
+#: includes/blocks/src/blocks/ywpar-cart-points-message/index.js:9
+msgid "Points Message for cart and checkout"
+msgstr "Afișați mesajul cu puncte în coș și finalizarea comenzii."
+
+#: plugin-options/gutenberg/blocks.php:148
+msgctxt "[gutenberg]: block description"
+msgid "Show messages about thresholds achieved on Cart & Checkout pages"
+msgstr "Afișați mesaje despre pragurile atinse în paginile Coș și finalizarea comenzii"
+
+#: plugin-options/gutenberg/blocks.php:147
+msgctxt "[gutenberg]: block name"
+msgid "Threshold Points Message - YITH WooCommerce Points and Rewards"
+msgstr "Mesaj pentru puncte de prag - YITH WooCommerce Points and Rewards"
+
+#. translators:Placeholder: label of points.
+#: templates/myaccount/ywpar-share-points.php:65
+msgctxt "Placeholder: label of points;"
+msgid "Enter the %s to share"
+msgstr "Introduceți %s pentru a distribui"
+
+#. translators:Placeholder: label of points.
+#: templates/myaccount/ywpar-share-points.php:43
+msgctxt "Placeholder: label of points;"
+msgid "At the moment you don't have enough %s to convert"
+msgstr "Momentan nu aveți suficient %s pentru a face conversia"
+
+#. translators:Placeholder: label of points.
+#: templates/myaccount/ywpar-share-points.php:25
+msgctxt "Placeholder: label of points;"
+msgid "Do you want to share your %s? Create a coupon code and share it so it can be used"
+msgstr "Doriți să distribuiți %s-ul dvs.? Creați un cod de cupon și distribuiți-l pentru a putea fi folosit"
+
+#. translators:Placeholder: label of points.
+#: templates/myaccount/ywpar-share-points.php:22
+msgctxt "Placeholder: label of points;"
+msgid "Convert %s in a coupon code"
+msgstr "Convertiți %s într-un cod de cupon"
+
+#. translators:Placeholder: label of points.
+#: templates/myaccount/my-points-view.php:140
+msgctxt "Placeholder: label of points;"
+msgid "Manage %s"
+msgstr "Gestionați %s"
+
+#. translators:Placeholder: label of points.
+#: templates/myaccount/my-points-view.php:127
+msgctxt "Placeholder: label of points;"
+msgid "Get %s!"
+msgstr "Obțineți %s!"
+
+#. translators:Placeholder: label of points.
+#: templates/myaccount/my-points-view.php:107
+msgctxt "Placeholder: label of points;"
+msgid "%s history"
+msgstr "%s istoric"
+
+#: plugin-options/emails-options.php:148
+msgid "value of the discount"
+msgstr "valoarea discount-ului"
+
+#. translators: placeholder is the user id.
+#: includes/class-yith-wc-points-rewards-referral.php:257
+msgid "The referred user with ID (%1$d) has been deleted"
+msgstr "Utilizatorul trimis cu ID (%1$d) a fost șters"
+
+#: includes/class-yith-wc-points-rewards-shortcodes.php:76
+msgid "Your referral link"
+msgstr "Link-ul dvs. de recomandare"
+
+#: includes/class-yith-wc-points-rewards-shortcodes.php:75
+msgid "Share to Earn"
+msgstr "Distribuie pentru a câștiga"
+
+#: includes/class-yith-wc-points-rewards-referral.php:373
+msgid "Get the referral link"
+msgstr "Obțineți linkul de recomandare"
+
+#: includes/class-yith-wc-points-rewards-frontend.php:842
+msgid "Enter points to use"
+msgstr "Introduceți punctele de utilizat"
+
+#: includes/class-yith-wc-points-rewards-admin.php:201
+msgctxt "[HELP TAB] Video title"
+msgid "Check this video to learn how to set up a <b>points and rewards system</b> in your shop:"
+msgstr "Consultați acest videoclip pentru a afla cum să configurați un <b>sistem de puncte și recompense</b> în magazinul dvs.:"
+
+#: plugin-options/points/extra-options.php:305
+msgid "Set how many points to assign to the user that collected the most points"
+msgstr "Setați câte puncte să atribuiți utilizatorului care a adunat cele mai multe puncte"
+
+#: includes/class-yith-wc-points-rewards-referral.php:384
+#: includes/class-yith-wc-points-rewards-share-points.php:285
+msgctxt "Copy-to-clipboard button text"
+msgid "Copy"
+msgstr "Copiaza"
+
+#: includes/class-yith-wc-points-rewards-referral.php:380
+#: includes/class-yith-wc-points-rewards-share-points.php:281
+msgctxt "Copy-to-clipboard message"
+msgid "Copied!"
+msgstr "Copiat"
+
+#: views/tabs/customer-history.php:67
+msgid "Total collected"
+msgstr "Total colectat"
+
+#: views/tabs/bulk-actions.php:25
+msgid "Recalculate total points"
+msgstr "Recalculeaza totalul punctelor"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:51
+#: views/tabs/customer-history.php:74
+msgid "Rank"
+msgstr "Rang"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:50
+#: views/tabs/customer-history.php:64
+msgid "Points to redeem"
+msgstr "Puncte de valorificat"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:291
+msgid "Choose for which tags to apply this rule"
+msgstr "Alegeți pentru ce etichete să aplicați această regulă"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:296
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:296
+msgid "Search for a tag"
+msgstr "Cauta un tag"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:290
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:290
+msgid "Choose tags"
+msgstr "Alege taguri"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:249
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:245
+msgid "Products of specific tags"
+msgstr "Produsele unui tag specific"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:247
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:243
+msgid "On sale products"
+msgstr "Produse cu pret redus"
+
+#: plugin-options/metaboxes/banners-options.php:21
+msgid "Refer a friend "
+msgstr "Recomandați unui prieten"
+
+#: includes/functions-yith-wc-points-rewards.php:375
+msgid "Get %points% for each user that complete an order by clicking on your referral link"
+msgstr "Obțineți %puncte% pentru fiecare utilizator care finalizează o comandă făcând clic pe linkul de recomandare"
+
+#: views/panel/types/shortcode-list.php:31 views/tabs/ranking-tab.php:32
+msgid "Rank Shortcodes"
+msgstr "Cod scurt pentru Rang"
+
+#: plugin-options/customers-tab-options.php:33
+msgid "Ranking"
+msgstr "Ranguri"
+
+#: plugin-options/customers-tab/ranking-options.php:34
+#: plugin-options/customers-tab/ranking-options.php:47
+msgid "Enable to show the customers' ranking in their \"My Account\" page"
+msgstr "Activați pentru a afișa clasarea clienților în pagina lor \"Contul meu\". "
+
+#: plugin-options/customers-tab/ranking-options.php:33
+#: plugin-options/customers-tab/ranking-options.php:46
+msgid "Show ranking in My Account"
+msgstr "Afiseaza clasament in \"Contul Meu\""
+
+#: plugin-options/customers-tab/ranking-options.php:22
+msgid "Enable the ranking of customers by points"
+msgstr "Activati clasamentul utilizatorilor dupa puncte"
+
+#: plugin-options/customers-tab/ranking-options.php:21
+msgid "Enable customer ranking"
+msgstr "Activați clasarea clienților"
+
+#: plugin-options/customers-tab/ranking-options.php:16
+msgid "Customer's ranking"
+msgstr "Clasamentul clientului"
+
+#: templates/myaccount/my-points-view.php:59
+msgctxt "sub title inside my account recap points badge"
+msgid "total collected:"
+msgstr "total colectat:"
+
+#: templates/myaccount/my-points-view.php:52
+msgctxt "sub title inside my account recap points badge"
+msgid "to redeem"
+msgstr "de utilizat"
+
+#: plugin-options/redeem/share-options.php:105
+msgid "days"
+msgstr "zile"
+
+#: plugin-options/metaboxes/banners-options.php:247
+msgid "in Get points tab"
+msgstr "in tabul \"Ia puncte\""
+
+#: plugin-options/metaboxes/banners-options.php:246
+msgid "in Target tab"
+msgstr "in tabul \"Target\""
+
+#: plugin-options/metaboxes/banners-options.php:244
+msgid "Choose in which section to show this banner"
+msgstr "Alegeți în ce secțiune să afișați acest banner"
+
+#: plugin-options/metaboxes/banners-options.php:243
+msgid "Show"
+msgstr "Afiseaza"
+
+#: views/tabs/import_export-tab.php:31
+msgid "Choose the CSV format"
+msgstr "Alege formatul de CSV"
+
+#: plugin-options/redeem/standard-options.php:141
+msgid "Exclude on sale products from the discount amount calculation"
+msgstr "Excludeți produsele la reducere din calculul sumei de reducere"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:225
+msgid "Assign points to the users of a membership"
+msgstr "Atribuiți puncte utilizatorilor unui membru"
+
+#: plugin-options/gutenberg/blocks.php:95
+msgctxt "[gutenberg]: block name"
+msgid "Points message on product page - YITH WooCommerce Points and Rewards"
+msgstr "Mesaj cu puncte pe pagina produsului - YITH WooCommerce Points and Rewards"
+
+#: views/tabs/bulk-actions.php:24
+msgid "Unban Users"
+msgstr "Deblocați utilizatorii"
+
+#: plugin-options/redeem/standard-options.php:124
+msgid "When redeeming, calculate the discount on the product price with:"
+msgstr "La răscumpărare, calculați reducerea la prețul produsului cu:"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:178
+msgid "Choose how to apply the discount. The discount can either be a percentage or a fixed amount"
+msgstr "Alegeți cum să aplicați reducerea. Reducerea poate fi fie un procent sau o sumă fixă"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:235
+msgid "Set how many points to assign to members"
+msgstr "Setați câte puncte să atribuiți membrilor"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:325
+msgid "Select the method to calculate points for affiliates."
+msgstr "Selectați metoda de calculare a punctelor pentru afiliați."
+
+#: views/tabs/import_export-tab.php:18
+msgctxt "Import export panel option"
+msgid "Action to execute"
+msgstr "Acțiune de executat"
+
+#: templates/myaccount/ywpar-share-points.php:92
+msgctxt "Title of table for the shared coupon in My account page"
+msgid "Your coupons:"
+msgstr "Cupoanele dvs.:"
+
+#: templates/myaccount/ywpar-share-points.php:74
+msgctxt "Label of button to convert point on My account page share points tab"
+msgid "Convert"
+msgstr "Converteste"
+
+#. translators: First placeholder: label of points; Second placeholder is worth
+#. price.
+#: templates/myaccount/ywpar-share-points.php:72
+msgctxt "part of a sentence on My account page share points tab"
+msgid "%s for a coupon value of %s"
+msgstr "%s pentru o valoare a cuponului de %s "
+
+#: templates/myaccount/ywpar-share-points.php:61
+msgctxt "part of a sentence on My account page share points tab"
+msgid "Convert"
+msgstr "Converteste"
+
+#. translators:Placeholder is the maximum amount of points that can be used.
+#. Error message on My account share points tab.
+#: templates/myaccount/ywpar-share-points.php:80
+msgctxt "Placeholder is the minimum amount of points that can be used. Error message on My account share points tab"
+msgid "You can convert a maximum of %s"
+msgstr "Poti converti un maxim de %s"
+
+#. translators:Placeholder is the minimum amount of points that can be used.
+#. Error message on My account share points tab.
+#: templates/myaccount/ywpar-share-points.php:48
+#: templates/myaccount/ywpar-share-points.php:86
+msgctxt "Placeholder is the minimum amount of points that can be used. Error message on My account share points tab"
+msgid "You need to convert a minimum of %s"
+msgstr "Trebuie sa convertesti un minim de %s"
+
+#: templates/myaccount/ywpar-banner-get-points-review.php:76
+msgctxt "link to leave a review inside the review banner on My Account page"
+msgid "Leave a review >"
+msgstr "Lasa un review >"
+
+#: templates/myaccount/my-points-view.php:56
+msgctxt "label to show the worth amount"
+msgid "worth"
+msgstr "in valoare de"
+
+#: templates/myaccount/my-points-view.php:71
+msgctxt "My account banner title"
+msgid "My rank"
+msgstr "Rangul meu"
+
+#: templates/myaccount/my-points-view.php:64
+msgctxt "My account banner title"
+msgid "My level"
+msgstr "Nivelul meu"
+
+#: plugin-options/points/extra-options.php:526
+msgctxt "Part of an option where for each renew are assigned some points"
+msgid "review(s) is equivalent to"
+msgstr "recenzii echivalente cu"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:193
+msgctxt "Admin option"
+msgid "Schedule a start and end date"
+msgstr "Programeaza o data de start si de sfarsit"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:192
+msgctxt "Admin option"
+msgid "From now, until\tit's ended manually"
+msgstr "De acum, până la→ se termină manual"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:139
+msgctxt "Admin option"
+msgid "Don't assign points"
+msgstr "Nu atribui puncte"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:138
+msgctxt "Admin option"
+msgid "Set a fixed amount of points based on product prices"
+msgstr "Setați o sumă fixă de puncte pe baza prețurilor produselor"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:137
+msgctxt "Admin option"
+msgid "Set a % amount of points based on global points rules"
+msgstr "Setați un procentaj de puncte pe baza regulilor globale de puncte"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:136
+msgctxt "Admin option"
+msgid "Assign a fixed amount of points"
+msgstr "Alocați o cantitate fixă de puncte"
+
+#. translators: Placeholder are html tags.
+#: plugin-options/metaboxes/points-earning-rules-options.php:52
+#: plugin-options/metaboxes/points-earning-rules-options.php:83
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:31
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:79
+msgctxt "Placeholder are html tags."
+msgid "Choose to which users apply this rule. %1$sNote:%2$s you can apply rules only to user roles enabled in the global option. If you want to create rules for all users or other user roles you need to %3$sedit the global option%4$s"
+msgstr "Alegeți utilizatorilor cărora le aplică această regulă. %1$sNotă:%2$s puteți aplica reguli numai rolurilor de utilizator activate în opțiunea globală. Dacă doriți să creați reguli pentru toți utilizatorii sau pentru alte roluri de utilizator, trebuie să %3$seditați opțiunea globală%4$s"
+
+#: plugin-options/metaboxes/levels-badges-options.php:62
+msgctxt "Admin option description"
+msgid "Set the color for level label text (shown in shortcodes and widgets)"
+msgstr "Setați culoarea pentru textul etichetei de nivel (afișat în coduri scurte și widget-uri)"
+
+#: plugin-options/metaboxes/levels-badges-options.php:50
+msgctxt "Admin option description"
+msgid "Upload an image to identify this level"
+msgstr "Încărcați o imagine pentru a identifica acest nivel"
+
+#: plugin-options/metaboxes/levels-badges-options.php:42
+msgctxt "Admin option description"
+msgid "Enable if you want to upload a badge image to identify this level"
+msgstr "Activați dacă doriți să încărcați o imagine a insignei pentru a identifica acest nivel"
+
+#: plugin-options/metaboxes/levels-badges-options.php:34
+msgctxt "Admin option description"
+msgid "Leave \"to\" empty if this level is the last achievable."
+msgstr "Lăsați „la” gol dacă acest nivel este ultimul posibil."
+
+#: plugin-options/metaboxes/levels-badges-options.php:34
+msgctxt "Admin option description"
+msgid "Set how many points the user has to collect to achieve this level."
+msgstr "Setați câte puncte trebuie să colecteze utilizatorul pentru a atinge acest nivel."
+
+#: plugin-options/metaboxes/levels-badges-options.php:19
+msgctxt "Admin option description"
+msgid "Enter a name to identify this level"
+msgstr "Introduceți un nume pentru a identifica acest nivel"
+
+#: plugin-options/metaboxes/levels-badges-options.php:61
+msgctxt "Admin option title"
+msgid "Level text color"
+msgstr "Culoarea textului de nivel"
+
+#: plugin-options/metaboxes/levels-badges-options.php:49
+msgctxt "Admin option title"
+msgid "Upload badge"
+msgstr "Încărcați insigna"
+
+#: plugin-options/metaboxes/levels-badges-options.php:41
+msgctxt "Admin option title"
+msgid "Add a badge image"
+msgstr "Adăugați o imagine de insignă"
+
+#: plugin-options/metaboxes/levels-badges-options.php:33
+msgctxt "Admin option title"
+msgid "Points to collect"
+msgstr "Puncte de colectat"
+
+#: plugin-options/metaboxes/levels-badges-options.php:18
+msgctxt "Admin option title"
+msgid "Level name"
+msgstr "Numele nivelului"
+
+#: plugin-options/gutenberg/blocks.php:140
+msgctxt "[gutenberg]: title of widget"
+msgid "Background Color"
+msgstr "Culoare fundal"
+
+#: plugin-options/gutenberg/blocks.php:135
+msgctxt "[gutenberg]: title of widget"
+msgid "Text Color"
+msgstr "Culoare text"
+
+#: plugin-options/gutenberg/blocks.php:68
+msgctxt "[gutenberg]: number od customers to show"
+msgid "Number of customers"
+msgstr "Numar de clienti"
+
+#: plugin-options/gutenberg/blocks.php:59
+msgctxt "[gutenberg]: show or hide the tabs"
+msgid "Tabs"
+msgstr "Taburi"
+
+#: plugin-options/gutenberg/blocks.php:89
+#: plugin-options/gutenberg/blocks.php:161
+msgctxt "[gutenberg]: Label for gutenberg attribute"
+msgid "Your credit is "
+msgstr "Creditul tau este"
+
+#: plugin-options/gutenberg/blocks.php:54
+msgctxt "[gutenberg]: Label for gutenberg attribute"
+msgid "Boxed"
+msgstr "Boxed"
+
+#: plugin-options/gutenberg/blocks.php:53
+msgctxt "[gutenberg]: Label for gutenberg attribute"
+msgid "Simple"
+msgstr "Simplu"
+
+#: plugin-options/gutenberg/blocks.php:130
+msgctxt "[gutenberg]: Name of gutenberg attribute"
+msgid "Message"
+msgstr "Mesaj"
+
+#: plugin-options/gutenberg/blocks.php:125
+msgctxt "[gutenberg]: Name of gutenberg attribute"
+msgid "Product id"
+msgstr "ID Produs"
+
+#: plugin-options/gutenberg/blocks.php:88
+#: plugin-options/gutenberg/blocks.php:160
+msgctxt "[gutenberg]: Name of gutenberg attribute"
+msgid "Text before points"
+msgstr "Text inaintea punctelor"
+
+#: plugin-options/gutenberg/blocks.php:50
+msgctxt "[gutenberg]: Name of gutenberg attribute"
+msgid "Style of list"
+msgstr "Stilul listei"
+
+#: plugin-options/gutenberg/blocks.php:120
+msgctxt "[gutenberg]: keywords"
+msgid "Points message"
+msgstr "Mesaj puncte"
+
+#: plugin-options/gutenberg/blocks.php:83
+#: plugin-options/gutenberg/blocks.php:155
+msgctxt "[gutenberg]: keywords"
+msgid "Points"
+msgstr "Puncte"
+
+#: plugin-options/gutenberg/blocks.php:45
+msgctxt "[gutenberg]: keywords"
+msgid "Points and Rewards Widget"
+msgstr "Widget pentru puncte și recompense"
+
+#: plugin-options/gutenberg/blocks.php:44
+#: plugin-options/gutenberg/blocks.php:82
+#: plugin-options/gutenberg/blocks.php:119
+#: plugin-options/gutenberg/blocks.php:154
+msgctxt "[gutenberg]: keywords"
+msgid "Points and Rewards"
+msgstr "Puncte si recompense"
+
+#: plugin-options/gutenberg/blocks.php:43
+msgctxt "[gutenberg]: keywords"
+msgid "YITH"
+msgstr "YITH"
+
+#: plugin-options/gutenberg/blocks.php:96
+msgctxt "[gutenberg]: block description"
+msgid "Show a single product page message"
+msgstr "Afișați un singur mesaj pe pagina de produs"
+
+#: plugin-options/gutenberg/blocks.php:76
+msgctxt "[gutenberg]: block description"
+msgid "Show customer credit points."
+msgstr "Afișați punctele de credit pentru clienți."
+
+#: plugin-options/gutenberg/blocks.php:37
+msgctxt "[gutenberg]: block description"
+msgid "Show the list of best customers."
+msgstr "Afișați lista cu cei mai buni clienți."
+
+#: plugin-options/gutenberg/blocks.php:75
+msgctxt "[gutenberg]: block name"
+msgid "Customer Total points - YITH WooCommerce Points and Rewards"
+msgstr "Client Total puncte - YITH WooCommerce Points and Rewards"
+
+#: plugin-options/gutenberg/blocks.php:36
+msgctxt "[gutenberg]: block name"
+msgid "Best user list - YITH WooCommerce Points and Rewards"
+msgstr "Cea mai bună listă de utilizatori - YITH WooCommerce Points and Rewards"
+
+#: plugin-options/customization-options.php:137
+msgctxt "do not translate the text inside the brackets"
+msgid "Purchase this item and get <strong>{points} {points_label}</strong> - a worth of <strong>{price_discount_fixed_conversion}</strong>"
+msgstr "Cumpărați acest articol și obțineți <strong>{points} {points_label}</strong> - o valoare de <strong>{price_discount_fixed_conversion}</strong>"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:182
+msgctxt "Reason to show when the customer earns points from recurring payment"
+msgid "Renew order label"
+msgstr "Reînnoiți eticheta comenzii"
+
+#: includes/class-yith-wc-points-rewards-share-points.php:239
+msgctxt "the shared point coupon is still valid"
+msgid "Deleted"
+msgstr "Sters"
+
+#: includes/class-yith-wc-points-rewards-share-points.php:233
+msgctxt "the shared point coupon is still valid"
+msgid "Not used"
+msgstr "Nefolosit"
+
+#: includes/class-yith-wc-points-rewards-share-points.php:231
+msgctxt "the shared point coupon has beed used"
+msgid "Expired"
+msgstr "Expirat"
+
+#: includes/class-yith-wc-points-rewards-share-points.php:229
+msgctxt "the shared point coupon has beed used"
+msgid "Used"
+msgstr "Utilizat"
+
+#. translators:Placeholder is the coupon code.
+#: includes/class-yith-wc-points-rewards-share-points.php:203
+msgctxt "Text displayed inside the history table. Placeholder is the coupon code."
+msgid "Created coupon: %s"
+msgstr "Cupon creat: %s"
+
+#. translators: Placeholder number of points and customer name.
+#: includes/class-yith-wc-points-rewards-share-points.php:190
+msgctxt "Placeholder number of points and customer name"
+msgid "Converted %1$s by the customer %2$s"
+msgstr "%1$s convertit de clientul %2$s"
+
+#. translators: Placeholder is the if of the order.
+#: includes/class-yith-wc-points-rewards-referral.php:320
+msgctxt " Placeholder is the if of the order."
+msgid "Points removed from order with id %1$s because the user has been banned or deleted"
+msgstr "Puncte eliminate din comandă cu id %1$s deoarece utilizatorul a fost interzis sau șters "
+
+#. translators: Placeholder is the id of the customer.
+#: includes/class-yith-wc-points-rewards-referral.php:231
+msgctxt "Placeholder is the id of the customer."
+msgid "Points from registration of a new customer with ID (%1$d)"
+msgstr "Puncte de la înregistrarea unui nou client cu ID (%1$d) "
+
+#: includes/class-yith-wc-points-rewards-post-types.php:321
+msgctxt "Name of duplicated post type"
+msgid " - Copy"
+msgstr "- Copie"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:206
+msgctxt "Post Type Singular Name"
+msgid "Points redeeming rule"
+msgstr "Regula de valorificare a punctelor"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:171
+msgctxt "Post Type Singular Name"
+msgid "Points assignment rule"
+msgstr "Regula de atribuire a punctelor"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:136
+msgctxt "Post Type Singular Name"
+msgid "Banner"
+msgstr "Banner"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:101
+msgctxt "Post Type Singular Name"
+msgid "Levels & Badges"
+msgstr "Niveluri și insigne"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:205
+msgctxt "Post Type General Name"
+msgid "Points redeeming rules"
+msgstr "Reguli de valorificare a punctelor"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:170
+msgctxt "Post Type General Name"
+msgid "Points assignment rules"
+msgstr "Reguli de atribuire a punctelor"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:135
+msgctxt "Post Type General Name"
+msgid "Banners"
+msgstr "Bannere"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:100
+msgctxt "Post Type General Name"
+msgid "Levels & Badges"
+msgstr "Niveluri și insigne"
+
+#. translators: 'First placeholder: number of points; second placeholder:
+#. reason of action'.
+#: includes/class-yith-wc-points-rewards-orders.php:654
+msgctxt "First placeholder: number of points; second placeholder: reason of action"
+msgid "Returned %1$s to customer for %2$s."
+msgstr "A returnat %1$s clientului pentru %2$s."
+
+#: includes/class-yith-wc-points-rewards-assets.php:88
+msgctxt "Customer remove points confirmation message for bulk action"
+msgid "Are you sure to remove all points of the selected customers?"
+msgstr "Sunteți sigur că eliminați toate punctele clienților selectați?"
+
+#: includes/class-yith-wc-points-rewards-assets.php:87
+msgctxt "Customer remove points confirmation message"
+msgid "Are you sure to remove all points of the customer?"
+msgstr "Sunteți sigur că eliminați toate punctele clientului?"
+
+#: includes/class-yith-wc-points-rewards-assets.php:86
+msgctxt "Customer remove points save button"
+msgid "Remove all points "
+msgstr "Sterge toate punctele"
+
+#: includes/class-yith-wc-points-rewards-assets.php:85
+msgctxt "Customer remove points save button"
+msgid "Remove points"
+msgstr "Sterge puncte"
+
+#: includes/class-yith-wc-points-rewards-assets.php:84
+msgctxt "Customer remove points title"
+msgid "Remove points from the customer"
+msgstr "Sterge punctele unui client"
+
+#: includes/class-yith-wc-points-rewards-assets.php:83
+msgctxt "Customer add points save button"
+msgid "Add points"
+msgstr "Adauga puncte"
+
+#: includes/class-yith-wc-points-rewards-assets.php:82
+msgctxt "Customer add points title"
+msgid "Add points to the customer"
+msgstr "Adauga puncte unui client"
+
+#: includes/class-yith-wc-points-rewards-ajax.php:474
+msgctxt "Error message during share points coupon creation"
+msgid "Please check the number of points to share."
+msgstr "Vă rugăm să verificați numărul de puncte de distribuit."
+
+#: includes/class-yith-wc-points-rewards-ajax.php:463
+msgctxt "Error message during share points coupon creation"
+msgid "You have not enough points to create this coupon"
+msgstr "Nu aveți suficiente puncte pentru a crea acest cupon"
+
+#: includes/class-yith-wc-points-rewards-ajax.php:287
+#: includes/class-yith-wc-points-rewards-ajax.php:323
+#: includes/class-yith-wc-points-rewards-ajax.php:349
+#: includes/class-yith-wc-points-rewards-ajax.php:375
+#: includes/class-yith-wc-points-rewards-ajax.php:401
+#: includes/class-yith-wc-points-rewards-ajax.php:426
+#: includes/class-yith-wc-points-rewards-ajax.php:450
+msgctxt "Error message during admin actions"
+msgid "Some fields are missing"
+msgstr "Unele câmpuri lipsesc"
+
+#: includes/class-yith-wc-points-rewards-ajax.php:208
+msgctxt "Name of duplicated rule"
+msgid " - Copy"
+msgstr "- Copie"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:218
+msgctxt "Admin action label to associate the levels to the customers"
+msgid "Associate to customers"
+msgstr "Asociati cu clientii"
+
+#. translators:Description of Points Rules. Placeholder are tag html.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:112
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:113
+msgctxt "Description of Points Rules. Placeholder are tag html."
+msgid "Please note: rules applied to products have a higher priority by default. %1$sRead the documentation to better understand how rules work >%2$s"
+msgstr "Vă rugăm să rețineți: regulile aplicate produselor au o prioritate mai mare în mod implicit. %1$sCitiți documentația pentru a înțelege mai bine cum funcționează regulile >%2$s"
+
+#. translators: placeholder is an html tag.
+#: plugin-options/metaboxes/banners-options.php:106
+msgctxt "placeholder is an html tag"
+msgid "Choose the banner action type.%s To create target banners you need to enable extra points options first."
+msgstr "Alegeți tipul de acțiune pentru banner.%s Pentru a crea bannere țintă, trebuie să activați mai întâi opțiunile de puncte suplimentare."
+
+#. translators: placeholder is an html tag.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:395
+msgctxt "placeholder is an html tag"
+msgid "You have no redeeming rules created yet.%1$sCreate now your first one!"
+msgstr "Încă nu ați creat nicio regulă de răscumpărare.%1$sCreați acum prima dvs.!"
+
+#. translators: placeholder is an html tag.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:365
+msgctxt "placeholder is an html tag"
+msgid "You have no points levels created yet.%1$sCreate now your first one!"
+msgstr "Nu ați creat încă un nivel de puncte.%1$sCreați acum primul dvs.!"
+
+#. translators:placeholder is an html tag.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:322
+msgctxt "placeholder is an html tag"
+msgid "You have no points rules created yet.%1$sCreate now your first one!"
+msgstr "Nu ați creat încă reguli de puncte.%1$s Creați acum prima!"
+
+#. translators: placeholder is an html tag.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:419
+msgctxt "placeholder is an html tag"
+msgid "You have no banners created yet.%1$sCreate your first one to show in your customer's account %1$sand push him to collect points."
+msgstr "Nu ați creat încă bannere.%1$sCreați primul dvs. pentru a fi afișat în contul clientului dvs. %1$sși împingeți-l să adune puncte."
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:192
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:192
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:152
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:192
+msgctxt "Delete confirmation action"
+msgid "Yes, delete"
+msgstr "Da, sterge"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:183
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:183
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:143
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:183
+msgctxt "Post action"
+msgid "Delete"
+msgstr "Sterge"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:117
+msgctxt "Description for Banner list table"
+msgid "Banners are shown in the “My Account” page. You can use banners to create targets to achieve for your users and push them to collect points."
+msgstr "Bannerele sunt afișate în pagina „Contul meu”. Puteți folosi bannere pentru a crea obiective pe care să le atingeți pentru utilizatorii dvs. și să îi împingeți să adune puncte."
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:80
+msgctxt "Message that appears when a post is published"
+msgid "Level published"
+msgstr "Nivel publicat"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:79
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:80
+msgctxt "Message that appears when a post is published"
+msgid "Rule published"
+msgstr "Regula publicata"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:81
+msgctxt "Message that appears when a post is published"
+msgid "Banner published"
+msgstr "Banner publicat"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:79
+msgctxt "Message that appears when a post is updated"
+msgid "Level updated"
+msgstr "Nivel actualizat"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:78
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:79
+msgctxt "Message that appears when a post is updated"
+msgid "Rule updated"
+msgstr "Regula actualizata"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:80
+msgctxt "Message that appears when a post is updated"
+msgid "Banner updated"
+msgstr "Banner actualizat"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:350
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:258
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:219
+msgctxt "Admin action label to delete a post type"
+msgid "Delete"
+msgstr "Sterge"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:349
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:257
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:217
+msgctxt "Admin action label to deactivate post type"
+msgid "Deactivate"
+msgstr "Dezactiveaza"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:348
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:256
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:216
+msgctxt "Admin action label to activate post type"
+msgid "Activate"
+msgstr "Activeaza"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:324
+msgctxt "Customer Points action"
+msgid "Ban user"
+msgstr "Blocheaza utilizator"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:310
+msgctxt "Customer Points action"
+msgid "Unban user"
+msgstr "Deblocheaza utilizator"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:281
+msgctxt "Customer Points action"
+msgid "View history"
+msgstr "Vezi istoric"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:235
+msgctxt "Customer Points action"
+msgid "Remove all points"
+msgstr "Sterge toate punctele"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:224
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:295
+msgctxt "Customer Points action"
+msgid "Remove points"
+msgstr "Sterge puncte"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:214
+msgctxt "Customer Points action"
+msgid "Add points"
+msgstr "Adauga puncte"
+
+#: views/panel/types/shortcode-list.php:32 views/tabs/ranking-tab.php:33
+msgid "Copy and paste these shortcodes in a custom page to show a list of your customers' points. You can also use Gutenberg Block."
+msgstr "Copiați și inserați aceste coduri scurte într-o pagină personalizată pentru a afișa o listă a punctelor clienților dvs. Puteți folosi și Gutenberg Block."
+
+#: views/panel/types/shortcode-list.php:19 views/tabs/ranking-tab.php:19
+msgid "Boxed customers list"
+msgstr "Lista client BOXED"
+
+#: views/panel/types/shortcode-list.php:13 views/tabs/ranking-tab.php:13
+msgid "Simple customers list"
+msgstr "Lista clienti SIMPLA"
+
+#: views/tabs/customer-history.php:86 views/tabs/customer-list.php:19
+msgid "Search"
+msgstr "Cauta"
+
+#: views/tabs/customer-history.php:57
+msgid "Level:"
+msgstr "Nivel:"
+
+#: views/tabs/bulk-actions.php:134
+msgid "Choose which users to exclude from this bulk action"
+msgstr "Alegeți ce utilizatori să excludeți din această acțiune în bloc"
+
+#: views/tabs/bulk-actions.php:115
+msgid "Choose which user roles to exclude from this bulk action"
+msgstr "Alegeți ce rol de utilizator să excludeți din această acțiune în bloc"
+
+#: views/panel/types/options-role-conversion.php:65
+msgid "each"
+msgstr "fiecare"
+
+#: views/panel/types/options-extrapoints-timing.php:41
+msgid "of:"
+msgstr "din:"
+
+#: views/panel/types/options-extrapoints-timing.php:24
+msgid "Each week"
+msgstr "In fiecare saptamana"
+
+#: views/panel/types/options-extrapoints-timing.php:23
+msgid "Each month"
+msgstr "In fiecare luna"
+
+#: views/panel/types/options-extrapoints-timing.php:19
+msgid "Last day"
+msgstr "Ultima zi"
+
+#: views/panel/types/options-extrapoints-timing.php:18
+msgid "1st day"
+msgstr "Prima zi"
+
+#: views/panel/types/options-extrapoints-membership-plans.php:37
+msgid "points to member of"
+msgstr "puncte către membru al"
+
+#: views/panel/types/options-extrapoints-levels.php:37
+msgid "points to users with level"
+msgstr "puncte catre membru cu nivel"
+
+#: views/panel/types/options-extrapoints-levels.php:32
+#: views/panel/types/options-extrapoints-membership-plans.php:32
+msgid "Assign"
+msgstr "atribuie"
+
+#: templates/shortcodes/ywpar-customers-points.php:90
+msgid "No results"
+msgstr "Fara rezultate"
+
+#: templates/shortcodes/ywpar-customers-points.php:33
+msgid "Today"
+msgstr "Azi"
+
+#: templates/shortcodes/ywpar-customers-points.php:31
+msgid "This week"
+msgstr "Saptamana asta"
+
+#: templates/shortcodes/ywpar-customers-points.php:29
+msgid "Last 30 days"
+msgstr "Ultimele 30 zile"
+
+#: templates/shortcodes/ywpar-customers-points.php:27
+msgid "All time"
+msgstr "Tot timpul"
+
+#: templates/myaccount/ywpar-share-points.php:99
+#: templates/myaccount/ywpar-share-points.php:117
+msgid "Expire on"
+msgstr "Expira pe"
+
+#: templates/myaccount/ywpar-share-points.php:98
+#: templates/myaccount/ywpar-share-points.php:116
+msgid "Code"
+msgstr "Cod"
+
+#: templates/myaccount/ywpar-share-points.php:97
+#: templates/myaccount/ywpar-share-points.php:115
+msgid "Value"
+msgstr "Valoare"
+
+#: templates/myaccount/ywpar-share-points.php:96
+#: templates/myaccount/ywpar-share-points.php:114
+msgid "Date of creation"
+msgstr "Data crearii"
+
+#: templates/myaccount/ywpar-banner-get-points-review.php:74
+msgid "Purchased on "
+msgstr "Cumparat pe"
+
+#: templates/myaccount/ywpar-banner-get-points-review.php:36
+msgid "product"
+msgid_plural "products"
+msgstr[0] "produs"
+msgstr[1] "produse"
+msgstr[2] "produse"
+
+#: templates/myaccount/my-points-view.php:116
+msgid "Targets to achieve"
+msgstr "Obiective de atins"
+
+#: templates/myaccount/my-points-view.php:24
+msgid "You are not enabled to see this page."
+msgstr "Nu sunteți activat pentru a vedea această pagină."
+
+#: plugin-options/redeem-options.php:21
+msgid "Redeem Rules"
+msgstr "Răscumpărați regulile"
+
+#: plugin-options/redeem/standard-options.php:257
+msgid "Minimum discount users can get"
+msgstr "Reducerea minimă pe care utilizatorii le pot obține"
+
+#: plugin-options/redeem/standard-options.php:142
+msgid "If enabled, sale products will not be used to redeem points"
+msgstr "Dacă este activată, produsele de reducere nu vor fi folosite pentru a valorifica puncte"
+
+#: plugin-options/redeem/standard-options.php:125
+msgid "Choose whether to calculate the redeem discount on prices with prices with taxes or without taxes"
+msgstr "Alegeți dacă să calculați discountul de răscumpărare la prețuri cu prețuri cu taxe sau fără taxe"
+
+#: plugin-options/redeem/standard-options.php:52
+msgid "User roles"
+msgstr "Roluri de utilizator"
+
+#: plugin-options/redeem/share-options.php:95
+msgid "Set after how many days a points coupon code will expire"
+msgstr "Setați după câte zile va expira un cod de cupon de puncte"
+
+#: plugin-options/redeem/share-options.php:94
+msgid "Points coupon will expire after"
+msgstr "Cuponul de puncte va expira după"
+
+#: plugin-options/redeem/share-options.php:81
+msgid "Enable to set an expiry date for points coupon codes to be used"
+msgstr "Activați pentru a seta o dată de expirare pentru codurile de cupon de puncte care urmează să fie utilizate"
+
+#: plugin-options/redeem/share-options.php:80
+msgid "Set the expiration for points coupon codes"
+msgstr "Setați expirarea codurilor de cupon de puncte"
+
+#: plugin-options/redeem/share-options.php:64
+msgid "Set the maximum number of points that the user can convert into a coupon code"
+msgstr "Setați numărul maxim de puncte pe care utilizatorul le poate converti într-un cod de cupon"
+
+#: plugin-options/redeem/share-options.php:63
+msgid "Maximum amount of points that can be converted"
+msgstr "Cantitatea maximă de puncte care pot fi convertite"
+
+#: plugin-options/redeem/share-options.php:47
+msgid "Set the minimum number of points that the user can convert into a coupon code"
+msgstr "Setați numărul minim de puncte pe care utilizatorul le poate converti într-un cod de cupon"
+
+#: plugin-options/redeem/share-options.php:46
+msgid "Minimum amount of points that can be converted"
+msgstr "Cantitatea minimă de puncte care pot fi convertite"
+
+#: plugin-options/redeem/share-options.php:33
+msgid "Enable to set a minimum or maximum of points that can be converted into a coupon code"
+msgstr "Activați pentru a seta un minim sau un maxim de puncte care pot fi convertite într-un cod de cupon"
+
+#: plugin-options/redeem/share-options.php:32
+msgid "Apply limits to points coupons"
+msgstr "Aplicați limite la cupoanele de puncte"
+
+#: plugin-options/redeem/share-options.php:24
+msgid "Enable to allow customers to convert their points in a coupon code in the My Account page"
+msgstr "Activați pentru a permite clienților să își convertească punctele într-un cod de cupon în pagina Contul meu"
+
+#: plugin-options/redeem/share-options.php:23
+msgid "Allow users to convert points in a coupon to share"
+msgstr "Permiteți utilizatorilor să convertească puncte într-un cupon de partajat"
+
+#: plugin-options/redeem-options.php:24
+#: plugin-options/redeem/share-options.php:17
+msgid "Share points"
+msgstr "Distribuie puncte"
+
+#: plugin-options/points-options.php:30
+msgid "Banners"
+msgstr "Bannere"
+
+#: plugin-options/points-options.php:27
+msgid "Levels & Badges"
+msgstr "Niveluri și insigne"
+
+#: plugin-options/points-options.php:21
+msgid "Points Rules"
+msgstr "Regulile punctelor"
+
+#: plugin-options/points/standard-options.php:256
+msgid "Set an expire time for points"
+msgstr "Setați un timp de expirare pentru puncte"
+
+#: plugin-options/points/standard-options.php:200
+msgid "Remove earned points if order is refunded"
+msgstr "Eliminați punctele câștigate dacă comanda este rambursată"
+
+#: plugin-options/points/standard-options.php:174
+msgid "Remove earned points if order is cancelled"
+msgstr "Eliminați punctele câștigate dacă comanda este anulată"
+
+#: plugin-options/points/standard-options.php:157
+msgid "Assign points when the order has status"
+msgstr "Atribuiți puncte când comanda are statut"
+
+#: plugin-options/points/standard-options.php:118
+msgid "Exclude on sale products from points collection"
+msgstr "Excludeți produsele la reducere din colectarea de puncte"
+
+#: plugin-options/points/standard-options.php:108
+#: plugin-options/redeem/standard-options.php:131
+msgid "taxes excluded"
+msgstr "taxe excluse"
+
+#: plugin-options/points/standard-options.php:107
+#: plugin-options/redeem/standard-options.php:130
+msgid "taxes included"
+msgstr "taxe incluse"
+
+#: plugin-options/points/standard-options.php:102
+msgid "Choose whether to calculate points considering prices with taxes or without taxes"
+msgstr "Alegeți dacă să calculați puncte având în vedere prețurile cu taxe sau fără taxe"
+
+#: plugin-options/points/standard-options.php:101
+msgid "Calculate points considering product price with:"
+msgstr "Calculați puncte având în vedere prețul produsului cu:"
+
+#: plugin-options/points/standard-options.php:81
+msgid "Set how many points per product will be earned based on the product value. You can override this value for specific products or users using the points rules.%sPlease, note: points are awarded on a product basis and not on the cart total"
+msgstr "Setați câte puncte vor fi câștigate pe produs în funcție de valoarea produsului. Puteți înlocui această valoare pentru anumite produse sau utilizatori utilizând regulile de puncte.%s Vă rugăm să rețineți: punctele sunt acordate pe bază de produs și nu pe totalul coșului."
+
+#: plugin-options/points/standard-options.php:80
+msgid "Default points assigned"
+msgstr "Puncte implicite atribuite"
+
+#: plugin-options/points/standard-options.php:65
+msgid "Choose which user roles can collect points with their purchases"
+msgstr "Alegeți ce rol de utilizator pot colecta puncte cu achizițiile lor"
+
+#: plugin-options/points/standard-options.php:64
+msgid "Assign points to roles"
+msgstr "Atribuiți puncte rolurilor"
+
+#: plugin-options/points/extra-options.php:672
+msgid "Get points based on your order amount!"
+msgstr "Obțineți puncte în funcție de valoarea comenzii dvs.!"
+
+#: plugin-options/points/extra-options.php:669
+msgid "Set the text to show as title of threshold message"
+msgstr "Setați textul să fie afișat ca titlu al mesajului de prag"
+
+#: plugin-options/points/extra-options.php:668
+msgid "Title of threshold message"
+msgstr "Titlul mesajului de prag"
+
+#: plugin-options/points/extra-options.php:399
+msgid "Assign extra points to users that achieve a set number points collected"
+msgstr "Alocați puncte suplimentare utilizatorilor care obțin un număr stabilit de puncte colectate"
+
+#: plugin-options/points/extra-options.php:354
+msgid "Assign extra points to users that achieve specific levels"
+msgstr "Alocați puncte suplimentare utilizatorilor care ating anumite niveluri"
+
+#: plugin-options/points/extra-options.php:353
+msgid "Assign points to the users that achieve levels"
+msgstr "Atribuiți puncte utilizatorilor care ating niveluri"
+
+#: plugin-options/points/extra-options.php:347
+msgid "Extra points for users that achieve specific levels"
+msgstr "Puncte suplimentare pentru utilizatorii care ating anumite niveluri"
+
+#: plugin-options/points/extra-options.php:322
+msgid "Set when to check points of all users and assign these extra points"
+msgstr "Setați când să verificați punctele tuturor utilizatorilor și atribuiți aceste puncte suplimentare"
+
+#: plugin-options/points/extra-options.php:321
+msgid "Check and assign points on:"
+msgstr "Verificați și atribuiți puncte pentru:"
+
+#: plugin-options/points/extra-options.php:363
+msgid "Set how many points to assign to users when they achieve a specific level"
+msgstr "Setați câte puncte să atribuiți utilizatorilor atunci când ating un anumit nivel"
+
+#: plugin-options/points/extra-options.php:296
+msgid "Assign extra points to the user that collected the most points"
+msgstr "Atribuiți puncte suplimentare utilizatorului care a adunat cele mai multe puncte"
+
+#: plugin-options/points/extra-options.php:295
+msgid "Assign points to the user that collected the most points"
+msgstr "Atribuiți puncte utilizatorului care a adunat cele mai multe puncte"
+
+#: plugin-options/points/extra-options.php:289
+msgid "Extra points for user that collected the most points"
+msgstr "Puncte suplimentare pentru utilizatorul care a adunat cele mai multe puncte"
+
+#: plugin-options/points/extra-options.php:269
+msgid "Revoke referral if referred user account is deleted or banned"
+msgstr "Revocați recomandarea dacă contul de utilizator referit este șters sau interzis"
+
+#: plugin-options/points/extra-options.php:244
+msgid "Assign extra points when a user places an order using the referral link"
+msgstr "Alocați puncte suplimentare atunci când un utilizator plasează o comandă folosind linkul de recomandare"
+
+#: plugin-options/points/extra-options.php:243
+msgid "Assign points when a user purchases through the user's referral link"
+msgstr "Alocați puncte atunci când un utilizator cumpără prin linkul de recomandare al utilizatorului"
+
+#: plugin-options/points/extra-options.php:237
+msgid "Extra points for referral purchase"
+msgstr "Puncte suplimentare pentru achiziția prin recomandare"
+
+#: plugin-options/points/extra-options.php:218
+#: plugin-options/points/extra-options.php:270
+msgid "Enable to automatically delete referral points if the referred user account is deleted or banned"
+msgstr "Activați pentru a șterge automat punctele de recomandare dacă contul de utilizator referit este șters sau interzis"
+
+#: plugin-options/points/extra-options.php:217
+msgid "Revoke referral points if referred user account is deleted or banned"
+msgstr "Revocați punctele de recomandare dacă contul de utilizator recomandat este șters sau interzis"
+
+#: plugin-options/points/extra-options.php:192
+msgid "Assign extra points when a new user signs up using a customer created referral link"
+msgstr "Alocați puncte suplimentare atunci când un utilizator nou se înscrie folosind un link de recomandare creat de client"
+
+#: plugin-options/points/extra-options.php:191
+msgid "Referral link signup"
+msgstr "Înregistrare link de recomandare"
+
+#: plugin-options/points/extra-options.php:185
+msgid "Extra points for referrals"
+msgstr "Puncte suplimentare pentru recomandări"
+
+#: plugin-options/points/extra-options.php:154
+msgid "Assign extra points for a completed profile"
+msgstr "Alocați puncte suplimentare pentru un profil completat"
+
+#: plugin-options/points/extra-options.php:153
+msgid "Assign points when the user completes all fields in the user profile"
+msgstr "Atribuiți puncte atunci când utilizatorul completează toate câmpurile din profilul utilizatorului"
+
+#: plugin-options/points/extra-options.php:147
+msgid "Extra points for completed profile"
+msgstr "Puncte suplimentare pentru profilul completat"
+
+#: plugin-options/points/extra-options.php:125
+#: plugin-options/points/extra-options.php:163
+#: plugin-options/points/extra-options.php:201
+#: plugin-options/points/extra-options.php:253
+msgid "Set how many points to assign"
+msgstr "Setați câte puncte să atribuiți"
+
+#: plugin-options/points/extra-options.php:116
+msgid "Assign extra points for the each first daily login"
+msgstr "Alocați puncte suplimentare pentru fiecare primă conectare zilnică"
+
+#: plugin-options/points/extra-options.php:115
+msgid "Assign points each first time the user logs in daily"
+msgstr "Alocați puncte de fiecare dată când utilizatorul se conectează zilnic"
+
+#: plugin-options/points/extra-options.php:109
+msgid "Extra points for the first daily login"
+msgstr "Puncte suplimentare pentru prima conectare zilnică"
+
+#: plugin-options/points/extra-options.php:87
+msgid "Set how many points to assing"
+msgstr "Setați câte puncte să atribuiți"
+
+#: plugin-options/points/extra-options.php:22
+msgid "Extra Points"
+msgstr "Puncte suplimentare"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:274
+msgid "Choose for which category to apply this rule"
+msgstr "Alegeți pentru ce categorie să aplicați această regulă"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:257
+msgid "Choose for which products to apply this rule"
+msgstr "Alegeți pentru ce produse să aplicați această regulă"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:248
+msgid "Choose if set a max discount when the user purchases all products or only specific products or products of specific categories"
+msgstr "Alegeți dacă setați o reducere maximă atunci când utilizatorul achiziționează toate produsele sau numai anumite produse sau produse din anumite categorii"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:247
+msgid "Apply rule to these products"
+msgstr "Aplicați regula acestor produse"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:203
+msgid "Max discount type"
+msgstr "Tip de reducere maximă"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:196
+msgid ""
+"Set a fixed max discount value\n"
+"(Example: max 5$ of discount for this product)"
+msgstr ""
+"Setați o valoare maximă fixă a reducerii\n"
+"(Exemplu: maxim 5$ de reducere pentru acest produs)"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:191
+msgid ""
+"Set a % max discount based on the global max discount.\n"
+"(Example: with a global max discount of 50$ if you set a max discount of 10% for this product the user will get a max discount of 5$ for this product)"
+msgstr ""
+"Setați o reducere maximă % pe baza reducerii maxime globale.\n"
+"(Exemplu: cu o reducere maximă globală de 50 USD dacă setați o reducere maximă de 10% pentru acest produs, utilizatorul va primi o reducere maximă de 5 USD pentru acest produs)"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:177
+msgid "Rule type"
+msgstr "Tipul de regulă"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:175
+msgid "Redeem max discount rate"
+msgstr "Valorificați rata maximă de reducere"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:174
+msgid "Redeem conversion rate"
+msgstr "Valorificați rata de conversie"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:29
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:77
+msgid "Apply rule to"
+msgstr "Aplică regula la"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:349
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:351
+msgid "Search user level"
+msgstr "Căutați la nivel de utilizator"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:345
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:349
+msgid "Choose user levels"
+msgstr "Alege nivel utilizator"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:320
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:320
+msgid "Choose which products to exclude"
+msgstr "Alegeți ce produse să excludeți"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:312
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:312
+msgid "Enable if you want to exclude some products from this rule"
+msgstr "Activați dacă doriți să excludeți unele produse din această regulă"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:311
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:311
+msgid "Exclude products"
+msgstr "Exclude produse"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:279
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:279
+msgid "Search for a category"
+msgstr "Căutați o categorie"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:273
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:273
+msgid "Choose categories"
+msgstr "Alegeți categorii"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:257
+#: plugin-options/metaboxes/points-earning-rules-options.php:274
+#: plugin-options/metaboxes/points-earning-rules-options.php:291
+msgid "Choose for which products to apply these points"
+msgstr "Alegeți pentru ce produse să aplicați aceste puncte"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:256
+#: plugin-options/metaboxes/points-earning-rules-options.php:319
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:256
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:319
+msgid "Choose products"
+msgstr "Alege produse"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:252
+msgid "Choose if to assign these points when the user purchases all products or only specific products or products of specific categories"
+msgstr "Alegeți dacă să atribuiți aceste puncte atunci când utilizatorul achiziționează toate produsele sau numai anumite produse sau produse din anumite categorii"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:248
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:244
+msgid "Products of specific categories"
+msgstr "Produse din anumite categorii"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:246
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:242
+msgid "Specific products"
+msgstr "Produse specifice"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:245
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:241
+msgid "All products"
+msgstr "Toate produsele"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:219
+msgid "To"
+msgstr "La"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:195
+msgid "Rule will be valid"
+msgstr "Regula va fi valida"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:146
+#: plugin-options/metaboxes/points-earning-rules-options.php:159
+#: plugin-options/metaboxes/points-earning-rules-options.php:171
+msgid "Points to assign"
+msgstr "Puncte de atribuit"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:142
+msgid "Choose if to assign a fixed amount of points or calculate the points from the product price"
+msgstr "Alegeți dacă să atribuiți o sumă fixă de puncte sau să calculați punctele din prețul produsului"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:141
+msgid "Points type"
+msgstr "Tip puncte"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:128
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:166
+msgid "Set the priority to assign to this rule. This is important to overwrite rules. 1 is highest priority"
+msgstr "Setați prioritatea de atribuit acestei reguli. Acest lucru este important pentru a suprascrie regulile. 1 este cea mai mare prioritate"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:127
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:165
+msgid "Priority"
+msgstr "Prioritate"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:113
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:151
+msgid "Enter a name to identify this rule"
+msgstr "Introduceți un nume pentru a identifica această regulă"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:50
+#: plugin-options/metaboxes/points-earning-rules-options.php:81
+#: plugin-options/metaboxes/points-earning-rules-options.php:251
+msgid "Apply rule to:"
+msgstr "Aplicați regula la:"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:42
+msgid "Search user role"
+msgstr "Căutați rol de utilizator"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:39
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:49
+msgid "Choose user roles"
+msgstr "Alegeți roluri de utilizator"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:29
+#: plugin-options/metaboxes/points-earning-rules-options.php:79
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:40
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:75
+msgid "Users with specific points level"
+msgstr "Utilizatori cu un anumit nivel de puncte"
+
+#: plugin-options/metaboxes/banners-options.php:230
+msgid "Progress"
+msgstr "Progres"
+
+#: plugin-options/metaboxes/banners-options.php:225
+msgid "Bar"
+msgstr "Bara"
+
+#: plugin-options/metaboxes/banners-options.php:220
+msgid "Banner progress bar colors"
+msgstr "Culoare bara de progres banner"
+
+#: plugin-options/metaboxes/banners-options.php:208
+msgid "Enable to show a slider with user progress"
+msgstr "Activați pentru a afișa un glisor cu progresul utilizatorului"
+
+#: plugin-options/metaboxes/banners-options.php:207
+msgid "Show progress slider"
+msgstr "Afișați glisorul de progres"
+
+#: plugin-options/metaboxes/banners-options.php:196
+msgid "Enter the url of this banner"
+msgstr "Introduceți adresa URL a acestui banner"
+
+#: plugin-options/metaboxes/banners-options.php:195
+msgid "Banner links to"
+msgstr "Banner care trimite cate link"
+
+#: plugin-options/metaboxes/banners-options.php:184
+msgid "Enable to add a link to this banner"
+msgstr "Activați pentru a adăuga un link la acest banner"
+
+#: plugin-options/metaboxes/banners-options.php:183
+msgid "Add link"
+msgstr "Adauga link"
+
+#: plugin-options/metaboxes/banners-options.php:168
+msgid "Title"
+msgstr "Titlu"
+
+#: plugin-options/metaboxes/banners-options.php:158
+msgid "Banner colors"
+msgstr "Culori banner"
+
+#: plugin-options/metaboxes/banners-options.php:151
+msgid "Upload an image for this banner"
+msgstr "Incarca imagine pentru banner"
+
+#: plugin-options/metaboxes/banners-options.php:150
+msgid "Banner image"
+msgstr "Imagine banner"
+
+#: plugin-options/metaboxes/banners-options.php:142
+msgid "Enter the text to show in this banner"
+msgstr "Introduceți textul de afișat în acest banner"
+
+#: plugin-options/metaboxes/banners-options.php:141
+msgid "Banner text"
+msgstr "Text banner"
+
+#: plugin-options/metaboxes/banners-options.php:133
+msgid "Enter the title to show in this banner"
+msgstr "Introduceți titlul de afișat în acest banner"
+
+#: plugin-options/metaboxes/banners-options.php:132
+msgid "Banner title"
+msgstr "Titlu banner"
+
+#: plugin-options/metaboxes/banners-options.php:120
+msgid "Enter the maximum number of products the user can review to earn extra points"
+msgstr "Introduceți numărul maxim de produse pe care utilizatorul le poate examina pentru a câștiga puncte suplimentare"
+
+#: plugin-options/metaboxes/banners-options.php:119
+msgid "Products to show"
+msgstr "Produse de prezentat"
+
+#: plugin-options/metaboxes/banners-options.php:92
+#: plugin-options/metaboxes/banners-options.php:109
+msgid " No extra rules found"
+msgstr "Nu s-au găsit reguli suplimentare"
+
+#: plugin-options/metaboxes/banners-options.php:89
+msgid "Choose the banner action type. To create target banners you need to enable extra points options first."
+msgstr "Alegeți tipul de acțiune pentru banner. Pentru a crea bannere țintă, trebuie să activați mai întâi opțiunile de puncte suplimentare."
+
+#: plugin-options/metaboxes/banners-options.php:88
+#: plugin-options/metaboxes/banners-options.php:104
+msgid "Action type"
+msgstr "Tip actiune"
+
+#: plugin-options/metaboxes/banners-options.php:80
+msgid "Choose the banner type"
+msgstr "Alegeți tipul de banner"
+
+#: plugin-options/metaboxes/banners-options.php:77
+msgid "Get points"
+msgstr "Obțineți puncte"
+
+#: plugin-options/metaboxes/banners-options.php:76
+msgid "Target"
+msgstr "Ţintă"
+
+#: plugin-options/metaboxes/banners-options.php:53
+msgid "Enter a name to identify this banner"
+msgstr "Introduceți un nume pentru a identifica acest banner"
+
+#: plugin-options/metaboxes/banners-options.php:23
+msgid "Complete Profile"
+msgstr "Profil complet"
+
+#: plugin-options/metaboxes/banners-options.php:16
+msgid "Extra points for points collected"
+msgstr "Puncte suplimentare pentru punctele adunate"
+
+#: plugin-options/metaboxes/banners-options.php:14
+msgid "Points of next level"
+msgstr "Puncte de nivelul următor"
+
+#: plugin-options/gutenberg/blocks.php:62
+msgid "Yes"
+msgstr "Da"
+
+#: plugin-options/emails-options.php:91
+msgid "Updated Points"
+msgstr "Puncte actualizate"
+
+#: plugin-options/emails-options.php:14
+msgid "Expiring points"
+msgstr "Puncte care expira"
+
+#: plugin-options/customization-options.php:86
+msgid "Border"
+msgstr "Margine"
+
+#: plugin-options/customization-options.php:559
+msgid "Applied Points Discount Label"
+msgstr "Eticheta de reducere a punctelor aplicate"
+
+#: plugin-options/customization-options.php:545
+msgid "Shared point with a coupon"
+msgstr "Punct comun cu un cupon"
+
+#: plugin-options/customization-options.php:541
+msgid "Shared Points"
+msgstr "Puncte partajate"
+
+#: plugin-options/customization-options.php:501
+msgid "Target achieved - Profile Completed"
+msgstr "Obiectiv atins - Profil finalizat"
+
+#: plugin-options/customization-options.php:497
+msgid "Profile Complete"
+msgstr "Profil complet"
+
+#: plugin-options/customization-options.php:493
+msgid "Target achieved - Level"
+msgstr "Ținta atinsă - Nivel"
+
+#: plugin-options/customization-options.php:489
+msgid "Level Achieved"
+msgstr "Nivel atins"
+
+#: plugin-options/customization-options.php:480
+#: plugin-options/customization-options.php:484
+msgid "Collected Points"
+msgstr "Puncte colectate"
+
+#: plugin-options/customization-options.php:471
+#: plugin-options/customization-options.php:475
+msgid "Removed points due to a referred user cancellation"
+msgstr "Puncte eliminate din cauza anulării unui utilizator recomandat"
+
+#: plugin-options/customization-options.php:462
+#: plugin-options/customization-options.php:466
+msgid "Purchase by referral"
+msgstr "Cumpărare prin recomandare"
+
+#: plugin-options/customization-options.php:454
+#: plugin-options/customization-options.php:458
+msgid "Removed registration points due to a referred user cancellation"
+msgstr "Punctele de înregistrare au fost eliminate din cauza anulării unui utilizator recomandat"
+
+#: plugin-options/customization-options.php:450
+msgid "User registration by referral"
+msgstr "Înregistrarea utilizatorului prin recomandare"
+
+#: plugin-options/customization-options.php:446
+msgid "Registration by referral"
+msgstr "Înregistrare prin trimitere"
+
+#: plugin-options/customization-options.php:442
+msgid "Target achieved - Daily Login"
+msgstr "Obiectiv atins - Conectare zilnică"
+
+#: plugin-options/customization-options.php:438
+msgid "Daily Login"
+msgstr "Conectare zilnică"
+
+#: plugin-options/customization-options.php:18
+msgid "General"
+msgstr "General"
+
+#: plugin-options/affiliates-options.php:81
+msgid "Decide how many points will be assigned to each order based on the currency"
+msgstr "Decideți câte puncte vor fi alocate fiecărei comenzi în funcție de monedă"
+
+#: plugin-options/affiliates-options.php:80
+msgid "Assign points based on the order subtotal"
+msgstr "Alocați puncte pe baza subtotalului comenzii"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:144
+msgid "Number of customers to show:"
+msgstr "Numărul de clienți de afișat:"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:139
+msgid "Boxed"
+msgstr "Boxed"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:136
+msgid "Style:"
+msgstr "Stil:"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:125
+msgid "Number of customers to show"
+msgstr "Numărul de clienți de afișat"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:124
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:138
+#: plugin-options/metaboxes/banners-options.php:75
+msgid "Simple"
+msgstr "Simplu"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:33
+msgid "YITH WooCommerce Points And Rewards - Customers Points"
+msgstr "YITH WooCommerce Points And Rewards - Puncte clienti "
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:31
+msgid "Show customers' points "
+msgstr "Afiseaza punctele clientilor"
+
+#: includes/functions-yith-wc-points-rewards.php:415
+msgid "Complete your profile"
+msgstr "Completeaza profilul tau"
+
+#: includes/functions-yith-wc-points-rewards.php:414
+#: plugin-options/metaboxes/banners-options.php:22
+msgid "Leave a review"
+msgstr "Lasa un review"
+
+#: includes/functions-yith-wc-points-rewards.php:412
+#: includes/functions-yith-wc-points-rewards.php:413
+#: plugin-options/metaboxes/banners-options.php:20
+msgid "Refer a friend"
+msgstr "Recomandați unui prieten"
+
+#: includes/functions-yith-wc-points-rewards.php:411
+msgid "Get %points% when you spend %amount%"
+msgstr "Obțineți %points% când cheltuiți %amount%"
+
+#: includes/functions-yith-wc-points-rewards.php:410
+msgid "Get %points% Extra Points"
+msgstr "Obțineți %points% puncte suplimentare"
+
+#: includes/functions-yith-wc-points-rewards.php:409
+msgid "Upgrade to %level%"
+msgstr "Upgrade la %level%"
+
+#: includes/functions-yith-wc-points-rewards.php:377
+msgid "and get %points%"
+msgstr "și obțineți %points%"
+
+#: includes/functions-yith-wc-points-rewards.php:376
+msgid "Get %points% extra, if you leave a review for %products% you've purchased"
+msgstr "Obțineți %points% în plus dacă lăsați o recenzie pentru %products% pe care le-ați achiziționat "
+
+#: includes/functions-yith-wc-points-rewards.php:374
+msgid "Get %points% for each user registered by clicking on your referral link"
+msgstr "Obțineți %points% pentru fiecare utilizator înregistrat făcând clic pe linkul dvs. de recomandare"
+
+#: includes/functions-yith-wc-points-rewards.php:373
+msgid "When you spend a total of %amount% in our shop you will earn an extra %points%"
+msgstr "Când cheltuiți un total de %amount% în magazinul nostru, veți câștiga un %points% în plus"
+
+#: includes/functions-yith-wc-points-rewards.php:371
+#: includes/functions-yith-wc-points-rewards.php:372
+msgid "When you achieve %points%"
+msgstr "Când obții %points%"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:183
+msgid "Enter the renew order label to identify point assignment in the user's points history page"
+msgstr "Introduceți eticheta de reînnoire a comenzii pentru a identifica alocarea punctelor în pagina de istoric de puncte a utilizatorului"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:174
+msgid "Enable to earn points on each renewal order (each subscription payment). If disabled, the user will get points only for the 1st payment."
+msgstr "Activați pentru a câștiga puncte la fiecare comandă de reînnoire (fiecare plată a abonamentului). Dacă este dezactivat, utilizatorul va primi puncte doar pentru prima plată."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:173
+msgid "Enable to earn points on each renewal order"
+msgstr "Activați pentru a câștiga puncte la fiecare comandă de reînnoire"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:165
+msgid "Enable to earn points on the subscriptions fees. If disabled, the user will get points only for the price of subscription products."
+msgstr "Activați pentru a câștiga puncte din taxele de abonamente. Dacă este dezactivat, utilizatorul va primi puncte doar pentru prețul produselor cu abonament."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:164
+msgid "Enable to earn points on the subscriptions fees"
+msgstr "Activați pentru a câștiga puncte din taxele de abonamente"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:158
+msgid "Extra points for subscribers"
+msgstr "Puncte suplimentare pentru abonați"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:310
+msgid "Target achieved - Membership Plan"
+msgstr "Obiectiv atins - Planul de membru"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:306
+msgid "Target - Membership Plan"
+msgstr "Țintă - Plan de membru"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:285
+msgid "Achieved membership plan"
+msgstr "Planul de membru atins"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:234
+#: plugin-options/points/extra-options.php:86
+#: plugin-options/points/extra-options.php:124
+#: plugin-options/points/extra-options.php:162
+#: plugin-options/points/extra-options.php:200
+#: plugin-options/points/extra-options.php:252
+#: plugin-options/points/extra-options.php:304
+#: plugin-options/points/extra-options.php:362
+msgid "Points to assign:"
+msgstr "Puncte de atribuit:"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:226
+msgid "Assign points to the members of a membership"
+msgstr "Atribuiți puncte membrilor unui membru"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:219
+msgid "Extra points for members of specific plans"
+msgstr "Puncte suplimentare pentru membrii planurilor specifice"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:102
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:147
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:179
+msgid "Search membership plan"
+msgstr "Căutați planul de membru"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:98
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:144
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:176
+msgid "Choose membership plans"
+msgstr "Alege planul de membru"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:89
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:121
+#: includes/compatibility/class-ywpar-yith-woocommerce-membership.php:167
+msgid "Users with a membership plan"
+msgstr "Utilizatori cu plan de membru"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:343
+msgid "Set a fix amount of points to assign for each commission."
+msgstr "Stabiliți o sumă fixă de puncte de atribuit pentru fiecare comision."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:316
+msgid "Assign extra points to users that are affiliates after that an order is placed with their referral code"
+msgstr "Atribuiți puncte suplimentare utilizatorilor care sunt afiliați după ce o comandă este plasată cu codul lor de recomandare"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:315
+msgid "Assign points to the affiliates"
+msgstr "Atribuiți puncte afiliaților"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:309
+msgid "Extra points to YITH WooCommerce affiliates"
+msgstr "Puncte suplimentare pentru afiliații YITH WooCommerce"
+
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:102
+msgid " The process is automatic, you will not lose any data and we need only few minutes. Don't worry if something is weird for now, please wait."
+msgstr "Procesul este automat, nu veți pierde nicio dată și avem nevoie de doar câteva minute. Nu vă faceți griji dacă ceva este ciudat pentru moment, vă rugăm să așteptați."
+
+#: includes/class-yith-wc-points-rewards-version-compatibility.php:98
+msgid "Update of YITH WooCommerce Points and Rewards: we are regenerating the points rules."
+msgstr "Actualizare a punctelor și recompenselor YITH WooCommerce: regenerăm regulile de puncte."
+
+#: includes/class-yith-wc-points-rewards-shortcodes.php:271
+msgid "Points you can get:"
+msgstr "Puncte pe care le poți obține:"
+
+#: includes/class-yith-wc-points-rewards-referral.php:219
+msgid "Points get from referred purchase"
+msgstr "Punctele se obțin din achiziția recomandată"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:177
+#: includes/class-yith-wc-points-rewards-post-types.php:212
+msgid "Search rule"
+msgstr "Regula cautare"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:176
+#: includes/class-yith-wc-points-rewards-post-types.php:211
+msgid "View rule"
+msgstr "Vezi regula"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:175
+#: includes/class-yith-wc-points-rewards-post-types.php:210
+msgid "Edit rule"
+msgstr "Editeaza regula"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:173
+#: includes/class-yith-wc-points-rewards-post-types.php:208
+msgid "+ Add new rule"
+msgstr "+ Adauga regula noua"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:172
+#: includes/class-yith-wc-points-rewards-post-types.php:174
+#: includes/class-yith-wc-points-rewards-post-types.php:207
+#: includes/class-yith-wc-points-rewards-post-types.php:209
+msgid "Add new rule"
+msgstr "Adauga regula noua"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:142
+msgid "Search banner"
+msgstr "Cauta banner"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:141
+msgid "View banner"
+msgstr "Vezi banner"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:140
+msgid "Edit banner"
+msgstr "Editeaza banner"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:139
+msgid "Add new banner"
+msgstr "Adauga banner nou"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:138
+msgid "+ Add banner"
+msgstr "+ Adauga banner"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:137
+msgid "Add banner"
+msgstr "Adauga banner"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:109
+#: includes/class-yith-wc-points-rewards-post-types.php:144
+#: includes/class-yith-wc-points-rewards-post-types.php:179
+#: includes/class-yith-wc-points-rewards-post-types.php:214
+msgid "Not found in Trash"
+msgstr "Nu am gasit in Cos"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:108
+#: includes/class-yith-wc-points-rewards-post-types.php:143
+#: includes/class-yith-wc-points-rewards-post-types.php:178
+#: includes/class-yith-wc-points-rewards-post-types.php:213
+msgid "Not found"
+msgstr "Nu am gasit"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:107
+msgid "Search level"
+msgstr "Cauta nivel"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:106
+msgid "View level"
+msgstr "Vezi nivel"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:105
+msgid "Edit level"
+msgstr "Editeaza nivel"
+
+#: includes/class-yith-wc-points-rewards-post-types.php:103
+msgid "+ Add new level"
+msgstr "+ Adauga un nivel nou   "
+
+#: includes/class-yith-wc-points-rewards-post-types.php:102
+#: includes/class-yith-wc-points-rewards-post-types.php:104
+msgid "Add new level"
+msgstr "Adauga nivel nou"
+
+#: includes/class-yith-wc-points-rewards-porting.php:274
+#: includes/class-yith-wc-points-rewards-porting.php:287
+msgid "The CSV cannot be imported."
+msgstr "CSV-ul nu poate fi importat."
+
+#: includes/blocks/class-yith-wc-points-rewards-blocks.php:135
+#: includes/class-yith-wc-points-rewards-frontend.php:765
+msgid "Use {points} {points_label} for a {max_discount} discount on this order!"
+msgstr "Folosiți {points} {points_label} pentru o reducere de {max_discount} la această comandă!"
+
+#: includes/class-yith-wc-points-rewards-admin.php:177
+msgid "Customization"
+msgstr "Customizare"
+
+#: includes/class-yith-wc-points-rewards-admin.php:176
+#: plugin-options/redeem-options.php:18
+msgid "Redeem Options"
+msgstr "Opțiuni de valorificare"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:367
+msgid "Create level"
+msgstr "Creaza nivel"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:280
+msgid "Save Level"
+msgstr "Salveaza nivel"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:201
+msgid "back to levels list"
+msgstr "inapoi la lista de niveluri"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:165
+#: views/panel/types/options-levels-badges-range.php:24
+msgid "to"
+msgstr "la"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:164
+#: plugin-options/metaboxes/points-earning-rules-options.php:206
+#: views/panel/types/options-levels-badges-range.php:22
+msgid "From"
+msgstr "De la"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:116
+msgid "Badge"
+msgstr "Insigna"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:115
+msgid "Points to collect"
+msgstr "Puncte de colectat"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:114
+msgid "Level name"
+msgstr "Nume nivel"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:98
+msgid "%s badge permanently deleted."
+msgid_plural "%s badges permanently deleted."
+msgstr[0] "%s insigna stearsa permanent"
+msgstr[1] "%s insigne stearse permanent"
+msgstr[2] "%s insigne stearse permanent"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:324
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:397
+msgid "Create rule"
+msgstr "Creaza regula"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:240
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:238
+msgid "back to rule list"
+msgstr "înapoi la lista de reguli"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:132
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:134
+msgid "Active"
+msgstr "Active"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:131
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:133
+#: plugin-options/metaboxes/points-earning-rules-options.php:112
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:150
+msgid "Rule name"
+msgstr "Nume regula"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:96
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:97
+msgid "%s rule permanently deleted."
+msgid_plural "%s rules permanently deleted."
+msgstr[0] "%s regula stearsa permanent"
+msgstr[1] "%s reguli stearse permanent"
+msgstr[2] "%s reguli stearse permanent"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:421
+msgid "Create banner"
+msgstr "Creaza banner"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:331
+msgid "Save Banner"
+msgstr "Salveaza banner"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:310
+msgid "Default text:"
+msgstr "Text default:"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:310
+msgid "Default title:"
+msgstr "Titlu default:"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:242
+msgid "back to banner list"
+msgstr "înapoi la lista de bannere"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:191
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:191
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:151
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:191
+#: plugin-options/gutenberg/blocks.php:63
+msgid "No"
+msgstr "Nu"
+
+#. translators: %s is the title of the post object.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:190
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:190
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:150
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:190
+msgid "This action cannot be undone and you will not be able to recover this data."
+msgstr "Această acțiune nu poate fi anulată și nu veți putea recupera aceste date."
+
+#. translators: %s is the title of the post object.
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:190
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:190
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:150
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:190
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr "Sigur doriți să ștergeți \"%s”?"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:188
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:188
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:148
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:188
+msgid "Confirm delete"
+msgstr "Confirmă ștergerea"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:172
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:171
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:172
+msgid "Move"
+msgstr "Muta"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:165
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:163
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:165
+msgid "Duplicate"
+msgstr "Duplicare"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:134
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:117
+#: templates/myaccount/ywpar-share-points.php:100
+#: templates/myaccount/ywpar-share-points.php:118
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:133
+#: plugin-options/metaboxes/banners-options.php:79
+msgid "Banner type"
+msgstr "Tip banner"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:132
+#: plugin-options/metaboxes/banners-options.php:52
+msgid "Banner name"
+msgstr "Nume banner"
+
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:98
+msgid "%s banner permanently deleted."
+msgid_plural "%s banners permanently deleted."
+msgstr[0] "%s banner sters permanent"
+msgstr[1] "%s bannere sterse permanent"
+msgstr[2] "%s bannere sterse permanent"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:436
+msgid "Options"
+msgstr "Optiuni"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:280
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:299
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:301
+msgid "Save Rule"
+msgstr "Salveaza regula"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:277
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:328
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:296
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:277
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:298
+msgid "Delete"
+msgstr "Sterge"
+
+#: includes/admin/cpt/abstract-class-yith-wc-points-rewards-editor.php:276
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-banners.php:327
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-earning-rules.php:295
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-levels-badges.php:276
+#: includes/admin/cpt/class-yith-wc-points-rewards-editor-redeeming-rules.php:297
+msgid "Update"
+msgstr "Actualizeaza"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:172
+msgid "Apply extrapoint rules"
+msgstr "Aplica regula puncte extra"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:170
+msgid "Ban users"
+msgstr "Blocheaza utilizatori"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:169
+msgid "Remove points"
+msgstr "Sterge puncte"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:61
+#: templates/myaccount/my-points-view.php:156
+#: templates/myaccount/my-points-view.php:167
+msgid "Reason"
+msgstr "Motiv"
+
+#: plugin-options/points/standard-options.php:214
+msgid "Enable this option if you do not want the user to earn points on a full order amount if they use a coupon. Instead they will only earn points on the amount minus the coupon discount. For example: order total €30 minus €10 coupon discount, so the user earns points on €20 order value only"
+msgstr "Activați această opțiune dacă nu doriți ca utilizatorul să câștige puncte pentru o sumă completă de comandă dacă utilizează un cupon. În schimb, ei vor câștiga doar puncte din suma minus reducerea cuponului. De exemplu: totalul comenzii de 30 EUR minus reducere la cupon de 10 EUR, astfel încât utilizatorul câștigă puncte numai la valoarea comenzii de 20 EUR"
+
+#: plugin-options/points/standard-options.php:213
+msgid "Not assign points to the full order amount if a coupon is used"
+msgstr "Nu atribuiți puncte la suma totală a comenzii dacă este utilizat un cupon"
+
+#: plugin-options/customization-options.php:81
+#: plugin-options/customization-options.php:160
+#: plugin-options/metaboxes/banners-options.php:163
+msgid "Background"
+msgstr "Fundal"
+
+#: plugin-options/customization-options.php:76
+#: plugin-options/customization-options.php:155
+#: plugin-options/metaboxes/banners-options.php:173
+msgid "Text"
+msgstr "Text"
+
+#: plugin-options/customization-options.php:72
+#: plugin-options/customization-options.php:151
+msgid "Colors"
+msgstr "Culori"
+
+#: includes/blocks/class-yith-wc-points-rewards-blocks.php:128
+#: includes/class-yith-wc-points-rewards-frontend.php:748
+msgid "You have {points} {points_label}. Use {points_field} points to get a discount of {max_discount} on this order."
+msgstr "Aveti {points} {points_label}. Urilizati {points_field} eLei pentru a primi o reducere de {max_discount} la aceasta comanda."
+
+#: views/panel/types/options-role-conversion.php:114
+#: views/panel/types/options-role-percentage-conversion.php:86
+msgid "+ Add rule for another user role"
+msgstr "+ Adăugați o regulă pentru alt rol de utilizator"
+
+#: views/panel/types/options-role-conversion.php:109
+#: views/panel/types/options-role-percentage-conversion.php:81
+msgid "+ Add rule for same user role"
+msgstr "+ Adăugați o regulă pentru alt rol de utilizator..."
+
+#: views/panel/types/options-role-conversion.php:45
+#: views/panel/types/options-role-percentage-conversion.php:43
+msgid "For"
+msgstr "Pentru"
+
+#: views/panel/types/options-extrapoints-levels.php:56
+#: views/panel/types/options-extrapoints-membership-plans.php:56
+#: views/panel/types/options-extrapoints.php:75
+msgid "+ Add rule"
+msgstr "+ Adauga regula"
+
+#: views/panel/types/options-extrapoints-multi.php:67
+#: views/panel/types/options-extrapoints.php:53
+msgid "points extra"
+msgstr "puncte extra"
+
+#: views/panel/types/options-expire.php:23
+msgid "Months"
+msgstr "Luni"
+
+#: views/panel/types/options-expire.php:22
+msgid "Days"
+msgstr "Zile"
+
+#: views/panel/types/options-conversion.php:43
+#: views/panel/types/options-percentage-conversion.php:46
+#: views/panel/types/options-role-conversion.php:95
+#: views/panel/types/options-role-percentage-conversion.php:72
+msgid "discount"
+msgstr "discount"
+
+#: views/panel/types/options-conversion-earning.php:41
+#: views/panel/types/options-role-conversion.php:74
+msgid "assign"
+msgstr "atribuie"
+
+#: views/panel/types/options-conversion-earning.php:39
+msgid "For each"
+msgstr "Pentru fiecare"
+
+#: views/tabs/import_export-tab.php:100
+msgid "Upload the CSV file to import points"
+msgstr "Încărcați fișierul CSV pentru a importa puncte"
+
+#: views/tabs/import_export-tab.php:97
+msgid "Upload"
+msgstr "Încărcați"
+
+#: views/tabs/import_export-tab.php:94
+msgid "Upload CSV file"
+msgstr "Încărcați fisier CSV"
+
+#: views/tabs/import_export-tab.php:72
+msgid "Import/Export Points"
+msgstr "Import/Export puncte"
+
+#: views/tabs/import_export-tab.php:60
+msgid "Enter the delimiter type. You can use for example , / ;"
+msgstr "Introduceți tipul delimitatorului. Puteți utiliza, de exemplu, /;"
+
+#: views/tabs/import_export-tab.php:57
+msgid "Delimiter Type"
+msgstr "Tip delimitator"
+
+#: views/tabs/import_export-tab.php:51
+msgid "Choose if imported points will be added or will override the current balance."
+msgstr "Alegeți dacă punctele importate vor fi adăugate sau vor înlocui soldul curent."
+
+#: views/tabs/import_export-tab.php:35
+msgid "User email / Points"
+msgstr "E-mail utilizator / Puncte"
+
+#: views/tabs/import_export-tab.php:25 views/tabs/import_export-tab.php:38
+msgid "Choose if you want to import or export"
+msgstr "Alegeți dacă doriți să importați sau să exportați"
+
+#: views/tabs/import_export-tab.php:22
+msgid "Export points into a CSV file"
+msgstr "Exportați puncte într-un fișier CSV"
+
+#: views/tabs/customer-history.php:132
+msgid "Optional description:"
+msgstr "Descriere opțională:"
+
+#: views/tabs/customer-history.php:126
+msgid "Points:"
+msgstr "Puncte:"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:49
+msgid "Points collected"
+msgstr "Puncte colectate"
+
+#: views/tabs/customer-history.php:18
+msgid "Ban user"
+msgstr "Blocheaza utilizator"
+
+#: views/tabs/bulk-actions.php:272
+msgid "Apply Action"
+msgstr "Aplica actiune"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:210
+#: plugin-options/metaboxes/points-earning-rules-options.php:223
+#: views/tabs/bulk-actions.php:194
+msgid "Choose from which date to assign points to previous orders"
+msgstr "Alegeți de la ce dată să atribuiți puncte comenzilor anterioare"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:209
+#: views/tabs/bulk-actions.php:193
+msgid "Add points to orders placed from"
+msgstr "Adăugați puncte la comenzile plasate de la"
+
+#: views/tabs/bulk-actions.php:181
+msgid "Orders placed from a specific date"
+msgstr "Comenzi plasate de la o anumită dată"
+
+#: views/tabs/bulk-actions.php:180
+msgid "All previous orders"
+msgstr "Toate comenzile anterioare"
+
+#: views/tabs/bulk-actions.php:177
+msgid "Choose to assign points to all previous orders or only orders placed from a specific date. All orders from this date will be checked and points will be added to the customer's profile."
+msgstr "Alegeți să atribuiți puncte tuturor comenzilor anterioare sau numai comenzilor plasate de la o anumită dată. Toate comenzile de la această dată vor fi verificate și vor fi adăugate puncte la profilul clientului."
+
+#: views/tabs/bulk-actions.php:176
+msgid "Add points to"
+msgstr "Adauga puncte la"
+
+#: views/tabs/bulk-actions.php:163
+msgid "Enter a description to explain to your users the reason for the points action"
+msgstr "Introduceți o descriere pentru a explica utilizatorilor motivul acțiunii cu puncte"
+
+#: views/tabs/bulk-actions.php:148
+msgid "Set how many points."
+msgstr "Seteaza cate puncte."
+
+#: views/tabs/bulk-actions.php:133
+msgid "Choose which users to exclude"
+msgstr "Alegeți ce utilizatori să excludeți"
+
+#: views/tabs/bulk-actions.php:114
+msgid "Choose which roles to exclude"
+msgstr "Alegeți ce roluri să excludeți"
+
+#: views/tabs/bulk-actions.php:102
+msgid "Specified user roles"
+msgstr "Roluri de utilizator specificate"
+
+#: views/tabs/bulk-actions.php:101
+msgid "Specified users"
+msgstr "Utilizatori specificati"
+
+#: views/tabs/bulk-actions.php:98
+msgid "Set which users to apply the selected action"
+msgstr "Setați ce utilizatori să aplice acțiunea selectată"
+
+#: views/tabs/bulk-actions.php:97
+msgid "Don't apply action to"
+msgstr "Nu aplicați acțiune la"
+
+#: views/tabs/bulk-actions.php:85
+msgid "Enable if you want to exclude specific users or user roles"
+msgstr "Activați dacă doriți să excludeți anumiți utilizatori sau roluri de utilizator"
+
+#: views/tabs/bulk-actions.php:84
+msgid "Exclude users"
+msgstr "Excludeți utilizatori"
+
+#: views/tabs/bulk-actions.php:71
+msgid "Choose which users to apply the action"
+msgstr "Alegeți ce utilizatori să aplice acțiunea"
+
+#: views/tabs/bulk-actions.php:70
+msgid "Choose which users"
+msgstr "Alegeți ce utilizatori"
+
+#: views/tabs/bulk-actions.php:53
+msgid "Choose which user roles to apply the action"
+msgstr "Alegeți ce rol de utilizator să aplicați acțiunea"
+
+#: views/tabs/bulk-actions.php:52
+msgid "Choose which roles"
+msgstr "Alegeți ce roluri"
+
+#: views/tabs/bulk-actions.php:40
+msgid "Only specified users"
+msgstr "Doar utilizatori specificati"
+
+#: views/tabs/bulk-actions.php:38
+msgid "All users"
+msgstr "Toți utilizatorii"
+
+#: views/tabs/bulk-actions.php:35
+msgid "Choose to which users apply this action"
+msgstr "Alegeți utilizatorilor cărora le aplică această acțiune"
+
+#: views/tabs/bulk-actions.php:34
+msgid "Apply action to"
+msgstr "Aplicați acțiune la"
+
+#: views/tabs/bulk-actions.php:28
+msgid "Choose the action you want to execute"
+msgstr "Alegeți acțiunea pe care doriți să o executați"
+
+#: views/tabs/bulk-actions.php:22
+msgid "Remove points to users"
+msgstr "Eliminați puncte pentru utilizatori"
+
+#: views/tabs/bulk-actions.php:21
+msgid "Add points to users"
+msgstr "Adăugați puncte utilizatorilor"
+
+#: views/tabs/bulk-actions.php:20
+msgid "Add points to previous orders"
+msgstr "Adăugați puncte la comenzile anterioare"
+
+#: views/tabs/bulk-actions.php:19
+msgid "Reset points"
+msgstr "Reseteaza puncte"
+
+#: plugin-options/points/standard-options.php:270
+msgid "Set a default expiration on points earned in your shop"
+msgstr "Setați o expirare prestabilită pentru punctele câștigate în magazinul dvs"
+
+#: plugin-options/points/standard-options.php:269
+msgid "Points will expire after"
+msgstr "Punctele vor expira după"
+
+#: plugin-options/points/standard-options.php:257
+msgid "Enable if you want to set an expiration time on points assigned to users"
+msgstr "Activați dacă doriți să setați un timp de expirare pentru punctele alocate utilizatorilor"
+
+#: plugin-options/points/standard-options.php:227
+msgid "Enable to not assign points to orders in which the user redeems points"
+msgstr "Activați pentru a nu atribui puncte comenzilor în care utilizatorul răscumpără puncte"
+
+#: plugin-options/points/standard-options.php:188
+msgid "Enable if you want to reassign all the redeemed points to a customer when an order is refunded"
+msgstr "Activați dacă doriți să reatribuiți toate punctele valorificate unui client atunci când o comandă este rambursată"
+
+#: plugin-options/points/standard-options.php:187
+msgid "Reassign points when an order is refunded"
+msgstr "Realocați puncte atunci când o comandă este rambursată"
+
+#: plugin-options/points/standard-options.php:175
+msgid "Enable if you want to remove earned points when an order is cancelled"
+msgstr "Activați dacă doriți să eliminați punctele câștigate atunci când o comandă este anulată"
+
+#: plugin-options/points/standard-options.php:158
+msgid "Choose based on which order status to assign points to users"
+msgstr "Alegeți în funcție de starea comenzii să atribuiți puncte utilizatorilor"
+
+#: plugin-options/points/standard-options.php:145
+msgid "Enable to assign points to newly registered users if they use the same billing email address for previous orders"
+msgstr "Activați alocarea de puncte utilizatorilor nou înregistrați dacă folosesc aceeași adresă de e-mail de facturare pentru comenzile anterioare"
+
+#: plugin-options/points/standard-options.php:144
+msgid "Assign points to a new registered user if his billing e-mail is registered"
+msgstr "Atribuiți puncte unui nou utilizator înregistrat dacă e-mailul său de facturare este înregistrat"
+
+#: plugin-options/points/standard-options.php:131
+msgid "Assign points to a guest if his billing email is registered"
+msgstr "Atribuiți puncte unui oaspete dacă e-mailul său de facturare este înregistrat"
+
+#: plugin-options/points/standard-options.php:47
+msgid "Choose if to assign points to all users or only to specified user roles"
+msgstr "Alegeți dacă să atribuiți puncte tuturor utilizatorilor sau numai rolurilor de utilizator specificate"
+
+#: plugin-options/points/standard-options.php:46
+msgid "Assign points to"
+msgstr "Atribuiți puncte către"
+
+#: plugin-options/points/standard-options.php:119
+msgid "If enabled, sale products will not assign points to your users"
+msgstr "Dacă este activată, produsele de vânzare nu vor atribui puncte utilizatorilor dvs"
+
+#: plugin-options/points/standard-options.php:39
+msgid "Manually - You can assign points manually in 'Customer Points' tab"
+msgstr "Manual - Puteți aloca puncte manual în fila „Puncte client”."
+
+#: plugin-options/points/standard-options.php:38
+msgid "Automatically - Points will be assigned automatically for each purchase"
+msgstr "Automat - Punctele vor fi atribuite automat pentru fiecare achiziție"
+
+#: plugin-options/points/standard-options.php:34
+msgid "Choose whether to award points to users automatically or manually"
+msgstr "Alegeți dacă să acordați puncte utilizatorilor automat sau manual"
+
+#: plugin-options/points/standard-options.php:33
+msgid "Assign points to user"
+msgstr "Atribuiți puncte utilizatorului"
+
+#: plugin-options/points/standard-options.php:18
+msgid "Points Assignments"
+msgstr "Atribuții de puncte"
+
+#: plugin-options/redeem/standard-options.php:313
+msgid "Set the minimum discount to redeem points"
+msgstr "Setați reducerea minimă pentru a răscumpăra puncte"
+
+#: plugin-options/redeem/standard-options.php:298
+msgid "Set the minimum cart amount required to redeem points"
+msgstr "Setați suma minimă pentru coș necesară pentru a răscumpăra puncte"
+
+#: plugin-options/redeem/standard-options.php:297
+msgid "Minimum cart amount to redeem points"
+msgstr "Suma minimă de coș pentru a valorifica punctele"
+
+#: plugin-options/redeem/standard-options.php:286
+msgid "Set the maximum discount amount that your users can get when they redeem their points"
+msgstr "Setați suma maximă de reducere pe care o pot obține utilizatorii dvs. atunci când își valorifică punctele"
+
+#: plugin-options/redeem/standard-options.php:271
+#: plugin-options/redeem/standard-options.php:285
+msgid "Maximum discount users can get"
+msgstr "Reduceri maxime pe care utilizatorii le pot obține"
+
+#: plugin-options/redeem/standard-options.php:244
+msgid "Enable to setup redeeming restrictions for your users"
+msgstr "Activați pentru a configura restricții de valorificare pentru utilizatorii dvs"
+
+#: plugin-options/redeem/standard-options.php:243
+msgid "Apply redeeming restrictions"
+msgstr "Aplicați restricții de răscumpărare"
+
+#: plugin-options/redeem/standard-options.php:237
+msgid "Redeeming restrictions"
+msgstr "Răscumpărarea restricțiilor"
+
+#: plugin-options/redeem/standard-options.php:213
+msgid "Coupons allowed"
+msgstr "Cupoane permise"
+
+#: plugin-options/redeem/standard-options.php:201
+msgid "Enable to offer free shipping to users that redeem their points. A free shipping method must be enabled and set up in your shipping zones to generate “a valid free shipping coupon”"
+msgstr "Activați pentru a oferi transport gratuit utilizatorilor care își valorifică punctele. O metodă de livrare gratuită trebuie să fie activată și configurată în zonele dvs. de expediere pentru a genera „un cupon de livrare gratuită valid”"
+
+#: plugin-options/redeem/standard-options.php:200
+msgid "Offer free shipping when user redeem"
+msgstr "Oferiți transport gratuit atunci când utilizatorul valorifică"
+
+#: plugin-options/redeem/standard-options.php:187
+msgctxt "do not translate the text inside the brackets"
+msgid " Enter the redeem message to show in cart and checkout page. <br />You can use these placeholders:<br />{points} number of points earned;<br>{points_label} of points;<br>{max_discount} maximum discount value"
+msgstr "Introduceți mesajul de valorificare pentru a fi afișat în coș și pagina de finalizare a comenzii. <br />Puteți folosi acești substituenți:<br />{points} numărul de puncte câștigate;<br>{points_label} de puncte;<br>{max_discount} valoarea maximă a reducerii"
+
+#: plugin-options/redeem/standard-options.php:186
+msgid "Redeem message in Cart and Checkout"
+msgstr "Valorificați mesajul în coș și finalizarea comenzii"
+
+#: plugin-options/redeem/standard-options.php:174
+msgid "Custom"
+msgstr "Personalizat"
+
+#: plugin-options/redeem/standard-options.php:173
+msgid "Default"
+msgstr "Mod implicit"
+
+#: plugin-options/redeem/standard-options.php:169
+msgid "Choose the style for the redeem points section"
+msgstr "Alegeți stilul pentru secțiunea de valorificare a punctelor"
+
+#: plugin-options/redeem/standard-options.php:168
+msgid "Redeem box style"
+msgstr "Redeem box style"
+
+#: plugin-options/redeem/standard-options.php:155
+msgid "Enable to automatically apply points on the cart/checkout page"
+msgstr "Activați pentru a aplica automat puncte pe pagina de coș/checkout"
+
+#: plugin-options/redeem/standard-options.php:53
+msgid "Choose which user roles can redeem points"
+msgstr "Alegeți ce rol de utilizator pot valorifica puncte"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:28
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:39
+#: plugin-options/points/standard-options.php:54
+#: plugin-options/redeem/standard-options.php:41 views/tabs/bulk-actions.php:39
+msgid "Only specified user roles"
+msgstr "Doar roluri de utilizator specificate"
+
+#: plugin-options/redeem/standard-options.php:32
+msgid "Choose if all users can redeem points or only specified user roles can do that. "
+msgstr "Alegeți dacă toți utilizatorii pot răscumpăra puncte sau numai anumite roluri de utilizator pot face asta."
+
+#: plugin-options/redeem/standard-options.php:31
+msgid "User that can redeem points"
+msgstr "Utilizator care poate răscumpăra puncte"
+
+#: plugin-options/redeem/standard-options.php:23
+msgid "Choose if a user can redeem points automatically or if you want to manage points redeeming manually"
+msgstr "Alegeți dacă un utilizator poate răscumpăra puncte automat sau dacă doriți să gestionați manual valorificarea punctelor"
+
+#: plugin-options/redeem/standard-options.php:22
+msgid "Allow users to redeem points"
+msgstr "Permiteți utilizatorilor să răscumpere puncte"
+
+#: plugin-options/redeem/standard-options.php:16
+msgid "Points redeeming"
+msgstr "Valorificarea punctelor"
+
+#: plugin-options/points/extra-options.php:486
+msgid "Choose the format to use for the Birthday Date Field"
+msgstr "Alegeți formatul de utilizat pentru câmpul pentru data nașterii"
+
+#: plugin-options/points/extra-options.php:470
+msgid "Choose where to show the Birthday Date Field"
+msgstr "Alegeți unde să afișați câmpul pentru data nașterii"
+
+#: plugin-options/points/extra-options.php:469
+msgid "Show birthday input field in"
+msgstr "Afișați câmpul de introducere a zilei de naștere în"
+
+#: plugin-options/points/extra-options.php:453
+msgid "Set how many points to assign to users on their birthday"
+msgstr "Setați câte puncte să atribuiți utilizatorilor de ziua lor"
+
+#: plugin-options/points/extra-options.php:452
+msgid "Points to assign per birthday"
+msgstr "Puncte de atribuit pe zi de naștere"
+
+#: plugin-options/points/extra-options.php:444
+msgid "Enable to assign points on customer's birthday"
+msgstr "Activați alocarea de puncte la ziua de naștere a clientului"
+
+#: plugin-options/points/extra-options.php:437
+msgid "Extra points for users' birthday"
+msgstr "Puncte suplimentare pentru ziua de naștere a utilizatorilor"
+
+#: plugin-options/points/extra-options.php:49
+msgid "Set how many points to assign to new users"
+msgstr "Setați câte puncte să atribuiți noilor utilizatori"
+
+#: plugin-options/points/extra-options.php:48
+msgid "Points to assign to new users"
+msgstr "Puncte de atribuit noilor utilizatori"
+
+#: plugin-options/points/extra-options.php:40
+#: plugin-options/points/extra-options.php:78
+msgid "Assign extra points to newly registered users"
+msgstr "Alocați puncte suplimentare utilizatorilor nou înregistrați"
+
+#: plugin-options/points/extra-options.php:33
+#: plugin-options/points/extra-options.php:71
+msgid "Extra points for user registration"
+msgstr "Puncte suplimentare pentru înregistrarea utilizatorului"
+
+#: plugin-options/points/extra-options.php:411
+msgid "points ="
+msgstr "puncte = "
+
+#: plugin-options/points/extra-options.php:408
+msgid "Set how many points to assign based on the total of points collected"
+msgstr "Setați câte puncte să atribuiți pe baza totalului de puncte adunate"
+
+#: plugin-options/points/extra-options.php:407
+msgid "Points to assign per points collected"
+msgstr "Puncte de atribuit pe puncte adunate"
+
+#: plugin-options/points/extra-options.php:392
+msgid "Enable points incentive on total collected points"
+msgstr "Activați stimulente de puncte pentru punctele totale adunate"
+
+#: plugin-options/points/extra-options.php:656
+msgid "Enable to show messages about thresholds achieved on Cart & Checkout pages"
+msgstr "Activați pentru a afișa mesaje despre pragurile atinse în paginile Coș și Cumpărare"
+
+#: plugin-options/points/extra-options.php:644
+msgid "Apply only the rule with the highest number of points in cart"
+msgstr "Aplicați numai regula cu cel mai mare număr de puncte în coș"
+
+#: plugin-options/points/extra-options.php:643
+msgid "Apply all rules and sum up the points"
+msgstr "Aplicați toate regulile și însumați punctele"
+
+#: plugin-options/points/extra-options.php:638
+msgid "If you created multiple points based rules on cart total, choose whether to apply all rules or just the highest value rule"
+msgstr "Dacă ați creat mai multe reguli bazate pe puncte pe totalul coșului, alegeți dacă aplicați toate regulile sau doar regula cu cea mai mare valoare"
+
+#: plugin-options/points/extra-options.php:637
+msgid "Based on cart total, allow user to achieve multiple thresholds"
+msgstr "Pe baza totalului coșului, permiteți utilizatorului să atingă mai multe praguri"
+
+#: plugin-options/points/extra-options.php:615
+msgid "Set how many points to assign based on cart total"
+msgstr "Setați câte puncte să atribuiți în funcție de totalul coșului"
+
+#: plugin-options/points/extra-options.php:614
+msgid "Points to assign on cart total"
+msgstr "Puncte de atribuit în totalul coșului"
+
+#: plugin-options/points/extra-options.php:606
+msgid "Enable to assign points to user, based on the cart total"
+msgstr "Activați alocarea de puncte utilizatorului, pe baza totalului coșului"
+
+#: plugin-options/points/extra-options.php:599
+msgid "Extra Points for cart total"
+msgstr "Puncte suplimentare pentru totalul coșului"
+
+#: plugin-options/points/extra-options.php:702
+msgid "Set how many points to allocate for each amount reached"
+msgstr "Setați câte puncte să alocați pentru fiecare sumă atinsă"
+
+#: plugin-options/points/extra-options.php:701
+msgid "Points to assign per amount reached"
+msgstr "Puncte de atribuit pe suma atinsă"
+
+#: plugin-options/metaboxes/banners-options.php:15
+#: plugin-options/points/extra-options.php:686
+msgid "Extra points for amount spent"
+msgstr "Puncte suplimentare pentru suma cheltuită"
+
+#: plugin-options/points/extra-options.php:569
+msgid "Set how many points to assign per order placed"
+msgstr "Setați câte puncte de atribuit pentru fiecare comandă plasată"
+
+#: plugin-options/points/extra-options.php:568
+msgid "Points to assign per order"
+msgstr "Puncte de atribuit pentru fiecare comandă"
+
+#: plugin-options/points/extra-options.php:560
+#: plugin-options/points/extra-options.php:693
+msgid "Enable to assign points to a user, when an order is placed"
+msgstr "Activați alocarea de puncte unui utilizator, atunci când este plasată o comandă"
+
+#: plugin-options/points/extra-options.php:559
+msgid "Assign points based on orders placed"
+msgstr "Alocați puncte în funcție de comenzile plasate"
+
+#: plugin-options/points/extra-options.php:553
+msgid "Extra points for orders"
+msgstr "Puncte suplimentare pentru comenzi"
+
+#: plugin-options/points/extra-options.php:523
+msgid "Set how many points to assign for reviews. Check \"repeat\" to repeat the rules: if you set 5 reviews = 10 points. Check repeat, and 10 reviews will get 20 points and so on"
+msgstr "Setați câte puncte să atribuiți pentru recenzii. Bifați „repetați” pentru a repeta regulile: dacă setați 5 recenzii = 10 puncte. Verificați repetarea, iar 10 recenzii vor primi 20 de puncte și așa mai departe"
+
+#: plugin-options/points/extra-options.php:522
+msgid "Points to assign for reviews"
+msgstr "Puncte de atribuit pentru recenzii"
+
+#: plugin-options/points/extra-options.php:514
+msgid "Enable to assign points to users that leave a product review"
+msgstr "Activați pentru a atribui puncte utilizatorilor care lasă o recenzie a produsului"
+
+#: plugin-options/points/extra-options.php:513
+msgid "Assign points to users that leave a product review"
+msgstr "Atribuiți puncte utilizatorilor care lasă o recenzie de produs"
+
+#: plugin-options/points/extra-options.php:507
+msgid "Extra Points for reviews"
+msgstr "Puncte suplimentare pentru recenzii"
+
+#: plugin-options/customization-options.php:298
+msgid "Enter the text to show in Checkout page"
+msgstr "Introduceți textul de afișat în pagina Checkout"
+
+#: plugin-options/customization-options.php:297
+msgid "Message text in checkout"
+msgstr "Textul mesajului în casă"
+
+#: plugin-options/customization-options.php:289
+msgid "Enable to show the points message in checkout page"
+msgstr "Activați pentru a afișa mesajul de puncte în pagina de finalizare a achiziției"
+
+#: plugin-options/customization-options.php:288
+msgid "Show points in Checkout page"
+msgstr "Afișați puncte în pagina Checkout"
+
+#: plugin-options/customization-options.php:274
+msgid "Enter the text to show in cart page"
+msgstr "Introduceți textul de afișat în pagina coșului"
+
+#: plugin-options/customization-options.php:273
+msgid "Message text in cart"
+msgstr "Textul mesajului în coș"
+
+#: plugin-options/customization-options.php:265
+msgid "Enable to show the points message in cart page"
+msgstr "Activați pentru a afișa mesajul cu puncte în pagina coșului"
+
+#: plugin-options/customization-options.php:264
+msgid "Show points in Cart page"
+msgstr "Afișați puncte în pagina Coș"
+
+#: plugin-options/customization-options.php:258
+msgid "Points in Cart & Checkout"
+msgstr "Puncte în coș și comandă"
+
+#: plugin-options/customization-options.php:223
+msgid "enable to show the points value. Example: \"You have 100 points - 15$"
+msgstr "activați pentru a afișa valoarea punctelor. Exemplu: „Ai 100 de puncte - 15$"
+
+#: plugin-options/customization-options.php:222
+msgid "Show Points Value"
+msgstr "Afișați valoarea punctelor"
+
+#: plugin-options/customization-options.php:209
+msgid "Enter the endpoint of the Points in My account page. Endpoints cannot contain any spaces nor uppercase letters"
+msgstr "Introduceți punctul final al paginii Puncte în contul meu. Punctele finale nu pot conține spații sau litere mari"
+
+#: plugin-options/customization-options.php:208
+msgid "Endpoint for points section"
+msgstr "Punct final pentru secțiunea de puncte"
+
+#: plugin-options/customization-options.php:195
+msgid "Enter a label to identify the points section in My Account page"
+msgstr "Introduceți o etichetă pentru a identifica secțiunea de puncte în pagina Contul meu"
+
+#: plugin-options/customization-options.php:194
+msgid "Label for points section"
+msgstr "Etichetă pentru secțiunea de puncte"
+
+#: plugin-options/customization-options.php:186
+msgid "Enable to show points in the \"My Account\" page of all users"
+msgstr "Activați pentru afișarea punctelor în pagina „Contul meu” a tuturor utilizatorilor"
+
+#: plugin-options/customization-options.php:185
+msgid "Show points on My Account"
+msgstr "Afișați puncte în Contul meu"
+
+#: plugin-options/customization-options.php:178
+msgid "Points in My Account"
+msgstr "Puncte in Contul meu"
+
+#: plugin-options/customization-options.php:109
+msgid "Choose where to show the points message in the product page"
+msgstr "Alegeți unde să afișați mesajul cu puncte în pagina produsului"
+
+#: plugin-options/customization-options.php:100
+msgid "Enable to show the message related to points in all product pages"
+msgstr "Activați pentru a afișa mesajul legat de puncte în toate paginile de produse"
+
+#: plugin-options/customization-options.php:99
+msgid "Show points message in product page"
+msgstr "Afișați mesajul cu puncte în pagina produsului"
+
+#: plugin-options/customization-options.php:46
+msgid "Enable to show the message related to points in all shop pages"
+msgstr "Activați pentru a afișa mesajul legat de puncte în toate paginile magazinului"
+
+#: plugin-options/customization-options.php:45
+msgid "Show points message in shop pages (loop)"
+msgstr "Afișați mesajul cu puncte în paginile magazinului (buclă)"
+
+#: plugin-options/customization-options.php:39
+msgid "Points in shop pages"
+msgstr "Puncte în paginile magazinului"
+
+#: plugin-options/customization-options.php:25
+msgid "Enable to hide point messages to guest users"
+msgstr "Activați pentru a ascunde mesajele punctuale pentru utilizatorii invitați"
+
+#: plugin-options/customization-options.php:24
+msgid "Hide points messages to guest users"
+msgstr "Ascundeți mesajele cu puncte pentru utilizatorii invitați"
+
+#: plugin-options/points/standard-options.php:25
+msgid "Enable to allow your shop manager to access and manage the plugin settings"
+msgstr "Activați pentru a permite managerului magazinului să acceseze și să gestioneze setările pluginului"
+
+#: plugin-options/points/standard-options.php:24
+msgid "Allow shop manager to manage this plugin"
+msgstr "Permiteți managerului magazinului să gestioneze acest plugin"
+
+#: plugin-options/emails-options.php:154
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"Hi {username}!\n"
+"\t\t\t\n"
+"Here you can find the updated balance of your {label_points}.\n"
+" \n"
+" <div class=\"points_banner\">\n"
+" Total points collected: <b>{total_points}</b>\n"
+" <a href=\"{shop_url}\">Redeem them in your next order ></a>\n"
+"</div>\n"
+"\n"
+" Well done!\n"
+" {website_name} staff"
+msgstr ""
+"Bună {username}!\n"
+"Aici puteți găsi soldul actualizat al {label_points}.\n"
+"<div class=\"points_banner\">\n"
+"Total de puncte adunate: <b>{total_points}</b>\n"
+"<a href=\"{shop_url}\">Valorați-le la următoarea comandă ></a>\n"
+"</div>\n"
+"Bine făcut!\n"
+"personalul {website_name}"
+
+#: plugin-options/emails-options.php:150
+msgid "Website name"
+msgstr "Nume site"
+
+#: plugin-options/emails-options.php:149
+msgid "Shop url"
+msgstr "URL magazin"
+
+#: plugin-options/emails-options.php:60
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"Hi {username}!\n"
+"\t\t\t\n"
+"We send you this message because the <b>{expiring_points} {label_points}</b> you've already earned in our shop will expire on {expiring_date}.\n"
+"\n"
+"<div class=\"points_banner\">\n"
+"Use them now to get a <b>discount of {discount}</b> in your purchase!\n"
+"<a href=\"{shop_url}\">Check our shop now ></a>\n"
+"</div>\n"
+"\n"
+"Regards,\n"
+"{website_name} staff\n"
+msgstr ""
+"Bună {username}!↵\n"
+"→ → → ↵\n"
+"Vă trimitem acest mesaj deoarece <b>{expiring_points} {label_points}</b> pe care le-ați câștigat deja în magazinul nostru vor expira pe {expiring_date}.↵\n"
+"↵\n"
+"<div class=\"points_banner\">↵\n"
+"Folosiți-le acum pentru a obține o <b>reducere de {discount}</b> la achiziția dvs.!↵\n"
+"<a href=\"{shop_url}\">Verificați magazinul nostru acum ></a>↵\n"
+"</div>↵\n"
+"↵\n"
+"Salutari,↵\n"
+"personalul {website_name}↵\n"
+
+#: plugin-options/emails-options.php:43
+msgctxt "do not translate the text inside the brackets"
+msgid ""
+"You can use the following placeholders,<br>\n"
+"                {username} = customer's username <br>\n"
+"                {first_name} = customer's  first name <br>\n"
+"                {last_name} = customer's last name <br>\n"
+"                {expiring_points} = expiring points <br>\n"
+"                {label_points} = label for points <br>\n"
+"                {expiring_date} = points expiry date<br>\n"
+"                {total_points} = current balance<br>\n"
+"                {shop_url} = url of the shop<br>\n"
+"                {discount} = value of the discount<br>\n"
+"\t\t\t\t{website_name} = website name"
+msgstr ""
+"Puteți folosi următorii substituenți,<br>\n"
+"{username} = numele de utilizator al clientului <br>\n"
+"{first_name} = prenumele clientului <br>\n"
+"{last_name} = numele de familie al clientului <br>\n"
+"{expiring_points} = puncte care expiră <br>\n"
+"{label_points} = etichetă pentru puncte <br>\n"
+"{expiring_date} = data expirării punctelor<br>\n"
+"{total_points} = sold curent<br>\n"
+"{shop_url} = adresa URL a magazinului<br>\n"
+"{discount} = valoarea reducerii<br>\n"
+"{website_name} = numele site-ului web"
+
+#: plugin-options/customers-tab-options.php:21
+msgid "Customer points"
+msgstr "Puncte client"
+
+#: includes/emails/class-yith-ywpar-update-points.php:32
+msgid "Your Points in "
+msgstr "Punctele tale in"
+
+#: includes/emails/class-yith-ywpar-expiration.php:31
+msgid "Don't lose your points!"
+msgstr "Nu pierde punctele tale!"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1033
+msgid "You can't use this coupon in conjunction with other coupons"
+msgstr "Nu puteți utiliza acest cupon împreună cu alte cupoane"
+
+#: includes/class-yith-wc-points-rewards-porting.php:360
+msgid "The CSV has been imported."
+msgstr "CSV-ul a fost importat."
+
+#: includes/class-yith-wc-points-rewards-porting.php:85
+msgid "WooCommerce Points and Rewards points import"
+msgstr "Import de puncte WooCommerce și puncte Rewards"
+
+#: plugin-options/redeem/standard-options.php:326
+msgid "Set the maximum discount that can be applied per product"
+msgstr "Setați reducerea maximă care poate fi aplicată pe produs"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:215
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:227
+msgid "Max discount value"
+msgstr "Valoarea maximă a reducerii"
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:196
+#: plugin-options/metaboxes/points-earning-rules-options.php:236
+msgid "Choose to schedule the global points overriding or if to start and end it manually"
+msgstr "Alegeți să programați anularea punctelor globale sau dacă să începeți și să îl terminați manual"
+
+#: includes/class-yith-wc-points-rewards-admin.php:175
+#: plugin-options/points-options.php:18
+msgid "Points Options"
+msgstr "Optiuni puncte"
+
+#: includes/class-yith-wc-points-rewards-assets.php:91
+msgid "Start Export"
+msgstr "Start export"
+
+#: includes/class-yith-wc-points-rewards-assets.php:90
+msgid "Start Import"
+msgstr "Start import"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:393
+msgid "Only banned customers"
+msgstr "Doar utilizatori blocati"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:392
+msgid "Only users with points"
+msgstr "Doar utilizatori cu puncte"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:391
+#: plugin-options/metaboxes/points-earning-rules-options.php:27
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:38
+#: plugin-options/points/standard-options.php:53
+msgid "All Users"
+msgstr "Toti utilizatorii"
+
+#: views/tabs/customer-history.php:18
+msgid "Unban user"
+msgstr "Deblocheaza utilizator"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:185
+msgid "This user has not collected any point yet."
+msgstr "Acest utilizator nu a adunat încă niciun punct."
+
+#: plugin-options/metaboxes/points-earning-rules-options.php:155
+#: plugin-options/redeem/share-options.php:57
+#: plugin-options/redeem/share-options.php:74
+#: views/panel/types/options-extrapoints-multi.php:69
+#: views/panel/types/options-extrapoints.php:55
+msgid "points"
+msgstr "puncte"
+
+#: includes/functions-yith-wc-points-rewards.php:1255
+msgid "used:"
+msgstr "utilizate:"
+
+#: includes/functions-yith-wc-points-rewards.php:1249
+#: includes/functions-yith-wc-points-rewards.php:1251
+msgid "earned:"
+msgstr "câștigat"
+
+#: views/tabs/customer-history.php:53
+msgid "Email:"
+msgstr "Email:"
+
+#: plugin-options/points/extra-options.php:655
+msgid "Show threshold message in cart and checkout"
+msgstr "Afișați mesajul de prag activat în paginile Coș & Finalizarea comenzii"
+
+#. translators: 'First placeholder: number of points; second placeholder:
+#. reason'.
+#: includes/class-yith-wc-points-rewards-orders.php:617
+msgctxt "First placeholder: number of points; second placeholder: label of points"
+msgid "Removed %1$s for %2$s."
+msgstr "Ai %1$s%2$s."
+
+#. translators: First placeholder: number of points; second and third
+#. placeholder: labels of points.
+#: includes/class-yith-wc-points-rewards-shortcodes.php:364
+msgctxt "First placeholder: number of points; second and third placeholder: labels of points"
+msgid "<strong>%1$s</strong> %2$s"
+msgid_plural "<strong>%1$s</strong> %3$s"
+msgstr[0] "<strong>%1$s</strong> %2$s"
+msgstr[1] "<strong>%3$s</strong> %4$s"
+msgstr[2] "<strong>%3$s</strong>de %4$s"
+
+#. translators:Placeholder: label of points.
+#: templates/myaccount/my-points-view.php:46
+msgctxt "Placeholder: label of points;"
+msgid "My %s"
+msgstr "%s proprii"
+
+#. translators:First placeholder: user id; second placeholder: user display
+#. name.
+#: includes/class-yith-wc-points-rewards-customer.php:447
+msgctxt "First placeholder: user id; second placeholder: user display name"
+msgid "#%1$d - %2$s"
+msgstr "#%1$d - %2$s"
+
+#. translators:First placeholder: user id; second placeholder: user first name;
+#. third placeholder: user last name.
+#: includes/class-yith-wc-points-rewards-customer.php:444
+msgctxt "First placeholder: user id; second placeholder: user first name; third placeholder: user last name"
+msgid "#%1$d - %2$s %3$s"
+msgstr "#%1$d - %2$s %3$s"
+
+#: plugin-options/redeem/standard-options.php:190
+msgctxt "do not translate the text inside the brackets"
+msgid "Use <strong>{points}</strong> {points_label} for a <strong>{max_discount}</strong> discount on this order!"
+msgstr "Folosește <strong>{points}</strong> {points_label} pentru <strong>{max_discount}</strong> reducere la această comandă!"
+
+#: plugin-options/customization-options.php:277
+#: plugin-options/customization-options.php:301
+msgctxt "do not translate the text inside the brackets"
+msgid "If you proceed to checkout, you will earn <strong>{points}</strong> {points_label}!"
+msgstr "Finalizează această comandă şi câştigi <strong>{points}</strong> {points_label}!"
+
+#: plugin-options/customization-options.php:58
+msgctxt "do not translate the text inside the brackets"
+msgid "<strong>{points}</strong> {points_label}"
+msgstr "<strong>{points}</strong> {points_label}"
+
+#: plugin-options/customization-options.php:55
+msgctxt "do not translate the text inside the brackets"
+msgid "{points} number of points earned;<br>{points_label} of points;<br>{price_discount_fixed_conversion} the value corresponding to points"
+msgstr "{points} numărul de puncte câștigate;<br>{points_label} etichetă pentru puncte;<br>{price_discount_fixed_conversion} valoarea corespunzătoare punctelor"
+
+#. translators: Placeholder: admin email.
+#: includes/emails/class-yith-ywpar-expiration.php:203
+#: includes/emails/class-yith-ywpar-update-points.php:198
+msgctxt "Placeholder: admin email"
+msgid "Enter recipients (separated by commas) for this email. Defaults to <code>%s</code>"
+msgstr "Introduceți destinatarii (separați prin virgule) pentru acest e-mail. Valori implicite la <code>%s</code>"
+
+#: plugin-options/customization-options.php:134
+msgctxt "do not translate the text inside the brackets"
+msgid "{points} number of points earned;<br>{points_label} of points;<br>{price_discount_fixed_conversion} the value corresponding to points "
+msgstr "{points} numărul de puncte câștigate;<br>{points_label} eticheta pentru puncte;<br>{price_discount_fixed_conversion} contravaloarea corespunzătoare punctelor "
+
+#. translators: First placeholder: number of points; second and third
+#. placeholders: label of points plural and singular.
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:98
+msgctxt "First placeholder: number of points; second placeholder: label of points"
+msgid "<strong>%1$s</strong> %2$s"
+msgid_plural "<strong>%1$s</strong> %3$s"
+msgstr[0] "<strong>%1$s</strong> %2$s"
+msgstr[1] "<strong>%3$s</strong> %4$s"
+msgstr[2] "<strong>%3$s</strong> de %4$s"
+
+#. translators:First placeholder: number of points; second placeholder: label
+#. of points.
+#: includes/class-yith-wc-points-rewards-orders.php:582
+msgctxt "First placeholder: number of points; second placeholder: label of points"
+msgid "Customer redeemed %1$d %2$s to get a reward"
+msgstr "%1$d %2$s pentru a obține o recompensă"
+
+#. translators:First placeholder: number of point; second placeholder: label of
+#. points.
+#: includes/class-yith-wc-points-rewards-orders.php:745
+msgctxt "First placeholder: number of point; second placeholder: label of points"
+msgid "Removed %1$d %2$s to customer for order refund."
+msgstr "Scăzut %1$d %2$s pentru comandă returnată."
+
+#. translators:First placeholder: number of points; second placeholder: label
+#. of points.
+#: includes/class-yith-wc-points-rewards-orders.php:144
+msgctxt "First placeholder: number of points; second placeholder: label of points"
+msgid "Removed %1$d %2$s for order %3$s."
+msgstr "Scăzut %1$d %2$s pentru comanda %3$s."
+
+#. translators: First placeholder: number of points; second placeholder: label
+#. of points.
+#: includes/class-yith-wc-points-rewards-earning.php:248
+#: includes/class-yith-wc-points-rewards-orders.php:322
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:139
+msgctxt "First placeholder: number of points; second placeholder: label of points"
+msgid "Customer earned %1$d %2$s for this purchase."
+msgstr "Cumpărătorul câștigă %1$d %2$s pentru această achiziție."
+
+#. translators: Total number of orders updated.
+#: includes/class-yith-wc-points-rewards-orders.php:285
+msgctxt "Total number of orders updated."
+msgid "<strong>%d</strong> order has been updated"
+msgid_plural "<strong>%d</strong> orders have been updated"
+msgstr[0] "<strong>%d</strong> comandă a fost actualizată"
+msgstr[1] "<strong>%d</strong> comenzi au fost actualizate"
+msgstr[2] "<strong>%d</strong> de comenzi au fost actualizate"
+
+#. Author URI of the plugin
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#. Author of the plugin
+msgid "YITH"
+msgstr "YITH"
+
+#. Description of the plugin
+msgid "With <code><strong>YITH WooCommerce Points and Rewards</strong></code> you can start a rewards program with points to gain your customers' loyalty. Your customers will be able to use their points to get discounts making it a perfect marketing strategy for your store. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>."
+msgstr "Cu <code><strong>YITH WooCommerce Points and Rewards</strong></code> puteți începe un program de recompense prin puncte pentru a fideliza clienții. Clienții Dumneavoastră vor avea posibilitatea să-și folosească punctele pentru a obține discount-uri. Este o strategie de marketing perfectă pentru magazinul Dumneavoastră. <a href=\"https://yithemes.com/\" target=\"_blank\">Obțineți mai multe pluginuri pentru magazinul dvs. de comerț electronic pe <strong>YITH</strong></a>."
+
+#. Plugin URI of the plugin
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-points-and-rewards/"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-points-and-rewards/"
+
+#. Plugin Name of the plugin
+msgid "YITH WooCommerce Points and Rewards Premium"
+msgstr "YITH WooCommerce Points and Rewards Premium"
+
+#: views/tabs/import_export-tab.php:110
+msgid "Start"
+msgstr "Start"
+
+#: views/tabs/import_export-tab.php:21
+msgid "Import points from a CSV file"
+msgstr "Importă puncte dintr-un fișier CSV"
+
+#: views/tabs/import_export-tab.php:48
+msgid "Override points"
+msgstr "Înlocuiți punctele"
+
+#: views/tabs/import_export-tab.php:47
+msgid "Add points to current balance"
+msgstr "Adaugă puncte la soldul curent"
+
+#: views/tabs/import_export-tab.php:44
+msgid "CSV import action"
+msgstr "Actiune import CSV"
+
+#: views/tabs/import_export-tab.php:34
+msgid "User ID / Points"
+msgstr "User ID / Puncte"
+
+#: views/panel/types/options-extrapoints-multi.php:80
+#: views/panel/types/options-extrapoints.php:64
+msgid "repeat"
+msgstr "repetă"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:123
+msgid "Best Users"
+msgstr "Resetare utilizatori"
+
+#: includes/class-yith-wc-points-rewards-shortcodes.php:366
+msgid "worth"
+msgstr "în valoare de"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:166
+msgctxt "20% on order total"
+msgid "on order total"
+msgstr "pe totalul comenzii"
+
+#: templates/myaccount/my-points-view.php:15
+msgid "You must to be logged in to view your points."
+msgstr "Trebuie să fiți logat pentru a vedea punctele Dumneavoastră"
+
+#: views/tabs/customer-history.php:83
+msgid "Points history"
+msgstr "Istoric puncte"
+
+#: views/tabs/bulk-actions.php:218 views/tabs/customers-tab.php:20
+msgid "< back to list"
+msgstr "< Înapoi la listă"
+
+#: views/tabs/customers-tab.php:23
+msgid "Customers' Points"
+msgstr "Punctele Clientului"
+
+#: plugin-options/customization-options.php:554
+msgid "Apply Points"
+msgstr "Aplică puncte"
+
+#: plugin-options/redeem/standard-options.php:218
+msgid "Use only WooCommerce coupons"
+msgstr "Folosiți doar cupoane WooCommerce"
+
+#: plugin-options/redeem/standard-options.php:219
+msgid "Use only points-redemption coupon"
+msgstr "Folosiți numai cupon de răscumpărare a punctelor"
+
+#: plugin-options/redeem/standard-options.php:220
+msgid "Use both coupons"
+msgstr "Folosiți ambele tipuri de cupoane"
+
+#: plugin-options/redeem/standard-options.php:214
+msgid "Select if you want to allow the use of point-redemption coupons, WooCommerce coupons or both"
+msgstr "Selectați dacă doriți să permiteți utilizarea cupoanelor de răscumpărare a punctelor, a cupoanelor WooCommerce sau a ambelor."
+
+#: plugin-options/redeem/standard-options.php:325
+msgid "Maximum discount for a single product"
+msgstr "Reducere maximă pentru un singur produs"
+
+#: plugin-options/redeem/standard-options.php:312
+msgid "Minimum discount required to redeem"
+msgstr "Reducere minimă necesară pentru valorificare"
+
+#: plugin-options/redeem/standard-options.php:258
+#: plugin-options/redeem/standard-options.php:272
+msgid "( in %) Set minimum discount percentage allowed in cart when redeeming points"
+msgstr "(în %) Setați procentul maxim de reducere permis în coș atunci când sunt valorificate puncte."
+
+#: plugin-options/redeem/standard-options.php:154
+msgid "Automatically redeem points on Cart/Checkout Page"
+msgstr "Valorificați automat punctele în pagina Coș/Finalizarea comenzii"
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:106
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:126
+#: plugin-options/redeem/standard-options.php:88
+#: plugin-options/redeem/standard-options.php:107
+msgid "Choose how to calculate the discount when customers use their available points"
+msgstr "Alegeți cum să se calculeze reducerea atunci când clienții își folosesc punctele disponibile."
+
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:105
+#: plugin-options/metaboxes/points-redeeming-rules-options.php:125
+#: plugin-options/redeem/standard-options.php:87
+#: plugin-options/redeem/standard-options.php:106
+msgid "Reward Conversion Rate"
+msgstr "Rata de conversie a recompensei"
+
+#: plugin-options/redeem/standard-options.php:77
+msgid "Percentage Discount"
+msgstr "Reducere procentuală"
+
+#: plugin-options/redeem/standard-options.php:76
+msgid "Fixed Price Discount"
+msgstr "Reducere la preț fix"
+
+#: plugin-options/redeem/standard-options.php:71
+msgid "Choose how to apply the discount. The discount can either be a percent or a fixed amount"
+msgstr "Alegeți cum se aplică reducerea. Reducerea poate fi procentuală sau o sumă fixă."
+
+#: plugin-options/redeem/standard-options.php:70
+msgid "Reward Conversion Method"
+msgstr "Metoda de conversie a recompenselor"
+
+#: plugin-options/points/standard-options.php:226
+msgid "Do not assign points to orders in which the user is redeeming points"
+msgstr "Nu acordați puncte pentru comenzile în care utilizatorul valorifică puncte."
+
+#: plugin-options/points/standard-options.php:246
+msgid "Round Down"
+msgstr "Rotunjire în jos"
+
+#: plugin-options/points/standard-options.php:245
+msgid "Round Up"
+msgstr "Rotunjire în sus"
+
+#: plugin-options/points/standard-options.php:240
+msgid "Select how to round the points. For example, if points are 1.5 and Round Up is selected, points will be 2. If Round Down is selected, points will be 1"
+msgstr "Selectați modul de rotunjire a punctelor. De exemplu, dacă punctele sunt 1,5 și este selectat Rotunjire în sus, punctele vor fi 2. Dacă este selectat Rotunjire în jos, punctele vor fi 1."
+
+#: plugin-options/points/standard-options.php:239
+msgid "Points Rounding"
+msgstr "Rotunjirea punctelor"
+
+#: plugin-options/points/standard-options.php:201
+msgid "Enable to remove points when applying a total or partial refund of the order"
+msgstr "Activați eliminarea punctelor când se aplică o rambursare totală sau parțială a comenzii"
+
+#: plugin-options/points/standard-options.php:132
+msgid "Enable to assign points to guests if the billing e-mail matches with a registered user"
+msgstr "Alegeți dacă atribuiți puncte vizitatorilor dacă e-mailul de facturare se potrivește cu un e-mail de utilizator înregistrat."
+
+#: plugin-options/redeem/standard-options.php:40
+msgid "All"
+msgstr "Toți"
+
+#: plugin-options/customization-options.php:54
+msgid "Loop Message"
+msgstr "Mesaj Buclă"
+
+#: plugin-options/customization-options.php:133
+msgid "Single Product Page Message"
+msgstr "Mesaj Pagină Produs Singular"
+
+#: plugin-options/customization-options.php:120
+msgid "After product meta"
+msgstr "După produs meta"
+
+#: plugin-options/customization-options.php:119
+msgid "After excerpt"
+msgstr "După rezumat"
+
+#: plugin-options/customization-options.php:118
+msgid "Before excerpt"
+msgstr "Înainte de rezumat"
+
+#: plugin-options/customization-options.php:117
+msgid "After \"Add to cart\" button"
+msgstr "După butonul „Adaugă în coș”"
+
+#: plugin-options/customization-options.php:116
+msgid "Before \"Add to cart\" button"
+msgstr "Înainte de butonul „Adaugă în coș”"
+
+#: plugin-options/customization-options.php:108
+msgid "Message position"
+msgstr "Poziționare mesaj"
+
+#: plugin-options/customization-options.php:550
+msgid "Apply Discount Button"
+msgstr "Buton Aplică Discount"
+
+#: plugin-options/customization-options.php:536
+msgid "Redeemed Points for order"
+msgstr "Puncte valorificate pentru comandă"
+
+#: plugin-options/customization-options.php:532
+msgid "Redeemed Points"
+msgstr "Puncte Valorificate"
+
+#: plugin-options/customization-options.php:523
+#: plugin-options/customization-options.php:527
+msgid "Order Refund Deleted"
+msgstr "Rambursarea comenzii a fost ștearsă"
+
+#: plugin-options/customization-options.php:514
+#: plugin-options/customization-options.php:518
+msgid "Order Refund"
+msgstr "Rambursare Comandă"
+
+#: plugin-options/customization-options.php:505
+#: plugin-options/customization-options.php:509
+msgid "Expired Points"
+msgstr "Puncte expirate"
+
+#: plugin-options/customization-options.php:434
+msgid "Target achieved - Birthday"
+msgstr "Ținta atinsă - Zi de naștere"
+
+#: plugin-options/customization-options.php:430
+msgid "Birthday"
+msgstr "Zi de naștere"
+
+#: plugin-options/customization-options.php:426
+msgid "Target achieved - Checkout Total Threshold"
+msgstr "Ținta atinsă - Finalizare Prag Total"
+
+#: plugin-options/customization-options.php:422
+msgid "Target Checkout Total Threshold"
+msgstr "Ținta Finalizare Prag Total"
+
+#: plugin-options/customization-options.php:418
+msgid "Target achieved - Total Orders"
+msgstr "Ținta atinsă - Comenzi Totale"
+
+#: plugin-options/customization-options.php:414
+msgid "Target - Total Orders"
+msgstr "Ținta - Comenzi Totale"
+
+#: plugin-options/customization-options.php:409
+msgid "Target achieved - Total spend"
+msgstr "Ținta atinsă - Total Cheltuit"
+
+#: plugin-options/customization-options.php:405
+msgid "Target - Total Amount"
+msgstr "Ținta - Total Cheltuit"
+
+#: plugin-options/customization-options.php:400
+msgid "Target achieved - Points collected"
+msgstr "Ținta atinsă - Puncte acumulate"
+
+#: plugin-options/customization-options.php:396
+msgid "Target - Total Points"
+msgstr "Ținta - Puncte acumulate"
+
+#: plugin-options/customization-options.php:387
+#: plugin-options/customization-options.php:391
+msgid "Registration"
+msgstr "Înregistrare"
+
+#: plugin-options/customization-options.php:369
+#: plugin-options/customization-options.php:373
+msgid "Admin Action"
+msgstr "Acțiunea Administratorului"
+
+#: plugin-options/customization-options.php:360
+#: plugin-options/customization-options.php:364
+msgid "Order Cancelled"
+msgstr "Comandă Anulată"
+
+#: plugin-options/customization-options.php:333
+msgid "Plural label replacing \"points\""
+msgstr "Etichetă care înlocuiește pluralul pentru „puncte”"
+
+#: plugin-options/customization-options.php:328
+msgid "Point"
+msgstr "Puncte"
+
+#: plugin-options/customization-options.php:324
+msgid "Singular label replacing \"point\""
+msgstr "Etichetă care înlocuiește singularul pentru „punct”"
+
+#: plugin-options/customization-options.php:318
+msgid "Labels Settings"
+msgstr "Setări Etichete"
+
+#: plugin-options/customization-options.php:245
+msgid "Show points earned and spent in the email of Order completed"
+msgstr "Afișați punctele câștigate și cheltuite în e-mailul pentru Comandă finalizată"
+
+#: plugin-options/customization-options.php:237
+msgid "Show points earned and spent in My Account > Order details"
+msgstr "Afișați punctele câștigate și cheltuite în Contul Meu > Detalii comandă"
+
+#: plugin-options/customization-options.php:236
+msgid "Show points earned and spent"
+msgstr "Afișați punctele câștigate și cheltuite"
+
+#: plugin-options/points/extra-options.php:485
+msgid "Birthday input date format"
+msgstr "Format Dată pentru Ziua de naștere"
+
+#: plugin-options/points/extra-options.php:443
+msgid "Assign extra points on customer's birthday"
+msgstr "Alocați puncte de ziua clientului"
+
+#: plugin-options/customization-options.php:337
+#: views/panel/types/options-conversion-earning.php:44
+#: views/panel/types/options-conversion.php:39
+#: views/panel/types/options-percentage-conversion.php:42
+#: views/panel/types/options-role-conversion.php:79
+#: views/panel/types/options-role-conversion.php:88
+#: views/panel/types/options-role-percentage-conversion.php:66
+#: views/tabs/bulk-actions.php:147
+msgid "Points"
+msgstr "Puncte"
+
+#: plugin-options/points/extra-options.php:39
+#: plugin-options/points/extra-options.php:77
+msgid "Assign points when a user registers"
+msgstr "Alocați puncte când se înregistrează un utilizator"
+
+#: plugin-options/points/extra-options.php:398
+msgid "Assign extra points based on the total number of points collected"
+msgstr "Alocați puncte suplimentare pe baza numărului de puncte adunate până acum"
+
+#: plugin-options/points/extra-options.php:605
+msgid "Assign points based on the cart total"
+msgstr "Alocați puncte pe baza totalului din Coș"
+
+#: views/panel/types/options-extrapoints-multi.php:59
+msgid " spent ="
+msgstr " cheltuit ="
+
+#: plugin-options/points/extra-options.php:692
+msgid "Assign points based on the total amount spent"
+msgstr "Alocă puncte pe baza sumei totale cheltuite"
+
+#: plugin-options/points/extra-options.php:572
+msgid "order(s) ="
+msgstr "Comandă(enzi) ="
+
+#: plugin-options/points/extra-options.php:16
+msgid "Checkout Page"
+msgstr "Pagina Finalizarea Comenzii"
+
+#: plugin-options/points/extra-options.php:15
+msgid "Registration Form"
+msgstr "Formular Înregistrare"
+
+#: plugin-options/points/extra-options.php:14
+msgid "My Account Page"
+msgstr "Pagina Contul Meu"
+
+#: plugin-options/emails-options.php:147
+msgid "current balance"
+msgstr "sold curent"
+
+#: plugin-options/emails-options.php:146
+msgid "label for points"
+msgstr "etichetă pentru puncte"
+
+#: plugin-options/emails-options.php:145
+msgid "latest updates of your points"
+msgstr "cele mai recente actualizări ale punctelor dvs."
+
+#: plugin-options/emails-options.php:144
+msgid "customer's last name"
+msgstr "numele cumpărătorului"
+
+#: plugin-options/emails-options.php:143
+msgid "customer's first name"
+msgstr "prenumele cumpărătorului"
+
+#: plugin-options/emails-options.php:142
+msgid "customer's username"
+msgstr "numele de utilizator al cumpărătorului"
+
+#: plugin-options/emails-options.php:141
+msgid "You can use the following placeholders"
+msgstr "Puteți utiliza următorii substituenți"
+
+#: plugin-options/emails-options.php:124
+msgid "Enable to not send email when the admin updates points manually"
+msgstr "Activați pentru a nu trimite e-mailuri când administratorul actualizează punctele manual."
+
+#: plugin-options/emails-options.php:123
+msgid "Avoid email sending for manual update"
+msgstr "Evitați trimiterea de e-mailuri în cazul actualizării manuale."
+
+#: plugin-options/emails-options.php:111
+msgid "As soon as points are updated"
+msgstr "De îndată ce punctele sunt actualizate."
+
+#: plugin-options/emails-options.php:110
+msgid "Once a day if points have been updated"
+msgstr "O dată pe zi dacă punctele au fost actualizate."
+
+#: plugin-options/emails-options.php:106
+msgid "Send Email"
+msgstr "Trimite Email"
+
+#: plugin-options/emails-options.php:97
+msgid "Enable this email notification on updated points"
+msgstr "Activați această notificare prin e-mail la actualizarea punctelor"
+
+#: plugin-options/emails-options.php:42 plugin-options/emails-options.php:138
+msgid "Email content"
+msgstr "Conținut e-mail"
+
+#: plugin-options/emails-options.php:29
+msgid "Number of days before 'points expiration' when the email will be sent"
+msgstr "Numărul de zile înainte de expirarea punctului când va fi trimis e-mailul"
+
+#: plugin-options/emails-options.php:28
+msgid "Days before points expire"
+msgstr "Zile înainte de expirarea punctelor"
+
+#: plugin-options/emails-options.php:19
+msgid "Send an email before the expiration date"
+msgstr "Trimiteți un e-mail înainte de data de expirare"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:394
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:398
+#: plugin-options/affiliates-options.php:98
+#: plugin-options/affiliates-options.php:102
+msgid "Affiliate commission"
+msgstr "Comision afiliat"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:377
+msgid "Decide how many points will be assigned to each order based on the currency."
+msgstr "Decideți câte puncte vor fi alocate pentru fiecare comandă în funcție de monedă."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:376
+msgid "Assign points based on the order subtotal."
+msgstr "Alocați puncte în funcție de subtotalul comenzii."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:358
+msgid "Percent of points earned by customer."
+msgstr "(%) Procentul de puncte câștigate de client."
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:357
+#: plugin-options/affiliates-options.php:61
+msgid "Percent of points"
+msgstr "Procent de puncte"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:342
+#: plugin-options/affiliates-options.php:47
+msgid "Number of points earned for each commission"
+msgstr "Numărul de puncte câștigate pentru fiecare comision"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:332
+#: plugin-options/affiliates-options.php:37
+msgid "Conversion based on order subtotal"
+msgstr "Conversie bazată pe subtotalul comenzii"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:331
+#: plugin-options/affiliates-options.php:36
+#: plugin-options/affiliates-options.php:62
+msgid "Percent of points earned by customer"
+msgstr "Procentul de puncte câștigate de client"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:330
+#: plugin-options/affiliates-options.php:35
+msgid "Fixed amount of points for each order"
+msgstr "Sumă fixă de puncte pentru fiecare comandă"
+
+#: plugin-options/affiliates-options.php:30
+msgid "Select the method to calculate points for your affiliates"
+msgstr "Selectați metoda de calculare a punctelor pentru afiliații dvs"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:324
+#: plugin-options/affiliates-options.php:29
+msgid "Points for affiliates"
+msgstr "Puncte pentru afiliați"
+
+#: plugin-options/affiliates-options.php:21
+msgid "Enable the integration with YITH WooCommerce Affiliates plugin"
+msgstr "Activați integrarea cu pluginul YITH WooCommerce Affiliates"
+
+#: plugin-options/affiliates-options.php:20
+msgid "Enable Integration"
+msgstr "Activați integrarea"
+
+#: plugin-options/affiliates-options.php:14
+msgid "YITH WooCommerce Affiliates Integration"
+msgstr "YITH WooCommerce Affiliates Integrare"
+
+#: init.php:65
+msgid "YITH WooCommerce Points and Rewards is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "YITH WooCommerce Points and Rewards este activat, dar nu este eficient. Este nevoie de WooCommerce pentru a funcționa."
+
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:147
+msgid "Label:"
+msgstr "Eticheta:"
+
+#: includes/widgets/class-yith-wc-points-customers-points-widget.php:130
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:142
+msgid "Title:"
+msgstr "Titlu:"
+
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:134
+msgid "Your balance is "
+msgstr "Balanta ta este:"
+
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:35
+msgid "YITH WooCommerce Points And Rewards - Balance"
+msgstr "YITH WooCommerce Points And Rewards - Balanta"
+
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:33
+msgid "Show points collected by the user so far"
+msgstr "Afișați punctele adunate de utilizator până acum"
+
+#: includes/functions-yith-wc-points-rewards.php:158
+#: plugin-options/customization-options.php:351
+#: plugin-options/customization-options.php:355
+msgid "Order Processing"
+msgstr "Comanda in procesare"
+
+#: includes/functions-yith-wc-points-rewards.php:157
+msgid "Payment Completed"
+msgstr "Plata incheiata"
+
+#: includes/functions-yith-wc-points-rewards.php:156
+#: plugin-options/customization-options.php:342
+#: plugin-options/customization-options.php:346
+msgid "Order Completed"
+msgstr "Comanda finalizata"
+
+#: includes/emails/class-yith-ywpar-update-points.php:33
+msgid "[Points updated]"
+msgstr "[Puncte actualizate]"
+
+#: includes/emails/class-yith-ywpar-update-points.php:30
+msgid "This email is sent when the number of user-points change"
+msgstr "Acest e-mail este trimis atunci când numărul de puncte utilizator se modifică"
+
+#: includes/emails/class-yith-ywpar-update-points.php:29
+msgid "Update Points"
+msgstr "Actualizeaza puncte"
+
+#: includes/emails/class-yith-ywpar-expiration.php:233
+#: includes/emails/class-yith-ywpar-update-points.php:227
+msgid "Multipart"
+msgstr "Multipart"
+
+#: includes/emails/class-yith-ywpar-expiration.php:232
+#: includes/emails/class-yith-ywpar-update-points.php:226
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/emails/class-yith-ywpar-expiration.php:231
+#: includes/emails/class-yith-ywpar-update-points.php:225
+msgid "Plain text"
+msgstr "Text simplu "
+
+#: includes/emails/class-yith-ywpar-expiration.php:227
+#: includes/emails/class-yith-ywpar-update-points.php:221
+msgid "Choose the format of the email that has to be sent."
+msgstr "Alegeți formatul e-mailului care trebuie trimis."
+
+#: includes/emails/class-yith-ywpar-expiration.php:225
+#: includes/emails/class-yith-ywpar-update-points.php:219
+msgid "Email type"
+msgstr "Tip email"
+
+#: includes/emails/class-yith-ywpar-expiration.php:218
+#: includes/emails/class-yith-ywpar-update-points.php:212
+msgid "Email Description"
+msgstr "Descriere email"
+
+#. translators: Placeholder: email heading.
+#: includes/emails/class-yith-ywpar-expiration.php:212
+#: includes/emails/class-yith-ywpar-update-points.php:206
+msgctxt "Placeholder: email heading"
+msgid "This field lets you change the main heading in email notification. Leave it blank to use the default heading type: <code>%s</code>."
+msgstr "Acest câmp vă permite să schimbați titlul principal în notificarea prin e-mail. Lăsați necompletat pentru a utiliza tipul de titlu implicit: <code>%s</code>."
+
+#: includes/emails/class-yith-ywpar-expiration.php:209
+#: includes/emails/class-yith-ywpar-update-points.php:203
+msgid "Email Heading"
+msgstr "Email Heading"
+
+#: includes/emails/class-yith-ywpar-expiration.php:200
+#: includes/emails/class-yith-ywpar-update-points.php:195
+msgid "Recipient(s)"
+msgstr "Destinatar(i)"
+
+#. translators: Placeholder: subject.
+#: includes/emails/class-yith-ywpar-expiration.php:195
+#: includes/emails/class-yith-ywpar-update-points.php:190
+msgctxt "Placeholder: subject"
+msgid "This field lets you edit the email subject line. Leave it blank to use the default subject text: <code>%s</code>."
+msgstr "Acest câmp vă permite să editați linia de subiect al e-mailului. Lăsați necompletat pentru a utiliza textul implicit al subiectului: <code>%s</code>."
+
+#: includes/emails/class-yith-ywpar-expiration.php:192
+#: includes/emails/class-yith-ywpar-update-points.php:187
+msgid "Subject"
+msgstr "Subiect"
+
+#: includes/emails/class-yith-ywpar-expiration.php:185
+#: includes/emails/class-yith-ywpar-update-points.php:180
+msgid "From (Email Address)"
+msgstr "De la (adresa de e-mail)"
+
+#: includes/emails/class-yith-ywpar-expiration.php:178
+#: includes/emails/class-yith-ywpar-update-points.php:173
+msgid "From (Name)"
+msgstr "De la (Nume)"
+
+#: includes/emails/class-yith-ywpar-expiration.php:174
+#: includes/emails/class-yith-ywpar-update-points.php:169
+msgid "Enable this email notification"
+msgstr "Activați această notificare prin e-mail"
+
+#: includes/emails/class-yith-ywpar-expiration.php:172
+#: includes/emails/class-yith-ywpar-update-points.php:167
+msgid "Enable/Disable"
+msgstr "Activati / Dezactivati"
+
+#: includes/emails/class-yith-ywpar-expiration.php:32
+msgid "[Expiring points]"
+msgstr "[puncte care expira]"
+
+#: includes/emails/class-yith-ywpar-expiration.php:29
+msgid "This email is sent to users, a few days before their points expire."
+msgstr "Acest e-mail este trimis utilizatorilor, cu câteva zile înainte ca punctele lor să expire."
+
+#: includes/emails/class-yith-ywpar-expiration.php:28
+msgid "Expiring Points"
+msgstr "Puncte care expiră"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-subscription.php:186
+msgid "Renew order"
+msgstr "Reînnoiește comanda"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:487
+msgid "Order refunded"
+msgstr "Comanda rambursată"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:291
+msgid "Removed commission"
+msgstr "Comision eliminat"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:115
+msgid "Removed commission for refunded order"
+msgstr "S-a eliminat comisionul pentru comanda rambursată"
+
+#: includes/class-yith-wc-points-rewards-shortcodes.php:348
+msgid "Your credit is "
+msgstr "Creditul dvs. este"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1040
+msgid "You can't use this coupon with Rewards Discount"
+msgstr "Nu puteți folosi acest cupon cu Reducere Rewards"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1038
+msgid "Coupon has been removed. You can't use this coupon with Rewards Discount"
+msgstr "Cuponul a fost eliminat. Nu puteți folosi acest cupon cu reducere de puncte"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1031
+msgid "Reward Discount has been removed. You can't use this discount with other coupons."
+msgstr "Reducere de puncte a fost eliminata. Nu poti folosi aceasta reducere cu alte cupoane."
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:1026
+msgid "Reward Discount Applied Successfully"
+msgstr "Reducerea recompensă a fost aplicată cu succes"
+
+#: includes/class-yith-wc-points-rewards-redeeming.php:946
+#: plugin-options/customization-options.php:563
+msgid "Redeem points"
+msgstr "Valorificați puncte"
+
+#: includes/class-yith-wc-points-rewards-porting.php:366
+msgid "The CSV is invalid."
+msgstr "CSV-ul este nevalid."
+
+#: includes/class-yith-wc-points-rewards-porting.php:346
+msgid "Import"
+msgstr "Import"
+
+#: includes/class-yith-wc-points-rewards-porting.php:78
+msgid "Import Points"
+msgstr "Importa puncte"
+
+#: includes/class-yith-wc-points-rewards-porting.php:76
+msgid "Import points"
+msgstr "Importa puncte"
+
+#: includes/class-yith-wc-points-rewards-porting.php:73
+msgid "You can do this action only one time"
+msgstr "Poti face actiunea asta o singura data."
+
+#: includes/class-yith-wc-points-rewards-porting.php:72
+msgid "Apply Points from WooCommerce Points and Rewards"
+msgstr "Aplica puncte"
+
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:94
+msgid "If you need to change the birthday date, please contact the website administrator."
+msgstr "Dacă trebuie să schimbați data nașterii, vă rugăm să contactați administratorul site-ului."
+
+#: includes/class-yith-wc-points-rewards-frontend.php:712
+msgid "The minimum value to redeem is "
+msgstr "Valoarea minimă de răscumpărat este"
+
+#: includes/class-yith-wc-points-rewards-frontend.php:612
+#: includes/class-yith-wc-points-rewards-frontend.php:799
+#: includes/class-yith-wc-points-rewards.php:462
+#: includes/widgets/class-yith-wc-points-rewards-widget.php:133
+#: plugin-options/customization-options.php:198
+msgid "My Points"
+msgstr "Punctele mele"
+
+#: plugin-options/customization-options.php:378
+#: plugin-options/customization-options.php:382
+msgid "Reviews"
+msgstr "Review-uri"
+
+#: includes/class-yith-wc-points-rewards-ajax.php:260
+msgid "An error occurred during the bulk operation"
+msgstr "A apărut o eroare în timpul operațiunii în bloc"
+
+#: includes/class-yith-wc-points-rewards-ajax.php:273
+msgid "Done!"
+msgstr "Gata!"
+
+#: includes/class-yith-wc-points-rewards-admin.php:499
+#: includes/class-yith-wc-points-rewards-admin.php:531
+msgid "No users found"
+msgstr "Nici un utilizator gasit"
+
+#: includes/class-yith-wc-points-rewards-admin.php:467
+msgid "Best Point Rewards"
+msgstr "Cele mai bune puncte recompense"
+
+#: includes/class-yith-wc-points-rewards-admin.php:466
+msgid "Best Point Earners"
+msgstr "Cei mai buni câștigători de puncte"
+
+#. translators: placeholder number of points.
+#: includes/class-yith-wc-points-rewards-ajax.php:502
+msgid "<strong>%d</strong> point has been updated"
+msgid_plural "<strong>%d</strong> points have been updated"
+msgstr[0] "<strong>%d</strong> punctul a fost actualizat"
+msgstr[1] "<strong>%d</strong> punctele au fost actualizate"
+msgstr[2] "<strong>%d</strong> punctele au fost actualizate"
+
+#: includes/compatibility/class-ywpar-yith-woocommerce-affiliates.php:152
+msgid "Points Earned:"
+msgstr "Puncte câștigate:"
+
+#: plugin-options/customers-tab-options.php:29
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: includes/class-yith-wc-points-rewards-admin.php:178
+msgid "Emails"
+msgstr "E-mailuri"
+
+#: plugin-options/customers-tab-options.php:25 views/tabs/bulk-actions.php:219
+msgid "Bulk Actions"
+msgstr "Acțiuni în bloc"
+
+#: plugin-options/points-options.php:24
+msgid "Extra points"
+msgstr "Puncte extra"
+
+#: includes/class-yith-wc-points-rewards-admin.php:174
+msgid "Customers' points"
+msgstr "Puncte clienti"
+
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:89
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:105
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:150
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:202
+msgid "Date of birth"
+msgstr "Data nasterii"
+
+#: includes/class-yith-wc-points-rewards-extra-points-birthdate.php:198
+msgid "Points and Rewards"
+msgstr "Puncte si recompense"
+
+#: includes/class-yith-wc-points-rewards-admin.php:631
+msgid "Enable the use of coupons"
+msgstr "Activeaza utilizarea cupoanelor"
+
+#: includes/class-yith-wc-points-rewards-admin.php:627
+msgid "WooCommerce coupon system has been disabled. In order to make YITH WooCommerce Points and Rewards work correctly, you have to enable coupons."
+msgstr "Sistemul de cupoane WooCommerce a fost dezactivat. Pentru ca punctele și recompensele YITH WooCommerce să funcționeze corect, trebuie să activați cupoanele."
+
+#: includes/class-yith-wc-points-rewards-admin.php:623
+msgid "YITH WooCommerce Points and Rewards"
+msgstr "YITH WooCommerce Points and Rewards"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:386
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:406
+msgid "Filter"
+msgstr "Filtru"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:375
+msgid "Show All Customers"
+msgstr "Afiseaza toti clientii"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:171
+msgid "Unban users"
+msgstr "Deblocheaza utilizatori"
+
+#: views/tabs/bulk-actions.php:23
+msgid "Ban Users"
+msgstr "Blocheaza utilizatori"
+
+#: includes/class-yith-wc-points-rewards-admin.php:492
+#: includes/class-yith-wc-points-rewards-admin.php:525
+msgid "View History"
+msgstr "Vezi istoric"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:254
+#: views/tabs/customer-history.php:44
+msgid "banned"
+msgstr "blocat"
+
+#: includes/admin/class-yith-wc-points-rewards-customers-list-table.php:48
+msgid "User"
+msgstr "Utilizator"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:58
+#: templates/emails/latest-updates.php:51
+#: templates/myaccount/my-points-view.php:155
+#: templates/myaccount/my-points-view.php:164
+msgid "Date"
+msgstr "Data"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:59
+msgid "Amount"
+msgstr "Cantitate"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:62
+#: views/tabs/bulk-actions.php:162
+msgid "Description"
+msgstr "Descriere"
+
+#: includes/admin/class-yith-wc-points-rewards-customer-history-list-table.php:60
+#: templates/emails/latest-updates.php:53
+#: templates/myaccount/my-points-view.php:157
+#: templates/myaccount/my-points-view.php:170
+msgid "Order No."
+msgstr "Comanda nr."
+
+#: templates/emails/latest-updates.php:52 views/tabs/bulk-actions.php:16
+msgid "Action"
+msgstr "Actiune"

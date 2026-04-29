@@ -1,0 +1,23 @@
+.pagination a {
+    display: inline-block;
+}
+
+.pagination.older-newer a:last-child {
+    float: right;
+}
+
+.wp-pagenavi a,
+.wp-pagenavi span {
+    border: 0;
+    line-height: 100%;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+.wp-pagenavi {
+    text-align: right;
+}
+
+.wp-pagenavi span.current {
+    color: $color-primary;
+}

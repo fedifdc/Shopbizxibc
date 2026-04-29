@@ -1,0 +1,29 @@
+﻿.payment-confirmation-form .tpc-field {
+	display: block;
+	width: 100%;
+}
+.payment-confirmation-form textarea.tpc-field {
+	height: 100px;
+	resize: vertical;
+}
+.payment-confirmation-form .message-wrap {
+	margin-bottom: 20px;
+}
+.payment-confirmation-form .message-wrap > div {
+	padding: 5px 15px;
+}
+.payment-confirmation-form .message-wrap .loading {
+	background-color: #FAF2C6;
+	color: #f0932b;
+}
+.payment-confirmation-form .message-wrap .success {
+	background-color: #E3F1BC;
+	color: #6ab04c;
+}
+.payment-confirmation-form .message-wrap .error {
+	background-color: #FFD7D7;
+	color: #eb4d4b;
+}
+.tpc-message {
+	margin-bottom: 60px;
+}

@@ -1,0 +1,31 @@
+// Import Customs & Theme Variables
+@import "base/importfonts";
+@import "base/variables";
+
+// Import Vendors
+@import "vendors/vendors";
+
+// @import "foundation/settings";
+// @import '../../../node_modules/foundation-sites/scss/foundation';
+
+// Generic components
+// @include foundation-everything;
+// @import "foundation/foundationcustom"
+
+// Framework
+@import "bootstrap/bootstrap.scss";
+
+// Import base styles
+@import "base/base";
+
+// Import components styles
+@import "components/components";
+
+// Import partials styles
+@import "layouts/layouts";
+
+// Import pages styles
+@import "pages/pages";
+
+// Import responsive rules
+@import "responsiveness/responsiveness";

@@ -1,0 +1,329 @@
+/* Setting Page =========== */
+#tpc-setting *,
+#tpc-setting :before,
+#tpc-setting :after {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+#tpc-setting .tpc-general-settings,
+#tpc-setting .tpc-messages-settings {
+	width: 100%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+#tpc-setting .tpc-general-settings td {
+	background-color: #fff;
+	vertical-align: top;
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+}
+#tpc-setting .tpc-general-settings td.index,
+#tpc-setting .tpc-messages-settings td.index {
+	width: 240px;
+	font-weight: 700;
+	background-color: #f5f5f5;
+}
+#tpc-setting .tpc-general-settings td.index label,
+#tpc-setting .tpc-messages-settings td.index label {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#tpc-setting .tpc-general-settings td.value .tpc-field,
+#tpc-setting .tpc-messages-settings td.value .tpc-field {
+	width: 100%;
+	display: block;
+	max-width: 100%;
+}
+#tpc-setting .tpc-general-settings td.value p.helper {
+	margin-top: 5px;
+	margin-bottom: 0;
+	font-style: italic;
+	opacity: .7;
+}
+#tpc-setting .tpc-messages-settings td {
+	background-color: #fff;
+	vertical-align: top;
+	padding: 10px 15px;
+	border-bottom: 1px solid #ddd;
+}
+#tpc-setting .additional-tab {
+	float: right;
+}
+#tpc-setting .additional-tab a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px;
+	margin-left: 5px;
+}
+.tpc-toggle input {
+	display: none;
+}
+.tpc-toggle label {
+	display: block;
+	width: 50px;
+	height: 24px;
+	border-radius: 12px;
+	box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+	background-color: #ddd;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	position: relative;
+}
+.tpc-toggle input:checked + label {
+	background-color: #007cba;
+}
+.tpc-toggle label::before {
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 4px;
+	top: 4px;
+	display: block;
+	background-color: #fff;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	border-radius: 50%;
+	box-shadow: 0 0 1px rgba(0,0,0,.3);
+}
+.tpc-toggle input:checked + label::before {
+	left: 30px;
+}
+.tpc-checks label {
+	display: block;
+	margin-bottom: 5px;
+}
+#tpc-setting .tpc-setting-content {
+	padding-top: 20px;
+}
+#tpc-setting .clear {
+	clear: both;
+	margin-bottom: 20px;
+}
+#tpc-setting .tpc-tab-contents {
+	overflow-y: auto;
+}
+#tpc-setting .tpc-tab-contents .tpc-tab-content {
+	display: none;
+}
+#tpc-setting .tpc-tab-contents .tpc-tab-content.active {
+	display: block;
+}
+#tpc-setting .panels {
+	margin-right: 350px;
+}
+#tpc-setting .panels .left-panel {
+	float: left;
+	width: 100%;
+}
+#tpc-setting .panels .right-panel {
+	float: right;
+	margin-right: -350px;
+	width: 330px;
+}
+#tpc-setting .panels .panel-section {
+	margin-bottom: 20px;
+}
+#tpc-setting .panels .panel-section p {
+	margin-bottom: 5px;
+}
+#tpc-setting-form h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+#tpc-setting-form .buttons .button {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+#form-editor {
+	width: 100%;
+	height: 400px;
+	resize: vertical;
+}
+#css-editor {
+	width: 100%;
+	height: 200px;
+	resize: vertical;
+}
+#field-setting {
+	margin-top: 20px;
+	border-bottom: 1px solid #ccc;
+}
+#field-setting h4 {
+	display: none;
+	cursor: pointer;
+	padding: 8px 15px;
+	background-color: #ddd;
+	border: 1px solid #ccc;
+	margin: 0;
+	border-bottom: 0;
+}
+#field-setting h4:hover {
+	background-color: #e5e5e5;
+}
+#field-setting h4.active {
+	display: block;
+}
+#field-setting h4.ui-state-active {
+	background-color: #eee;
+}
+#field-setting .content {
+	padding: 15px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-bottom: 0;
+	border-top: 0;
+}
+#field-setting .content label {
+	display: block;
+	margin-bottom: 10px;
+}
+#field-setting .content label:last-child {
+	margin-bottom: 0;
+}
+#field-setting .content input:not([type=checkbox]) {
+	display: block;
+	width: 100%;
+	margin-top: 3px;
+}
+#tpc-setting .tpc-setting-info {
+	margin-top: 20px;
+}
+
+/* Order Page =========== */
+#tpc-data .view p.info {
+	font-style: italic;
+	margin: 0;
+}
+#tpc-data .view p.info a {
+	cursor: pointer;
+}
+#tpc-data .view p.info.filled {
+	margin-top: 15px;
+}
+#tpc-data .view a:focus,
+#tpc-data .view a:active {
+	box-shadow: none;
+}
+#tpc-data .view img {
+	display: block;
+	margin-bottom: 10px;
+	max-width: 100%;
+}
+#tpc-data .view table {
+	width: 100%;
+	border: 1px solid #eee;
+	border-collapse: collapse;
+	max-width: 100%;
+}
+#tpc-data .view td {
+	border-bottom: 1px solid #eee;
+	padding: 3px 5px;
+	vertical-align: top;
+}
+#tpc-data .view td.index {
+	width: 1%;
+	white-space: nowrap;
+	font-size: 90%;
+	/*padding-right: 10px;*/
+}
+#tpc-data .view td.value {
+	font-weight: 700;
+}
+#tpc-data .view td.note {
+	white-space: normal;
+}
+#tpc-data .view td.note p {
+	font-size: 13px;
+	font-weight: 700;
+	margin: 5px 0 0;
+}
+#tpc-data .actions {
+	margin-top: 15px;
+	border: 0;
+	width: 100%;
+}
+#tpc-data .actions td {
+	width: 50%;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+}
+#tpc-data .actions td:first-child {
+	padding-right: 2px;
+}
+#tpc-data .actions td:last-child {
+	padding-left: 2px;
+}
+#tpc-data .actions td .button {
+	display: block;width: 100%;
+	text-align: center;
+}
+#tpc-data .edit {
+	display: none;
+}
+#tpc-data.editing .edit {
+	display: block;
+}
+#tpc-data.editing .view {
+	display: none;
+}
+#tpc-data .edit label {
+	display: block;
+	margin-bottom: 5px;
+}
+#tpc-data .edit input:not([type=submit]),
+#tpc-data .edit textarea,
+#tpc-data .edit select {
+	display: block;
+	width: 100%;
+}
+
+.post-type-shop_order .wp-list-table .order-preview.tpc-order-preview {
+	float: none;
+	width: auto;
+	padding: 0 10px;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #0071a1;
+	border-radius: 3px;
+}
+.post-type-shop_order .wp-list-table .order-preview.tpc-order-preview[disabled] {
+	cursor: wait;
+}
+.post-type-shop_order .wp-list-table .order-preview.tpc-order-preview:hover {
+	border: 1px solid #00a0d2;
+}
+.post-type-shop_order .wp-list-table .order-preview.tpc-order-preview:before {
+	display: none;
+}
+.wc-order-preview-confirmation {
+	overflow: hidden;
+	padding: 0 1.5em 1.5em;
+}
+.wc-order-preview-confirmation .panel {
+	width: 50%;
+	float: left;
+}
+.wc-order-preview-confirmation .panel:first-child {
+	padding-right: 20px;
+}
+.wc-order-preview-confirmation .panel:last-child {
+	padding-left: 20px;
+}
+.wc-order-preview-confirmation .panel img {
+	display: block;
+	max-width: 100%;
+}
+.wc-order-preview-confirmation .panel strong {
+	display: block;
+	margin-top: 1em;
+}
+.wc-order-preview-confirmation .panel strong:first-child {
+	margin-top: 0;
+}

@@ -1,0 +1,23 @@
+.btn.shop-btn,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+    color: #ffffff;
+
+    &:hover {
+        background-color: $color-secondary;
+    }
+}
+
+.checkout-btn {
+    background: $color-secondary;
+}
+
+.cart-btn,
+.checkout-btn {
+    border: 0;
+}
+.pswp__caption__center {
+    text-align: center;
+}

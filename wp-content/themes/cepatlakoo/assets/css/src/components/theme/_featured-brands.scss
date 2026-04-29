@@ -1,0 +1,109 @@
+#feature-brands-widget.homepage-widget {
+    padding: 0;
+}
+
+div#feature-brands ul li {
+    float: left;
+    width: 25%;
+    position: relative;
+    text-align: center;
+}
+
+div#feature-brands ul li:first-child {
+    width: 49.93%;
+}
+
+div#feature-brands ul li .thumbnail {
+    overflow: hidden;
+    background: #000;
+}
+
+article.hentry.column .thumbnail {
+    overflow: hidden;
+}
+
+div#feature-brands ul li .thumbnail img,
+article.hentry.column .thumbnail img {
+    transition: all ease-in .3s;
+    transform-origin: center;
+    opacity: 1;
+}
+
+div#feature-brands ul li .detail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+}
+
+div#feature-brands ul li .detail .brand-icon {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+}
+
+div#feature-brands ul li .detail .brand-icon img {
+    display: block;
+    margin: 0 auto;
+}
+
+.shopping-widget div#feature-brands ul li .detail .brand-icon img {
+    max-width: 100px;
+}
+
+div#feature-brands ul li .detail .overlay-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+div#feature-brands ul li .detail .brand-wrap {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 0;
+    transition: all ease-in .3s;
+}
+
+div#feature-brands ul li .detail .brand-wrap a.btn {
+    position: absolute;
+    width: 160px;
+    left: 50%;
+    bottom: -20px;
+    margin-left: -80px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease-in .3s;
+}
+
+.shopping-widget div#feature-brands ul li .detail .brand-wrap a.btn {
+    padding: 5px 15px;
+    font-size: 12px;
+    width: 120px !important;
+    margin-left: -60px;
+}
+
+div#feature-brands ul li:hover .detail .brand-wrap {
+    padding-bottom: 70px;
+}
+
+.shopping-widget div#feature-brands ul li:hover .detail .brand-wrap {
+    padding-bottom: 40px;
+}
+
+div#feature-brands ul li:hover .thumbnail img,
+article.hentry.column:hover .thumbnail img {
+    transform: scale(1.05);
+    opacity: .8;
+}
+
+div#feature-brands ul li:hover .detail .brand-wrap a.btn {
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+}

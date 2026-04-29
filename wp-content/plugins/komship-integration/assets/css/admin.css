@@ -1,0 +1,80 @@
+/* assets/css/admin.css */
+.komship-expedition-calculator {
+    padding: 12px;
+}
+
+.komship-form-group {
+    margin-bottom: 16px;
+}
+
+.komship-form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.komship-form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.komship-shipping-results {
+    margin-top: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.shipping-option {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 8px;
+    background: #fff;
+    transition: background-color 0.2s;
+}
+
+.shipping-option:hover {
+    background: #f9f9f9;
+}
+
+.shipping-option h4 {
+    margin: 0 0 8px;
+    color: #2271b1;
+}
+
+.shipping-details {
+    font-size: 13px;
+    color: #666;
+}
+
+.shipping-cost {
+    font-weight: 600;
+    color: #2271b1;
+    margin-top: 8px;
+}
+
+/* jQuery UI Autocomplete customization */
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.ui-menu-item {
+    padding: 8px 12px;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+}
+
+.ui-menu-item:last-child {
+    border-bottom: none;
+}
+
+.ui-menu-item:hover {
+    background: #f9f9f9;
+}

@@ -1,0 +1,184 @@
+.neaty_block_blog {
+    margin-bottom: 50px;
+}
+.neaty_block_cover {
+    display: inline-block;
+    width: 100%;
+}
+.neaty_block_blog .neaty-block-img-wrapper {
+    position: relative;
+    overflow: visible;
+}
+
+.neaty_block_blog .bdp-neaty-block-metadata {
+    position: absolute;
+    top: 0;
+    right: -125px;
+    overflow: hidden;
+}
+.neaty_block_blog .bdp-mb-20 {
+    margin-bottom: 20px;
+}
+.neaty_block_blog .bdp-neaty-block-metadata ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+.neaty_block_blog .bdp-neaty-comment-li {
+    margin: 10px 5px 10px 0;
+}
+.neaty_block_blog .bdp-count {
+    font-size: 14px;
+}
+.neaty_block_blog .bdp-neaty-block-metadata ul li {
+    margin: 20px 0;
+    border-bottom: 1px solid #123;
+    width: 70px;
+}
+
+.neaty_block_blog .post-bottom {
+    display: inline-block;
+    width: 100% !important;
+    margin: 15px 0 0 0;
+}
+.neaty_block_blog .neaty-block-avatar {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -35px;
+}
+.neaty_block_blog .neaty-block-avatar img {
+    border-radius: 50%;
+    top: 0;
+}
+.neaty_block_blog .bdp-neaty-block-metadata ul li:nth-child(1) {
+    font-size: 32px;
+    border-top: 1px solid #123;
+    margin-top: 0;
+}
+.neaty_block_blog .post_content h2 {
+    word-break: break-all;
+}
+.neaty_block_blog .post_content h2,
+.neaty_block_blog .post_content p,
+.neaty_block_blog .post-meta-cats-tags,
+.neaty_block_blog .post-meta-cats-tags .category-link,
+.neaty_block_blog .post-meta-cats-tags .tags {
+    margin: 20px 0 !important;
+    padding: 0;
+}
+.neaty_block_blog .post-meta {
+    margin: 0px 0 20px 0;
+}
+.neaty_block_blog .post-meta span {
+    display: inline-block;
+    margin-right: 15px;
+    line-height: 1.8;
+}
+.neaty_block_blog .post-meta span i {
+    margin-right: 5px;
+}
+.neaty_block_blog .bdp-comments-box {
+    position: absolute;
+    left: -90px;
+    right: auto;
+    bottom: -25px;
+    top: auto;
+    margin-top: 0px;
+    width: 70px;
+}
+.neaty_block_blog .bdp-comments-box ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 18px;
+}
+.neaty_block_blog .bdp-comments-box ul li {
+    margin: 10px 0;
+}
+.neaty_block_blog .bdp-comments-box ul li a {
+    font-size: 14px;
+}
+.neaty_block_blog .bdp-wrapper-like {
+    padding: 0 !important;
+}
+.neaty_block_blog {
+    display: inline-block;
+    width: calc(100% - 130px);
+    padding-left: 80px;
+    position: relative;
+}
+.neaty_block_blog_wrapp {
+    padding: 30px;
+}
+.neaty_block_blog_wrapp .read_more_div {
+    width: auto !important;
+    margin: 5px 0;
+}
+
+.neaty_block_blog_wrapp .comments-link  {
+    word-wrap: anywhere;
+    font-size: 14px;
+}
+
+.neaty_block_blog .bdp-neaty-block-metadata ul li span {
+    padding: 5px;
+}
+@media screen and (max-width: 991px) {
+    .neaty_block_blog {
+        width: 100%;
+        padding-left: 0;
+    }
+    .neaty_block_blog .neaty-block-avatar {
+	    position: relative;
+	    margin: 20px 0 0 0;
+	    top: 0;
+	    left: 0;
+	    float: left;
+	    transform: translateY(0);
+        width: 100%;
+	}
+    .neaty_block_blog .bdp-neaty-block-metadata {
+        position: relative;
+        right: 0;
+        overflow: visible;
+        display: inline-block;
+        width: 100%;
+    }
+    .neaty_block_blog .bdp-neaty-block-metadata ul {
+        display: inline-flex;
+    }
+    .neaty_block_blog .bdp-neaty-block-metadata ul li {
+        display: inline-block;
+        width: auto;
+        border-bottom: none;
+    }
+    .neaty_block_blog .bdp-neaty-block-metadata ul li:nth-child(1) {
+        font-size: inherit;
+        border-top: none;
+        margin-top: 10px;
+    }
+    .neaty_block_blog .bdp-comments-box {
+    	position: relative;
+    	left: 0;
+    	top: 20px;
+        width: 100%;
+	}
+    .neaty_block_blog .bdp-comments-box ul {
+        display: inline-flex;
+        float: right;
+        margin: 0px 0;
+        width: 100%;
+    }
+    .neaty_block_blog .bdp-comments-box ul li {
+        margin: 0 10px;
+    }
+    .neaty_block_blog .bdp-neaty-block-metadata ul li {
+        margin: 10px 0;
+    }
+}
+.neaty_block_blog .bdp-neaty-block-metadata ul li:nth-child(1) {
+	padding: 0px 0px;
+}

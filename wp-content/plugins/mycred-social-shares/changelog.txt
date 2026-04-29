@@ -1,0 +1,58 @@
+Version 1.4.9
+------------------------------------------------------------
+TWEAK - Added compatibility with myCred 2.6.
+
+Version 1.4.8
+------------------------------------------------------------
+FIX - Resolved conflict "Facebook for WooCommerce" plugin.
+
+Version 1.4.7
+------------------------------------------------------------
+FIX - Facebook share with App ID was not working.
+
+Version 1.4.6
+------------------------------------------------------------
+Improvement – License System
+
+Version 1.4.5
+------------------------------------------------------------
+NEW Added  – add option to display share button for non login user
+
+Version 1.4.3
+------------------------------------------------------------
+Improvement – Code Optimization
+
+Version 1.4.2
+------------------------------------------------------------
+Improvement – Code Optimization
+
+Version 1.4.1
+------------------------------------------------------------
+Improvement – License System
+
+Version 1.4.1
+------------------------------------------------------------
+NEW Add settings tab to enable/disable notification for login.
+NEW Added translation support for plugin.
+NEW Added Instagram follow button.
+TWEAK Change css for button style for social share and social follow.
+FIX Login notice removed if not using shortcode.  
+
+Version 1.3
+------------------------------------------------------------
+NEW Added new shortcode: mycred_display_social_icons to show social share icons.
+NEW Added new mycred_display_social_icons function to show social share icons
+
+Version 1.2
+------------------------------------------------------------
+FIX meta og:desription content
+FIX Post shows blank when post type is not selected in social share setting. 
+
+Version 1.1
+------------------------------------------------------------
+FIX CSS issues
+FIX Html render on front-end fixed
+
+Version 1.0
+------------------------------------------------------------
+Initial release

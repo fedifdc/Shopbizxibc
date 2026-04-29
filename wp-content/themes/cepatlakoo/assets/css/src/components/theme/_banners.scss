@@ -1,0 +1,63 @@
+#cepatlakoo-single-slider {
+    position: relative;
+}
+
+.sc-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+.owl-loaded .sc-item,
+.elementor-editor-active .sc-item {
+    display: block;
+}
+
+.sc-item-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+
+.sc-item-inner {
+    max-width: 480px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.sc-item-inner h3 {
+    font-size: 32px;
+    font-weight: 600;
+    display: inline;
+    background: #fff;
+    box-shadow: 15px 0 0 #fff, -15px 0 0 #fff;
+    line-height: 40px;
+}
+
+.sc-item-inner p {
+    margin: 15px 0 30px 0 !important;
+}
+
+.banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.banner-content-text {
+    max-width: 720px;
+    text-align: right;
+}
+
+.banner-content-text h2 {
+    font-family: "Lato";
+    font-weight: 500;
+}

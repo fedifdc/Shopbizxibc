@@ -1,0 +1,1582 @@
+# Translation of YITH WooCommerce Account Funds in French (France)
+# This file is distributed under the same license as the YITH WooCommerce Account Funds package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Account Funds\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"account-funds.premium\n"
+"POT-Creation-Date: 2024-03-11 09:02:50+00:00\n"
+"PO-Revision-Date: 2022-06-16 15:45:49+0000\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#: class.yith-funds.php:225
+msgid "Settings"
+msgstr "Paramètres"
+
+#: class.yith-funds.php:226
+msgid "Users' funds"
+msgstr "Fonds des utilisateurs"
+
+#: class.yith-funds.php:227
+msgid "Email settings"
+msgstr "Paramètres du courriel"
+
+#: class.yith-funds.php:228 plugin-options/endpoints-settings-options.php:16
+msgid "Funds endpoints"
+msgstr "Points de terminaison des fonds"
+
+#: class.yith-funds.php:229
+msgid "Vendors & Funds"
+msgstr "Fournisseurs et Fonds"
+
+#: class.yith-funds.php:230
+msgid "Account & Privacy"
+msgstr "Compte et confidentialité"
+
+#: class.yith-funds.php:238
+msgid ""
+"Let customers deposit funds in their online wallet in your store and use "
+"them at any time to proceed with faster checkout"
+msgstr ""
+"Laissez les clients déposer des fonds dans leur portefeuille en ligne dans "
+"votre magasin et utilisez-les à tout moment pour procéder à un paiement plus "
+"rapide"
+
+#: class.yith-funds.php:361 class.yith-funds.php:692
+#: includes/class.yith-ywf-order.php:709
+#: includes/functions.yith-ywf-functions.php:332
+#: includes/shortcodes/class.yith-ywf-shortcodes.php:227
+#: plugin-options/emails-multi-tab-options.php:18
+msgid "Deposit"
+msgstr "Déposer"
+
+#: class.yith-funds.php:392
+msgid "Show logs"
+msgstr "Afficher les journaux"
+
+#: class.yith-funds.php:424
+msgid "Show more details"
+msgstr "Afficher plus de détails"
+
+#: class.yith-funds.php:470
+msgid "You cannot refund an amount greater than user's total funds available."
+msgstr ""
+"Vous ne pouvez pas rembourser un montant supérieur au total des fonds "
+"disponibles de l'utilisateur."
+
+#: class.yith-funds.php:471
+msgid ""
+"Attention! User's current funds are lower than the amount you are entering"
+msgstr ""
+"Attention! Les fonds actuels de l'utilisateur sont inférieurs au montant que "
+"vous saisissez"
+
+#: class.yith-funds.php:472
+msgid ""
+"Attention! It is not possible to refund this order automatically because it "
+"was partially paid with funds. Only the manual refund option is available."
+msgstr ""
+"Attention! Il n'est pas possible de rembourser automatiquement cette "
+"commande car elle a été partiellement payée avec des fonds. Seule l'option "
+"de remboursement manuel est disponible."
+
+#: class.yith-funds.php:473
+msgid "Attention! It is not possible to set a value < 0"
+msgstr "Attention! Il n'est pas possible de définir une valeur < 0"
+
+#: class.yith-funds.php:549
+msgid "Recent history"
+msgstr "Histoire récente"
+
+#: class.yith-funds.php:549
+msgid "Show all"
+msgstr "Tout afficher"
+
+#: class.yith-funds.php:630
+msgid ""
+"Customize My Account Page is activated, you can change the YITH Account "
+"Funds Endpoints here"
+msgstr ""
+"La page Personnaliser mon compte est activée, vous pouvez modifier les "
+"points de terminaison des fonds du compte YITH ici"
+
+#: class.yith-funds.php:662
+msgid "YITH Deposit"
+msgstr "Dépôt YITH"
+
+#: class.yith-funds.php:665
+msgid ""
+"This product has been created by YITH Account Funds Plugin, please not remove"
+msgstr ""
+"Ce produit a été créé par YITH Account Funds Plugin, veuillez ne pas "
+"supprimer"
+
+#: class.yith-funds.php:735
+msgid "Account Funds Info"
+msgstr "Informations sur les fonds du compte"
+
+#: class.yith-funds.php:778
+msgid "for a total of "
+msgstr "pour un total de"
+
+#: class.yith-funds.php:791
+msgid "Available fund"
+msgstr "Fonds disponible"
+
+#: class.yith-funds.php:798
+msgid "Account Funds Log"
+msgstr "Journal des fonds du compte"
+
+#: class.yith-funds.php:821
+msgid "Account funds"
+msgstr "Fonds du compte"
+
+#: class.yith-funds.php:865
+msgid "Item removed from Account Fund log"
+msgid_plural "Items removed from Account Fund log"
+msgstr[0] "Article supprimé du journal des fonds du compte"
+msgstr[1] "Éléments supprimés du journal des fonds du compte"
+
+#: class.yith-funds.php:870
+msgid "Removed user meta _customer_fund properly"
+msgstr "Suppression correcte de la méta utilisateur _customer_fund"
+
+#. translators: %s is the amount of funds available
+#: includes/admin/meta-boxes/html-account-fund-meta-box.php:31
+msgid "(available funds %s)"
+msgstr "(fonds disponibles %s)"
+
+#: includes/admin/meta-boxes/html-account-fund-meta-box.php:36
+msgid "Add fund"
+msgstr "Ajouter un fonds"
+
+#: includes/admin/meta-boxes/html-account-fund-meta-box.php:37
+msgid "Edit funds"
+msgstr "Modifier les fonds"
+
+#: includes/admin/meta-boxes/html-account-fund-meta-box.php:39
+msgid "Add"
+msgstr "Ajouter"
+
+#: includes/class.wc-gateway-yith-funds.php:25
+msgid "YITH Funds"
+msgstr "Fonds YITH"
+
+#: includes/class.wc-gateway-yith-funds.php:26
+msgid "Allow payments with credits (use the available funds)"
+msgstr ""
+"Autoriser les paiements avec des crédits (utiliser les fonds disponibles)"
+
+#: includes/class.wc-gateway-yith-funds.php:44
+msgid "Available funds"
+msgstr "Fonds disponibles"
+
+#: includes/class.wc-gateway-yith-funds.php:84
+#: includes/class.wc-gateway-yith-funds.php:89
+#: includes/class.wc-gateway-yith-funds.php:102
+#: includes/compatibility/yith-woocommerce-subscription/class.yith-funds-yith-subscription.php:112
+#: includes/compatibility/yith-woocommerce-subscription/class.yith-funds-yith-subscription.php:120
+msgid "Payment error:"
+msgstr "Erreur de paiement:"
+
+#: includes/class.wc-gateway-yith-funds.php:84
+msgid "You must be logged in to use this payment method"
+msgstr "Vous devez être connecté pour utiliser ce moyen de paiement"
+
+#: includes/class.wc-gateway-yith-funds.php:89
+msgid "You can't purchase Funds with your wallet"
+msgstr "Vous ne pouvez pas acheter de fonds avec votre portefeuille"
+
+#: includes/class.wc-gateway-yith-funds.php:102
+#: includes/compatibility/yith-woocommerce-subscription/class.yith-funds-yith-subscription.php:120
+msgid "Insufficient account balance"
+msgstr "Solde de compte insuffisant"
+
+#. translators: %1$s is the the amount funds, %2$s is the customer id
+#. translators: %1$s is the amount of funds %2$s is the customer id
+#: includes/class.wc-gateway-yith-funds.php:159
+#: includes/class.yith-ywf-order.php:901
+msgid "Add %1$s funds to customer #%2$s"
+msgstr "Ajoutez %1$s de fonds au client #%2$s"
+
+#: includes/class.wc-gateway-yith-funds.php:231
+#: plugin-options/emails-multi-tab/deposit-email-options.php:40
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:46
+#: plugin-options/emails-multi-tab/redeem-email-options.php:34
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+#: includes/class.wc-gateway-yith-funds.php:233
+msgid "Enable customers to use their funds as a payment gateway"
+msgstr ""
+"Permettre aux clients d'utiliser leurs fonds comme passerelle de paiement"
+
+#: includes/class.wc-gateway-yith-funds.php:237
+#: includes/widgets/class.yith-ywf-make-a-deposit-widget.php:42
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:45
+msgid "Title"
+msgstr "Titre"
+
+#: includes/class.wc-gateway-yith-funds.php:239
+msgid "This is the title that users see during the checkout."
+msgstr "Il s'agit du titre que les utilisateurs voient lors du paiement."
+
+#: includes/class.wc-gateway-yith-funds.php:240
+#: includes/tables/class.yith-ywf-user-list.php:42
+msgid "Funds"
+msgstr "Fonds"
+
+#: includes/class.wc-gateway-yith-funds.php:260
+msgid "Use your funds"
+msgstr "Utilisez vos fonds"
+
+#: includes/class.yith-funds-endpoints.php:187
+#: includes/shortcodes/class.yith-ywf-shortcodes.php:204
+msgid "Place order"
+msgstr "Passer la commande"
+
+#: includes/class.yith-funds-endpoints.php:296
+#: includes/functions.yith-ywf-functions.php:501
+msgid "Make a deposit"
+msgstr "Faire un dépôt"
+
+#: includes/class.yith-funds-endpoints.php:299
+#: includes/class.yith-funds-endpoints.php:300
+msgid "My Funds History"
+msgstr "Historique de mes fonds"
+
+#: includes/class.yith-ywf-cart-process.php:278
+#: includes/wc-blocks/src/Payments/YithFunds.php:64
+msgid "Discount applied for having used your account funds!"
+msgstr "Remise appliquée pour avoir utilisé les fonds de votre compte !"
+
+#: includes/class.yith-ywf-cart-process.php:295
+msgid "Discount"
+msgstr "Rabais"
+
+#: includes/class.yith-ywf-cart-process.php:380
+#: includes/class.yith-ywf-order.php:416 includes/class.yith-ywf-order.php:627
+msgid "Funds used"
+msgstr "Fonds utilisés"
+
+#: includes/class.yith-ywf-cart-process.php:409
+#: includes/wc-blocks/src/Payments/YithFunds.php:190
+msgid "User funds"
+msgstr "Fonds des utilisateurs"
+
+#: includes/class.yith-ywf-cart-process.php:411
+msgid "[Remove]"
+msgstr "[Retirer]"
+
+#: includes/class.yith-ywf-cart-process.php:512
+msgid "Add a Deposit"
+msgstr "Ajouter un dépôt"
+
+#: includes/class.yith-ywf-cart-process.php:513
+msgid "Deposit at least"
+msgstr "Déposez au moins"
+
+#: includes/class.yith-ywf-cart-process.php:513
+msgid "to get the available discount"
+msgstr "pour obtenir la réduction disponible"
+
+#: includes/class.yith-ywf-cart-process.php:640
+msgid "Your funds have been used successfully. Pay the rest now!"
+msgstr "Vos fonds ont été utilisés avec succès. Payez le reste maintenant !"
+
+#: includes/class.yith-ywf-deposit-fund-checkout.php:75
+msgid "Enter a price"
+msgstr "Entrez un prix"
+
+#: includes/class.yith-ywf-deposit-fund-checkout.php:84
+msgid "Minimum deposit amount is"
+msgstr "Le montant minimum de dépôt est de"
+
+#: includes/class.yith-ywf-deposit-fund-checkout.php:93
+msgid "Maximum deposit amount is"
+msgstr "Le montant maximum du dépôt est"
+
+#. translators: %s is the product name
+#: includes/class.yith-ywf-deposit-fund-checkout.php:213
+msgid ""
+"You cannot add &quot;%s&quot; to the cart because you are depositing funds"
+msgstr ""
+"Vous ne pouvez pas ajouter &quot;%s&quot; au panier parce que vous déposez "
+"des fonds"
+
+#. translators: %1$s is the amount of funds , %2$s is the customer id
+#. translators: %1$s is the amount of funds, %2$s is the customer id
+#: includes/class.yith-ywf-order.php:147 includes/class.yith-ywf-order.php:274
+#: includes/class.yith-ywf-order.php:670
+msgid "Removed %1$s funds from customer #%2$s account"
+msgstr "%1$s fonds supprimés du compte du client #%2$s"
+
+#. translators: %1$s is the amount of funds , %2$s is the customer id
+#: includes/class.yith-ywf-order.php:188 includes/class.yith-ywf-order.php:224
+msgid "Added %1$s funds to customer #%2$s account"
+msgstr "Ajout de fonds %1$s au compte du client #%2$s"
+
+#: includes/class.yith-ywf-order.php:416
+msgid "Funds used by the customer to pay for this order."
+msgstr "Fonds utilisés par le client pour payer cette commande."
+
+#. translators: %s show the tax amount
+#: includes/class.yith-ywf-order.php:487
+msgid "(Includes %s)"
+msgstr "(Comprend %s)"
+
+#: includes/class.yith-ywf-order.php:611
+msgid "Total with funds:"
+msgstr "Total avec fonds :"
+
+#. translators: %s the payment method used to complete the oder
+#: includes/class.yith-ywf-order.php:616
+msgid "Total with %s: "
+msgstr "Total avec %s :"
+
+#: includes/class.yith-ywf-order.php:818
+msgid "Deposit again"
+msgstr "Déposez à nouveau"
+
+#. translators: %1$s is the amount of funds, %2$s is the order id
+#: includes/class.yith-ywf-order.php:910
+msgid "Add %1$s fund in the order #%2$s"
+msgstr "Ajoutez %1$s de fonds dans la commande #%2$s"
+
+#: includes/class.yith-ywf-order.php:953
+msgid "Account Funds"
+msgstr "Fonds du compte"
+
+#: includes/class.yith-ywf-product-deposit.php:110
+#: plugin-options/endpoints-settings-options.php:21
+msgid "Add funds"
+msgstr "Ajouter des fonds"
+
+#: includes/class.yith-ywf-product-deposit.php:120
+#: plugin-options/emails-multi-tab/deposit-email-options.php:35
+msgid "Deposit funds"
+msgstr "Déposer des fonds"
+
+#: includes/class.yith-ywf-reports.php:54
+#: includes/class.yith-ywf-reports.php:57
+msgid "Deposits"
+msgstr "Dépôts"
+
+#: includes/class.yith-ywf-reports.php:118
+#: includes/tables/class.yith-ywf-users-log-table.php:59
+#: templates/view-deposit-history.php:14
+msgid "Date"
+msgstr "Date"
+
+#: includes/class.yith-ywf-reports.php:121
+msgid "CSV export"
+msgstr "Exportation CSV"
+
+#: includes/class.yith-ywf-reports.php:148
+msgid "Year"
+msgstr "Année"
+
+#: includes/class.yith-ywf-reports.php:149
+msgid "Last month"
+msgstr "Le mois dernier"
+
+#: includes/class.yith-ywf-reports.php:150
+msgid "This month"
+msgstr "Ce mois-ci"
+
+#: includes/class.yith-ywf-reports.php:151
+msgid "Last 7 days"
+msgstr "Les 7 derniers jours"
+
+#: includes/compatibility/class.yith-funds-yith-pdf-invoice-compatibility.php:132
+msgid "It is not possible to create an invoice for deposit"
+msgstr "Il n'est pas possible de créer une facture d'acompte"
+
+#: includes/compatibility/class.yith-funds-yith-pdf-invoice-compatibility.php:216
+msgid "Discount for Funds Used"
+msgstr "Remise pour les fonds utilisés"
+
+#: includes/compatibility/class.yith-funds-yith-pdf-invoice-compatibility.php:239
+msgid "Order paid through funds"
+msgstr "Commande payée par fonds"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:138
+msgid "Commission"
+msgstr "Commission"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:139
+msgid "Commission Refunded"
+msgstr "Commission remboursée"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:292
+msgid ""
+"Impossible to process this request without the PayPal Email set for this "
+"Vendor"
+msgstr ""
+"Impossible de traiter cette demande sans l'e-mail PayPal défini pour ce "
+"fournisseur"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:305
+msgid "The vendor's profile is not connected to Stripe."
+msgstr "Le profil du vendeur n'est pas connecté à Stripe."
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:331
+msgid "We were unable to process your request, please try again."
+msgstr "Nous n'avons pas pu traiter votre demande, veuillez réessayer."
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:342
+msgid "Invalid amount"
+msgstr "Montant invalide"
+
+#. translators: %s is the minimum balance that a vendor can have to redeem
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:347
+msgid "You can't redeem funds because you need at least %s in your balance"
+msgstr ""
+"Vous ne pouvez pas utiliser les fonds car vous avez besoin d'au moins %s sur "
+"votre solde"
+
+#. translators: %s is the maximum balance that a vendor can have to redeem
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:352
+msgid "You can redeem at most %s"
+msgstr "Vous pouvez échanger au maximum %s"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:591
+msgid "Redeem Vendor Funds"
+msgstr "Utiliser les fonds du fournisseur"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:657
+msgid "Fee"
+msgstr "Frais"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:664
+msgid "Total transaction"
+msgstr "Transaction totale"
+
+#. translators: %s is the amount of redeem
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-payouts-gateway.php:101
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-payouts-gateway.php:157
+msgid "Redeem %s funds with PayPal Payouts"
+msgstr "Échangez %s de fonds avec les paiements PayPal"
+
+#. translators: %1$s is the amount of redeem , %2$s the transaction id , %3$s
+#. the status
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-payouts-gateway.php:175
+msgid "Restored %1$s funds because payout %2$s is %3$s"
+msgstr "%1$s fonds restaurés, car le paiement %2$s est %3$s"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-stripe-connect-gateway.php:118
+msgid "Redeem vendor funds"
+msgstr "Utiliser les fonds du fournisseur"
+
+#. translators: %s is the amount of redeem
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-stripe-connect-gateway.php:123
+msgid "Redeem %s funds with Stripe Connect"
+msgstr "Échangez %s de fonds avec les paiements Stripe Connect"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-stripe-connect-gateway.php:131
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-stripe-connect-gateway.php:148
+msgid ""
+"Impossible redeem funds for now, please contact the site administrator for "
+"more details"
+msgstr ""
+"Impossible d'échanger des fonds pour l'instant, veuillez contacter "
+"l'administrateur du site pour plus de détails"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-stripe-connect-gateway.php:132
+msgid "You have insufficient funds in your Stripe account :"
+msgstr "Vous avez des fonds insuffisants sur votre compte Stripe :"
+
+#: includes/compatibility/yith-woocommerce-subscription/class.yith-funds-yith-subscription-integration.php:119
+msgid "Renewed a subscription with Funds"
+msgstr "A renouvelé un abonnement avec des fonds"
+
+#. translators: %1$1 is the order id %2$s is the subscription id
+#: includes/compatibility/yith-woocommerce-subscription/class.yith-funds-yith-subscription-integration.php:141
+msgid "Renewed order #%1$s for subscription #%2$s"
+msgstr "Commande renouvelée # %1$s pour l'abonnement #%2$s"
+
+#: includes/compatibility/yith-woocommerce-subscription/class.yith-funds-yith-subscription.php:112
+msgid "Subscriptions not found."
+msgstr "Abonnements introuvables."
+
+#: includes/emails/class.yith-ywf-advise-customer-email.php:22
+msgid "Customer funds note"
+msgstr "Note de fonds client"
+
+#: includes/emails/class.yith-ywf-advise-customer-email.php:23
+msgid ""
+"This email is sent to customers when the administrator changes the amount of "
+"their available funds"
+msgstr ""
+"Ce courriel est envoyé aux clients lorsque l'administrateur modifie le "
+"montant de leurs fonds disponibles"
+
+#: includes/emails/class.yith-ywf-customer-email.php:31
+msgid "Funds email"
+msgstr "Courriel des fonds"
+
+#: includes/emails/class.yith-ywf-customer-email.php:32
+msgid ""
+"This email is sent to customers when the administrator changes their "
+"available fund amount"
+msgstr ""
+"Ce courriel est envoyé aux clients lorsque l'administrateur modifie le "
+"montant de leurs fonds disponibles"
+
+#: includes/emails/class.yith-ywf-vendor-redeem-email.php:33
+msgid ""
+"This email is sent to administrator when one or more vendor redeem funds"
+msgstr ""
+"Ce courriel est envoyé à l'administrateur lorsqu'un ou plusieurs "
+"fournisseurs utilisent des fonds"
+
+#: includes/functions.yith-ywf-functions.php:333
+msgid "Payment"
+msgstr "Paiement"
+
+#: includes/functions.yith-ywf-functions.php:334
+msgid "Admin activity"
+msgstr "Activité d'administration"
+
+#: includes/functions.yith-ywf-functions.php:335
+msgid "Funds restored"
+msgstr "Fonds restaurés"
+
+#: includes/functions.yith-ywf-functions.php:336
+msgid "Funds refunded"
+msgstr "Fonds remboursés"
+
+#: includes/functions.yith-ywf-functions.php:495
+#: plugin-options/endpoints-settings-options.php:33
+msgid "Income/Expenditure History"
+msgstr "Historique des Revenus/Dépenses"
+
+#. translators: %s is the average of deposit
+#: includes/reports/class.yith-ywf-report-deposit-order.php:149
+msgid "Average daily deposits: %s"
+msgstr "Dépôts quotidiens moyens : %s"
+
+#. translators: %s is the average of deposit
+#: includes/reports/class.yith-ywf-report-deposit-order.php:154
+msgid "Average gross monthly sales: %s"
+msgstr "Ventes mensuelles brutes moyennes : %s"
+
+#. translators: %s is the gross deposits
+#: includes/reports/class.yith-ywf-report-deposit-order.php:160
+msgid "Gross sales in this period: %s"
+msgstr "Ventes brutes au cours de cette période : %s"
+
+#: includes/reports/class.yith-ywf-report-deposit-order.php:161
+msgid "This is the sum of the order totals after any refunds."
+msgstr ""
+"Il s'agit de la somme des totaux de la commande après tout remboursement."
+
+#. translators: is the amount of deposit placed
+#: includes/reports/class.yith-ywf-report-deposit-order.php:174
+msgid "%s deposits placed"
+msgstr "%s dépôts placés"
+
+#: includes/reports/class.yith-ywf-report-deposit-order.php:212
+msgid "Deposits placed"
+msgstr "Dépôts placés"
+
+#: includes/reports/class.yith-ywf-report-deposit-order.php:222
+msgid "Deposit amount"
+msgstr "Montant du dépôt"
+
+#: includes/reports/class.yith-ywf-report-deposit-order.php:233
+msgid "Average net sales"
+msgstr "Ventes nettes moyennes"
+
+#: includes/shortcodes/class.yith-ywf-shortcodes.php:129
+msgid "Available funds:"
+msgstr "Fonds disponibles:"
+
+#: includes/tables/class.yith-ywf-user-list.php:40
+msgid "ID"
+msgstr "ID"
+
+#: includes/tables/class.yith-ywf-user-list.php:41
+msgid "User"
+msgstr "Utilisateur"
+
+#: includes/tables/class.yith-ywf-user-list.php:43
+msgid "Action"
+msgstr "Action"
+
+#: includes/tables/class.yith-ywf-user-list.php:182
+msgid "View Logs"
+msgstr "Voir les journaux"
+
+#. translators: 1: user display name 2: user ID 3: user email
+#: includes/tables/class.yith-ywf-user-list.php:231
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr "%1$s (#%2$s &ndash; %3$s)"
+
+#: includes/tables/class.yith-ywf-user-list.php:239
+msgid "Filter by registered customer"
+msgstr "Filtrer par client enregistré"
+
+#: includes/tables/class.yith-ywf-user-list.php:246
+#: templates/view-deposit-history.php:34
+msgid "Filter"
+msgstr "Filtre"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:60
+#: plugin-options/privacy-settings-options.php:27
+#: templates/admin/user-log-table.php:104 templates/view-deposit-history.php:13
+msgid "Description"
+msgstr "Description"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:61
+msgid "Transaction"
+msgstr "Transaction"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:116
+msgid "Funds used in order"
+msgstr "Fonds utilisés dans la commande"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:119
+msgid "Funds deposited through order"
+msgstr "Fonds déposés par ordre"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:122
+msgid "Funds restored for the order"
+msgstr "Fonds restaurés pour la commande"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:125
+msgid "Funds refunded for the order"
+msgstr "Fonds remboursés pour la commande"
+
+#: includes/wc-blocks/src/Payments/YithFunds.php:65
+msgid "Discount for funds used"
+msgstr ""
+
+#: includes/widgets/class.yith-ywf-make-a-deposit-widget.php:24
+msgid "YITH Account Funds: Make a deposit widget"
+msgstr "Fonds du compte YITH : créer un widget de dépôt"
+
+#: includes/widgets/class.yith-ywf-make-a-deposit-widget.php:26
+msgid "Shows the form to let customers deposit funds"
+msgstr "Affiche le formulaire pour permettre aux clients de déposer des fonds"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:24
+msgid "YITH Account Funds: View user funds widget"
+msgstr "Fonds du compte YITH : Afficher le widget des fonds de l'utilisateur"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:26
+msgid "Shows customer's available funds"
+msgstr "Affiche les fonds disponibles du client"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:49
+msgid "Text alignment"
+msgstr "Alignement du texte"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:51
+msgid "Left"
+msgstr "Gauche"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:52
+msgid "Center"
+msgstr "Centrer"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:53
+msgid "Right"
+msgstr "Droite"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:57
+msgid "Font weight"
+msgstr "Poids de la police"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:59
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:60
+msgid "Bold"
+msgstr "Gras"
+
+#: init.php:43
+msgid ""
+"YITH WooCommerce Account Funds Premium is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Account Funds Premium est activé mais pas efficace. Il "
+"nécessite WooCommerce pour fonctionner."
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:11
+msgid "You are running out of funds!"
+msgstr "Vous êtes à court de fonds !"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:14
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:19
+msgid "Dear"
+msgstr "Cher / Chère"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:15
+msgid "you are going to run out of funds on"
+msgstr "vous allez manquer de fonds sur"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:16
+msgid "your available funds:"
+msgstr "vos fonds disponibles :"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:17
+msgid "Top up your account at"
+msgstr "Rechargez votre compte sur"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:18
+msgid ""
+"to be able to make new orders quickly and forget about card numbers and "
+"codes."
+msgstr ""
+"pour pouvoir passer de nouvelles commandes rapidement et oublier les numéros "
+"de carte et les codes."
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:19
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:23
+msgid "Best regards"
+msgstr "Cordialement"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:24
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:28
+msgid "You can use the following placeholders"
+msgstr "Vous pouvez utiliser les espaces réservés suivants"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:25
+msgid "<code>{site_title}</code> replaced by website title"
+msgstr "<code>{site_title}</code> remplacé par le titre du site Web"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:26
+msgid "<code>{user_funds}</code> replaced by user's current balance"
+msgstr ""
+"<code>{user_funds}</code> remplacé par le solde actuel de l'utilisateur"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:27
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:32
+msgid "<code>{customer_email}</code> replaced by customer's email address"
+msgstr "<code>{customer_email}</code> remplacé par l'adresse e-mail du client"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:28
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:33
+msgid "<code>{customer_name}</code> replaced by customer's name"
+msgstr "<code>{customer_name}</code> remplacé par le nom du client"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:29
+msgid "<code>{button_charging}</code> replaced by \"Deposit now\" button"
+msgstr ""
+"<code>{button_charging}</code>  remplacé par le bouton \"Déposer maintenant\""
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:45
+msgid ""
+"If enabled, send an email to the customer once the balance is below the "
+"threshold"
+msgstr ""
+"Si activé, envoyer un e-mail au client une fois que le solde est inférieur "
+"au seuil"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:48
+msgid "User funds threshold"
+msgstr "Seuil de fonds des utilisateurs"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:55
+msgid ""
+"Set a minimum threshold when an email is sent to customers to invite them to "
+"deposit more funds"
+msgstr ""
+"Fixez un seuil minimum lorsqu'un e-mail est envoyé aux clients pour les "
+"inviter à déposer plus de fonds"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:58
+msgid "Email subject"
+msgstr "Sujet du courriel"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:66
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:62
+#: plugin-options/emails-multi-tab/redeem-email-options.php:61
+msgid "Email heading"
+msgstr "Entête du courriel"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:70
+msgid "Visit {site_title} to top up your funds"
+msgstr "Visitez {site_title} pour recharger vos fonds"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:74
+msgid "Email content"
+msgstr "Contenu des courriel"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:83
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:79
+#: plugin-options/emails-multi-tab/redeem-email-options.php:69
+msgid "Email type"
+msgstr "Type de courriel"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:88
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:84
+#: plugin-options/emails-multi-tab/redeem-email-options.php:74
+msgid "HTML"
+msgstr "HTML"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:89
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:85
+#: plugin-options/emails-multi-tab/redeem-email-options.php:75
+msgid "Plain text"
+msgstr "Texte brut"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:14
+msgid "The Administrator has changed your funds from"
+msgstr "L'administrateur a changé vos fonds de"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:20
+msgid "the administrator has changed your funds from"
+msgstr "l'administrateur a changé vos fonds de"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:21
+msgid "to"
+msgstr "à"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:22
+msgid "for the following reason"
+msgstr "pour la raison suivante"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:29
+msgid "<code>{site_title}</code> replaced by site title"
+msgstr "<code>{site_title}</code> remplacé par le titre du site"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:30
+msgid ""
+"<code>{before_funds}</code> replaced by user funds before admin adjustments"
+msgstr ""
+"<code>{before_funds}</code> remplacé par les fonds de l'utilisateur avant "
+"les ajustements de l'administrateur"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:31
+msgid ""
+"<code>{after_funds}</code> replaced by user funds after admin adjustments"
+msgstr ""
+"<code>{after_funds}</code> remplacé par les fonds de l'utilisateur après les "
+"ajustements de l'administrateur"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:34
+msgid "<code>{log_date}</code> replaced with adjustment date"
+msgstr "<code>{log_date}</code> remplacé par la date d'ajustement"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:35
+msgid "<code>{change_reason}</code> replaced by adjustment reason"
+msgstr "<code>{change_reason}</code> remplacé par le motif de l'ajustement"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:42
+msgid "Funds edited"
+msgstr "Fonds édités"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:51
+msgid ""
+"If enabled, send an email to customer as soon the admin change the funds in "
+"admin area"
+msgstr ""
+"Si activé, envoyer un e-mail au client dès que l'administrateur modifie les "
+"fonds dans la zone d'administration"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:54
+msgid "Email Subject"
+msgstr "Sujet du courriel"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:59
+msgid "The Administrator has changed your funds from {log_date}"
+msgstr "L'administrateur a changé vos fonds à partir du {log_date}"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:67
+msgid "Funds edited by admin!"
+msgstr "Fonds édités par admin !"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:70
+msgid "Email Content"
+msgstr "Contenu des courriel"
+
+#. translators: %s is the list of placeholders
+#: plugin-options/emails-multi-tab/redeem-email-options.php:13
+msgid "Available placeholders: %s"
+msgstr "Espaces réservés disponibles : %s"
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:22
+msgid "Funds redeemed"
+msgstr "Fonds rachetés"
+
+#. translators: %s is the text
+#: plugin-options/emails-multi-tab/redeem-email-options.php:30
+#: plugin-options/vendor-multi-tab/funds-settings-options.php:26
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:32
+msgid ""
+"These features are available only with YITH WooCommerce MultiVendor Premium "
+"3.7.0 or greater"
+msgstr ""
+"Ces fonctionnalités sont disponibles uniquement avec YITH WooCommerce "
+"MultiVendor Premium 3.7.0 ou supérieur"
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:39
+msgid "If enabled, send an email to admin when one or more vendor redeem funds"
+msgstr ""
+"Si activé, envoyer un e-mail à l'administrateur lorsqu'un ou plusieurs "
+"fournisseurs échangent des fonds"
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:42
+msgid "Recipient(s)"
+msgstr "Destinataire(s)"
+
+#. translators: %s are the default emails
+#: plugin-options/emails-multi-tab/redeem-email-options.php:48
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+"Entrez les destinataires (séparés par des virgules) pour ce courriel. La "
+"valeur par défaut est %s."
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:53
+msgid "Subject"
+msgstr "Sujet"
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:57
+msgid "[{site_title}] New Redeems"
+msgstr "[{site_title}] Nouveaux échanges"
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:65
+msgid "New Redeems"
+msgstr "Nouveaux rachats"
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:77
+msgid "Select if the email is HTML or plain"
+msgstr "Sélectionnez si l'e-mail est HTML ou brut"
+
+#: plugin-options/emails-multi-tab-options.php:21
+msgid "Funds Edited"
+msgstr "Fonds Édités"
+
+#: plugin-options/emails-multi-tab-options.php:24
+msgid "Vendor Redeem"
+msgstr "Le rachat du Vendeur"
+
+#: plugin-options/endpoints-settings-options.php:19
+msgid "\"Add funds\" endpoint title"
+msgstr "Titre du point de terminaison \"Ajouter des fonds\""
+
+#: plugin-options/endpoints-settings-options.php:25
+msgid "\"Add funds\" endpoint slug"
+msgstr "Slug de point de terminaison \"Ajouter des fonds\""
+
+#: plugin-options/endpoints-settings-options.php:31
+msgid "Income/Expenditure History endpoint title"
+msgstr "Titre du point de terminaison de l'historique des Revenus/Dépenses"
+
+#: plugin-options/endpoints-settings-options.php:37
+msgid "Income/Expenditure History endpoint slug"
+msgstr "Slug de point de terminaison de l'historique des Revenus/Dépenses"
+
+#: plugin-options/endpoints-settings-options.php:44
+msgid "Redeem fund endpoint title"
+msgstr "Utiliser le titre du point de terminaison du fonds"
+
+#: plugin-options/endpoints-settings-options.php:47
+msgid "Set the endpoint name for Redeem Funds"
+msgstr "Définir le nom du point de terminaison pour échanger des fonds"
+
+#: plugin-options/endpoints-settings-options.php:52
+msgid "Redeem fund endpoint slug"
+msgstr "Utiliser le slug de point de terminaison de fonds"
+
+#: plugin-options/endpoints-settings-options.php:55
+msgid "Set the endpoint slug for Redeem Funds"
+msgstr "Définir le slug de point de terminaison pour échanger des fonds"
+
+#: plugin-options/general-settings-options.php:16
+msgid "Charging Account settings"
+msgstr "Paramètres du compte de charge"
+
+#: plugin-options/general-settings-options.php:20
+msgid "Minimum deposit amount"
+msgstr "Montant minimum du dépôt"
+
+#: plugin-options/general-settings-options.php:27
+msgid "Set a minimum required amount for deposits"
+msgstr "Définir un montant minimum requis pour les dépôts"
+
+#: plugin-options/general-settings-options.php:30
+msgid "Maximum deposit amount"
+msgstr "Montant maximal du dépôt"
+
+#: plugin-options/general-settings-options.php:37
+msgid ""
+"Set the maximum amount for each individual deposit. Leave it blank to make "
+"it unlimited."
+msgstr ""
+"Fixez le montant maximum pour chaque dépôt individuel. Laissez-le vide pour "
+"le rendre illimité."
+
+#: plugin-options/general-settings-options.php:41
+msgid "Amount increments"
+msgstr "Incréments de montant"
+
+#: plugin-options/general-settings-options.php:42
+msgid ""
+"Choose the increments of the deposit amount. For example, enter 5 if you "
+"want to let your users only select increments of $5"
+msgstr ""
+"Choisissez les incréments du montant du dépôt. Par exemple, saisissez 5 si "
+"vous souhaitez que vos utilisateurs ne sélectionnent que des tranches de $5"
+
+#: plugin-options/general-settings-options.php:52
+msgid "Use Coupon"
+msgstr "Utiliser le coupon"
+
+#: plugin-options/general-settings-options.php:53
+msgid "If enabled, the customer can use the coupon code to purchase funds"
+msgstr ""
+"Si activé, le client peut utiliser le code de coupon pour acheter des fonds"
+
+#: plugin-options/general-settings-options.php:60
+msgid "Payment method"
+msgstr "Mode de paiement"
+
+#: plugin-options/general-settings-options.php:61
+msgid ""
+"Select payment method for deposits. Leave this field empty if you want to "
+"allow all gateways enabled in WooCommerce"
+msgstr ""
+"Sélectionnez le mode de paiement pour les dépôts. Laissez ce champ vide si "
+"vous souhaitez autoriser toutes les passerelles activées dans WooCommerce"
+
+#: plugin-options/general-settings-options.php:65
+msgid "Select a Payment Method"
+msgstr "Choisissez une méthode de paiement"
+
+#: plugin-options/general-settings-options.php:75
+msgid "Using funds settings"
+msgstr "Utilisation des paramètres de fonds"
+
+#: plugin-options/general-settings-options.php:79
+msgid "Enable discount"
+msgstr "Activer la remise"
+
+#: plugin-options/general-settings-options.php:83
+msgid "Apply a discount if customers use their funds to pay"
+msgstr "Appliquer une remise si les clients utilisent leurs fonds pour payer"
+
+#: plugin-options/general-settings-options.php:87
+msgid "Discount type"
+msgstr "Type de remise"
+
+#: plugin-options/general-settings-options.php:89
+msgid "Choose if the discount is fixed or in percentage"
+msgstr "Choisissez si la remise est fixe ou en pourcentage"
+
+#: plugin-options/general-settings-options.php:92
+msgid "Fixed price"
+msgstr "Prix ​​fixe"
+
+#: plugin-options/general-settings-options.php:93
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#: plugin-options/general-settings-options.php:104
+msgid "Discount amount"
+msgstr "Montant de la réduction"
+
+#: plugin-options/general-settings-options.php:111
+msgid ""
+"Enter a value. Based on to the above selection, it will be calculated either "
+"as fixed amount or as percentage."
+msgstr ""
+"Saisissez une valeur. Sur la base de la sélection ci-dessus, il sera calculé "
+"soit en montant fixe, soit en pourcentage."
+
+#: plugin-options/general-settings-options.php:119
+msgid "Enable partial payments"
+msgstr "Activer les paiements partiels"
+
+#: plugin-options/general-settings-options.php:120
+msgid ""
+"Allow customers to pay for the order using their available funds and pay the "
+"rest using a different payment method."
+msgstr ""
+"Permettez aux clients de payer la commande en utilisant leurs fonds "
+"disponibles et de payer le reste en utilisant un autre mode de paiement."
+
+#: plugin-options/privacy-settings-options.php:15
+msgid "Privacy Settings"
+msgstr "Paramètres de confidentialité"
+
+#: plugin-options/privacy-settings-options.php:19
+msgid "GDPR compliance"
+msgstr "Conformité RGPD"
+
+#: plugin-options/privacy-settings-options.php:23
+msgid ""
+"If checked, it allows customers to choose whether to receive emails or not "
+"about their funds. This option is visible in 'My Account' page"
+msgstr ""
+"Si elle est cochée, elle permet aux clients de choisir de recevoir ou non "
+"des e-mails concernant leurs fonds. Cette option est visible dans la page "
+"'Mon compte'"
+
+#: plugin-options/privacy-settings-options.php:31
+msgid "This description will be displayed next to the checkbox"
+msgstr "Cette description sera affichée à côté de la case à cocher"
+
+#: plugin-options/privacy-settings-options.php:37
+msgid "Yes, I want to receive emails for my funds"
+msgstr "Oui, je souhaite recevoir des courriel pour mes fonds"
+
+#: plugin-options/vendor-multi-tab/funds-settings-options.php:18
+msgid "Funds Settings"
+msgstr "Paramètres des fonds"
+
+#: plugin-options/vendor-multi-tab/funds-settings-options.php:33
+msgid "The vendor can charge funds"
+msgstr "Le vendeur peut facturer des fonds"
+
+#: plugin-options/vendor-multi-tab/funds-settings-options.php:35
+msgid "If enabled, vendor can charge funds like a normal customer"
+msgstr ""
+"Si activé, le fournisseur peut facturer des fonds comme un client normal"
+
+#: plugin-options/vendor-multi-tab/funds-settings-options.php:41
+msgid "The vendor can use funds"
+msgstr "Le vendeur peut utiliser les fonds"
+
+#: plugin-options/vendor-multi-tab/funds-settings-options.php:43
+msgid "If enabled, vendor can use funds to purchase products"
+msgstr ""
+"Si activé, le fournisseur peut utiliser les fonds pour acheter des produits"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:26
+msgid "Funds Redeem Settings"
+msgstr "Paramètres d'utilisation des fonds"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:38
+msgid "Vendor can redeem"
+msgstr "Le vendeur peut racheter"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:39
+msgid "If enabled the vendor can redeem funds"
+msgstr "Si activé, le fournisseur peut échanger des fonds"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:43
+msgid "Minimum funds to redeem"
+msgstr "Fonds minimum à racheter"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:50
+msgid "Set the minimum balance necessary for a vendor to redeem funds"
+msgstr ""
+"Définir le solde minimum nécessaire pour qu'un fournisseur puisse racheter "
+"des fonds"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:53
+msgid "Maximum funds to redeem"
+msgstr "Fonds maximum à racheter"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:60
+msgid ""
+"Set the maximum funds that can be redeemed in a transaction, leave empty to "
+"disable this restriction."
+msgstr ""
+"Définissez les fonds maximum pouvant être échangés dans une transaction, "
+"laissez vide pour désactiver cette restriction."
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:64
+msgid "Gateway Method"
+msgstr "Méthode de passerelle"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:65
+msgid ""
+"Set the gateway to use for transferring funds from the site to the vendor "
+"(You will pay a fee to transfer money from the site to PayPal )"
+msgstr ""
+"Définissez la passerelle à utiliser pour transférer des fonds du site vers "
+"le fournisseur (vous paierez des frais pour transférer de l'argent du site "
+"vers PayPal)"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:69
+msgid "PayPal Payouts"
+msgstr "Paiements PayPal"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:78
+msgid "Automatic Redeem Type"
+msgstr "Type d'échange automatique"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:83
+msgid "None"
+msgstr "Aucun"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:84
+msgid "Automatically when the minimum threshold is reached"
+msgstr "Automatiquement lorsque le seuil minimum est atteint"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:85
+msgid ""
+"Automatically, on a specific day and when the minimum threshold is reached."
+msgstr ""
+"Automatiquement, un jour précis et lorsque le seuil minimum est atteint."
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:92
+msgid "Redeem Day"
+msgstr "Jour d'échange"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:93
+msgid "Set a day of the month for redeeming payment funds"
+msgstr "Définir un jour du mois pour le rachat des fonds de paiement"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:108
+msgid "Manual Redeem"
+msgstr "Rachat manuel"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:112
+msgid "If enabled, the vendor can redeem funds from 'My Account' Page"
+msgstr ""
+"Si cette option est activée, le vendeur peut échanger des fonds à partir de "
+"la page \"Mon compte\""
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:117
+msgid "Redeem Button"
+msgstr "Bouton d'échange"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:120
+msgid "Redeem funds!"
+msgstr "Échangez des fonds !"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:121
+msgid "Set the text for the redeem button visible on 'My Account' page"
+msgstr ""
+"Définissez le texte du bouton d'échange visible sur la page \"Mon compte\""
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:131
+msgid "Redeem Button Text Color"
+msgstr "Couleur du texte du bouton d'échange"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:136
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:161
+msgid "Default"
+msgstr "Défaut"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:141
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:166
+msgid "Hover"
+msgstr "Survoler"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:146
+msgid "Set the color for the button text"
+msgstr "Définir la couleur du texte du bouton"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:156
+msgid "Redeem Button Color"
+msgstr "Couleur du bouton d'échange"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:171
+msgid "Set the color for the button background"
+msgstr "Définir la couleur de l'arrière-plan du bouton"
+
+#: plugin-options/vendor-multi-tab-options.php:18
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: templates/admin/user-log-table.php:22
+msgid "User Log"
+msgstr "Journal de l'utilisateur"
+
+#: templates/admin/user-log-table.php:28
+msgid "User Funds"
+msgstr "Fonds des utilisateurs"
+
+#: templates/admin/user-log-table.php:66
+msgid "User funds edited successfully"
+msgstr "Fonds de l'utilisateur modifiés avec succès"
+
+#: templates/admin/user-log-table.php:81
+msgid "Edit funds for"
+msgstr "Modifier les fonds pour"
+
+#: templates/admin/user-log-table.php:92
+msgid "Current funds"
+msgstr "Fonds actuels"
+
+#: templates/admin/user-log-table.php:99
+msgid "Edit user's funds!"
+msgstr "Modifiez les fonds de l'utilisateur !"
+
+#: templates/admin/user-log-table.php:108
+msgid "Enter a brief description"
+msgstr "Entrez une brève description"
+
+#: templates/admin/user-log-table.php:114
+msgid "Return to user list"
+msgstr "Retour à la liste des utilisateurs"
+
+#: templates/admin/user-log-table.php:115
+msgid "Change user fund"
+msgstr "Changer le fonds de l'utilisateur"
+
+#: templates/emails/vendor-redeem-funds.php:13
+msgid "The following vendors have redeem funds:"
+msgstr "Les fournisseurs suivants ont racheté des fonds :"
+
+#: templates/emails/vendor-redeem-funds.php:18
+msgid "Vendor Info"
+msgstr "Informations sur le vendeur"
+
+#: templates/emails/vendor-redeem-funds.php:20
+msgid "Amount redeemed"
+msgstr "Montant remboursé"
+
+#: templates/make-a-deposit-form.php:16 templates/make-a-deposit.php:51
+msgid "Enter amount"
+msgstr "Entrer le montant"
+
+#: templates/make-a-deposit-form.php:25
+msgid "Add funds now"
+msgstr "Ajouter des fonds maintenant"
+
+#: templates/make-a-deposit.php:36
+msgid "You are loading"
+msgstr "Vous chargez"
+
+#: templates/make-a-deposit.php:36
+msgid "Enter a different amount"
+msgstr "Entrez un montant différent"
+
+#: templates/make-a-deposit.php:55
+msgid "Amount"
+msgstr "Montant"
+
+#: templates/redeem-funds.php:45
+msgid "Your funds are available to redeem shortly"
+msgstr "Vos fonds peuvent être échangés sous peu"
+
+#: templates/redeem-funds.php:53
+msgid "You don't have enough funds to redeem."
+msgstr "Vous n'avez pas assez de fonds pour racheter."
+
+#. translators: %1$s is the minimum fund required to redeem %2$s is the users
+#. balance
+#: templates/redeem-funds.php:56
+msgid ""
+"You don't have enough funds to redeem. Minimum required funds to redeem is "
+"%1$s, available funds is %2$s"
+msgstr ""
+"Vous n'avez pas assez de fonds pour racheter. Le minimum de fonds requis "
+"pour échanger est de %1$s, les fonds disponibles sont de %2$s"
+
+#: templates/redeem-funds.php:61
+msgid "Amount to redeem"
+msgstr "Montant à racheter"
+
+#: templates/redeem-funds.php:89
+msgid "You can't access in this content"
+msgstr "Vous ne pouvez pas accéder à ce contenu"
+
+#: templates/view-deposit-history.php:15
+msgid "Transactions"
+msgstr "Transactions"
+
+#: templates/view-deposit-history.php:29
+msgid "Show All"
+msgstr "Tout afficher"
+
+#: templates/view-deposit-history.php:72
+msgid "Reason"
+msgstr "Raison"
+
+#. translators: %s is the amount of item in the order
+#: templates/view-deposit-history.php:77
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s item"
+msgstr[1] "%s items"
+
+#: templates/view-deposit-history.php:78
+msgid "Funds used to purchase"
+msgstr "Fonds utilisés pour acheter"
+
+#: templates/view-deposit-history.php:78
+msgid "in order"
+msgstr "en ordre"
+
+#: templates/view-deposit-history.php:82
+msgid "Order Credited Funds"
+msgstr "Commander des fonds crédités"
+
+#: templates/view-deposit-history.php:86
+msgid "deleted"
+msgstr "supprimé"
+
+#: templates/view-deposit-history.php:87
+msgid "Funds restored because order"
+msgstr "Fonds restaurés car commande"
+
+#: templates/view-deposit-history.php:87
+msgid "switched to"
+msgstr "est passé à"
+
+#: templates/view-deposit-history.php:92
+msgid "Refunded credits in order"
+msgstr "Crédits remboursés en commande"
+
+#: templates/view-deposit-history.php:128
+msgid "Your available funds"
+msgstr "Vos fonds disponibles"
+
+#. translators: %s displays "deposit" placeholder label
+#: templates/view-deposit-history.php:151
+msgid "No %s history for this user"
+msgstr "Aucun %s historique pour cet utilisateur"
+
+#: templates/woocommerce/admin/reports/deposit-order.php:26
+msgid "Custom:"
+msgstr "Personnalisé:"
+
+#: templates/woocommerce/admin/reports/deposit-order.php:56
+msgid "Go"
+msgstr "Go"
+
+#: templates/woocommerce/myaccount/ywf-email-checkbox-agree.php:17
+msgid "Account Funds Policy"
+msgstr "Politique de fonds du compte"
+
+#. Description of the plugin/theme
+msgid ""
+"The plugin <code><strong>YITH WooCommerce Account Funds Premium</strong></"
+"code> gives your customers the possibility to deposit funds in your online "
+"store now and use them later at any time to proceed with the checkout more "
+"quickly. <a href=\"https://yithemes.com\">Get more plugins for your e-"
+"commerce shop on <strong>YITH</strong></a>."
+msgstr ""
+"Le plugin <code><strong>YITH WooCommerce Account Funds Premium</strong></"
+"code> donne à vos clients la possibilité de déposer des fonds dans votre "
+"boutique en ligne maintenant et de les utiliser plus tard à tout moment pour "
+"procéder au paiement plus rapidement. <a href=\"https://yithemes."
+"com\">Obtenez plus de plugins pour votre boutique e-commerce sur "
+"<strong>YITH</strong></a>."
+
+#. translators: %s is the amount of discount
+#: includes/class.wc-gateway-yith-funds.php:60
+msgctxt ""
+"If you choose to pay through your available funds and funds are enough to "
+"cover the whole order amount, you can get a 30% discount"
+msgid ""
+"If you choose to pay through your available funds and funds are enough to "
+"cover the whole order amount, you can get a %s discount"
+msgstr ""
+"Si vous choisissez de payer avec vos fonds disponibles et que les fonds sont "
+"suffisants pour couvrir le montant total de la commande, vous pouvez obtenir "
+"une remise de %s"
+
+#: includes/class.yith-ywf-cart-process.php:438
+#: includes/shortcodes/class.yith-ywf-shortcodes.php:277
+msgctxt ""
+"Part of: Pay the order using your account funds and get a 50% discount on "
+"your cart"
+msgid "Pay the order using your account funds and get a"
+msgstr "Payez la commande en utilisant les fonds de votre compte et obtenez un"
+
+#: includes/class.yith-ywf-cart-process.php:439
+#: includes/shortcodes/class.yith-ywf-shortcodes.php:278
+msgctxt ""
+"Part of: Pay the order using your account funds and get a 50% discount on "
+"your cart"
+msgid "discount on your cart"
+msgstr "remise sur votre panier"
+
+#. translators: %s is the amount of funds
+#: includes/class.yith-ywf-cart-process.php:725
+msgctxt "Use your funds (20$) or Place Order"
+msgid "Use your funds (%s) or "
+msgstr "Utilisez vos fonds (%s) ou"
+
+#. translators: %s is the amount of funds
+#: includes/wc-blocks/src/Payments/YithFunds.php:159
+msgctxt "Use your funds (20$) or Place Order"
+msgid "or use your funds (%s)"
+msgstr ""
+
+#. translators: %s the vendor name
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:619
+msgctxt "Redeem Funds Payment for Jon Doe"
+msgid "Redeem Funds Payment for %s"
+msgstr "Utiliser le paiement de fonds pour %s"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:682
+msgctxt "Is the title of PayPal Payout detail"
+msgid "Redeem Funds"
+msgstr "Échangez des fonds"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-payouts-gateway.php:69
+msgctxt "Is the subject email that is send by PayPal"
+msgid "Redeem Funds"
+msgstr "Échangez des fonds"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-stripe-connect-gateway.php:62
+msgctxt "Is the description of Stripe transfer"
+msgid "Redeem Funds"
+msgstr "Échangez des fonds"
+
+#: includes/emails/class.yith-ywf-vendor-redeem-email.php:32
+msgctxt "Is the email title"
+msgid "Vendor Redeem Funds"
+msgstr "Fournisseur utilise les fonds"
+
+#: includes/functions.yith-ywf-functions.php:498
+#: plugin-options/endpoints-settings-options.php:48
+msgctxt "Endpoint title visible on My Account page"
+msgid "Redeem Funds"
+msgstr "Échangez des fonds"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:39
+msgctxt "yith-woocommerce-account-funds"
+msgid "user log"
+msgstr "Journal de l'utilisateur"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:40
+msgctxt "yith-woocommerce-account-funds"
+msgid "user logs"
+msgstr "journaux des utilisateurs"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:62
+msgctxt "Who changed the funds"
+msgid "Funds edited by"
+msgstr "Fonds édités par"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:139
+msgctxt "Not available"
+msgid "N/A"
+msgstr "N/A"
+
+#. translators: %s is the plugin name required
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:20
+msgctxt ""
+"[PART OF] Require YITH PayPal Payouts For WooCommerce Premium v1.0.12 or "
+"YITH Stripe Connect For WooCommerce Premium v2.0.4"
+msgid "Require %s to use this feature "
+msgstr "Nécessite %s pour utiliser cette fonctionnalité"
+
+#: plugin-options/vendor-multi-tab-options.php:21
+msgctxt "Sub tab title, visible on backend"
+msgid "Redeem Funds"
+msgstr "Échangez des fonds"
+
+#. translators: %1$s is the currency symbol, %2$s is the currency name
+#: templates/redeem-funds.php:50
+msgctxt ""
+"In this page, your funds are in United States Dollar ($), because the redeem "
+"is possible only with this currency"
+msgid ""
+"In this page, your funds are in %1$s (%2$s), because the redeem action is "
+"available only with this currency"
+msgstr ""
+"Sur cette page, vos fonds sont en %1$s (%2$s), car l'action d'échange n'est "
+"disponible qu'avec cette devise"
+
+#: templates/view-deposit-history.php:68
+msgctxt "hashtag before order number"
+msgid "#"
+msgstr "#"

@@ -1,0 +1,1579 @@
+# Translation of YITH WooCommerce Account Funds in Dutch
+# This file is distributed under the same license as the YITH WooCommerce Account Funds package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Account Funds\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"account-funds.premium\n"
+"POT-Creation-Date: 2024-03-11 09:02:50+00:00\n"
+"PO-Revision-Date: 2022-04-28 08:23:07+0000\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#: class.yith-funds.php:225
+msgid "Settings"
+msgstr "Instellingen"
+
+#: class.yith-funds.php:226
+msgid "Users' funds"
+msgstr "Accounttegoed gebruiker"
+
+#: class.yith-funds.php:227
+msgid "Email settings"
+msgstr "E-mail instellingen"
+
+#: class.yith-funds.php:228 plugin-options/endpoints-settings-options.php:16
+msgid "Funds endpoints"
+msgstr "Accounttegoed endpoints"
+
+#: class.yith-funds.php:229
+msgid "Vendors & Funds"
+msgstr "Verkopers & accounttegoeden"
+
+#: class.yith-funds.php:230
+msgid "Account & Privacy"
+msgstr "Account & Privacy"
+
+#: class.yith-funds.php:238
+msgid ""
+"Let customers deposit funds in their online wallet in your store and use "
+"them at any time to proceed with faster checkout"
+msgstr ""
+"Geef je klanten de mogelijkheid om geld te storten in je online winkel zodat "
+"ze dit accounttegoed op een later moment kunnen gebruiken voor een sneller "
+"betaalproces"
+
+#: class.yith-funds.php:361 class.yith-funds.php:692
+#: includes/class.yith-ywf-order.php:709
+#: includes/functions.yith-ywf-functions.php:332
+#: includes/shortcodes/class.yith-ywf-shortcodes.php:227
+#: plugin-options/emails-multi-tab-options.php:18
+msgid "Deposit"
+msgstr "Storten"
+
+#: class.yith-funds.php:392
+msgid "Show logs"
+msgstr "Toon logs"
+
+#: class.yith-funds.php:424
+msgid "Show more details"
+msgstr "Toon meer details"
+
+#: class.yith-funds.php:470
+msgid "You cannot refund an amount greater than user's total funds available."
+msgstr ""
+"Je kunt geen bedrag restitueren groter dan het totaal beschikbare "
+"accounttegoed van de gebruiker."
+
+#: class.yith-funds.php:471
+msgid ""
+"Attention! User's current funds are lower than the amount you are entering"
+msgstr ""
+"Let op! Het huidige accounttegoed van de gebruiker is lager dan het bedrag "
+"dan je invoert"
+
+#: class.yith-funds.php:472
+msgid ""
+"Attention! It is not possible to refund this order automatically because it "
+"was partially paid with funds. Only the manual refund option is available."
+msgstr ""
+"Let op! Het is niet mogelijk om deze bestelling automatisch te restitueren "
+"omdat deze gedeeltelijk is betaald met accounttegoed. Uitsluitend handmatige "
+"restitutie beschikbaar."
+
+#: class.yith-funds.php:473
+msgid "Attention! It is not possible to set a value < 0"
+msgstr "Let op! Het is niet mogelijk een waarde < 0 in te stellen"
+
+#: class.yith-funds.php:549
+msgid "Recent history"
+msgstr "Recente geschiedenis"
+
+#: class.yith-funds.php:549
+msgid "Show all"
+msgstr "Toon alle"
+
+#: class.yith-funds.php:630
+msgid ""
+"Customize My Account Page is activated, you can change the YITH Account "
+"Funds Endpoints here"
+msgstr ""
+"Customize My Account Page is geactiveerd, je kunt de YITH Account Funds "
+"Endpoints hier aanpassen"
+
+#: class.yith-funds.php:662
+msgid "YITH Deposit"
+msgstr "YITH Storten"
+
+#: class.yith-funds.php:665
+msgid ""
+"This product has been created by YITH Account Funds Plugin, please not remove"
+msgstr ""
+"Dit product is aangemaakt door de YITH Account Funds plugin, verwijder het "
+"niet"
+
+#: class.yith-funds.php:735
+msgid "Account Funds Info"
+msgstr "Accounttegoed Informatie"
+
+#: class.yith-funds.php:778
+msgid "for a total of "
+msgstr "Totaal van"
+
+#: class.yith-funds.php:791
+msgid "Available fund"
+msgstr "Beschikbaar Accounttegoed"
+
+#: class.yith-funds.php:798
+msgid "Account Funds Log"
+msgstr "Accounttegoed log"
+
+#: class.yith-funds.php:821
+msgid "Account funds"
+msgstr "Accounttegoed bedrag"
+
+#: class.yith-funds.php:865
+msgid "Item removed from Account Fund log"
+msgid_plural "Items removed from Account Fund log"
+msgstr[0] "Item verwijderd uit de Accounttegoed log"
+msgstr[1] "Items verwijderd uit de Accounttegoed log"
+
+#: class.yith-funds.php:870
+msgid "Removed user meta _customer_fund properly"
+msgstr "Gebruiker meta _customer_fund correct verwijderd"
+
+#. translators: %s is the amount of funds available
+#: includes/admin/meta-boxes/html-account-fund-meta-box.php:31
+msgid "(available funds %s)"
+msgstr "(Beschikbaar Accounttegoed %s)"
+
+#: includes/admin/meta-boxes/html-account-fund-meta-box.php:36
+msgid "Add fund"
+msgstr "Accounttegoed toevoegen"
+
+#: includes/admin/meta-boxes/html-account-fund-meta-box.php:37
+msgid "Edit funds"
+msgstr "Bewerk Accounttegoed "
+
+#: includes/admin/meta-boxes/html-account-fund-meta-box.php:39
+msgid "Add"
+msgstr "Toevoegen"
+
+#: includes/class.wc-gateway-yith-funds.php:25
+msgid "YITH Funds"
+msgstr "YITH Accounttegoed "
+
+#: includes/class.wc-gateway-yith-funds.php:26
+msgid "Allow payments with credits (use the available funds)"
+msgstr "Credits betalingen toestaan (gebruik beschikbaar accounttegoed )"
+
+#: includes/class.wc-gateway-yith-funds.php:44
+msgid "Available funds"
+msgstr "Beschikbaar Accounttegoed"
+
+#: includes/class.wc-gateway-yith-funds.php:84
+#: includes/class.wc-gateway-yith-funds.php:89
+#: includes/class.wc-gateway-yith-funds.php:102
+#: includes/compatibility/yith-woocommerce-subscription/class.yith-funds-yith-subscription.php:112
+#: includes/compatibility/yith-woocommerce-subscription/class.yith-funds-yith-subscription.php:120
+msgid "Payment error:"
+msgstr "Fout bij betaling:"
+
+#: includes/class.wc-gateway-yith-funds.php:84
+msgid "You must be logged in to use this payment method"
+msgstr "Je moet ingelogd zijn om deze betaalwijze te kunnen gebruiken"
+
+#: includes/class.wc-gateway-yith-funds.php:89
+msgid "You can't purchase Funds with your wallet"
+msgstr ""
+
+#: includes/class.wc-gateway-yith-funds.php:102
+#: includes/compatibility/yith-woocommerce-subscription/class.yith-funds-yith-subscription.php:120
+msgid "Insufficient account balance"
+msgstr "Onvoldoende saldo op je account"
+
+#. translators: %1$s is the the amount funds, %2$s is the customer id
+#. translators: %1$s is the amount of funds %2$s is the customer id
+#: includes/class.wc-gateway-yith-funds.php:159
+#: includes/class.yith-ywf-order.php:901
+msgid "Add %1$s funds to customer #%2$s"
+msgstr "Voeg %1$s accounttegoed toe aan klant #%2$s"
+
+#: includes/class.wc-gateway-yith-funds.php:231
+#: plugin-options/emails-multi-tab/deposit-email-options.php:40
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:46
+#: plugin-options/emails-multi-tab/redeem-email-options.php:34
+msgid "Enable/Disable"
+msgstr "Inschakelen/uitschakelen"
+
+#: includes/class.wc-gateway-yith-funds.php:233
+msgid "Enable customers to use their funds as a payment gateway"
+msgstr "Sta toe dat klanten hun accounttegoed kunnen gebruiken als betaalwijze"
+
+#: includes/class.wc-gateway-yith-funds.php:237
+#: includes/widgets/class.yith-ywf-make-a-deposit-widget.php:42
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:45
+msgid "Title"
+msgstr "Titel"
+
+#: includes/class.wc-gateway-yith-funds.php:239
+msgid "This is the title that users see during the checkout."
+msgstr "Bepaal de titel die de gebruiker ziet tijdens de checkout."
+
+#: includes/class.wc-gateway-yith-funds.php:240
+#: includes/tables/class.yith-ywf-user-list.php:42
+msgid "Funds"
+msgstr "Accounttegoed "
+
+#: includes/class.wc-gateway-yith-funds.php:260
+msgid "Use your funds"
+msgstr "Gebruik je accounttegoed "
+
+#: includes/class.yith-funds-endpoints.php:187
+#: includes/shortcodes/class.yith-ywf-shortcodes.php:204
+msgid "Place order"
+msgstr "Plaats order"
+
+#: includes/class.yith-funds-endpoints.php:296
+#: includes/functions.yith-ywf-functions.php:501
+msgid "Make a deposit"
+msgstr "Doe een storting"
+
+#: includes/class.yith-funds-endpoints.php:299
+#: includes/class.yith-funds-endpoints.php:300
+msgid "My Funds History"
+msgstr "Mijn accounttegoed geschiedenis"
+
+#: includes/class.yith-ywf-cart-process.php:278
+#: includes/wc-blocks/src/Payments/YithFunds.php:64
+msgid "Discount applied for having used your account funds!"
+msgstr "Korting toegepast omdat je je accounttegoed hebt gebruikt!"
+
+#: includes/class.yith-ywf-cart-process.php:295
+msgid "Discount"
+msgstr "Korting"
+
+#: includes/class.yith-ywf-cart-process.php:380
+#: includes/class.yith-ywf-order.php:416 includes/class.yith-ywf-order.php:627
+msgid "Funds used"
+msgstr "Accounttegoed gebruikt"
+
+#: includes/class.yith-ywf-cart-process.php:409
+#: includes/wc-blocks/src/Payments/YithFunds.php:190
+msgid "User funds"
+msgstr "Accounttegoed gebruiker"
+
+#: includes/class.yith-ywf-cart-process.php:411
+msgid "[Remove]"
+msgstr "[Verwijderen]"
+
+#: includes/class.yith-ywf-cart-process.php:512
+msgid "Add a Deposit"
+msgstr "Een aanbetaling toevoegen"
+
+#: includes/class.yith-ywf-cart-process.php:513
+msgid "Deposit at least"
+msgstr "Stort minstens"
+
+#: includes/class.yith-ywf-cart-process.php:513
+msgid "to get the available discount"
+msgstr "om de beschikbare korting te ontvangen"
+
+#: includes/class.yith-ywf-cart-process.php:640
+msgid "Your funds have been used successfully. Pay the rest now!"
+msgstr "Je accounttegoed is succesvol gebruikt. Betaal de rest nu!"
+
+#: includes/class.yith-ywf-deposit-fund-checkout.php:75
+msgid "Enter a price"
+msgstr "Een prijs invoeren"
+
+#: includes/class.yith-ywf-deposit-fund-checkout.php:84
+msgid "Minimum deposit amount is"
+msgstr "Minimum stortingsbedrag is"
+
+#: includes/class.yith-ywf-deposit-fund-checkout.php:93
+msgid "Maximum deposit amount is"
+msgstr "Maximum stortingsbedrag is"
+
+#. translators: %s is the product name
+#: includes/class.yith-ywf-deposit-fund-checkout.php:213
+msgid ""
+"You cannot add &quot;%s&quot; to the cart because you are depositing funds"
+msgstr ""
+"Je kunt &quot;%s&quot; niet aan je winkelwagen toevoegen omdat je geld stort"
+
+#. translators: %1$s is the amount of funds , %2$s is the customer id
+#. translators: %1$s is the amount of funds, %2$s is the customer id
+#: includes/class.yith-ywf-order.php:147 includes/class.yith-ywf-order.php:274
+#: includes/class.yith-ywf-order.php:670
+msgid "Removed %1$s funds from customer #%2$s account"
+msgstr "%1$s accounttegoed van klant #%2$s verwijderd"
+
+#. translators: %1$s is the amount of funds , %2$s is the customer id
+#: includes/class.yith-ywf-order.php:188 includes/class.yith-ywf-order.php:224
+msgid "Added %1$s funds to customer #%2$s account"
+msgstr "%1$s accounttegoed bij klant #%2$s toegevoegd"
+
+#: includes/class.yith-ywf-order.php:416
+msgid "Funds used by the customer to pay for this order."
+msgstr "Accounttegoed gebruikt door de klant om deze order te betalen."
+
+#. translators: %s show the tax amount
+#: includes/class.yith-ywf-order.php:487
+msgid "(Includes %s)"
+msgstr "(inclusief %s)"
+
+#: includes/class.yith-ywf-order.php:611
+msgid "Total with funds:"
+msgstr "Totaal met accounttegoed :"
+
+#. translators: %s the payment method used to complete the oder
+#: includes/class.yith-ywf-order.php:616
+msgid "Total with %s: "
+msgstr "Totaal met %s: "
+
+#: includes/class.yith-ywf-order.php:818
+msgid "Deposit again"
+msgstr "Opnieuw storten"
+
+#. translators: %1$s is the amount of funds, %2$s is the order id
+#: includes/class.yith-ywf-order.php:910
+msgid "Add %1$s fund in the order #%2$s"
+msgstr "Voeg %1$s accounttegoed toe aan bestelling #%2$s"
+
+#: includes/class.yith-ywf-order.php:953
+msgid "Account Funds"
+msgstr "Accounttegoed bedrag"
+
+#: includes/class.yith-ywf-product-deposit.php:110
+#: plugin-options/endpoints-settings-options.php:21
+msgid "Add funds"
+msgstr "Doe een storting"
+
+#: includes/class.yith-ywf-product-deposit.php:120
+#: plugin-options/emails-multi-tab/deposit-email-options.php:35
+msgid "Deposit funds"
+msgstr "Accounttegoed storten"
+
+#: includes/class.yith-ywf-reports.php:54
+#: includes/class.yith-ywf-reports.php:57
+msgid "Deposits"
+msgstr "Stortingen"
+
+#: includes/class.yith-ywf-reports.php:118
+#: includes/tables/class.yith-ywf-users-log-table.php:59
+#: templates/view-deposit-history.php:14
+msgid "Date"
+msgstr "Datum"
+
+#: includes/class.yith-ywf-reports.php:121
+msgid "CSV export"
+msgstr "CSV export"
+
+#: includes/class.yith-ywf-reports.php:148
+msgid "Year"
+msgstr "Jaar"
+
+#: includes/class.yith-ywf-reports.php:149
+msgid "Last month"
+msgstr "Laatste maand"
+
+#: includes/class.yith-ywf-reports.php:150
+msgid "This month"
+msgstr "Deze maand"
+
+#: includes/class.yith-ywf-reports.php:151
+msgid "Last 7 days"
+msgstr "Laatste 7 dagen"
+
+#: includes/compatibility/class.yith-funds-yith-pdf-invoice-compatibility.php:132
+msgid "It is not possible to create an invoice for deposit"
+msgstr "Het is niet mogelijk om een factuur te maken voor stortingen"
+
+#: includes/compatibility/class.yith-funds-yith-pdf-invoice-compatibility.php:216
+msgid "Discount for Funds Used"
+msgstr "Korting voor accounttegoed gebruikt"
+
+#: includes/compatibility/class.yith-funds-yith-pdf-invoice-compatibility.php:239
+msgid "Order paid through funds"
+msgstr "Order betaald met accounttegoed "
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:138
+msgid "Commission"
+msgstr "Commissie"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:139
+msgid "Commission Refunded"
+msgstr "Commissie gerestitueerd"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:292
+msgid ""
+"Impossible to process this request without the PayPal Email set for this "
+"Vendor"
+msgstr ""
+"Het is niet mogelijk om dit verzoek uit te voeren als er geen PayPal e-mail "
+"is ingesteld voor deze verkoper"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:305
+msgid "The vendor's profile is not connected to Stripe."
+msgstr "Het profiel van de verkoper is niet gelinkt aan Stripe."
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:331
+msgid "We were unable to process your request, please try again."
+msgstr ""
+"We waren niet in staat je verzoek te verwerken, probeer opnieuw alsjeblieft."
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:342
+msgid "Invalid amount"
+msgstr "Ongeldig bedrag"
+
+#. translators: %s is the minimum balance that a vendor can have to redeem
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:347
+msgid "You can't redeem funds because you need at least %s in your balance"
+msgstr ""
+"Je kunt geen accounttegoeden inlossen, omdat je minstens een saldo van %s "
+"nodig hebt"
+
+#. translators: %s is the maximum balance that a vendor can have to redeem
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:352
+msgid "You can redeem at most %s"
+msgstr "Je kunt maximaal %s inlossen"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:591
+msgid "Redeem Vendor Funds"
+msgstr "Accounttegoeden verkopers inlossen"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:657
+msgid "Fee"
+msgstr "Kosten"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:664
+msgid "Total transaction"
+msgstr "Totaal transactie"
+
+#. translators: %s is the amount of redeem
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-payouts-gateway.php:101
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-payouts-gateway.php:157
+msgid "Redeem %s funds with PayPal Payouts"
+msgstr "%s accounttegoed inlossen met PayPal Payouts"
+
+#. translators: %1$s is the amount of redeem , %2$s the transaction id , %3$s
+#. the status
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-payouts-gateway.php:175
+msgid "Restored %1$s funds because payout %2$s is %3$s"
+msgstr "%1$s accounttegoed herstelt omdat betaling %2$s %3$s is"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-stripe-connect-gateway.php:118
+msgid "Redeem vendor funds"
+msgstr "Accounttegoeden verkoper inlossen"
+
+#. translators: %s is the amount of redeem
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-stripe-connect-gateway.php:123
+msgid "Redeem %s funds with Stripe Connect"
+msgstr "%s accounttegoeden inlossen met Stripe Connect"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-stripe-connect-gateway.php:131
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-stripe-connect-gateway.php:148
+msgid ""
+"Impossible redeem funds for now, please contact the site administrator for "
+"more details"
+msgstr ""
+"Het is op dit moment niet mogelijk om accounttegoeden in te lossen, neem "
+"contact op met de site beheerder voor meer details"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-stripe-connect-gateway.php:132
+msgid "You have insufficient funds in your Stripe account :"
+msgstr "Je hebt niet genoeg accounttegoeden in je Stripe account :"
+
+#: includes/compatibility/yith-woocommerce-subscription/class.yith-funds-yith-subscription-integration.php:119
+msgid "Renewed a subscription with Funds"
+msgstr "Abonnement vernieuwd met accounttegoed "
+
+#. translators: %1$1 is the order id %2$s is the subscription id
+#: includes/compatibility/yith-woocommerce-subscription/class.yith-funds-yith-subscription-integration.php:141
+msgid "Renewed order #%1$s for subscription #%2$s"
+msgstr "Bestelling #%1$s vernieuwd voor abonnement #%2$s"
+
+#: includes/compatibility/yith-woocommerce-subscription/class.yith-funds-yith-subscription.php:112
+msgid "Subscriptions not found."
+msgstr "Abonnement niet gevonden."
+
+#: includes/emails/class.yith-ywf-advise-customer-email.php:22
+msgid "Customer funds note"
+msgstr "Klant Accounttegoed notitie"
+
+#: includes/emails/class.yith-ywf-advise-customer-email.php:23
+msgid ""
+"This email is sent to customers when the administrator changes the amount of "
+"their available funds"
+msgstr ""
+"Deze e-mail wordt naar de klant verstuurd, zodra de administrateur de "
+"hoeveelheid van hun beschikbare accounttegoed heeft gewijzigd"
+
+#: includes/emails/class.yith-ywf-customer-email.php:31
+msgid "Funds email"
+msgstr "Accounttegoed e-mail"
+
+#: includes/emails/class.yith-ywf-customer-email.php:32
+msgid ""
+"This email is sent to customers when the administrator changes their "
+"available fund amount"
+msgstr ""
+"Deze e-mail wordt naar de klant verstuurd, zodra de beheerder de hoeveelheid "
+"van hun beschikbare accounttegoed heeft gewijzigd"
+
+#: includes/emails/class.yith-ywf-vendor-redeem-email.php:33
+msgid ""
+"This email is sent to administrator when one or more vendor redeem funds"
+msgstr ""
+"Deze e-mail wordt naar de beheerder verstuurd wanneer een of meerdere "
+"verkopers hun accounttegoeden inlossen"
+
+#: includes/functions.yith-ywf-functions.php:333
+msgid "Payment"
+msgstr "Betaling"
+
+#: includes/functions.yith-ywf-functions.php:334
+msgid "Admin activity"
+msgstr "Admin activiteiten"
+
+#: includes/functions.yith-ywf-functions.php:335
+msgid "Funds restored"
+msgstr "Herstelde Accounttegoeden"
+
+#: includes/functions.yith-ywf-functions.php:336
+msgid "Funds refunded"
+msgstr "Gerestitueerde Accounttegoeden"
+
+#: includes/functions.yith-ywf-functions.php:495
+#: plugin-options/endpoints-settings-options.php:33
+msgid "Income/Expenditure History"
+msgstr "Inkomsten/Uitgaven geschiedenis"
+
+#. translators: %s is the average of deposit
+#: includes/reports/class.yith-ywf-report-deposit-order.php:149
+msgid "Average daily deposits: %s"
+msgstr "Gemiddelde dagelijkse stortingen: %s"
+
+#. translators: %s is the average of deposit
+#: includes/reports/class.yith-ywf-report-deposit-order.php:154
+msgid "Average gross monthly sales: %s"
+msgstr "Gemiddelde maandelijkse bruto omzet: %s"
+
+#. translators: %s is the gross deposits
+#: includes/reports/class.yith-ywf-report-deposit-order.php:160
+msgid "Gross sales in this period: %s"
+msgstr "Bruto omzet in deze periode: %s"
+
+#: includes/reports/class.yith-ywf-report-deposit-order.php:161
+msgid "This is the sum of the order totals after any refunds."
+msgstr "Optelling van de order totalen, na aftrek van restituties."
+
+#. translators: is the amount of deposit placed
+#: includes/reports/class.yith-ywf-report-deposit-order.php:174
+msgid "%s deposits placed"
+msgstr "%s stortingen geplaatst"
+
+#: includes/reports/class.yith-ywf-report-deposit-order.php:212
+msgid "Deposits placed"
+msgstr "Geplaatste stortingen"
+
+#: includes/reports/class.yith-ywf-report-deposit-order.php:222
+msgid "Deposit amount"
+msgstr "Storting bedrag"
+
+#: includes/reports/class.yith-ywf-report-deposit-order.php:233
+msgid "Average net sales"
+msgstr "Gemiddelde netto omzet"
+
+#: includes/shortcodes/class.yith-ywf-shortcodes.php:129
+msgid "Available funds:"
+msgstr "Beschikbaar Accounttegoed :"
+
+#: includes/tables/class.yith-ywf-user-list.php:40
+msgid "ID"
+msgstr "ID"
+
+#: includes/tables/class.yith-ywf-user-list.php:41
+msgid "User"
+msgstr "Gebruiker"
+
+#: includes/tables/class.yith-ywf-user-list.php:43
+msgid "Action"
+msgstr "Actie"
+
+#: includes/tables/class.yith-ywf-user-list.php:182
+msgid "View Logs"
+msgstr "Bekijk logs"
+
+#. translators: 1: user display name 2: user ID 3: user email
+#: includes/tables/class.yith-ywf-user-list.php:231
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr "%1$s (#%2$s &ndash; %3$s)"
+
+#: includes/tables/class.yith-ywf-user-list.php:239
+msgid "Filter by registered customer"
+msgstr "Filter op geregistreerde klant"
+
+#: includes/tables/class.yith-ywf-user-list.php:246
+#: templates/view-deposit-history.php:34
+msgid "Filter"
+msgstr "Filter"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:60
+#: plugin-options/privacy-settings-options.php:27
+#: templates/admin/user-log-table.php:104 templates/view-deposit-history.php:13
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:61
+msgid "Transaction"
+msgstr "Transactie"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:116
+msgid "Funds used in order"
+msgstr "Accounttegoed gebruikt in een bestelling"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:119
+msgid "Funds deposited through order"
+msgstr "Accounttegoed gestort via een bestelling"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:122
+msgid "Funds restored for the order"
+msgstr "Accounttegoed hersteld voor de bestelling"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:125
+msgid "Funds refunded for the order"
+msgstr "Accounttegoed gerestitueerd voor de bestelling"
+
+#: includes/wc-blocks/src/Payments/YithFunds.php:65
+msgid "Discount for funds used"
+msgstr ""
+
+#: includes/widgets/class.yith-ywf-make-a-deposit-widget.php:24
+msgid "YITH Account Funds: Make a deposit widget"
+msgstr "YITH Account Funds: maak een storting widget"
+
+#: includes/widgets/class.yith-ywf-make-a-deposit-widget.php:26
+msgid "Shows the form to let customers deposit funds"
+msgstr "Toont het formulier waarmee klanten accounttegoed kunnen storten"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:24
+msgid "YITH Account Funds: View user funds widget"
+msgstr "YITH Account Funds: bekijk gebruikers accounttegoed widget"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:26
+msgid "Shows customer's available funds"
+msgstr "Toon beschikbare accounttegoed van klant"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:49
+msgid "Text alignment"
+msgstr "Tekst uitlijning"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:51
+msgid "Left"
+msgstr "Links"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:52
+msgid "Center"
+msgstr "Midden"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:53
+msgid "Right"
+msgstr "Rechts"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:57
+msgid "Font weight"
+msgstr "Lettertype dikte"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:59
+msgid "Normal"
+msgstr "Normaal"
+
+#: includes/widgets/class.yith-ywf-view-user-funds-widget.php:60
+msgid "Bold"
+msgstr "Dikgedruikt"
+
+#: init.php:43
+msgid ""
+"YITH WooCommerce Account Funds Premium is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Account Funds Premium is ingeschakeld maar niet werkend. "
+"Het heeft WooCommerce nodig om te werken."
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:11
+msgid "You are running out of funds!"
+msgstr "Je accounttegoed raakt op!"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:14
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:19
+msgid "Dear"
+msgstr "Beste"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:15
+msgid "you are going to run out of funds on"
+msgstr "Je accounttegoed raakt op, op"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:16
+msgid "your available funds:"
+msgstr "Je beschikbare accounttegoed:"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:17
+msgid "Top up your account at"
+msgstr "Account bijvullen op"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:18
+msgid ""
+"to be able to make new orders quickly and forget about card numbers and "
+"codes."
+msgstr ""
+"om orders snel te plaatsen en niet meer na te hoeven denken over creditcard "
+"nummers en codes."
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:19
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:23
+msgid "Best regards"
+msgstr "Met vriendelijke groet"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:24
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:28
+msgid "You can use the following placeholders"
+msgstr "Je kunt de volgende invulvelden gebruiken"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:25
+msgid "<code>{site_title}</code> replaced by website title"
+msgstr "<code>{site_title}</code> vervangen door website titel"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:26
+msgid "<code>{user_funds}</code> replaced by user's current balance"
+msgstr "<code>{user_funds}</code> vervangen door huidig saldo van gebruiker"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:27
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:32
+msgid "<code>{customer_email}</code> replaced by customer's email address"
+msgstr "<code>{customer_email}</code> vervangen door e-mailadres klant"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:28
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:33
+msgid "<code>{customer_name}</code> replaced by customer's name"
+msgstr "<code>{customer_name}</code> vervangen door naam klant"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:29
+msgid "<code>{button_charging}</code> replaced by \"Deposit now\" button"
+msgstr "<code>{button_charging}</code> vervangen door \"Stort nu\" knop"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:45
+msgid ""
+"If enabled, send an email to the customer once the balance is below the "
+"threshold"
+msgstr ""
+"Indien ingeschakeld, stuur een e-mail naar de klant zodra het saldo onder de "
+"drempel komt"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:48
+msgid "User funds threshold"
+msgstr "Gebruikers accounttegoed drempel"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:55
+msgid ""
+"Set a minimum threshold when an email is sent to customers to invite them to "
+"deposit more funds"
+msgstr ""
+"Stel een minimum drempel, zodat een e-mail wordt verzonden naar klanten, om "
+"ze uit te nodigen meer accounttegoed te storten"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:58
+msgid "Email subject"
+msgstr "E-mail onderwerp"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:66
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:62
+#: plugin-options/emails-multi-tab/redeem-email-options.php:61
+msgid "Email heading"
+msgstr "E-mail hoofd"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:70
+msgid "Visit {site_title} to top up your funds"
+msgstr "Bezoek {site_title} om je accounttegoed aan te vullen"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:74
+msgid "Email content"
+msgstr "E-mail inhoud"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:83
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:79
+#: plugin-options/emails-multi-tab/redeem-email-options.php:69
+msgid "Email type"
+msgstr "E-mail type"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:88
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:84
+#: plugin-options/emails-multi-tab/redeem-email-options.php:74
+msgid "HTML"
+msgstr "HTML"
+
+#: plugin-options/emails-multi-tab/deposit-email-options.php:89
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:85
+#: plugin-options/emails-multi-tab/redeem-email-options.php:75
+msgid "Plain text"
+msgstr "Standaard tekst"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:14
+msgid "The Administrator has changed your funds from"
+msgstr "De beheerder heeft je accounttegoed gewijzigd van"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:20
+msgid "the administrator has changed your funds from"
+msgstr "De beheerder heeft je accounttegoed gewijzigd van"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:21
+msgid "to"
+msgstr "naar"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:22
+msgid "for the following reason"
+msgstr "om de volgende reden"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:29
+msgid "<code>{site_title}</code> replaced by site title"
+msgstr "<code>{site_title}</code>vervangen door site titel"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:30
+msgid ""
+"<code>{before_funds}</code> replaced by user funds before admin adjustments"
+msgstr ""
+"<code>{before_funds}</code> vervangen door accounttegoed gebruiker vóór "
+"admin instellingen"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:31
+msgid ""
+"<code>{after_funds}</code> replaced by user funds after admin adjustments"
+msgstr ""
+"<code>{after_funds}</code> vervangen door accounttegoed gebruiker na admin "
+"instellingen"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:34
+msgid "<code>{log_date}</code> replaced with adjustment date"
+msgstr "<code>{log_date}</code> vervangen door datum instellingen"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:35
+msgid "<code>{change_reason}</code> replaced by adjustment reason"
+msgstr "<code>{change_reason}</code> vervangen door reden aanpassen"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:42
+msgid "Funds edited"
+msgstr "Accounttegoed bewerkt"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:51
+msgid ""
+"If enabled, send an email to customer as soon the admin change the funds in "
+"admin area"
+msgstr ""
+"Indien ingeschakeld, wordt een e-mail naar de klant gestuurd zodra de admin "
+"het accounttegoed in de admin sectie heeft gewijzigd"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:54
+msgid "Email Subject"
+msgstr "Onderwerp e-mail"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:59
+msgid "The Administrator has changed your funds from {log_date}"
+msgstr "De beheerder heeft je accounttegoed gewijzigd van {log_date}"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:67
+msgid "Funds edited by admin!"
+msgstr "Accounttegoed bewerkt door admin!"
+
+#: plugin-options/emails-multi-tab/edit-funds-email-options.php:70
+msgid "Email Content"
+msgstr "E-mail inhoud"
+
+#. translators: %s is the list of placeholders
+#: plugin-options/emails-multi-tab/redeem-email-options.php:13
+msgid "Available placeholders: %s"
+msgstr "Beschikbare invulvelen: %s"
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:22
+msgid "Funds redeemed"
+msgstr "Accounttegoed ingelost"
+
+#. translators: %s is the text
+#: plugin-options/emails-multi-tab/redeem-email-options.php:30
+#: plugin-options/vendor-multi-tab/funds-settings-options.php:26
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:32
+msgid ""
+"These features are available only with YITH WooCommerce MultiVendor Premium "
+"3.7.0 or greater"
+msgstr ""
+"Deze features zullen alleen beschikbaar zijn in combinatie met YITH "
+"WooCommerce Multi Vendor Premium 3.7.0 of hoger"
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:39
+msgid "If enabled, send an email to admin when one or more vendor redeem funds"
+msgstr ""
+"Indien ingeschakeld, wordt een e-mail verstuurd naar de admin wanneer een of "
+"meerdere verkopers accounttegoeden inlossen"
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:42
+msgid "Recipient(s)"
+msgstr "Ontvanger(s)"
+
+#. translators: %s are the default emails
+#: plugin-options/emails-multi-tab/redeem-email-options.php:48
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+"Vul ontvangers in voor deze mail (scheiden met komma). Standaard naar %s."
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:53
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:57
+msgid "[{site_title}] New Redeems"
+msgstr "[{site_title}] Nieuwe inlossingen"
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:65
+msgid "New Redeems"
+msgstr "Nieuwe inlossingen"
+
+#: plugin-options/emails-multi-tab/redeem-email-options.php:77
+msgid "Select if the email is HTML or plain"
+msgstr "Selecteer HTML of standaard e-mail type"
+
+#: plugin-options/emails-multi-tab-options.php:21
+msgid "Funds Edited"
+msgstr "Accounttegoed bewerkt"
+
+#: plugin-options/emails-multi-tab-options.php:24
+msgid "Vendor Redeem"
+msgstr "Verkoper inlossen"
+
+#: plugin-options/endpoints-settings-options.php:19
+msgid "\"Add funds\" endpoint title"
+msgstr "\"Doe een storting\" endpoint titel"
+
+#: plugin-options/endpoints-settings-options.php:25
+msgid "\"Add funds\" endpoint slug"
+msgstr "\"Doe een storting\" endpoint slug"
+
+#: plugin-options/endpoints-settings-options.php:31
+msgid "Income/Expenditure History endpoint title"
+msgstr "Inkomsten/uitgaven geschiedenis endpoint titel"
+
+#: plugin-options/endpoints-settings-options.php:37
+msgid "Income/Expenditure History endpoint slug"
+msgstr "Inkomsten/Uitgaven geschiedenis endpoint slug"
+
+#: plugin-options/endpoints-settings-options.php:44
+msgid "Redeem fund endpoint title"
+msgstr "\"Accounttegoed inlossen\" endpoint titel"
+
+#: plugin-options/endpoints-settings-options.php:47
+msgid "Set the endpoint name for Redeem Funds"
+msgstr "Endpoint naam instellen voor inlossen van accounttegoeden"
+
+#: plugin-options/endpoints-settings-options.php:52
+msgid "Redeem fund endpoint slug"
+msgstr "Endpoint slug voor inlossen accounttegoed"
+
+#: plugin-options/endpoints-settings-options.php:55
+msgid "Set the endpoint slug for Redeem Funds"
+msgstr "Endpoint slug instellen voor inlossen van accounttegoeden"
+
+#: plugin-options/general-settings-options.php:16
+msgid "Charging Account settings"
+msgstr "In rekening te brengen account instellingen"
+
+#: plugin-options/general-settings-options.php:20
+msgid "Minimum deposit amount"
+msgstr "Minimum storting bedrag"
+
+#: plugin-options/general-settings-options.php:27
+msgid "Set a minimum required amount for deposits"
+msgstr "Stel een minimum noodzakelijk bedrag in voor stortingen"
+
+#: plugin-options/general-settings-options.php:30
+msgid "Maximum deposit amount"
+msgstr "Maximum storting bedrag"
+
+#: plugin-options/general-settings-options.php:37
+msgid ""
+"Set the maximum amount for each individual deposit. Leave it blank to make "
+"it unlimited."
+msgstr ""
+"Stel het maximum bedrag in voor iedere individuele storting. Laat het leeg "
+"om het ongelimiteerd te maken."
+
+#: plugin-options/general-settings-options.php:41
+msgid "Amount increments"
+msgstr "Waardevermeerdering"
+
+#: plugin-options/general-settings-options.php:42
+msgid ""
+"Choose the increments of the deposit amount. For example, enter 5 if you "
+"want to let your users only select increments of $5"
+msgstr ""
+"Kies de waardevermeerdering van het gestorte bedrag. Bijvoorbeeld, voer 5 in "
+"als je wilt dat gebruikers uitsluitend met 5$ kunnen verhogen"
+
+#: plugin-options/general-settings-options.php:52
+msgid "Use Coupon"
+msgstr "Gebruik kortingsbon"
+
+#: plugin-options/general-settings-options.php:53
+msgid "If enabled, the customer can use the coupon code to purchase funds"
+msgstr ""
+"Indien ingeschakeld, kan de klant de kortingsbon gebruiken om accounttegoed "
+"te kopen"
+
+#: plugin-options/general-settings-options.php:60
+msgid "Payment method"
+msgstr "Betwaalwijze"
+
+#: plugin-options/general-settings-options.php:61
+msgid ""
+"Select payment method for deposits. Leave this field empty if you want to "
+"allow all gateways enabled in WooCommerce"
+msgstr ""
+"Selecteer een betaalmethode voor stortingen. Laat dit veld leeg als je alle "
+"beschikbare WooCommerce betaalmethodes wilt toestaan."
+
+#: plugin-options/general-settings-options.php:65
+msgid "Select a Payment Method"
+msgstr "Selecteer een betaalmethode"
+
+#: plugin-options/general-settings-options.php:75
+msgid "Using funds settings"
+msgstr "Gebruik accounttegoed instellingen"
+
+#: plugin-options/general-settings-options.php:79
+msgid "Enable discount"
+msgstr "Korting inschakelen"
+
+#: plugin-options/general-settings-options.php:83
+msgid "Apply a discount if customers use their funds to pay"
+msgstr ""
+"Pas een korting toe als klanten hun accounttegoed willen gebruiken om te "
+"betalen"
+
+#: plugin-options/general-settings-options.php:87
+msgid "Discount type"
+msgstr "Korting type"
+
+#: plugin-options/general-settings-options.php:89
+msgid "Choose if the discount is fixed or in percentage"
+msgstr "Bepaal het een vaste of procentuele korting is"
+
+#: plugin-options/general-settings-options.php:92
+msgid "Fixed price"
+msgstr "Herstelde prijs"
+
+#: plugin-options/general-settings-options.php:93
+msgid "Percentage"
+msgstr "Percentage"
+
+#: plugin-options/general-settings-options.php:104
+msgid "Discount amount"
+msgstr "Kortingsbedrag"
+
+#: plugin-options/general-settings-options.php:111
+msgid ""
+"Enter a value. Based on to the above selection, it will be calculated either "
+"as fixed amount or as percentage."
+msgstr ""
+"Voer een waarde in. Gebaseerd op bovenstaande selectie, zal het worden "
+"berekend als een vast bedrag of een percentage."
+
+#: plugin-options/general-settings-options.php:119
+msgid "Enable partial payments"
+msgstr "Gedeeltelijke betalingen inschakelen"
+
+#: plugin-options/general-settings-options.php:120
+msgid ""
+"Allow customers to pay for the order using their available funds and pay the "
+"rest using a different payment method."
+msgstr ""
+"Klanten toestaan om de bestelling te betalen met behulp van hun beschikbare "
+"accounttegoed en de rest te betalen met een andere betalingsmethode."
+
+#: plugin-options/privacy-settings-options.php:15
+msgid "Privacy Settings"
+msgstr "Privacy Instellingen"
+
+#: plugin-options/privacy-settings-options.php:19
+msgid "GDPR compliance"
+msgstr "AVG-conform"
+
+#: plugin-options/privacy-settings-options.php:23
+msgid ""
+"If checked, it allows customers to choose whether to receive emails or not "
+"about their funds. This option is visible in 'My Account' page"
+msgstr ""
+"Indien aangevinkt, kunnen klanten kiezen of ze wel of geen een e-mail willen "
+"ontvangen voor hun accounttegoed. Deze optie is zichtbaar in de mijn account "
+"pagina."
+
+#: plugin-options/privacy-settings-options.php:31
+msgid "This description will be displayed next to the checkbox"
+msgstr "Deze beschrijving wordt naast het selectievakje weergegeven"
+
+#: plugin-options/privacy-settings-options.php:37
+msgid "Yes, I want to receive emails for my funds"
+msgstr "Ja, ik wil e-mails ontvangen over mijn accounttegoed"
+
+#: plugin-options/vendor-multi-tab/funds-settings-options.php:18
+msgid "Funds Settings"
+msgstr "Accounttegoed instellingen"
+
+#: plugin-options/vendor-multi-tab/funds-settings-options.php:33
+msgid "The vendor can charge funds"
+msgstr "De verkoper kan accounttegoed in rekening brengen"
+
+#: plugin-options/vendor-multi-tab/funds-settings-options.php:35
+msgid "If enabled, vendor can charge funds like a normal customer"
+msgstr ""
+"Indien ingeschakeld, kan de verkoper accounttegoed in rekening brengen zoals "
+"een normale klant"
+
+#: plugin-options/vendor-multi-tab/funds-settings-options.php:41
+msgid "The vendor can use funds"
+msgstr "De verkoper kan accounttegoed gebruiken"
+
+#: plugin-options/vendor-multi-tab/funds-settings-options.php:43
+msgid "If enabled, vendor can use funds to purchase products"
+msgstr ""
+"Indien ingeschakeld, kan de verkoper accounttegoeden gebruiken om producten "
+"te kopen"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:26
+msgid "Funds Redeem Settings"
+msgstr "Accounttegoed inlossen instellingen"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:38
+msgid "Vendor can redeem"
+msgstr "Verkoper kan inlossen"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:39
+msgid "If enabled the vendor can redeem funds"
+msgstr "Indien ingeschakeld kan de verkoper accounttegoeden inlossen"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:43
+msgid "Minimum funds to redeem"
+msgstr "Minimaal accounttegoed om in te lossen"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:50
+msgid "Set the minimum balance necessary for a vendor to redeem funds"
+msgstr "Minimum saldo instellen voor verkopers om accounttegoeden in te lossen"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:53
+msgid "Maximum funds to redeem"
+msgstr "Maximum accounttegoed om in te lossen"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:60
+msgid ""
+"Set the maximum funds that can be redeemed in a transaction, leave empty to "
+"disable this restriction."
+msgstr ""
+"Maximum accounttegoed instellen dat kan worden ingelost in een transactie, "
+"laat leeg om deze restrictie uit te schakelen."
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:64
+msgid "Gateway Method"
+msgstr "Betaalmethode"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:65
+msgid ""
+"Set the gateway to use for transferring funds from the site to the vendor "
+"(You will pay a fee to transfer money from the site to PayPal )"
+msgstr ""
+"Betaalmethode instellen die wordt gebruikt voor het overdragen van "
+"accounttegoed, van de site naar verkoper (Je betaalt kosten voor het "
+"overdragen van geld vanaf de site naar PayPal)"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:69
+msgid "PayPal Payouts"
+msgstr "PayPal Payouts"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:78
+msgid "Automatic Redeem Type"
+msgstr "PayPal inlossen type"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:83
+msgid "None"
+msgstr "Geen"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:84
+msgid "Automatically when the minimum threshold is reached"
+msgstr "Automatisch, wanneer het minimum drempelbedrag is bereikt"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:85
+msgid ""
+"Automatically, on a specific day and when the minimum threshold is reached."
+msgstr ""
+"Automatisch, op een specifieke datum en wanneer het drempelbedrag is bereikt"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:92
+msgid "Redeem Day"
+msgstr "Inlos dag"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:93
+msgid "Set a day of the month for redeeming payment funds"
+msgstr "Stel een dag van de maand in waarom accounttegoeden worden ingelost"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:108
+msgid "Manual Redeem"
+msgstr "Handmatig inlossen"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:112
+msgid "If enabled, the vendor can redeem funds from 'My Account' Page"
+msgstr ""
+"Indien ingeschakeld, kan de verkoper de accounttegoeden inlossen vanaf de "
+"'Mijn account' pagina"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:117
+msgid "Redeem Button"
+msgstr "Inlossen knop"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:120
+msgid "Redeem funds!"
+msgstr "Accounttegoed inlossen!"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:121
+msgid "Set the text for the redeem button visible on 'My Account' page"
+msgstr ""
+"Tekst instellen voor de inlossen knop, welke zichtbaar is op de 'Mijn "
+"account' pagina"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:131
+msgid "Redeem Button Text Color"
+msgstr "Tekst kleur inlossen knop"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:136
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:161
+msgid "Default"
+msgstr "Standaard"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:141
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:166
+msgid "Hover"
+msgstr "Hoveren"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:146
+msgid "Set the color for the button text"
+msgstr "Kleur instellen voor de knop tekst"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:156
+msgid "Redeem Button Color"
+msgstr "Kleur van inlossen knop"
+
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:171
+msgid "Set the color for the button background"
+msgstr "Achtergrondkleur van knop instellen"
+
+#: plugin-options/vendor-multi-tab-options.php:18
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: templates/admin/user-log-table.php:22
+msgid "User Log"
+msgstr "Gebruikers-log"
+
+#: templates/admin/user-log-table.php:28
+msgid "User Funds"
+msgstr "Accounttegoed gebruiker"
+
+#: templates/admin/user-log-table.php:66
+msgid "User funds edited successfully"
+msgstr "Accounttegoed gebruiker succesvol bewerkt"
+
+#: templates/admin/user-log-table.php:81
+msgid "Edit funds for"
+msgstr "Bewerk accounttegoed voor"
+
+#: templates/admin/user-log-table.php:92
+msgid "Current funds"
+msgstr "Huidig accounttegoed "
+
+#: templates/admin/user-log-table.php:99
+msgid "Edit user's funds!"
+msgstr "Bewerk gebruikers accounttegoed!"
+
+#: templates/admin/user-log-table.php:108
+msgid "Enter a brief description"
+msgstr "Voer een korte beschrijving in"
+
+#: templates/admin/user-log-table.php:114
+msgid "Return to user list"
+msgstr "Terugkeren naar gebruikerslijst"
+
+#: templates/admin/user-log-table.php:115
+msgid "Change user fund"
+msgstr "Wijzig accounttegoed van gebruiker"
+
+#: templates/emails/vendor-redeem-funds.php:13
+msgid "The following vendors have redeem funds:"
+msgstr "De volgende verkopers willen accounttegoeden inlossen:"
+
+#: templates/emails/vendor-redeem-funds.php:18
+msgid "Vendor Info"
+msgstr "Verkopersinformatie"
+
+#: templates/emails/vendor-redeem-funds.php:20
+msgid "Amount redeemed"
+msgstr "Bedrag ingelost"
+
+#: templates/make-a-deposit-form.php:16 templates/make-a-deposit.php:51
+msgid "Enter amount"
+msgstr "Voer bedrag in"
+
+#: templates/make-a-deposit-form.php:25
+msgid "Add funds now"
+msgstr "Nu een storting doen"
+
+#: templates/make-a-deposit.php:36
+msgid "You are loading"
+msgstr "Laden"
+
+#: templates/make-a-deposit.php:36
+msgid "Enter a different amount"
+msgstr "Voer een ander bedrag in"
+
+#: templates/make-a-deposit.php:55
+msgid "Amount"
+msgstr "Bedrag"
+
+#: templates/redeem-funds.php:45
+msgid "Your funds are available to redeem shortly"
+msgstr "Je accounttegoeden zijn binnenkort beschikbaar voor inlossen"
+
+#: templates/redeem-funds.php:53
+msgid "You don't have enough funds to redeem."
+msgstr "Je hebt niet genoeg accounttegoeden om in te lossen"
+
+#. translators: %1$s is the minimum fund required to redeem %2$s is the users
+#. balance
+#: templates/redeem-funds.php:56
+msgid ""
+"You don't have enough funds to redeem. Minimum required funds to redeem is "
+"%1$s, available funds is %2$s"
+msgstr ""
+"Je hebt niet genoeg accounttegoeden om in te lossen. Minimaal accounttegoed "
+"nodig om in te lossen is %1$s, beschikbaar tegoed is %2$s"
+
+#: templates/redeem-funds.php:61
+msgid "Amount to redeem"
+msgstr "Bedrag om in te lossen"
+
+#: templates/redeem-funds.php:89
+msgid "You can't access in this content"
+msgstr "Je hebt geen toegang tot deze inhoud"
+
+#: templates/view-deposit-history.php:15
+msgid "Transactions"
+msgstr "Transacties"
+
+#: templates/view-deposit-history.php:29
+msgid "Show All"
+msgstr "Toon alle"
+
+#: templates/view-deposit-history.php:72
+msgid "Reason"
+msgstr "Reden"
+
+#. translators: %s is the amount of item in the order
+#: templates/view-deposit-history.php:77
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s item"
+msgstr[1] "%s items"
+
+#: templates/view-deposit-history.php:78
+msgid "Funds used to purchase"
+msgstr "Accounttegoed gebruikt om te kopen"
+
+#: templates/view-deposit-history.php:78
+msgid "in order"
+msgstr "in bestelling"
+
+#: templates/view-deposit-history.php:82
+msgid "Order Credited Funds"
+msgstr "Gecrediteerde tegoeden bestelling"
+
+#: templates/view-deposit-history.php:86
+msgid "deleted"
+msgstr "verwijderd"
+
+#: templates/view-deposit-history.php:87
+msgid "Funds restored because order"
+msgstr "Accounttegoed hersteld want bestelling"
+
+#: templates/view-deposit-history.php:87
+msgid "switched to"
+msgstr "is gewijzigd naar"
+
+#: templates/view-deposit-history.php:92
+msgid "Refunded credits in order"
+msgstr "Gerestitueerde credits in bestelling"
+
+#: templates/view-deposit-history.php:128
+msgid "Your available funds"
+msgstr "Je beschikbare accounttegoed "
+
+#. translators: %s displays "deposit" placeholder label
+#: templates/view-deposit-history.php:151
+msgid "No %s history for this user"
+msgstr ""
+
+#: templates/woocommerce/admin/reports/deposit-order.php:26
+msgid "Custom:"
+msgstr "Aangepast:"
+
+#: templates/woocommerce/admin/reports/deposit-order.php:56
+msgid "Go"
+msgstr "Ga"
+
+#: templates/woocommerce/myaccount/ywf-email-checkbox-agree.php:17
+msgid "Account Funds Policy"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The plugin <code><strong>YITH WooCommerce Account Funds Premium</strong></"
+"code> gives your customers the possibility to deposit funds in your online "
+"store now and use them later at any time to proceed with the checkout more "
+"quickly. <a href=\"https://yithemes.com\">Get more plugins for your e-"
+"commerce shop on <strong>YITH</strong></a>."
+msgstr ""
+"De plugin <code><strong>YITH WooCommerce Account Funds Premium</strong></"
+"code> geeft je klanten de mogelijkheid om nu geld te storten op je online "
+"accounttegoed en dit accounttegoed op een later moment te gebruiken om snel "
+"verder te gaan met afrekenen. <a href=\"https://yithemes.com\">Verkrijg meer "
+"plugins voor je e-commerce op <strong>YITH</strong></a>."
+
+#. translators: %s is the amount of discount
+#: includes/class.wc-gateway-yith-funds.php:60
+msgctxt ""
+"If you choose to pay through your available funds and funds are enough to "
+"cover the whole order amount, you can get a 30% discount"
+msgid ""
+"If you choose to pay through your available funds and funds are enough to "
+"cover the whole order amount, you can get a %s discount"
+msgstr ""
+"Indien je besluit te betalen met je beschikbare accounttegoed, en er is "
+"voldoende tegoed beschikbaar voor het gehele orderbedrag, dan krijgt je %s "
+"korting"
+
+#: includes/class.yith-ywf-cart-process.php:438
+#: includes/shortcodes/class.yith-ywf-shortcodes.php:277
+msgctxt ""
+"Part of: Pay the order using your account funds and get a 50% discount on "
+"your cart"
+msgid "Pay the order using your account funds and get a"
+msgstr "Betaal de bestelling met je accounttegoed en ontvang "
+
+#: includes/class.yith-ywf-cart-process.php:439
+#: includes/shortcodes/class.yith-ywf-shortcodes.php:278
+msgctxt ""
+"Part of: Pay the order using your account funds and get a 50% discount on "
+"your cart"
+msgid "discount on your cart"
+msgstr "Korting op je winkelwagen"
+
+#. translators: %s is the amount of funds
+#: includes/class.yith-ywf-cart-process.php:725
+msgctxt "Use your funds (20$) or Place Order"
+msgid "Use your funds (%s) or "
+msgstr "Gebruik je accounttegoeden (%s) of"
+
+#. translators: %s is the amount of funds
+#: includes/wc-blocks/src/Payments/YithFunds.php:159
+msgctxt "Use your funds (20$) or Place Order"
+msgid "or use your funds (%s)"
+msgstr ""
+
+#. translators: %s the vendor name
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:619
+msgctxt "Redeem Funds Payment for Jon Doe"
+msgid "Redeem Funds Payment for %s"
+msgstr "Accounttegoed betalingen inlossen voor %s"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-multi-vendor.php:682
+msgctxt "Is the title of PayPal Payout detail"
+msgid "Redeem Funds"
+msgstr "Accounttegoeden inlossen"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-payouts-gateway.php:69
+msgctxt "Is the subject email that is send by PayPal"
+msgid "Redeem Funds"
+msgstr "Accounttegoeden inlossen"
+
+#: includes/compatibility/yith-woocommerce-multi-vendor/class.yith-funds-redeem-stripe-connect-gateway.php:62
+msgctxt "Is the description of Stripe transfer"
+msgid "Redeem Funds"
+msgstr "Accountfunds hersteld"
+
+#: includes/emails/class.yith-ywf-vendor-redeem-email.php:32
+msgctxt "Is the email title"
+msgid "Vendor Redeem Funds"
+msgstr "Accounttegoeden verkoper inlossen"
+
+#: includes/functions.yith-ywf-functions.php:498
+#: plugin-options/endpoints-settings-options.php:48
+msgctxt "Endpoint title visible on My Account page"
+msgid "Redeem Funds"
+msgstr "Accounttegoeden inlossen"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:39
+msgctxt "yith-woocommerce-account-funds"
+msgid "user log"
+msgstr "gebruikers log"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:40
+msgctxt "yith-woocommerce-account-funds"
+msgid "user logs"
+msgstr "gebruikers logs"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:62
+msgctxt "Who changed the funds"
+msgid "Funds edited by"
+msgstr "Accounttegoed bewerkt door"
+
+#: includes/tables/class.yith-ywf-users-log-table.php:139
+msgctxt "Not available"
+msgid "N/A"
+msgstr "N.v.t"
+
+#. translators: %s is the plugin name required
+#: plugin-options/vendor-multi-tab/redeem-funds-options.php:20
+msgctxt ""
+"[PART OF] Require YITH PayPal Payouts For WooCommerce Premium v1.0.12 or "
+"YITH Stripe Connect For WooCommerce Premium v2.0.4"
+msgid "Require %s to use this feature "
+msgstr "Heeft %s nodig om deze optie te gebruiken "
+
+#: plugin-options/vendor-multi-tab-options.php:21
+msgctxt "Sub tab title, visible on backend"
+msgid "Redeem Funds"
+msgstr "Accounttegoed inlossen"
+
+#. translators: %1$s is the currency symbol, %2$s is the currency name
+#: templates/redeem-funds.php:50
+msgctxt ""
+"In this page, your funds are in United States Dollar ($), because the redeem "
+"is possible only with this currency"
+msgid ""
+"In this page, your funds are in %1$s (%2$s), because the redeem action is "
+"available only with this currency"
+msgstr ""
+"Op deze pagina, zijn je accounttegoeden in %1$s (%2$s), omdat de inlossen "
+"actie alleen beschikbaar is in deze valuta"
+
+#: templates/view-deposit-history.php:68
+msgctxt "hashtag before order number"
+msgid "#"
+msgstr "#"

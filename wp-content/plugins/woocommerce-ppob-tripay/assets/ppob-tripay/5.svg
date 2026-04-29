@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_29994" data-name="Group 29994" transform="translate(9522 9066)">
+    <g id="Group_29993" data-name="Group 29993" transform="translate(-9898 -9780)">
+      <g id="Group_29257" data-name="Group 29257" transform="translate(-28)">
+        <g id="Group_29259" data-name="Group 29259" transform="translate(20 -1)">
+          <g id="Group_29260" data-name="Group 29260">
+            <g id="Group_29255" data-name="Group 29255" transform="translate(-1746 -12918)">
+              <rect id="Rectangle_4145" data-name="Rectangle 4145" width="60" height="60" transform="translate(2130 13633)" fill="none"/>
+              <g id="Group_29255-2" data-name="Group 29255" transform="translate(106 8.488)">
+                <path id="Subtraction_5" data-name="Subtraction 5" d="M16.464,31.81H0V18.726a6.253,6.253,0,0,0,3.265-.968L21.039,5.908V27.234A4.581,4.581,0,0,1,16.464,31.81ZM0,16.237H0V0H16.463a4.581,4.581,0,0,1,4.325,3.085l-18.9,12.6A3.723,3.723,0,0,1,0,16.237Z" transform="translate(2054.433 13651.001)" fill="#0cb4fe"/>
+                <path id="Intersection_9" data-name="Intersection 9" d="M4.576,31.811A4.582,4.582,0,0,1,0,27.234V5.909L17.773,17.758h0a6.311,6.311,0,0,0,3.462.971l.2,0V31.811ZM19.155,15.687h0L.251,3.085A4.582,4.582,0,0,1,4.576,0H21.433V16.237q-.1,0-.2,0A3.832,3.832,0,0,1,19.155,15.687Z" transform="translate(2033 13651.001)" fill="#40c0f9"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

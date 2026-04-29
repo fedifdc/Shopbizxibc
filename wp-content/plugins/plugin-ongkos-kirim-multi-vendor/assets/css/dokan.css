@@ -1,0 +1,20 @@
+.select2 {
+	width: 100% !important;
+}
+.pokmv-row {
+	margin-left: -5px;
+	margin-right: -5px;
+	overflow-y: auto;
+}
+.pokmv-col-third {
+	width: 33.3333%;
+	float: left;
+	padding: 0 5px;
+}
+.pokmv-couriers label {
+	display: block;
+	margin-bottom: 0;
+}
+.pokmv-couriers.pro {
+	column-count: 3;
+}

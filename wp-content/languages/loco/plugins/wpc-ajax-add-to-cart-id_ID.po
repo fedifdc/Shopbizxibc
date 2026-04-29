@@ -1,0 +1,102 @@
+# Copyright (C) 2024 WPClever
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC AJAX Add to Cart for WooCommerce 2.1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpc-ajax-add-to-"
+"cart\n"
+"Last-Translator: \n"
+"Language-Team: Bahasa Indonesia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-26T03:03:39+00:00\n"
+"PO-Revision-Date: 2025-01-23 13:19+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: wpc-ajax-add-to-cart\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1"
+
+#. Plugin Name of the plugin
+msgid "WPC AJAX Add to Cart for WooCommerce"
+msgstr "WPC AJAX Tambahkan ke Keranjang untuk WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://wpclever.net/"
+msgstr "https://wpclever.net/"
+
+#. Description of the plugin
+msgid "AJAX add to cart for WooCommerce products."
+msgstr "AJAX ditambahkan ke keranjang untuk produk WooCommerce."
+
+#. Author of the plugin
+msgid "WPClever"
+msgstr "WPClever"
+
+#. Author URI of the plugin
+msgid "https://wpclever.net"
+msgstr "https://wpclever.net"
+
+#: wpc-ajax-add-to-cart.php:134
+msgid "WPC AJAX Add to Cart"
+msgstr "WPC AJAX Tambahkan ke Keranjang"
+
+#. translators: stars
+#: wpc-ajax-add-to-cart.php:137
+msgid ""
+"Thank you for using our plugin! If you are satisfied, please reward it a "
+"full five-star %s rating."
+msgstr ""
+"Terima kasih telah menggunakan plugin kami! Jika Anda puas, mohon berikan "
+"peringkat bintang lima penuh %s."
+
+#: wpc-ajax-add-to-cart.php:139
+msgid "Reviews"
+msgstr "Ulasan"
+
+#: wpc-ajax-add-to-cart.php:140
+msgid "Changelog"
+msgstr "Catatan Perubahan"
+
+#: wpc-ajax-add-to-cart.php:141
+msgid "Discussion"
+msgstr "Diskusi"
+
+#: wpc-ajax-add-to-cart.php:146
+msgid "Settings updated."
+msgstr "Pengaturan diperbarui."
+
+#: wpc-ajax-add-to-cart.php:152 wpc-ajax-add-to-cart.php:342
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: wpc-ajax-add-to-cart.php:155
+msgid "Essential Kit"
+msgstr "Peralatan Penting"
+
+#: wpc-ajax-add-to-cart.php:165
+msgid "General"
+msgstr "Umum"
+
+#: wpc-ajax-add-to-cart.php:169
+msgid "Enable for product types"
+msgstr "Aktifkan untuk jenis produk"
+
+#: wpc-ajax-add-to-cart.php:173
+msgid "All"
+msgstr "Semua"
+
+#: wpc-ajax-add-to-cart.php:272
+msgid ""
+"Please choose the quantity of items you wish to add to your cart&hellip;"
+msgstr ""
+"Silakan pilih jumlah barang yang ingin Anda tambahkan ke keranjang Anda…"
+
+#: wpc-ajax-add-to-cart.php:292
+msgid "Please choose a product to add to your cart&hellip;"
+msgstr "Silakan pilih produk untuk ditambahkan ke keranjang Anda…"
+
+#: wpc-ajax-add-to-cart.php:358
+msgid "Community support"
+msgstr "Dukungan komunitas"

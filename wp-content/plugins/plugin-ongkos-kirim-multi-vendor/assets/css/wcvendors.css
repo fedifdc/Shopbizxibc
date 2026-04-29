@@ -1,0 +1,14 @@
+.select2 {
+	width: 100% !important;
+}
+.pokmv-wcvendor-shipping-origin .select2 {
+	width: 25em !important;	
+}
+.pokmv-couriers label {
+	display: block;
+	margin-bottom: 0 !important;
+	font-weight: normal !important;
+}
+.pokmv-couriers.pro {
+	column-count: 3;
+}

@@ -1,0 +1,777 @@
+# Copyright (C) 2024 WPClever
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC Fly Cart for WooCommerce 5.9.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-fly-cart\n"
+"Last-Translator: \n"
+"Language-Team: Bahasa Indonesia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-27T13:01:52+00:00\n"
+"PO-Revision-Date: 2025-01-23 13:18+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: woo-fly-cart\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1"
+
+#. Plugin Name of the plugin
+msgid "WPC Fly Cart for WooCommerce"
+msgstr "Keranjang Terbang WPC untuk WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://wpclever.net/"
+msgstr "https://wpclever.net/"
+
+#. Description of the plugin
+msgid ""
+"WPC Fly Cart is an interactive mini cart for WooCommerce. It allows users to "
+"update product quantities or remove products without reloading the page."
+msgstr ""
+"WPC Fly Cart adalah mini cart interaktif untuk WooCommerce. Keranjang ini "
+"memungkinkan pengguna untuk memperbarui jumlah produk atau menghapus produk "
+"tanpa memuat ulang halaman."
+
+#. Author of the plugin
+msgid "WPClever"
+msgstr "WPClever"
+
+#. Author URI of the plugin
+msgid "https://wpclever.net"
+msgstr "https://wpclever.net"
+
+#: wpc-fly-cart.php:240 wpc-fly-cart.php:1087
+msgid "Do you want to empty the cart?"
+msgstr "Apakah Anda ingin mengosongkan keranjang?"
+
+#: wpc-fly-cart.php:241 wpc-fly-cart.php:1055
+msgid "Do you want to remove this item?"
+msgstr "Apakah Anda ingin menghapus item ini?"
+
+#: wpc-fly-cart.php:242 wpc-fly-cart.php:1063
+msgid "Undo?"
+msgstr "Membuka?"
+
+#. translators: product
+#: wpc-fly-cart.php:243 wpc-fly-cart.php:1072
+msgid "%s was removed."
+msgstr "%s telah dihapus."
+
+#: wpc-fly-cart.php:296 wpc-fly-cart.php:359
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: wpc-fly-cart.php:297 wpc-fly-cart.php:365
+msgid "Premium Version"
+msgstr "Versi Premium"
+
+#: wpc-fly-cart.php:313
+msgid "Community support"
+msgstr "Dukungan komunitas"
+
+#: wpc-fly-cart.php:331 wpc-fly-cart.php:341
+msgid "WPC Fly Cart"
+msgstr "Kereta Terbang WPC"
+
+#: wpc-fly-cart.php:331
+msgid "Fly Cart"
+msgstr "Kereta Terbang"
+
+#: wpc-fly-cart.php:341
+msgid "Premium"
+msgstr "Premi"
+
+#. translators: stars
+#: wpc-fly-cart.php:344
+msgid ""
+"Thank you for using our plugin! If you are satisfied, please reward it a "
+"full five-star %s rating."
+msgstr ""
+"Terima kasih telah menggunakan plugin kami! Jika Anda puas, mohon berikan "
+"peringkat bintang lima penuh %s."
+
+#: wpc-fly-cart.php:346
+msgid "Reviews"
+msgstr "Ulasan"
+
+#: wpc-fly-cart.php:347
+msgid "Changelog"
+msgstr "Catatan Perubahan"
+
+#: wpc-fly-cart.php:348
+msgid "Discussion"
+msgstr "Diskusi"
+
+#: wpc-fly-cart.php:353
+msgid "Settings updated."
+msgstr "Pengaturan diperbarui."
+
+#: wpc-fly-cart.php:362 wpc-fly-cart.php:1022
+msgid "Localization"
+msgstr "Lokalisasi"
+
+#: wpc-fly-cart.php:368
+msgid "Essential Kit"
+msgstr "Peralatan Penting"
+
+#: wpc-fly-cart.php:422
+msgid "General"
+msgstr "Umum"
+
+#: wpc-fly-cart.php:423
+msgid "General settings for the fly cart."
+msgstr "Pengaturan umum untuk kereta terbang."
+
+#: wpc-fly-cart.php:426
+msgid "Open on AJAX add to cart"
+msgstr "Buka di AJAX tambahkan ke keranjang"
+
+#: wpc-fly-cart.php:429 wpc-fly-cart.php:439 wpc-fly-cart.php:449
+#: wpc-fly-cart.php:468 wpc-fly-cart.php:490 wpc-fly-cart.php:541
+#: wpc-fly-cart.php:710 wpc-fly-cart.php:721 wpc-fly-cart.php:801
+#: wpc-fly-cart.php:810 wpc-fly-cart.php:819 wpc-fly-cart.php:838
+#: wpc-fly-cart.php:876 wpc-fly-cart.php:886 wpc-fly-cart.php:896
+#: wpc-fly-cart.php:930 wpc-fly-cart.php:966
+msgid "Yes"
+msgstr "Ya"
+
+#: wpc-fly-cart.php:430 wpc-fly-cart.php:440 wpc-fly-cart.php:450
+#: wpc-fly-cart.php:469 wpc-fly-cart.php:491 wpc-fly-cart.php:542
+#: wpc-fly-cart.php:564 wpc-fly-cart.php:711 wpc-fly-cart.php:722
+#: wpc-fly-cart.php:781 wpc-fly-cart.php:802 wpc-fly-cart.php:811
+#: wpc-fly-cart.php:820 wpc-fly-cart.php:839 wpc-fly-cart.php:877
+#: wpc-fly-cart.php:887 wpc-fly-cart.php:897 wpc-fly-cart.php:931
+#: wpc-fly-cart.php:967
+msgid "No"
+msgstr "TIDAK"
+
+#. translators: link
+#: wpc-fly-cart.php:432
+msgid ""
+"The fly cart will be opened immediately after whenever click to AJAX Add to "
+"cart buttons? See %1$s \"Add to cart behaviour\" setting %2$s"
+msgstr ""
+"Keranjang belanja akan segera dibuka setelah tombol AJAX Add to cart diklik? "
+"Lihat pengaturan \"Perilaku Add to cart\" %1$s %2$s"
+
+#: wpc-fly-cart.php:436
+msgid "Open on normal add to cart"
+msgstr "Buka pada penambahan normal ke keranjang"
+
+#: wpc-fly-cart.php:442
+msgid ""
+"The fly cart will be opened immediately after whenever click to normal Add "
+"to cart buttons (AJAX is not enable) or Add to cart button in single product "
+"page?"
+msgstr ""
+"Keranjang belanja akan langsung terbuka setelah setiap kali mengklik tombol "
+"Tambahkan ke keranjang belanja normal (AJAX tidak diaktifkan) atau tombol "
+"Tambahkan ke keranjang belanja di halaman produk tunggal?"
+
+#: wpc-fly-cart.php:446
+msgid "Reverse items"
+msgstr "Membalikkan item"
+
+#: wpc-fly-cart.php:455
+msgid "Overlay layer"
+msgstr "Lapisan overlay"
+
+#: wpc-fly-cart.php:458 wpc-fly-cart.php:551 wpc-fly-cart.php:572
+#: wpc-fly-cart.php:593 wpc-fly-cart.php:603 wpc-fly-cart.php:613
+#: wpc-fly-cart.php:623 wpc-fly-cart.php:632 wpc-fly-cart.php:641
+#: wpc-fly-cart.php:651 wpc-fly-cart.php:660 wpc-fly-cart.php:670
+#: wpc-fly-cart.php:680 wpc-fly-cart.php:689 wpc-fly-cart.php:828
+#: wpc-fly-cart.php:848 wpc-fly-cart.php:857
+msgid "Show"
+msgstr "Menunjukkan"
+
+#: wpc-fly-cart.php:459 wpc-fly-cart.php:552 wpc-fly-cart.php:573
+#: wpc-fly-cart.php:582 wpc-fly-cart.php:594 wpc-fly-cart.php:604
+#: wpc-fly-cart.php:614 wpc-fly-cart.php:624 wpc-fly-cart.php:633
+#: wpc-fly-cart.php:642 wpc-fly-cart.php:652 wpc-fly-cart.php:661
+#: wpc-fly-cart.php:671 wpc-fly-cart.php:681 wpc-fly-cart.php:690
+#: wpc-fly-cart.php:701 wpc-fly-cart.php:829 wpc-fly-cart.php:849
+#: wpc-fly-cart.php:858
+msgid "Hide"
+msgstr "Bersembunyi"
+
+#: wpc-fly-cart.php:461
+msgid ""
+"If you hide the overlay layer, the buyer still can work on your site when "
+"the fly cart is opening."
+msgstr ""
+"Jika Anda menyembunyikan lapisan overlay, pembeli masih dapat bekerja di "
+"situs Anda saat kereta luncur dibuka."
+
+#: wpc-fly-cart.php:465
+msgid "Use perfect-scrollbar"
+msgstr "Gunakan scrollbar sempurna"
+
+#. translators: link
+#: wpc-fly-cart.php:471
+msgid "Read more about %s"
+msgstr "Baca lebih lanjut tentang %s"
+
+#: wpc-fly-cart.php:475 wpc-fly-cart.php:936
+msgid "Position"
+msgstr "Posisi"
+
+#: wpc-fly-cart.php:478
+msgid "Right"
+msgstr "Benar"
+
+#: wpc-fly-cart.php:479
+msgid "Left"
+msgstr "Kiri"
+
+#: wpc-fly-cart.php:480
+msgid "Top"
+msgstr "Atas"
+
+#: wpc-fly-cart.php:481
+msgid "Bottom"
+msgstr "Dasar"
+
+#: wpc-fly-cart.php:482
+msgid "Center"
+msgstr "Tengah"
+
+#: wpc-fly-cart.php:487
+msgid "Effect"
+msgstr "Memengaruhi"
+
+#: wpc-fly-cart.php:493
+msgid "Enable/disable slide effect."
+msgstr "Mengaktifkan/menonaktifkan efek slide."
+
+#: wpc-fly-cart.php:497
+msgid "Style"
+msgstr "Gaya"
+
+#: wpc-fly-cart.php:501
+msgid "Color background"
+msgstr "Latar belakang berwarna"
+
+#: wpc-fly-cart.php:502
+msgid "White background"
+msgstr "Latar belakang putih"
+
+#: wpc-fly-cart.php:503
+msgid "Color background, no thumbnail"
+msgstr "Latar belakang berwarna, tanpa gambar mini"
+
+#: wpc-fly-cart.php:504
+msgid "White background, no thumbnail"
+msgstr "Latar belakang putih, tanpa gambar mini"
+
+#: wpc-fly-cart.php:505 wpc-fly-cart.php:526
+msgid "Background image"
+msgstr "Gambar latar belakang"
+
+#: wpc-fly-cart.php:519
+msgid "Color"
+msgstr "Warna"
+
+#. translators: color
+#: wpc-fly-cart.php:522
+msgid "Background or text color of selected style, default %s"
+msgstr "Warna latar belakang atau teks dari gaya yang dipilih, default %s"
+
+#: wpc-fly-cart.php:533
+msgid "Upload image"
+msgstr "Unggah gambar"
+
+#: wpc-fly-cart.php:538
+msgid "Rounded"
+msgstr "Bulat"
+
+#: wpc-fly-cart.php:544
+msgid "Enable/disable rounded style for elements."
+msgstr "Mengaktifkan/menonaktifkan gaya bulat untuk elemen."
+
+#: wpc-fly-cart.php:548
+msgid "Close button"
+msgstr "Tombol tutup"
+
+#: wpc-fly-cart.php:554
+msgid "Show/hide the close button."
+msgstr "Menampilkan/menyembunyikan tombol tutup."
+
+#: wpc-fly-cart.php:558
+msgid "Link to individual product"
+msgstr "Tautan ke produk individual"
+
+#: wpc-fly-cart.php:561
+msgid "Yes, open in the same tab"
+msgstr "Ya, buka di tab yang sama"
+
+#: wpc-fly-cart.php:562
+msgid "Yes, open in the new tab"
+msgstr "Ya, buka di tab baru"
+
+#: wpc-fly-cart.php:563
+msgid "Yes, open quick view popup"
+msgstr "Ya, buka popup tampilan cepat"
+
+#: wpc-fly-cart.php:569
+msgid "Item data"
+msgstr "Data barang"
+
+#: wpc-fly-cart.php:575
+msgid "Show/hide the item data under title."
+msgstr "Menampilkan/menyembunyikan data item di bawah judul."
+
+#: wpc-fly-cart.php:579
+msgid "Item price"
+msgstr "Harga barang"
+
+#: wpc-fly-cart.php:583
+msgid "Price"
+msgstr "Harga"
+
+#: wpc-fly-cart.php:584 wpc-fly-cart.php:629 wpc-fly-cart.php:1100
+#: wpc-fly-cart.php:1103 wpc-fly-cart.php:1584
+msgid "Subtotal"
+msgstr "Jumlah keseluruhan"
+
+#: wpc-fly-cart.php:586
+msgid "Show/hide the item price or subtotal under title."
+msgstr "Menampilkan/menyembunyikan harga barang atau subtotal di bawah judul."
+
+#: wpc-fly-cart.php:590
+msgid "Item estimated delivery date"
+msgstr "Perkiraan tanggal pengiriman barang"
+
+#: wpc-fly-cart.php:596
+msgid "Show/hide the item estimated delivery date."
+msgstr "Menampilkan/menyembunyikan perkiraan tanggal pengiriman barang."
+
+#: wpc-fly-cart.php:600
+msgid "Plus/minus button"
+msgstr "Tombol plus/minus"
+
+#: wpc-fly-cart.php:606
+msgid "Show/hide the plus/minus button."
+msgstr "Menampilkan/menyembunyikan tombol plus/minus."
+
+#: wpc-fly-cart.php:610
+msgid "Item remove"
+msgstr "Hapus item"
+
+#: wpc-fly-cart.php:616
+msgid "Show/hide the remove button for each item."
+msgstr "Menampilkan/menyembunyikan tombol hapus untuk setiap item."
+
+#: wpc-fly-cart.php:620
+msgid "Save for later"
+msgstr "Simpan untuk nanti"
+
+#: wpc-fly-cart.php:638
+msgid "Coupon"
+msgstr "Kupon"
+
+#: wpc-fly-cart.php:648
+msgid "Coupon listing"
+msgstr "Daftar kupon"
+
+#: wpc-fly-cart.php:657
+msgid "Shipping cost"
+msgstr "Biaya pengiriman"
+
+#: wpc-fly-cart.php:667
+msgid "Shipping calculator"
+msgstr "Kalkulator pengiriman"
+
+#: wpc-fly-cart.php:677
+msgid "Free shipping bar"
+msgstr "Bar pengiriman gratis"
+
+#: wpc-fly-cart.php:686 wpc-fly-cart.php:1132 wpc-fly-cart.php:1135
+#: wpc-fly-cart.php:1594
+msgid "Total"
+msgstr "Total"
+
+#: wpc-fly-cart.php:695
+msgid "Action buttons"
+msgstr "Tombol tindakan"
+
+#: wpc-fly-cart.php:698
+msgid "Cart & Checkout"
+msgstr "Keranjang & Pembayaran"
+
+#: wpc-fly-cart.php:699
+msgid "Cart only"
+msgstr "Hanya keranjang"
+
+#: wpc-fly-cart.php:700
+msgid "Checkout only"
+msgstr "Hanya pembayaran"
+
+#: wpc-fly-cart.php:706
+msgid "Instant checkout"
+msgstr "Pembayaran instan"
+
+#: wpc-fly-cart.php:713
+msgid "If enable this option, buyer can checkout directly on the fly cart."
+msgstr ""
+"Jika mengaktifkan pilihan ini, pembeli dapat melakukan pembayaran langsung "
+"di keranjang belanja."
+
+#: wpc-fly-cart.php:718
+msgid "Open instant checkout immediately"
+msgstr "Buka pembayaran instan segera"
+
+#: wpc-fly-cart.php:724
+msgid ""
+"Open instant checkout form immediately after adding a product to the cart."
+msgstr ""
+"Buka formulir pembayaran instan segera setelah menambahkan produk ke "
+"keranjang."
+
+#: wpc-fly-cart.php:728 wpc-fly-cart.php:1164
+msgid "Suggested products"
+msgstr "Produk yang disarankan"
+
+#: wpc-fly-cart.php:753
+msgid "Related"
+msgstr "Terkait"
+
+#: wpc-fly-cart.php:756
+msgid "Upsells"
+msgstr "Penjualan Naik"
+
+#: wpc-fly-cart.php:759
+msgid "Cross-sells"
+msgstr "Penjualan silang"
+
+#: wpc-fly-cart.php:762
+msgid "Wishlist"
+msgstr "Daftar Keinginan"
+
+#: wpc-fly-cart.php:767
+msgid "Compare"
+msgstr "Membandingkan"
+
+#: wpc-fly-cart.php:778
+msgid "Suggested for empty cart"
+msgstr "Disarankan untuk keranjang kosong"
+
+#: wpc-fly-cart.php:782
+msgid "Recent products"
+msgstr "Produk Terbaru"
+
+#: wpc-fly-cart.php:783
+msgid "On-sale products"
+msgstr "Produk sedang obral"
+
+#: wpc-fly-cart.php:784
+msgid "Featured products"
+msgstr "Produk unggulan"
+
+#: wpc-fly-cart.php:785
+msgid "Random products"
+msgstr "Produk acak"
+
+#: wpc-fly-cart.php:790
+msgid "Suggested products limit"
+msgstr "Batasan produk yang disarankan"
+
+#: wpc-fly-cart.php:798
+msgid "Suggested products carousel"
+msgstr "Carousel produk yang disarankan"
+
+#: wpc-fly-cart.php:807
+msgid "Upsell funnel products"
+msgstr "Penjualan produk corong upsell"
+
+#: wpc-fly-cart.php:816
+msgid "Upsell funnel products carousel"
+msgstr "Produk corong penjualan naik"
+
+#: wpc-fly-cart.php:825 wpc-fly-cart.php:1076 wpc-fly-cart.php:1079
+#: wpc-fly-cart.php:1572
+msgid "Empty cart"
+msgstr "Keranjang kosong"
+
+#: wpc-fly-cart.php:831
+msgid "Show/hide the empty cart button under the product list."
+msgstr "Tampilkan/sembunyikan tombol keranjang kosong di bawah daftar produk."
+
+#: wpc-fly-cart.php:835 wpc-fly-cart.php:1084
+msgid "Confirm empty"
+msgstr "Konfirmasi kosong"
+
+#: wpc-fly-cart.php:841
+msgid "Enable/disable confirm before emptying the cart."
+msgstr "Aktifkan/nonaktifkan konfirmasi sebelum mengosongkan keranjang."
+
+#: wpc-fly-cart.php:845 wpc-fly-cart.php:1092 wpc-fly-cart.php:1095
+#: wpc-fly-cart.php:1576
+msgid "Share cart"
+msgstr "Bagikan keranjang"
+
+#: wpc-fly-cart.php:854 wpc-fly-cart.php:1156 wpc-fly-cart.php:1159
+#: wpc-fly-cart.php:1642
+msgid "Continue shopping"
+msgstr "Lanjutkan belanja"
+
+#: wpc-fly-cart.php:860
+msgid "Show/hide the continue shopping button at the end of fly cart."
+msgstr ""
+"Menampilkan/menyembunyikan tombol lanjutkan berbelanja di akhir keranjang "
+"belanja."
+
+#: wpc-fly-cart.php:864
+msgid "Continue shopping URL"
+msgstr "Lanjutkan belanja URL"
+
+#: wpc-fly-cart.php:869
+msgid ""
+"Custom URL for \"continue shopping\" button. By default, only close the fly "
+"cart when clicking on this button."
+msgstr ""
+"URL khusus untuk tombol \"lanjutkan belanja\". Secara default, hanya tutup "
+"keranjang belanja saat mengklik tombol ini."
+
+#: wpc-fly-cart.php:873 wpc-fly-cart.php:1052
+msgid "Confirm remove"
+msgstr "Konfirmasi penghapusan"
+
+#: wpc-fly-cart.php:879
+msgid "Enable/disable confirm before removing a product."
+msgstr "Aktifkan/nonaktifkan konfirmasi sebelum menghapus produk."
+
+#: wpc-fly-cart.php:883 wpc-fly-cart.php:1060
+msgid "Undo remove"
+msgstr "Batalkan hapus"
+
+#: wpc-fly-cart.php:889
+msgid "Enable/disable undo after removing a product."
+msgstr "Mengaktifkan/menonaktifkan pembatalan setelah menghapus produk."
+
+#: wpc-fly-cart.php:893
+msgid "Reload the cart"
+msgstr "Muat ulang keranjang"
+
+#: wpc-fly-cart.php:899
+msgid ""
+"The cart will be reloaded when opening the page? If you use the cache for "
+"your site, please turn on this option."
+msgstr ""
+"Keranjang akan dimuat ulang saat membuka halaman? Jika Anda menggunakan "
+"cache untuk situs Anda, harap aktifkan opsi ini."
+
+#: wpc-fly-cart.php:903
+msgid "Hide on pages"
+msgstr "Sembunyikan di halaman"
+
+#: wpc-fly-cart.php:919
+msgid "Hide the fly cart on these pages."
+msgstr "Sembunyikan kereta lalat di halaman ini."
+
+#: wpc-fly-cart.php:923
+msgid "Bubble"
+msgstr "Gelembung"
+
+#: wpc-fly-cart.php:924
+msgid "Settings for the bubble."
+msgstr "Pengaturan untuk gelembung."
+
+#: wpc-fly-cart.php:927
+msgid "Enable"
+msgstr "Memungkinkan"
+
+#: wpc-fly-cart.php:939
+msgid "Top Left"
+msgstr "Kiri Atas"
+
+#: wpc-fly-cart.php:940
+msgid "Top Right"
+msgstr "Kanan atas"
+
+#: wpc-fly-cart.php:941
+msgid "Bottom Left"
+msgstr "Kiri Bawah"
+
+#: wpc-fly-cart.php:942
+msgid "Bottom Right"
+msgstr "Kanan Bawah"
+
+#: wpc-fly-cart.php:947
+msgid "Icon"
+msgstr "Ikon"
+
+#: wpc-fly-cart.php:963
+msgid "Hide if empty"
+msgstr "Sembunyikan jika kosong"
+
+#: wpc-fly-cart.php:969
+msgid "Hide the bubble if the cart is empty?"
+msgstr "Sembunyikan gelembung jika keranjang kosong?"
+
+#: wpc-fly-cart.php:973
+msgid "Menu"
+msgstr "Menu"
+
+#: wpc-fly-cart.php:974
+msgid "Settings for cart menu item."
+msgstr "Pengaturan untuk item menu keranjang."
+
+#: wpc-fly-cart.php:977
+msgid "Menu(s)"
+msgstr "Menu"
+
+#: wpc-fly-cart.php:996
+msgid "Haven't any menu yet. Please go to Appearance > Menus to create one."
+msgstr "Belum ada menu. Silakan masuk ke Tampilan > Menu untuk membuatnya."
+
+#: wpc-fly-cart.php:999
+msgid "Choose the menu(s) you want to add the cart at the end."
+msgstr "Pilih menu yang ingin Anda tambahkan ke keranjang di akhir."
+
+#: wpc-fly-cart.php:1003
+msgid "Custom menu"
+msgstr "Menu khusus"
+
+#: wpc-fly-cart.php:1006
+msgid "button class or id"
+msgstr "tombol kelas atau id"
+
+#. translators: selector
+#: wpc-fly-cart.php:1008
+msgid ""
+"The class or id of the custom menu. When clicking on it, the fly cart will "
+"show up. Example %1$s or %2$s"
+msgstr ""
+"Kelas atau ID menu kustom. Saat mengkliknya, kereta luncur akan muncul. "
+"Contoh %1$s atau %2$s"
+
+#: wpc-fly-cart.php:1024
+msgid ""
+"Leave blank to use the default text and its equivalent translation in "
+"multiple languages."
+msgstr ""
+"Biarkan kosong untuk menggunakan teks default dan terjemahan yang setara "
+"dalam berbagai bahasa."
+
+#: wpc-fly-cart.php:1028
+msgid "Cart heading"
+msgstr "Judul keranjang"
+
+#: wpc-fly-cart.php:1031 wpc-fly-cart.php:1357
+msgid "Shopping cart"
+msgstr "Keranjang belanja"
+
+#: wpc-fly-cart.php:1036 wpc-fly-cart.php:1039 wpc-fly-cart.php:1360
+msgid "Close"
+msgstr "Menutup"
+
+#. translators: product
+#: wpc-fly-cart.php:1044 wpc-fly-cart.php:1047 wpc-fly-cart.php:1505
+msgid "Remove"
+msgstr "Menghapus"
+
+#: wpc-fly-cart.php:1068
+msgid "Removed"
+msgstr "DIHAPUS"
+
+#: wpc-fly-cart.php:1108 wpc-fly-cart.php:1111
+msgid "Coupon code"
+msgstr "Kode kupon"
+
+#: wpc-fly-cart.php:1116
+msgid "Coupon apply"
+msgstr "Kupon berlaku"
+
+#: wpc-fly-cart.php:1119
+msgid "Apply"
+msgstr "Menerapkan"
+
+#: wpc-fly-cart.php:1124 wpc-fly-cart.php:1127
+msgid "Shipping"
+msgstr "Pengiriman"
+
+#: wpc-fly-cart.php:1140 wpc-fly-cart.php:1143 wpc-fly-cart.php:1602
+#: wpc-fly-cart.php:1606
+msgid "Cart"
+msgstr "Keranjang"
+
+#: wpc-fly-cart.php:1148 wpc-fly-cart.php:1151 wpc-fly-cart.php:1602
+#: wpc-fly-cart.php:1611
+msgid "Checkout"
+msgstr "Check-out"
+
+#: wpc-fly-cart.php:1167 wpc-fly-cart.php:1664
+msgid "You may be interested in&hellip;"
+msgstr "Anda mungkin tertarik pada…"
+
+#: wpc-fly-cart.php:1172
+msgid "There are no products"
+msgstr "Tidak ada produk"
+
+#: wpc-fly-cart.php:1175 wpc-fly-cart.php:1516
+msgid "There are no products in the cart!"
+msgstr "Tidak ada produk di keranjang!"
+
+#. translators: product
+#: wpc-fly-cart.php:1505
+msgid "Remove %s from cart"
+msgstr "Hapus %s dari keranjang"
+
+#: wpc-fly-cart.php:1831
+msgid "Before cart"
+msgstr "Sebelum kereta"
+
+#: wpc-fly-cart.php:1832
+msgid "After cart"
+msgstr "Setelah kereta"
+
+#: wpc-fly-cart.php:1833
+msgid "Before cart items"
+msgstr "Sebelum barang keranjang"
+
+#: wpc-fly-cart.php:1834
+msgid "After cart items"
+msgstr "Setelah item keranjang"
+
+#: wpc-fly-cart.php:1835
+msgid "Before cart item"
+msgstr "Sebelum barang keranjang"
+
+#: wpc-fly-cart.php:1836
+msgid "After cart item"
+msgstr "Setelah item keranjang"
+
+#: wpc-fly-cart.php:1837
+msgid "Before cart item info"
+msgstr "Info item sebelum keranjang"
+
+#: wpc-fly-cart.php:1838
+msgid "After cart item info"
+msgstr "Setelah info item keranjang"
+
+#: wpc-fly-cart.php:1839
+msgid "Before cart item name"
+msgstr "Sebelum nama item keranjang"
+
+#: wpc-fly-cart.php:1840
+msgid "After cart item name"
+msgstr "Setelah nama item keranjang"
+
+#: wpc-fly-cart.php:1841
+msgid "Before suggested products"
+msgstr "Sebelum produk yang disarankan"
+
+#: wpc-fly-cart.php:1842
+msgid "After suggested products"
+msgstr "Setelah produk yang disarankan"
+
+#: wpc-fly-cart.php:1843
+msgid "Before buttons"
+msgstr "Sebelum tombol"
+
+#: wpc-fly-cart.php:1844
+msgid "After buttons"
+msgstr "Setelah tombol"

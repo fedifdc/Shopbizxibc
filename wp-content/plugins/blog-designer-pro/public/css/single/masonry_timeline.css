@@ -1,0 +1,252 @@
+.masonry-timeline-wrapp {
+    background: #fff;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+}
+
+.masonry-timeline-wrapp.bdp_blog_template .bdp-pinterest-share-image {
+    left: auto;
+    right: 10px;
+    top: 45px   ;
+}
+
+.masonry-timeline-wrapp.bdp_blog_template .year-number {
+    background: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px
+}
+.bdp_single_product .masonry-timeline-wrapp.bdp_blog_template .year-number {
+    right: 0;
+    left: auto;
+}
+.post-content-area {
+    padding: 15px;
+}
+.bdp_single_product .bdp_blog_template .bdp-post-image {
+    display: inline-block;
+}
+.blog_header {
+    position: relative;
+    text-align: center;
+}
+
+.blog_header .post-title:after {
+    background: #000;
+    content: "";
+    height: 2px;
+    width: 20%;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10%;
+}
+
+.post-content-area .categories {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.post-content-area .post_content.entry-content {
+    float: none
+}
+
+.post_content entry-content .tags {
+    font-size: 16px;
+}
+
+.post-content-area .post-footer {
+    max-height: 100% !important;
+}
+
+.post-footer .metadatabox {
+    border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    margin: 15px 0;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.post-footer .metadatabox > span {
+    display: inline-block;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.post-footer .metadatabox > span > .comments-link {
+    width: auto;
+}
+
+.post-footer .metadatabox span i {
+    margin-right: 5px;
+}
+
+.masonry-timeline-wrapp.bdp_blog_template .social-component {
+    display: table-cell;
+    float: none;
+    width: auto;
+}
+
+.post-footer .social-component .social-share.social-close-btn {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+.post-footer .post-share-div {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.masonry_timeline.bdp_single .navigation.post-navigation {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    border: medium none;
+}
+
+.masonry_timeline .author-avatar-div {
+    background: #fff;
+    clear: left;
+    display: inline-block;
+    width: 100%;    
+    padding: 15px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+}
+
+.bdp_single.masonry_timeline .author-avatar-div img.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.author-avatar-div .avtar-img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.author-avatar-div .author_content {
+    display: inline-block;
+    margin-left: 20px;
+    width: calc(100% - 180px);
+}
+
+.bdp_single.masonry_timeline .related_post_wrap {
+    background: #fff;
+    clear: left;
+    display: inline-block;
+    width: 100%;    
+    padding: 15px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+}
+.bdp_single.masonry_timeline:not(.bdp_single_product) .comments-area,
+.bdp_single_product.masonry_timeline .woocommerce-Reviews {
+    background: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.bdp_single_product.masonry_timeline .bdp_related_woocommerce_price_wrap,
+.bdp_single_product.masonry_timeline .bdp_related_product_woocommerce_add_to_cart_wrap {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+.bdp_single_product.masonry_timeline .bdp_related_product_woocommerce_add_to_cart_wrap {
+    margin: 10px 0;
+}
+.bdp_single.masonry_timeline .post-footer .post-share-div.right_position {
+    text-align: right;
+}
+.bdp_single.masonry_timeline .post-footer .post-share-div.left_position {
+    text-align: left;
+}
+.bdp_single .bdp_social_share_postion {
+    display: inline-block;
+}
+.bdp_single.masonry_timeline .post-footer .post-share-div.center_position .share-this {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.bdp_single .relatedposts .relatedthumb .relatedthumb_content_wrap .related_post_content {
+    padding-left: 0;
+}
+.bdp_single .related_post_div .related_post_content,
+.bdp_single .related_post_div .bdp-related-post-meta,
+.bdp_single.bdp_single_download .related_post_div .bdp_edd_download_buy_button,
+.bdp_single.bdp_single_download .related_post_div .edd_purchase_submit_wrapper,
+.bdp_single.bdp_single_download .related_post_div .bdp_edd_price_wrapper {
+    text-align: left;
+}
+.bdp_single .related_post_div .bdp_edd_download_buy_button {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+    .post-footer .metadatabox span {
+        display: inline-block;
+        text-align: left;
+        margin-bottom: 5px;
+        padding-left: 10%;
+    }
+    .post-footer .bdp-wrapper-like {
+        padding: 0
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .post-footer .post-share-div {
+        display: block;
+    }
+    .masonry_timeline .masonry-timeline-wrapp.bdp_blog_template .share-this {
+        display: block;
+        text-align: center;
+    }
+    .masonry-timeline-wrapp.bdp_blog_template .social-component {
+        display: block;
+        text-align: center;
+    }
+    .masonry-timeline-wrapp.bdp_blog_template .social-component .social-share {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .post-footer .metadatabox span {
+        display: inline-block;
+        text-align: left;
+        margin-left: 20px;
+        padding-left: 0;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .post-footer .metadatabox .bdp-wrapper-like span.bdp-count,
+    .post-footer .metadatabox .bdp-wrapper-like span#bdp-loader {
+        display: inline;
+        margin: 0 auto;
+        padding: 0;
+        width: auto;
+    }
+    .masonry_timeline .author-avatar-div .avtar-img {
+        float: none;
+    }
+    .masonry_timeline .author-avatar-div .avtar-img img.avatar {
+        float: none;
+        width: auto;
+    }
+    .author-avatar-div .author_content {
+        width: 100%;
+    }
+}

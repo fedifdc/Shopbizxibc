@@ -1,0 +1,312 @@
+.blog_template.bdp_blog_template.region {
+    margin-bottom: 40px;
+    float: left;
+    width: 100%;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 1px 3px 3px 1px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.bdp_blog_template.region .bdp-post-image {
+    text-align: left;
+    padding-top: 0px;
+}
+.bdp_blog_template.region .blog_header{
+    padding: 20px 15px 5px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.bdp_blog_template.region .metadatabox {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.bdp_single.region:not(.bdp_single_product) .comments-area,
+.bdp_single_product.region .woocommerce-Reviews {
+    border-color: #eee;
+    border-style: solid;
+    border-width: 1px 3px 3px 1px;
+    box-sizing: border-box;
+    padding: 0 15px 25px;
+    background-color: #ffffff;
+}
+.bdp_single.region .comment-reply-title{
+    border-top: 1px solid #dddddd;
+}
+.bdp_single.region .comment-respond{
+    padding-top: 0;
+}
+.bdp_single.region .comments-title{
+    border-top: 1px solid #dddddd;
+}
+.bdp_blog_template.region .bdp-wrapper-like {
+    padding-left: 0;
+}
+.bdp_blog_template.region .comment_wrapper {
+    float: left;
+    padding-right: 10px;
+}
+.bdp_blog_template.region .comments-link ,
+.bdp_blog_template.region .bdp-like-button{
+    font-size: 14px;
+    line-height: 2;
+}
+.bdp_blog_template.region .posted_by {
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    color: #444;
+    line-height: 2;
+}
+.bdp_blog_template.region .post-title {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.bdp_blog_template.region .bdp_easy_digital_download_wrap,
+.bdp_blog_template.region .post_content_wrap,
+.bdp_blog_template.region .bdp_woocommerce_meta_box  {
+    padding: 0 15px 10px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.bdp_blog_template.region .post_content.entry-content{
+    padding-top: 0;
+}
+.bdp_blog_template.region .post_content p {
+    margin-bottom: 10px;
+}
+.bdp_blog_template.region .blog_footer {
+    float: left;
+    background: #fafafa !important;
+    width: 100%;
+    padding: 15px 10px;
+    text-align: right;
+    font-size: 14px;
+    border-top: 1px solid #eeeeee;
+}
+.bdp_blog_template.region .category-link {
+    color: #444444;
+    display: inline-block;
+    line-height: 1.5;
+    padding: 5px;
+}
+.bdp_blog_template.region .tags {
+    color: #444444;
+    display: inline-block;
+    padding: 5px;
+}
+.bdp_single.region .author-avatar-div img.avatar{
+    border-radius: 50%;
+}
+
+/*post navigation block*/
+.bdp_single.region .navigation.post-navigation {
+    background: #ffffff;
+    float: left;
+    margin-bottom: 40px;
+    width: 100%;
+    border: 1px solid #eee;
+}
+.bdp_single.region .navigation.post-navigation .nav-links > div {
+    background: none;
+}
+
+.bdp_single.region .navigation.post-navigation .nav-links > div a span.screen-reader-text {
+    clip: auto;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    height: auto;
+    position: relative !important;
+    color: #444;
+    width: auto;
+}
+
+/*author detail block*/
+.bdp_single.region .author-avatar-div{
+    background-color: #333333;
+    border: 1px solid #dddddd;
+    margin-bottom:40px;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    float: left;
+}
+.author-avatar-div .avtar-img {
+    display: inline-flex;
+    float: left;
+    margin-right: 15px;
+}
+.author-avatar-div .avtar-img a {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 0 auto;
+}
+.bdp_single.region .author-avatar-div .author_content p{
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.bdp_single.region .author-avatar-div .author_content .author{
+    font-style: oblique;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.bdp_single.region .author-avatar-div .author_content .author a:hover {
+    color: #fff;
+}
+.avtar-img a img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/*related post block*/
+.bdp_single.region .related_post_wrap{
+    border-top: 1px solid #dddddd;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 15px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.bdp_single.region .related_post_wrap h3{
+    font-weight: bold;
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.bdp_single.region .related_post_wrap h3:before{
+    border-radius: 50%;
+    content: "";
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 40%;
+    width: 10px;
+}
+/* .bdp_single.region .related_post_wrap .related_post_div {
+    margin: 0 -15px;
+} */
+.bdp_single.region .related_post_wrap .bdp-no-post-found {
+    padding: 0 15px;
+}
+.bdp_single.region .related_post_wrap .relatedthumb > a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.bdp_single.region .related_post_wrap .relatedthumb img {
+    display: block;
+    margin: 0 auto;
+}
+.bdp_single.region .related_post_wrap .relatedpost_title {
+    font-size: 16px;
+    padding: 5px 0;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.bdp_single.region .navigation.post-navigation .nav-links .nav-previous,
+.bdp_single.region .navigation.post-navigation .nav-links .nav-next {
+    background: #fff;
+}
+.bdp_single.region .navigation.post-navigation .nav-links a:hover .navi-post-thumbnail img.bdp_nav_post_img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: border-radius 0.3s ease 0s;
+    -webkit-transition: border-radius 0.3s ease 0s;
+    -moz-transition: border-radius 0.3s ease 0s;
+    -ms-transition: border-radius 0.3s ease 0s;
+    -o-transition: border-radius 0.3s ease 0s;
+}
+.bdp_single.region .post_content_wrap .share-this{
+    float: left;
+    line-height: 1.5;
+    margin-right: 15px;
+    width: auto;
+}
+.bdp_single.region .post_content_wrap .social-component{
+    width: auto;
+    display: inline-block;
+}
+.bdp_single.region .author_content .social-component{
+    width: auto;
+    float: none;
+}
+.bdp_single.region .author-avatar-div .author_content .author{
+    color: #fff;
+}
+.bdp_single.region .relatedposts .relatedthumb .related_post_content{
+    padding: 0;
+}
+.bdp_single_product.region .bdp_related_woocommerce_price_wrap,
+.bdp_single_product.region .bdp_related_product_woocommerce_add_to_cart_wrap {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+.bdp_single_product.region .bdp_related_product_woocommerce_add_to_cart_wrap {
+    margin: 10px 0;
+}
+.bdp_single.region .bdp_single_social_share_position {
+    display: inline-block;
+    width: 100%;
+}
+.bdp_single.region .bdp_single_social_share_position.right_position {
+    text-align: right;
+}
+.bdp_single.region .bdp_single_social_share_position.center_position {
+    text-align: center;
+}
+.bdp_single.region .post_content_wrap .bdp_single_social_share_position.center_position .share-this,
+.bdp_single.region .post_content_wrap .bdp_single_social_share_position.right_position .share-this {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+.bdp_single .bdp_social_share_postion {
+    display: inline-block;
+}
+.bdp_single .related_post_div .related_post_content,
+.bdp_single .related_post_div .bdp-related-post-meta,
+.bdp_single.bdp_single_download .related_post_div .bdp_edd_download_buy_button,
+.bdp_single.bdp_single_download .related_post_div .edd_purchase_submit_wrapper,
+.bdp_single.bdp_single_download .related_post_div .bdp_edd_price_wrapper {
+    text-align: left;
+}
+
+.bdp_single .related_post_div .bdp_edd_download_buy_button {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.bdp_single_product.region .bdp-pinterest-share-image {
+    top:45px;
+}
+
+/*comment block*/
+@media screen and (max-width: 640px) {
+    .bdp_blog_template.region .comment_wrapper,
+    .bdp_blog_template.region .posted_by {
+        display: block;
+        clear: both;
+        float: none;
+    }
+    .bdp_blog_template.region .blog_footer {
+        text-align: left;
+    }
+}
+@media screen and (max-width: 480px) {
+    .bdp_single.region .author-avatar-div .author_content {
+        float: left;
+    }
+}

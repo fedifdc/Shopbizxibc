@@ -1,0 +1,15 @@
+[25-Jan-2024 03:42:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_row() in /home/cafebisn/blog.cafebisnis.info/wp-content/plugins/wp-affiliasi/include/datasponsor.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cafebisn/blog.cafebisnis.info/wp-content/plugins/wp-affiliasi/include/datasponsor.php on line 8
+[25-Jan-2024 03:42:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_row() in /home/cafebisn/blog.cafebisnis.info/wp-content/plugins/wp-affiliasi/include/datasponsor.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cafebisn/blog.cafebisnis.info/wp-content/plugins/wp-affiliasi/include/datasponsor.php on line 8
+[25-Jan-2024 04:13:48 UTC] PHP Warning:  Undefined variable $sponsor_data in /home/cafebisn/blog.cafebisnis.info/wp-content/plugins/wp-affiliasi/include/datasponsor.php on line 18
+[25-Jan-2024 04:19:12 UTC] PHP Warning:  Undefined variable $sponsor_data in /home/cafebisn/blog.cafebisnis.info/wp-content/plugins/wp-affiliasi/include/datasponsor.php on line 18
+[25-Jan-2024 05:24:54 UTC] PHP Warning:  Undefined variable $member_data in /home/cafebisn/blog.cafebisnis.info/wp-content/plugins/wp-affiliasi/include/datasponsor.php on line 17
+[01-Feb-2024 07:05:31 UTC] PHP Warning:  Undefined variable $customysponsorr in /home/cafebisn/blog.cafebisnis.info/wp-content/plugins/wp-affiliasi/include/datasponsor.php on line 43
+[01-Feb-2024 07:05:31 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cafebisn/blog.cafebisnis.info/wp-content/plugins/wp-affiliasi/include/datasponsor.php on line 43
+[01-Feb-2024 07:05:53 UTC] PHP Warning:  Undefined variable $customysponsor in /home/cafebisn/blog.cafebisnis.info/wp-content/plugins/wp-affiliasi/include/datasponsor.php on line 43
+[01-Feb-2024 07:05:53 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/cafebisn/blog.cafebisnis.info/wp-content/plugins/wp-affiliasi/include/datasponsor.php on line 43

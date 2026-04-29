@@ -1,0 +1,190 @@
+.bdp_wrapper.flip_book_3d {
+  position: relative;
+}
+
+.post_hentry_1 {
+  position: relative;
+}
+
+.blog_header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  opacity: 0.7;
+}
+
+.post_hentry_1:hover .blog_header {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.blog_single_wrap_box {
+  /* color: transparent; */
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+  line-height: 1.5;
+  height: 100%;
+}
+.blog_single_wrap_box > .category-link{
+  padding-block: 10px;
+}
+
+.bdp_flip_book_3d{
+  height: 500px;
+  width: 500px;
+}
+.bdp-preview-box .bdp_flip_book_3d{
+  height: 500px;
+  width: 500px;
+}
+.bdp_flip_book_3d{
+  margin: 0 auto;
+  position: relative;
+  max-width: 100%;
+}
+
+.bdp_flip_book_3d .bb-item{
+  height: auto;
+}
+.bdp_wrapper .bb-custom-wrapper .bdp_flip_book_3d .flip_book_3d .post_hentry_1.bb-custom-side{
+  width: 50%;
+  /* float: left; */
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  display: inline-block;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.bdp_flip_book_3d nav span.bd-arrows.bd-left-arrow{
+  background-color: transparent;
+  background-image: none;
+  border-bottom: medium none;
+  box-shadow: none;
+  color: #ffffff;
+  content: unset;
+  display: inline-block;
+  opacity: 1;
+  box-shadow: none;
+  z-index: 105; 
+  left: 102%;
+}
+
+.bdp_flip_book_3d nav span.bd-arrows.bd-right-arrow {
+  background-color: transparent;
+  background-image: none;
+  border-bottom: medium none;
+  box-shadow: none;
+  color: #ffffff;
+  content: unset;
+  display: inline-block;
+  opacity: 1;
+  box-shadow: none;
+  right: -12% !important;
+  z-index: 105;
+  
+}
+div.metadatabox .mauthor{
+padding-top: 15px;
+padding-bottom: 15px;
+}
+div.metadatabox .post-date{
+padding-bottom: 15px;
+}
+div.metadatabox .post-comment{
+padding-bottom: 15px;
+}
+div.metadatabox .tags{
+padding-bottom: 5px;
+}
+.flip_book_3d_cover.bdp_archive.flip_book_3d .bdp-author-avatar .author_content{
+width: 80%;
+}
+@media screen and (max-width: 480px) {
+.bdp_flip_book_3d{
+  height: 350px;
+  width: 350px;
+}
+.bdp_flip_book_3d nav span.bd-arrows.bd-left-arrow{
+  top: -30px;
+  left: 81%;
+}
+
+.bdp_flip_book_3d nav span.bd-arrows.bd-right-arrow {
+  right: 5% !important;
+  top: -30px;  
+}
+
+.bdp-post-image img{
+  width: 100%;
+}
+.blog_template.bdp_wrapper.flip_book_3d_cover.bdp_archive.flip_book_3d {
+  margin-top: 30px;
+  margin-bottom: 55px;
+}
+.blog_template.slider_template .bdp_flip_book_3d {
+  margin-bottom: 60px !important;
+}
+.flip_book_3d_cover.bdp_archive.flip_book_3d .bdp-author-avatar .author_content{
+  width: auto;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+.bdp_flip_book_3d nav span.bd-arrows.bd-left-arrow{
+  top: -30px;
+  left: 88%;
+}
+.bdp_flip_book_3d nav span.bd-arrows.bd-right-arrow{
+  top: -30px;
+  right: 2% !important;
+}
+}
+
+.bdp_archive .blog_template.slider_template .bdp_flip_book_3d .flex-direction-nav .flex-next, .bdp_archive .post_slider_thumbnail.slider_template .flex-direction-nav .flex-next{
+  right: 1px;
+ color: red;
+  top: 44rem;
+}
+.bdp_archive .blog_template.slider_template .bdp_flip_book_3d  .flex-direction-nav .flex-prev, .bdp_archive .post_slider_thumbnail.slider_template .flex-direction-nav .flex-prev{
+left: 8px !important;
+top: 44rem;
+color: red;
+}
+.blog_template.slider_template .bdp_flip_book_3d, .post_slider_thumbnail.slider_template .flex-control-nav{
+bottom: -46px !important;
+}
+.blog_template.bdp_archive_product_template.bdp_wrapper.flip_book_3d_cover.bdp_archive.flip_book_3d {
+margin-top: 30px;
+margin-bottom: 80px;
+}
+.blog_template.bdp_archive_download_product_template.bdp_wrapper.flip_book_3d_cover.bdp_archive.flip_book_3d{
+margin-top: 30px;
+margin-bottom: 80px;
+}

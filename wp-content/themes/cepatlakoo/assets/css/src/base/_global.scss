@@ -1,0 +1,282 @@
+html {
+	margin: 0 !important;
+}
+
+body {
+	font: $font-body-font;
+    color: $color-body;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    word-break: break-word;
+    min-height: 100vh;
+    max-width: inherit !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    min-width: inherit;
+	opacity: 1 !important;
+	
+	&.menu-opened {
+	    overflow: hidden;
+		#masthead,
+		#main,
+		#colofon {
+		    overflow: hidden;
+		}
+	}
+
+	*:focus {
+		outline: none;
+	}
+}
+
+//
+// @media screen and (min-width: 1px) {
+//   html.admin-bar {
+//     margin-top: 0 !important;
+//   }
+// }
+
+input,
+textarea,
+select {
+	font: $font-body-font;
+    color: $color-body;
+}
+
+a {
+
+	&:link {
+	    text-decoration: none
+	}
+
+	&:hover {
+	    text-decoration: none !important
+	}
+
+	&,
+	.entry-content &,
+	.entry-summary & {
+		color: $color-primary;
+
+		&:hover {
+			color: $color-secondary;
+		}
+	}
+}
+
+p {
+	line-height: 1.4em;
+}
+
+blockquote {
+    color: #9e9e9e;
+    margin: 30px 7%;
+    padding-left: 20px;
+    border-left: 5px solid #ddd;
+
+	&:before,
+	&:after {
+		content: '';
+	}
+}
+
+q {
+	&:before,
+	&:after {
+		content: '';
+	}
+}
+
+pre,
+code {
+    font: .9em/120% 'Courier New', Courier, monospace;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 30px 0;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+
+
+	th {
+	    text-align: left
+	}
+
+	& > thead,
+	& > tbody,
+	& > tfoot {
+		& > tr {
+			& > td,
+			& > th {
+				text-align: left;
+			    padding: 8px;
+			    line-height: 1.42857143;
+			    vertical-align: top;
+			    border-top: 1px solid #dedede;
+			}
+		}
+	}
+
+	&>thead {
+		&>tr {
+			&>th {
+			    text-transform: uppercase;
+			    vertical-align: bottom;
+			    border-top: 1px solid #dedede;
+			    padding: 15px 0;
+			}
+		}
+	}
+	>tbody+tbody {
+	    border-top: 2px solid #dedede
+	}
+}
+
+img,
+embed,
+iframe,
+object,
+video {
+    max-width: 100%
+}
+
+img {
+    height: auto;
+}
+
+.widget ins {
+    text-decoration: none;
+}
+
+.clear {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.clearfix:before,
+.clearfix:after,
+article.hentry:after,
+.row:after,
+.comments-list ul li:after {
+    display: table;
+    content: "";
+    width: 100%;
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.clearfix {
+    width: 100%;
+    clear: both;
+}
+
+.caldera-grid select.form-control,
+.fluentform select {
+    background-position: center right -5px;
+}
+
+select {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>") !important;
+    background-position: center right -20px !important;
+	background-repeat: no-repeat !important;
+	background-size: 9px 6px !important;
+	background-origin: content-box !important;
+	padding-right: 1.875rem !important;
+	appearance: none !important;
+	
+}
+
+.thumbnail {
+    position: relative;
+
+	img {
+	    max-width: 100%;
+	    max-height: 100%;
+	    display: block;
+
+		.comments & {
+		    width: 100%;
+		}
+	}
+}
+
+iframe {
+	.map-holder &,
+	.video-holder & {
+	    width: 100% !important;
+	}
+}
+.table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container {
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+
+	#main-header & {
+	    position: relative;
+	}
+	.container {
+	    width: 100%;
+	    padding: 0;
+	}
+	&.fullwidth {
+	    max-width: inherit;
+	    width: 100%;
+	}
+	&.no-sidebar-container {
+	    max-width: 940px;
+	}
+	&.full-container {
+	    width: auto;
+	    display: block;
+	    max-width: inherit;
+	}
+}
+
+.map {
+    margin-bottom: 30px;
+	iframe {
+	    width: 100% !important;
+	    min-height: 500px;
+	}
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+}
+
+.custom-form-area,
+.elementor-widget-container {
+	ul,
+	ol {
+		padding-left: 15px;
+	}
+}

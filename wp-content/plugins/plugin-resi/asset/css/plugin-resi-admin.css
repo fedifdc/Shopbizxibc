@@ -1,0 +1,101 @@
+input[type='text'], select, textarea {
+	width: 300px;
+}
+
+textarea {
+	height: 100px;
+}
+
+.plugin-resi-extra-courier {
+	max-width: 500px;
+}
+
+.plugin-resi-extra-courier th {
+	text-align: center;
+	padding: 2px;
+}
+
+.plugin-resi-extra-courier td {
+	padding: 2px;
+}
+
+.form-table td {
+	vertical-align: middle;
+}
+
+.form-table th {
+	width: 175px;
+}
+
+.form-table input[type=text], 
+.form-table input[type=number], 
+.form-table select {
+	width: 200px;
+	margin-right: 10px;
+}
+
+label.error{
+    margin-left: 5px;
+    color: red;
+}
+
+.form-table tr th {
+    text-align: left;
+    font-weight: normal;
+}
+
+.form-table ol {
+	margin: 0 10px;
+}
+
+.inside > .form-table > tbody > tr > th,
+.inside > .form-table > tbody > tr > td {
+	padding: 15px 10px 15px 10px;
+}
+
+.meta-subtitle {
+    margin: 0px -22px !important;
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+	background-color: #F6F6F6;
+	padding: 10px;
+	font-size: 14px;		
+}
+
+@media (max-width: 767px) {
+    .meta-subtitle {
+      margin-left: -12px !important;
+    }
+}
+
+label{
+	vertical-align: top
+}
+
+.plugin-resi-extra-courier td {
+	vertical-align: middle !important;
+}
+
+.plugin-resi-extra-courier th {
+	font-weight: bold !important;
+}
+
+.plugin-resi-extra-courier tr > th,
+.plugin-resi-extra-courier tr > td {
+	padding: 5px !important;
+}
+
+#license_status input {
+	width: 200px;
+}
+
+input[type="hidden"] {
+	display: none;
+}
+
+#send_test_notification {
+	display: inline-block;
+    padding: 5px 5px 5px 10px;
+    color: #0085ba;
+    font-weight: bold;
+}

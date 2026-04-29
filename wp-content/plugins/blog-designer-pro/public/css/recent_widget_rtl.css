@@ -1,0 +1,10 @@
+.bdp_recent_post_widget .recent-post-wrapper .recent-post-inner .bdp-metadata {
+    padding-left: 0;
+    padding-right: 75px;
+}
+.bdp_recent_post_widget .recent-post-wrapper .recent-post-inner .bdp-metadata h3 a {
+    box-shadow: none;
+}
+.bdp_recent_post_widget .recent-post-wrapper .recent-post-inner .bdp-metadata span a {
+    box-shadow: none;
+}

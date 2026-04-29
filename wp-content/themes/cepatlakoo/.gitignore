@@ -1,0 +1,17 @@
+bitbucket-pipelines.yml
+
+node_modules
+/node_modules
+/node_modules/
+assets/.DS_Store
+gulpfile.options.js
+.babelrc
+.browserslistrc
+composer.json
+composer.lock
+filelist.json
+gulpfile.js
+gulpfile.md
+gulpfile.options.md
+package.json
+package-lock.json

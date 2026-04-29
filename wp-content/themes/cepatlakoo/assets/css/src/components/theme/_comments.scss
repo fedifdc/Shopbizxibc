@@ -1,0 +1,38 @@
+.comments {
+	ul {
+
+		li .detail,
+		ul.children li {
+		    margin-left: 100px;
+		}
+		li {
+		    margin-bottom: 40px;
+		    width: auto;
+			&:last-child {
+			    margin-bottom: 0;
+			}
+			.thumbnail {
+			    float: left;
+			    width: 70px;
+			    border-radius: 35px;
+			    overflow: hidden;
+			}
+			.detail {
+				h5 {
+				    margin-bottom: 10px;
+				}
+
+				.comment-footer {
+				    padding-top: 15px;
+				    border-top: solid 1px #dedede;
+				    margin-top: 20px;
+
+					p {
+					    float: right;
+					    color: #6666;
+					}
+				}
+			}
+		}
+	}
+}

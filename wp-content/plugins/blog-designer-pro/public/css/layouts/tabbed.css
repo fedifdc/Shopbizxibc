@@ -1,0 +1,271 @@
+.wtl_wrapper {
+    max-width: 1280px;
+    margin: auto;
+	padding: 15px;
+}
+.bdp_wrapper.tabbed_cover {
+    border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+}
+.bdp_blog_single_post_wrapp {
+    display: inline-block;
+    width: 100%;
+}
+div#page-wrap {
+    position: relative;
+}
+.left_side.right-side .rll-youtube-player .play,
+.right_side.left-side .rll-youtube-player .play {
+    display: none !important;
+}
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+    flex-wrap: wrap;
+	border-top: 5px solid #8d6fcf;
+    border-bottom: 1px solid #e5e5e5;
+}
+ul.tabs li a{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px !important;
+	cursor: pointer !important;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none !important;
+}
+ul.tabs li.ui-state-active a{
+	background: #ffffff;
+	color: #8d6fcf;
+}
+.bdp_wrapper.tabbed_cover{
+	background: #ffffff;
+}
+.bdp-tabbed-all-post-content.left-side, .bdp-tabbed-all-post-content.right-side {
+    float: left;
+}
+.bdp-tabbed-all-post-content.left-side.right_side {
+	float: right;
+	border-left: 1px solid #e5e5e5;
+}
+.bdp-img img {
+    max-width: 100%;
+}
+h2.wtl-post-title {
+    margin-bottom: 0px;
+}
+h2.wtl-post-title a {
+    text-decoration: none;
+}
+.bdp-tabbed-all-post-content.left-side h2.wtl-post-title a {
+	text-transform: uppercase;
+    color: #8d6fcf;
+}
+.bdp-tabbed-meta-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bdp-tabbed-meta-content a {
+    color: darkgrey;
+    text-decoration: none;
+}
+.bdp-tabbed-meta-content {
+	color: darkgrey;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+.bdp-tabbed-meta-content a {
+    border-right: 1px solid;
+	padding-right: 0;
+	padding-left: 0;
+	text-transform: capitalize;
+    line-height: 24px;
+}
+.bdp-tabbed-all-post-content.right-side .bdp-post-inner-content {
+    display: flex;
+	border-bottom: 1px solid #e5e5e5;
+}
+.bdp-tabbed-all-post-content.right-side .bdp-post-inner-content .bdp-img {
+	width: 50px;
+	height: 50px;
+}
+.tabbed_cover .bdp_blog_template h3.post-title,
+.tabbed_cover .bdp_blog_template h2.post-title {
+    margin:0;
+}
+.tabbed_cover .left-side .bdp_blog_template h2.post-title {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.bdp-tabbed-all-post-content.right-side .bdp-post-inner-content .post-inner-right {
+    width: calc(100% - 50px)
+}
+.bdp-tabbed-all-post-content.right-side h3.wtl-post-title {
+    margin-top: 0;
+}
+.bdp-tabbed-all-post-content.right-side .wtl-post-title a {
+	color: #000000;
+	font-size: 18px;
+    line-height: 22px;
+}
+.bdp-tabbed-all-post-content.right-side .bdp-post-inner-content .wtl-post-content {
+	display: none;
+}
+.bdp-tabbed-all-post-content.right-side .post-inner-right {
+    padding-left: 15px;
+}
+.bdp-tabbed-meta-content span.bdp-post-date a {
+	padding-right: 0;
+}
+.bdp-tabbed-meta-content span.author a {
+	padding-left: 0;
+	padding-right: 0;
+}
+.bdp-tabbed-all-post-content.right-side .bdp-tabbed-meta-content {
+	margin-bottom: 0px;
+}
+.bdp-tabbed-all-post-content.right-side .bdp-post-inner-content {
+    padding: 15px;
+}
+span.metacomments i {
+    padding-left: 5px;
+}
+.bdp-tabbed-meta-content i {
+	color: #7f7f7f;
+}
+.rating-result a {
+    border-right: 0;
+}
+.prev-tab i, .next-tab i {
+	font-size: 22px;
+}
+.ui-tabs .ui-tabs-nav { 
+	list-style: none; 
+}
+.ui-tabs .ui-tabs-hide { 
+	display: none !important; 
+}
+a.mover { 
+	background: #f6f9fd; 
+	padding: 8px 12px; 
+	position: absolute;
+	color: #000000; 
+	font-weight: bold; 
+	text-decoration: none; 
+}
+.next-tab { 
+	top: 5px; 
+	right: 0; 
+}
+.prev-tab { 
+	top: 5px; 
+	right: 30px; 
+}
+.prev-tab {
+	border-left: 1px solid #e5e5e5;
+}
+.tabbed_cover .bdp_post_content_tabbed .read-more {
+	display: inline-block;
+	width: auto;
+}
+.tabbed_cover .bdp-tabbed-meta-content .bdp-separator{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.right-side.bdp-tabbed-all-post-content img.wp-post-image {
+	min-width: 50px;
+	max-width: 50px;
+	max-height: 50px;
+}
+.right-side.bdp-tabbed-all-post-content .wp-audio-shortcode,
+.right-side.bdp-tabbed-all-post-content .wp-video,
+.right-side.bdp-tabbed-all-post-content .wp-playlist.wp-audio-playlist {
+	min-width: 50px !important;
+	max-width: 50px;
+	max-height: 50px;
+	position: relative;
+    display: inline-block;
+}
+.right-side.bdp-tabbed-all-post-content .bdp-post-image,
+.right-side.bdp-tabbed-all-post-content .bdp-post-image.post-video iframe, 
+.right-side.bdp-tabbed-all-post-content .bdp_wrapper .post-video iframe,
+.right-side.bdp-tabbed-all-post-content .bdp_wrapper .bdp-video .iframe {
+    min-width: 50px;
+	max-width: 50px;
+	max-height: 50px;
+	position: relative;
+    display: inline-block;
+}
+.tabbed_cover .bdp-wrapper-like {
+    padding-left:0;
+}
+@media only screen and (max-width: 767px) {
+	.bdp-tabbed-all-post-content.left-side h2.wtl-post-title,
+	.bdp-tabbed-all-post-content.left-side .bdp-tabbed-meta-content,
+	.bdp-tabbed-all-post-content.left-side .wtl-post-content {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.bdp-tabbed-all-post-content.left-side {
+		border-bottom: 1px solid #e5e5e5;
+		padding: 15px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	li.ui-state-default {
+		display: none;
+	}
+	li.ui-state-default.ui-state-active {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.bdp-tabbed-all-post-content.left-side {
+		width: 50%;
+		padding: 20px 30px 30px 15px;
+	}
+	.bdp-tabbed-all-post-content.right-side.right_side {
+        width: 50%;
+        padding: 0;
+    }
+    .bdp-tabbed-all-post-content.left-side.right_side{
+        width: 50%;
+    }
+	.bdp-tabbed-all-post-content.right-side {
+		width: 50%;
+	}
+	.bdp-tabbed-post-content {
+		display: flex;
+	}
+	.bdp-tabbed-all-post-content.right-side .bdp-post-inner-content {
+		padding: 20px 15px;
+	}
+	.bdp-tabbed-all-post-content.right-side {
+		border-left: 1px solid #e5e5e5;
+	}
+	.bdp-tabbed-all-post-content.left-side {
+		padding: 15px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	a.mover {
+		display: none;
+	}
+	ul.tabs {
+		background: #f6f9fd;
+	}
+	ul.tabs li a {
+		border-right: 1px solid #e5e5e5;
+	}
+}
+
+.bdp-tabbed-all-post-content.right-side {
+	overflow-y: scroll;
+}

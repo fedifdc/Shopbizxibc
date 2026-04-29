@@ -1,0 +1,28 @@
+// Themes main color
+$color-primary: #6A0AAB;
+$color-secondary: #9352C0;
+$color-accent: #FF8E00;
+$color-soft: rgba(226, 253, 255, 1);
+$color-dark: rgba(16, 18, 80, 1);
+$light-grey: #f9f9f9;
+$medium-grey: #abb3bf;
+$color-dark-grey: #6A6B6F;
+$color-text: $color-dark-grey;
+$color-body: $color-text;
+
+// Screen resolutions
+$tablet: 800px;
+$phone: 480px;
+$smaller-phone: 320px;
+
+
+// Fonts Size
+$font-size-body: 16px;
+$default-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+// Fonts Family
+$font-family-body : "Source Sans Pro", $default-font;
+$font-family-title : "Source Sans Pro", $default-font;
+
+$font-body-font : 400 #{$font-size-body}/24px $font-family-body;

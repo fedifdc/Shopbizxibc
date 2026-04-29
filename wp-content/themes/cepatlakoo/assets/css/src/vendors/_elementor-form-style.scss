@@ -1,0 +1,65 @@
+.custom-form-area.style-default {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.custom-form-area.style-default form {
+    text-align: center;
+}
+
+.custom-form-area.style-default form input,
+.custom-form-area.style-default form select,
+.custom-form-area.style-default form textarea {
+    width: auto;
+    display: inline-block;
+}
+
+.custom-form-area.style-default form input[type="submit"],
+.custom-form-area.style-default form button {
+    width: auto;
+    display: inline-block;
+}
+
+.custom-form-area.style-default.button-split form input,
+.custom-form-area.style-default.button-split form select,
+.custom-form-area.style-default.button-split form textarea {
+    width: 100%;
+    display: block;
+}
+
+.custom-form-area.style-default.button-split form input[type="submit"],
+.custom-form-area.style-default.button-split form button {
+    width: 50%;
+    display: inline-block;
+}
+
+.custom-form-area.style-full form input,
+.custom-form-area.style-full form select,
+.custom-form-area.style-full form textarea {
+    width: 100%;
+    display: block;
+}
+
+.custom-form-area.style-full form input[type="submit"],
+.custom-form-area.style-full form button {
+    width: auto;
+    display: inline-block;
+}
+
+.custom-form-area.style-full.button-split form input[type="submit"],
+.custom-form-area.style-full.button-split form button {
+    width: 50%;
+    display: inline-block;
+}
+
+.custom-form-area.style-full form button {
+    margin-top: 25px;
+}
+
+.elementor-editor-active .elementor.elementor-edit-mode .elementor-element.elementor-widget-empty {
+    background: none !important;
+}
+
+.cepatlakoo-slideshow .fullwidth .thumbnail img {
+    width: 100%;
+}

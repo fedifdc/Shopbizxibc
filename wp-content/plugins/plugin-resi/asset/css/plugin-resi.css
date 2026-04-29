@@ -1,0 +1,37 @@
+.column-order_status mark.shipped:after {
+	font-family: WooCommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+	content: "\e019";
+    color: #009933;
+}
+
+.table-plugin-resi th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table-plugin-resi td {
+    padding: 0 0 10px 0;
+}
+
+.table-plugin-resi td input[type='text'],
+.table-plugin-resi td select {
+    width: 100%;
+}
+
+.table-plugin-resi tr.hidden {
+    display: none;
+}

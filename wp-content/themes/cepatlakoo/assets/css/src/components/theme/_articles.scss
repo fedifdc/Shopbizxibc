@@ -1,0 +1,446 @@
+article.hentry {
+	.entrycontent,
+	.elementor-text-editor {
+
+		ul,
+		ol,
+		ul,
+		ol {
+		    list-style-type: inherit;
+		    margin: 20px 0 32px 20px;
+		}
+
+		ul ol,
+		ul ul,
+		ol ul,
+		ol ol,
+		ul ol,
+		ol ul,
+		ul ul,
+		ol ol {
+		    margin: 10px 0 10px 15px;
+		}
+
+		ul>li,
+		ol li ul>li,
+		 ul>li,
+		ol li ul>li {
+		    list-style-type: disc;
+		}
+
+		ol>li,
+		ul li ol>li,
+		ol>li,
+		ul li ol>li {
+		    list-style-type: decimal;
+		}
+		ul li,
+		ul li {
+		    list-style-type: disc;
+		}
+	}
+}
+
+
+
+.gallery-caption,
+.entry-caption {
+    float: left;
+    clear: both;
+    width: 100%;
+    font-size: .8em;
+    line-height: 120%;
+    margin-top: 2px;
+}
+
+.wp-caption {
+    max-width: 100%;
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0 0 2.5em;
+    padding: 0;
+}
+
+img.alignleft,
+.wp-caption.alignleft {
+    float: left;
+    margin: 0 1.5em .5em 0
+}
+
+img.alignright,
+.wp-caption.alignright {
+    float: right;
+    margin: 0 0 .5em 1.5em
+}
+
+.wp-caption.aligncenter {
+    margin: 0 auto .5em auto
+}
+
+.wp-caption p.wp-caption-text {
+    clear: both;
+    font-size: 14px;
+    color: #9a9a9a;
+    margin: 5px 0 0 0;
+}
+
+.wp-caption img.size-full {
+    margin-bottom: 0
+}
+
+p:last-child,
+.entry-content p:last-child {
+    margin-bottom: 0 !important;
+}
+
+.aligncenter {
+    display: block;
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.alignleft {
+    text-align: left;
+}
+
+.alignright {
+    text-align: right;
+}
+
+.alignjustify {
+    text-align: justify;
+}
+
+.archive-title.archive-user .thumbnail {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.archive-title.archive-user .detail {
+    margin-left: 130px;
+}
+
+.archive-title {
+    margin-bottom: 50px;
+}
+
+.archive-tab a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border-bottom: solid 1px #ccc;
+    margin-bottom: -1px;
+}
+
+.archive-tab {
+    margin-bottom: 40px;
+    border-bottom: solid 1px #ccc;
+}
+
+.archive-tab a.active {
+    border-bottom-color: #000;
+}
+
+.postlist article.hentry {
+    margin-bottom: 60px;
+}
+
+.homepage-widget article.hentry,
+.widget article.hentry {
+    margin-bottom: 0;
+}
+
+.postlist article.hentry h3.post-title {
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+#recents-article-widget .postlist article.hentry h3.post-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    min-height: 40px;
+    line-height: 25px;
+}
+
+article.hentry .thumbnail {
+    margin-bottom: 20px;
+}
+
+.postlist article.hentry.column h3.post-title:before {
+    width: 20px;
+    height: 3px;
+}
+
+.homepage-widget .postlist article.hentry h3.post-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.postlist article.hentry h3.post-title {
+    font-size: 28px;
+    margin-bottom: 0;
+    min-height: 40px;
+    line-height: 140%;
+}
+
+article h1.post-title {
+    font-size: 32px;
+}
+
+.postlist article.hentry.column .thumbnail {
+    margin-bottom: 20px;
+}
+
+.postlist article.hentry.column .thumbnail img {
+    width: 100%;
+}
+
+.postlist article.hentry .detail {
+    margin-bottom: 20px;
+}
+
+.postlist article.hentry .entry-meta {
+    margin: 10px 0 20px 0;
+}
+
+p.tags {
+    margin: 40px 0 20px 0;
+}
+
+p.tags a {
+    background-color: #ededed;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 5px 5px 0;
+    padding: 5px 10px;
+}
+
+.homepage-widget .postlist article.hentry .entry-meta {
+    margin-bottom: 0;
+}
+ 
+article.hentry .entry-meta span,
+.comment-footer span.meta {
+    display: inline-block; 
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #aaa;
+    font-size: 12px;
+    margin-right: 20px;
+	letter-spacing: 1px;
+	
+}
+
+.comment-footer span.meta {
+	svg {
+		display: inline-block;
+		vertical-align: middle;
+		height: 16px;
+		width: 16px;
+		margin-right: 6px;
+
+		path {
+			fill: #aaaaaa;
+		}
+	}
+}
+
+#colofon .entry-meta span {
+	color: #ffffff;
+}
+  
+article.hentry .entry-meta span {
+    svg {
+		display: inline-block;
+		vertical-align: middle;
+		width: 15px;
+		height: 15px;
+		margin-right: 5px;
+	}
+} 
+
+
+
+.entry-content,
+.entry-summary,
+.textwidget{
+	font-size: 16px;
+	
+	&:after {
+		content: '';
+		display: table;
+		width: 100%;
+	}
+
+	p {
+	    margin-bottom: 1.6rem;
+	}
+
+	a {
+	    color: $color-primary;
+
+		&:hover {
+		    color: $color-secondary;
+		}
+	}
+
+	quote,
+	blockquote {
+	    font-size: 20px;
+	    padding: 20px 30px;
+	    display: block;
+	    border-left: solid 4px $color-primary;
+	    margin-bottom: 30px;
+
+		cite {
+		    display: block;
+		    font-size: 14px;
+		    color: #bfbfbf;
+		}
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-bottom: 20px;
+	}
+	h1 {
+		font-size: 36px;
+	}
+	h2 {
+		font-size: 28px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	h5 {
+		font-size: 18px;
+	}
+	h6 {
+		font-size: 16px;
+	}
+	ul,
+	ol {
+		list-style-type: inherit;
+		ul,
+		ol {
+			margin: 0 0 15px 20px;
+		}
+	}
+	ul {
+		margin: 20px 0 32px 15px;
+	}
+	ol {
+		margin: 20px 0 32px 15px;
+	}
+
+	ul > li,
+	ol li ul > li {
+		list-style-type: disc;
+		margin-bottom: 3px;
+	}
+
+	ol > li,
+	ul li ol > li {
+		list-style-type: decimal;
+		margin-bottom: 3px;
+	}
+	ul li {
+		list-style-type: disc;
+	}
+}
+
+.article-widget {
+	padding: 1.5rem 0;
+	
+	@media screen and (max-width: 640px) {
+		padding: 15px 0;
+	}
+
+	article & {
+	    padding-top: 60px;
+	}
+}
+
+.post-navigation {
+	ul {
+
+		&:after,
+		li:after {
+			content: '';
+			display: table;
+			width: 100%;
+		}
+		li {
+		    float: right;
+		    width: 45%;
+
+			.thumbnail {
+			    float: right;
+			    width: 70px;
+			    margin-left: 20px;
+			}
+
+			&:first-child,
+			&:first-child .thumbnail {
+			    float: left;
+			    margin-right: 20px;
+			    margin-left: 0;
+			}
+
+			&:first-child .detail {
+			    margin-right: 0;
+			    text-align: left;
+			}
+
+			.detail {
+			    text-align: right;
+				h3 {
+				    margin-top: 0;
+				    font-size: 15px;
+				}
+
+				> a {
+				    font-weight: 500;
+				    text-transform: uppercase;
+				    font-size: 12px;
+				}
+			}
+		}
+	}
+}
+
+.share-article-widget {
+    text-align: center;
+    border-bottom: solid 1px #dedede;
+    padding-bottom: 30px;
+    display: block;
+    margin-top: -35px;
+
+	ul {
+	    margin-top: 30px;
+
+		li {
+			a {
+			    padding: 10px;
+			    font-size: 32px;
+			    color: #b4b4b4;
+			}
+		}
+	}
+}
