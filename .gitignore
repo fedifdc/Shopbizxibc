@@ -15,6 +15,7 @@ wp-content/wp-cache-config.php
 
 # Common ignores
 *.log
+*.zip
 .DS_Store
 Thumbs.db
 .env
