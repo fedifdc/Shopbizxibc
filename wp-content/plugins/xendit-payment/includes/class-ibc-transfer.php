@@ -113,7 +113,8 @@ class IBC_Transfer {
      */
     private function bcdec_to_hex($dec) {
         $hex = '';
-        $dec = rtrim($dec, '.0');
+        // Ensure we only process the integer part, safely stripping decimals without removing trailing zeros
+        $dec = explode('.', strval($dec))[0];
         if ($dec === '' || $dec === '0') return '0';
         while (bccomp($dec, '0') > 0) {
             $remainder = bcmod($dec, '16');
