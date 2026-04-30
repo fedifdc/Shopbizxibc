@@ -6786,10 +6786,27 @@ function affiliator_withdraw_shortcode() {
         return '<p style="color: red;">Harap isi terlebih dahulu data Bank dan No. Rekening Anda di Profil</p>';
     }
     $saldo = $user_data->sisa_voucher;
+
+    // Get IBC bonus info
+    $options_ibc = get_option('xendit_payment_settings');
+    $ibc_bonus_pct = isset($options_ibc['ibc_bonus_percentage']) ? floatval($options_ibc['ibc_bonus_percentage']) : 0;
+    $ibc_price = isset($options_ibc['ibc_token_price_idr']) ? floatval($options_ibc['ibc_token_price_idr']) : 0;
+    $has_bsc_wallet = !empty($user_data->bsc_wallet_address);
+
     $output = '<div style="max-width: 100%; margin: auto; border-radius: 8px; ">';
-    // <strong style="color: red;">(Dalam Pemeliharaan)</strong></h2>'
     $output .= '<h2 style="text-align: center; color: #333;">Request Withdraw';
     $output .= '<p style="text-align: center; font-size: 16px;">Saldo Anda: <strong style="color: green;">Rp. ' . number_format($saldo) . '</strong></p>';
+
+    // IBC Bonus info banner
+    if ($ibc_bonus_pct > 0 && $ibc_price > 0) {
+        $output .= '<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px; border-radius: 8px; margin: 15px 0; text-align: center;">';
+        $output .= '<p style="margin: 0; font-size: 14px;">🎁 <strong>Bonus IBC Token ' . $ibc_bonus_pct . '%</strong> untuk setiap withdraw!</p>';
+        $output .= '<p style="margin: 5px 0 0; font-size: 12px; opacity: 0.9;">Harga IBC: Rp ' . number_format($ibc_price) . '/token</p>';
+        if (!$has_bsc_wallet) {
+            $output .= '<p style="margin: 8px 0 0; font-size: 12px; background: rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 4px;">⚠️ Isi BSC Wallet Address di <a href="' . site_url('/dasbor/?hal=profil') . '" style="color: #ffd700;">Profil</a> untuk menerima bonus IBC</p>';
+        }
+        $output .= '</div>';
+    }
 
     if (isset($_POST['request_withdraw']) && is_numeric($_POST['amount'])) {
         $amount = intval(str_replace('.', '', $_POST['amount']));
@@ -6837,7 +6854,23 @@ function affiliator_withdraw_shortcode() {
                     style: "decimal",
                     minimumFractionDigits: 0
                 }).format(value);
+                updateIbcPreview(value);
             });
+
+            function updateIbcPreview(amount) {
+                var previewEl = document.getElementById("ibc-bonus-preview");
+                if (!previewEl) return;
+                var bonusPct = ' . $ibc_bonus_pct . ';
+                var ibcPrice = ' . $ibc_price . ';
+                if (bonusPct <= 0 || ibcPrice <= 0 || !amount || amount <= 0) {
+                    previewEl.style.display = "none";
+                    return;
+                }
+                var bonusIdr = amount * (bonusPct / 100);
+                var ibcAmount = bonusIdr / ibcPrice;
+                previewEl.innerHTML = "🎁 Bonus: <strong>" + ibcAmount.toFixed(2) + " IBC</strong> (senilai Rp " + new Intl.NumberFormat("id-ID").format(bonusIdr) + ")";
+                previewEl.style.display = "block";
+            }
 
             document.querySelector("form").addEventListener("submit", function() {
                 amountInput.value = amountInput.value.replace(/\D/g, "");
@@ -6845,6 +6878,12 @@ function affiliator_withdraw_shortcode() {
             });
         });
     </script>';
+
+    // IBC Bonus preview area
+    if ($ibc_bonus_pct > 0 && $ibc_price > 0) {
+        $output .= '<div id="ibc-bonus-preview" style="display:none; margin: 10px 0; padding: 10px; background: #f0f0ff; border-radius: 5px; color: #333; font-size: 14px;"></div>';
+    }
+
     $output .= '<br>';
     $output .= '<input type="submit" name="request_withdraw" value="Ajukan Withdraw" style="background: darkorange; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px;">';
     $output .= '<div id="loading-animation" style="display: none; margin-top: 10px;">
@@ -6896,6 +6935,19 @@ function affiliator_withdraw_shortcode() {
             // Status
             $output .= '<div style="margin-top: 5px; text-align: right; font-weight: bold; color: ' . $status_color . ';">' . ucfirst($withdraw->status) . '</div>';
     
+            // IBC Token Bonus info
+            if (isset($withdraw->ibc_token_amount) && $withdraw->ibc_token_amount > 0) {
+                $ibc_status_color = ($withdraw->ibc_status == 'completed') ? '#667eea' : (($withdraw->ibc_status == 'failed') ? 'red' : 'gray');
+                $output .= '<div style="margin-top: 8px; padding: 8px; background: #f0f0ff; border-radius: 4px; font-size: 13px;">';
+                $output .= '<span style="color: #667eea;">🪙 Bonus IBC: <strong>' . number_format($withdraw->ibc_token_amount, 2) . ' IBC</strong></span>';
+                if (!empty($withdraw->ibc_tx_hash)) {
+                    $tx_short = substr($withdraw->ibc_tx_hash, 0, 10) . '...' . substr($withdraw->ibc_tx_hash, -6);
+                    $output .= ' | <a href="https://bscscan.com/tx/' . esc_attr($withdraw->ibc_tx_hash) . '" target="_blank" style="color:#667eea;">' . $tx_short . '</a>';
+                }
+                $output .= ' <span style="color:' . $ibc_status_color . '; font-weight:bold;">(' . ucfirst($withdraw->ibc_status) . ')</span>';
+                $output .= '</div>';
+            }
+
             $output .= '</div>'; // Close withdrawal-item div
         }
     
@@ -6991,7 +7043,7 @@ function cbaf_withdraw_request(){
 
     echo '<table class="wp-list-table widefat fixed striped">';
     echo '<thead><tr>';
-    echo '<th></th><th>Kode Referensi</th><th>User ID</th><th>Username</th><th>Jumlah</th><th>Metode Pembayaran</th><th>Account Number</th><th>Status</th><th>Tanggal</th>';
+    echo '<th></th><th>Kode Referensi</th><th>User ID</th><th>Username</th><th>Jumlah</th><th>Metode Pembayaran</th><th>Account Number</th><th>IBC Bonus</th><th>Status</th><th>Tanggal</th>';
     echo '</tr></thead><tbody>';
 
     if (!empty($withdraws)) {
@@ -7010,12 +7062,26 @@ function cbaf_withdraw_request(){
             echo '<td>Rp. ' . number_format($withdraw['amount']) . '</td>';
             echo '<td>' . esc_html($withdraw['payment_method']) . '</td>';
             echo '<td>' . esc_html($withdraw['account_number']) . '</td>';
+            // IBC Bonus column
+            $ibc_amt = isset($withdraw['ibc_token_amount']) ? floatval($withdraw['ibc_token_amount']) : 0;
+            $ibc_st = isset($withdraw['ibc_status']) ? $withdraw['ibc_status'] : 'none';
+            $ibc_tx = isset($withdraw['ibc_tx_hash']) ? $withdraw['ibc_tx_hash'] : '';
+            if ($ibc_amt > 0) {
+                $ibc_color = ($ibc_st == 'completed') ? 'green' : (($ibc_st == 'failed') ? 'red' : 'gray');
+                echo '<td>' . number_format($ibc_amt, 2) . ' IBC<br><span style="color:' . $ibc_color . ';font-size:11px;">' . ucfirst($ibc_st) . '</span>';
+                if (!empty($ibc_tx)) {
+                    echo '<br><a href="https://bscscan.com/tx/' . esc_attr($ibc_tx) . '" target="_blank" style="font-size:10px;">TX↗</a>';
+                }
+                echo '</td>';
+            } else {
+                echo '<td style="color:gray;font-size:12px;">-</td>';
+            }
             echo '<td>' . esc_html($withdraw['status']) . '</td>';
             echo '<td>' . esc_html($withdraw['created_at']) . '</td>';
             echo '</tr>';
         }
     } else {
-        echo '<tr><td colspan="9" style="text-align:center;">No withdraw requests found.</td></tr>';
+        echo '<tr><td colspan="10" style="text-align:center;">No withdraw requests found.</td></tr>';
     }
 
     echo '</tbody></table>';

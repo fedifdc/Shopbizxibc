@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Shopbiz Xendit Payout
+Plugin Name: Shopbiz Xendit Payout + IBC Token
 Plugin URI: https://example.com/xendit-payment
-Description: A payment gateway plugin for Xendit.
-Version: 1.0.0
+Description: Payment gateway plugin for Xendit with IBC Token (BSC) bonus on withdrawals.
+Version: 2.0.0
 Author: Ruli Setiawan
 Author URI: https://example.com
 License: GPL2
@@ -17,6 +17,7 @@ if (!defined('ABSPATH')) {
 require_once plugin_dir_path(__FILE__) . 'includes/api.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-payout-request.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-request-xendit.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-ibc-transfer.php';
 // Main plugin class
 class Xendit_Payment_Gateway {
     public function __construct() {
@@ -44,18 +45,36 @@ function approve_withdraw_requests() {
 
     $ids = $_POST['ids'];
     $payout_request = new Payout_Request();
+    $ibc_transfer = new IBC_Transfer();
+    $results = [];
 
     foreach ($ids as $id) {
+        $result = ['id' => $id, 'xendit' => 'pending', 'ibc' => 'skipped'];
+
+        // 1. Xendit Disbursement (existing flow)
         try {
             $response = $payout_request->create_payout($id);
-            
+            $result['xendit'] = 'sent';
         } catch (Exception $e) {
-            wp_send_json_error('Error creating payout: ' . $e->getMessage());
+            $result['xendit'] = 'error: ' . $e->getMessage();
+            error_log('Xendit payout error for WD#' . $id . ': ' . $e->getMessage());
         }
-        
+
+        // 2. IBC Token Bonus Transfer (new)
+        if ($ibc_transfer->is_enabled()) {
+            try {
+                $ibc_result = process_ibc_bonus_for_withdraw($id, $ibc_transfer);
+                $result['ibc'] = $ibc_result['success'] ? 'sent' : ('error: ' . $ibc_result['error']);
+            } catch (Exception $e) {
+                $result['ibc'] = 'error: ' . $e->getMessage();
+                error_log('IBC transfer error for WD#' . $id . ': ' . $e->getMessage());
+            }
+        }
+
+        $results[] = $result;
     }
 
-    wp_send_json_success('Requests approved successfully');
+    wp_send_json_success(['message' => 'Requests processed', 'details' => $results]);
 }
 
 
@@ -235,5 +254,135 @@ function get_xendit_balance() {
         // Send an error response if there was an issue
         wp_send_json_error('Error fetching balance: ' . $e->getMessage());
     }
+}
+
+/**
+ * Process IBC token bonus for a withdraw request
+ */
+function process_ibc_bonus_for_withdraw($withdraw_id, $ibc_transfer = null) {
+    global $wpdb;
+
+    if (!$ibc_transfer) {
+        $ibc_transfer = new IBC_Transfer();
+    }
+
+    if (!$ibc_transfer->is_enabled()) {
+        return ['success' => false, 'error' => 'IBC not enabled'];
+    }
+
+    // Get withdraw request data
+    $wd = $wpdb->get_row($wpdb->prepare(
+        "SELECT wr.*, m.bsc_wallet_address 
+         FROM cb_withdraw_requests wr 
+         JOIN wp_member m ON wr.user_id = m.idwp 
+         WHERE wr.id = %d",
+        $withdraw_id
+    ));
+
+    if (!$wd) {
+        return ['success' => false, 'error' => 'Withdraw request not found'];
+    }
+
+    if (empty($wd->bsc_wallet_address)) {
+        // Update IBC status in DB
+        $wpdb->update('cb_withdraw_requests', 
+            ['ibc_status' => 'skipped', 'ibc_error' => 'No BSC wallet address'],
+            ['id' => $withdraw_id]
+        );
+        return ['success' => false, 'error' => 'Member has no BSC wallet address'];
+    }
+
+    // Calculate IBC bonus
+    $ibc_amount = $ibc_transfer->calculate_ibc_amount($wd->amount);
+    $ibc_price = $ibc_transfer->get_ibc_price_idr();
+    $bonus_pct = $ibc_transfer->get_bonus_percentage();
+
+    if ($ibc_amount <= 0) {
+        return ['success' => false, 'error' => 'IBC amount is 0'];
+    }
+
+    // Update DB with IBC details before transfer
+    $wpdb->update('cb_withdraw_requests', [
+        'ibc_token_amount' => $ibc_amount,
+        'ibc_token_price' => $ibc_price,
+        'ibc_bonus_percentage' => $bonus_pct,
+        'ibc_wallet_address' => $wd->bsc_wallet_address,
+        'ibc_status' => 'processing',
+    ], ['id' => $withdraw_id]);
+
+    // Execute transfer
+    $result = $ibc_transfer->transfer_tokens($wd->bsc_wallet_address, $ibc_amount, $withdraw_id);
+
+    // Update DB with result
+    $wpdb->update('cb_withdraw_requests', [
+        'ibc_tx_hash' => $result['tx_hash'] ?? '',
+        'ibc_status' => $result['success'] ? 'completed' : 'failed',
+        'ibc_error' => $result['error'] ?? '',
+    ], ['id' => $withdraw_id]);
+
+    return $result;
+}
+
+/**
+ * AJAX: Get IBC hot wallet info (admin only)
+ */
+add_action('wp_ajax_get_ibc_wallet_info', 'get_ibc_wallet_info');
+function get_ibc_wallet_info() {
+    if (!current_user_can('manage_options')) {
+        wp_send_json_error('Unauthorized');
+    }
+
+    try {
+        $ibc = new IBC_Transfer();
+        wp_send_json_success([
+            'bnb_balance' => $ibc->get_bnb_balance(),
+            'ibc_balance' => $ibc->get_ibc_balance(),
+        ]);
+    } catch (Exception $e) {
+        wp_send_json_error($e->getMessage());
+    }
+}
+
+/**
+ * Run DB migration for IBC columns on plugin activation
+ */
+register_activation_hook(__FILE__, 'xendit_ibc_db_migration');
+add_action('admin_init', 'xendit_ibc_check_db_version');
+
+function xendit_ibc_check_db_version() {
+    if (get_option('xendit_ibc_db_version') !== '2.0') {
+        xendit_ibc_db_migration();
+    }
+}
+
+function xendit_ibc_db_migration() {
+    global $wpdb;
+
+    // Add IBC columns to cb_withdraw_requests
+    $table = 'cb_withdraw_requests';
+    $columns_to_add = [
+        'ibc_token_amount' => 'DECIMAL(20,8) DEFAULT 0',
+        'ibc_token_price' => 'DECIMAL(15,2) DEFAULT 0',
+        'ibc_bonus_percentage' => 'DECIMAL(5,2) DEFAULT 0',
+        'ibc_wallet_address' => 'VARCHAR(100) DEFAULT NULL',
+        'ibc_tx_hash' => 'VARCHAR(100) DEFAULT NULL',
+        'ibc_status' => "VARCHAR(20) DEFAULT 'none'",
+        'ibc_error' => 'TEXT DEFAULT NULL',
+    ];
+
+    foreach ($columns_to_add as $col => $def) {
+        $check = $wpdb->get_results("SHOW COLUMNS FROM `{$table}` LIKE '{$col}'");
+        if (empty($check)) {
+            $wpdb->query("ALTER TABLE `{$table}` ADD COLUMN `{$col}` {$def}");
+        }
+    }
+
+    // Add bsc_wallet_address to wp_member
+    $check = $wpdb->get_results("SHOW COLUMNS FROM `wp_member` LIKE 'bsc_wallet_address'");
+    if (empty($check)) {
+        $wpdb->query("ALTER TABLE `wp_member` ADD COLUMN `bsc_wallet_address` VARCHAR(100) DEFAULT NULL");
+    }
+
+    update_option('xendit_ibc_db_version', '2.0');
 }
 ?>

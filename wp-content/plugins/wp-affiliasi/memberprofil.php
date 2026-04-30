@@ -109,6 +109,14 @@ if (is_numeric($getmember->id_user) && $getmember->id_user > 0) {
 		if (isset($_POST['bank'])) { $updatedb .= "`bank`= '".sanitize_text_field($_POST['bank'])."',"; }
 		if (isset($_POST['rekening'])) { $updatedb .= "`rekening`= '".sanitize_text_field($_POST['rekening'])."',"; }
 		if (isset($_POST['ac'])) { $updatedb .= "`ac`= '".sanitize_text_field($_POST['ac'])."',"; }
+		if (isset($_POST['bsc_wallet_address'])) { 
+			$bsc_wallet = sanitize_text_field($_POST['bsc_wallet_address']);
+			if ($bsc_wallet !== '' && !preg_match('/^0x[a-fA-F0-9]{40}$/', $bsc_wallet)) {
+				$txterror .= 'Alamat BSC Wallet tidak valid. Format: 0x... (42 karakter)<br/>';
+			} else {
+				$updatedb .= "`bsc_wallet_address`= '".$bsc_wallet."',";
+			}
+		}
 		//if (isset($_POST['pic_profil'])) { $lainlain['pic_profil'] = sanitize_text_field($_POST['pic_profil']); }
 		if (isset($_POST['customwhatsapp'])) { $lainlain['whatsapp'] = sanitize_text_field($_POST['customwhatsapp']); }
 		
@@ -540,6 +548,14 @@ if (is_numeric($getmember->id_user) && $getmember->id_user > 0) {
 				$cc++;
 			}
 		}
+
+		$showtxt .= '<div class="cbform-row">
+			<label class="cbform-label">BSC Wallet Address</label>
+			<div class="cbform-field">
+				<input type="text" class="cbform-input" name="bsc_wallet_address" value="'.esc_attr($user->bsc_wallet_address ?? '').'" placeholder="0x..." />
+				<small>Alamat wallet BSC Anda untuk menerima bonus IBC Token saat withdraw. Contoh: 0x1234...abcd</small>
+			</div>
+		</div>';
 
 		$showtxt .= '<div class="cbform-row"><input type="submit" class="cbform-button btn btn-success button button-success" style="background-color:darkorange; color:white;" value="Update"/></div>
 		</form>

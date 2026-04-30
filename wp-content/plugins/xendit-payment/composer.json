@@ -1,0 +1,10 @@
+{
+    "name": "shopbiz/xendit-payment",
+    "description": "Xendit Payment + IBC Token BSC Integration",
+    "require": {
+        "php": ">=8.0",
+        "kornrunner/keccak": "^1.1",
+        "simplito/elliptic-php": "^1.0",
+        "web3p/rlp": "^0.3"
+    }
+}
