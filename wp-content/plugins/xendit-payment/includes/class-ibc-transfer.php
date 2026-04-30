@@ -190,23 +190,25 @@ class IBC_Transfer {
         $private_key = str_replace('0x', '', $this->hot_wallet_private_key);
 
         // Build unsigned tx fields for RLP encoding
+        // IMPORTANT: web3p/rlp strips leading zero bytes from binary input.
+        // Always pass 0x-prefixed hex strings to preserve leading zeros (e.g. contract 0x0e59...).
         $tx_data = [
-            $this->int_to_hex_rlp($nonce),
-            $this->int_to_hex_rlp($gas_price),
-            $this->int_to_hex_rlp($gas_limit),
-            $this->hex_to_bin($to),
-            $this->int_to_hex_rlp($value),
-            $this->hex_to_bin($data),
-            $this->int_to_hex_rlp($this->chain_id),
-            '',
-            '',
+            $this->int_to_0xhex($nonce),
+            $this->int_to_0xhex($gas_price),
+            $this->int_to_0xhex($gas_limit),
+            $to, // 0x-prefixed hex string
+            $this->int_to_0xhex($value),
+            $data, // 0x-prefixed hex string
+            $this->int_to_0xhex($this->chain_id),
+            '0x',
+            '0x',
         ];
 
-        // RLP encode
+        // RLP encode — returns a hex string
         $rlp = new RLP();
         $encoded = $rlp->encode($tx_data);
 
-        // Keccak256 hash
+        // Keccak256 hash — encoded is hex, convert to binary first
         $hash = Keccak::hash(hex2bin($encoded), 256);
 
         // ECDSA sign
@@ -214,21 +216,21 @@ class IBC_Transfer {
         $key = $ec->keyFromPrivate($private_key);
         $signature = $key->sign($hash, ['canonical' => true]);
 
-        $r = $signature->r->toString(16);
-        $s = $signature->s->toString(16);
+        $r = str_pad($signature->r->toString(16), 64, '0', STR_PAD_LEFT);
+        $s = str_pad($signature->s->toString(16), 64, '0', STR_PAD_LEFT);
         $v = $signature->recoveryParam + ($this->chain_id * 2 + 35);
 
-        // Build signed tx
+        // Build signed tx with 0x-prefixed hex strings
         $signed_tx_data = [
-            $this->int_to_hex_rlp($nonce),
-            $this->int_to_hex_rlp($gas_price),
-            $this->int_to_hex_rlp($gas_limit),
-            $this->hex_to_bin($to),
-            $this->int_to_hex_rlp($value),
-            $this->hex_to_bin($data),
-            $this->int_to_hex_rlp($v),
-            hex2bin(str_pad($r, 64, '0', STR_PAD_LEFT)),
-            hex2bin(str_pad($s, 64, '0', STR_PAD_LEFT)),
+            $this->int_to_0xhex($nonce),
+            $this->int_to_0xhex($gas_price),
+            $this->int_to_0xhex($gas_limit),
+            $to, // 0x-prefixed hex string
+            $this->int_to_0xhex($value),
+            $data, // 0x-prefixed hex string
+            $this->int_to_0xhex($v),
+            '0x' . $r,
+            '0x' . $s,
         ];
 
         $signed_encoded = $rlp->encode($signed_tx_data);
@@ -241,17 +243,20 @@ class IBC_Transfer {
     }
 
     /**
-     * Convert integer to binary for RLP
+     * Convert integer to 0x-prefixed hex string for RLP encoding.
+     * web3p/rlp strips leading zero bytes from binary input, so we pass
+     * 0x-prefixed hex strings instead to preserve all bytes.
      */
-    private function int_to_hex_rlp($val) {
-        if ($val === 0 || $val === '0') return '';
+    private function int_to_0xhex($val) {
+        if ($val === 0 || $val === '0' || $val === '') return '0x';
         $hex = dechex($val);
         if (strlen($hex) % 2 !== 0) $hex = '0' . $hex;
-        return hex2bin($hex);
+        return '0x' . $hex;
     }
 
     /**
-     * Convert hex string to binary
+     * Convert hex string to binary — DEPRECATED, kept for backward compat.
+     * Prefer passing 0x-prefixed hex strings directly to RLP.
      */
     private function hex_to_bin($hex) {
         $hex = str_replace('0x', '', $hex);
