@@ -6808,8 +6808,10 @@ function affiliator_withdraw_shortcode() {
         $output .= '</div>';
     }
 
-    if (isset($_POST['request_withdraw']) && is_numeric($_POST['amount'])) {
-        $amount = intval(str_replace('.', '', $_POST['amount']));
+    if (isset($_POST['request_withdraw']) && isset($_POST['amount'])) {
+        $amount_clean = str_replace('.', '', $_POST['amount']);
+        if (is_numeric($amount_clean)) {
+            $amount = intval($amount_clean);
         if ($amount > 0 && $amount <= $saldo) {
             $options = get_option('xendit_payment_settings');
             $fee = isset($options['fee']) ? esc_attr($options['fee']) : 10000;
@@ -6837,7 +6839,7 @@ function affiliator_withdraw_shortcode() {
         } else {
             $output .= '<p style="color: red; font-weight: bold; text-align: center;">Jumlah withdraw tidak valid.</p>';
         }
-       
+        } // close is_numeric condition
     }
     $options = get_option('xendit_payment_settings');
     $fee = isset($options['fee']) ? esc_attr($options['fee']) : 10000;
