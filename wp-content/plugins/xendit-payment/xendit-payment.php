@@ -333,15 +333,45 @@ function get_ibc_wallet_info() {
     }
 
     try {
+        // Check if class exists
+        if (!class_exists('IBC_Transfer')) {
+            wp_send_json_error('Class IBC_Transfer tidak ditemukan. Cek file class-ibc-transfer.php');
+        }
+
         $ibc = new IBC_Transfer();
+
+        // Check if enabled
+        if (!$ibc->is_enabled()) {
+            $options = get_option('xendit_payment_settings');
+            $debug = [];
+            if (empty($options['ibc_token_contract'])) $debug[] = 'Contract Address kosong';
+            if (empty($options['bsc_hot_wallet_address'])) $debug[] = 'Hot Wallet Address kosong';
+            if (empty($options['bsc_hot_wallet_private_key'])) $debug[] = 'Private Key kosong';
+            if (empty($options['ibc_bonus_percentage']) || $options['ibc_bonus_percentage'] <= 0) $debug[] = 'Bonus % = 0';
+            if (empty($options['ibc_token_price_idr']) || $options['ibc_token_price_idr'] <= 0) $debug[] = 'Harga IBC = 0';
+
+            wp_send_json_success([
+                'bnb_balance' => 'N/A (Belum dikonfigurasi)',
+                'ibc_balance' => 'N/A',
+                'warning' => implode(', ', $debug),
+            ]);
+        }
+
+        $bnb = $ibc->get_bnb_balance();
+        $ibc_bal = $ibc->get_ibc_balance();
+
         wp_send_json_success([
-            'bnb_balance' => $ibc->get_bnb_balance(),
-            'ibc_balance' => $ibc->get_ibc_balance(),
+            'bnb_balance' => $bnb,
+            'ibc_balance' => $ibc_bal,
         ]);
+
     } catch (Exception $e) {
-        wp_send_json_error($e->getMessage());
+        wp_send_json_error('Exception: ' . $e->getMessage());
+    } catch (Error $e) {
+        wp_send_json_error('Error: ' . $e->getMessage() . ' di ' . $e->getFile() . ':' . $e->getLine());
     }
 }
+
 
 /**
  * Run DB migration for IBC columns on plugin activation

@@ -168,16 +168,18 @@ function ibc_wallet_info_callback() {
                 success: function(response) {
                     if (response.success) {
                         var d = response.data;
-                        $('#ibc-wallet-info').html(
-                            '<strong>BNB:</strong> ' + d.bnb_balance + ' BNB<br>' +
-                            '<strong>IBC Token:</strong> ' + d.ibc_balance + ' IBC'
-                        );
+                        var html = '<strong>BNB:</strong> ' + d.bnb_balance + ' BNB<br>' +
+                                   '<strong>IBC Token:</strong> ' + d.ibc_balance + ' IBC';
+                        if (d.warning) {
+                            html += '<br><span style=\"color:orange;\">⚠️ Konfigurasi belum lengkap: ' + d.warning + '</span>';
+                        }
+                        $('#ibc-wallet-info').html(html);
                     } else {
-                        $('#ibc-wallet-info').html('<span style=\"color:red\">Error: ' + response.data + '</span>');
+                        $('#ibc-wallet-info').html('<span style=\"color:red\">❌ Error: ' + response.data + '</span>');
                     }
                 },
-                error: function() {
-                    $('#ibc-wallet-info').html('<span style=\"color:red\">Gagal mengambil data</span>');
+                error: function(xhr) {
+                    $('#ibc-wallet-info').html('<span style=\"color:red\">❌ AJAX gagal (HTTP ' + xhr.status + '): ' + xhr.responseText.substring(0, 200) + '</span>');
                 }
             });
         });

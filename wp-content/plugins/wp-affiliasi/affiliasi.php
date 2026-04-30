@@ -21,6 +21,9 @@ if ($wpdb->get_var("show tables like 'wp_member'")) {
 	if (substr($blogurl,0,4) == 'www.') {
 		$blogurl = substr($blogurl, 4);
 	}
+	
+	// FIX: Extract only the domain part from blogurl to handle subfolder installations (like localhost/shopbiz)
+	$blogdomain = explode('/', $blogurl)[0];
 
 	if (isset($_GET['reg']) && $_GET['reg'] != '') { # Handle URL REG
 		// cari member dg reg itu
@@ -36,8 +39,8 @@ if ($wpdb->get_var("show tables like 'wp_member'")) {
 		} elseif (isset($options['salahlink']) && is_numeric($options['salahlink']) && $options['salahlink'] != 0) {
 			header("Location:".site_url()."/?page_id=".$options['salahlink']."&sponsor=no");
 		}	
-	} elseif ($url != $blogurl) { # Handle URL Subdomain
-		$wpaffsub = str_replace('.'.$blogurl, '', $url);
+	} elseif ($url != $blogdomain) { # Handle URL Subdomain
+		$wpaffsub = str_replace('.'.$blogdomain, '', $url);
 		$datasponsor = $wpdb->get_row("SELECT * FROM `wp_member` WHERE `subdomain`='".$wpaffsub."'",ARRAY_A);
 		if (isset($datasponsor['idwp']) && is_numeric($datasponsor['idwp'])) {
 			if (isset($options['khususpremium']) && $options['khususpremium'] == 1) {

@@ -86,6 +86,9 @@ class IBC_Transfer {
         curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
         curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
         curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        // Bypass SSL verification for local WAMP environments
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 
         $response = curl_exec($ch);
         if (curl_errno($ch)) {
@@ -254,17 +257,30 @@ class IBC_Transfer {
     }
 
     /**
+     * Convert large hex string to decimal using BCMath
+     */
+    private function bchexdec($hex) {
+        $hex = strtolower(trim($hex));
+        if ($hex === '') return '0';
+        $dec = '0';
+        $len = strlen($hex);
+        for ($i = 1; $i <= $len; $i++) {
+            $dec = bcadd($dec, bcmul(strval(hexdec($hex[$i - 1])), bcpow('16', strval($len - $i))));
+        }
+        return $dec;
+    }
+
+    /**
      * Get hot wallet BNB balance (for gas fees)
      */
     public function get_bnb_balance() {
         try {
             $result = $this->rpc_call('eth_getBalance', [$this->hot_wallet_address, 'latest']);
             $hex = str_replace('0x', '', $result);
-            // Convert hex wei to BNB (divide by 1e18)
-            $wei = base_convert($hex, 16, 10);
+            $wei = $this->bchexdec($hex);
             return bcdiv($wei, bcpow('10', '18', 0), 6);
         } catch (Exception $e) {
-            return '0';
+            return 'Error: ' . $e->getMessage();
         }
     }
 
@@ -279,10 +295,10 @@ class IBC_Transfer {
                 'latest'
             ]);
             $hex = str_replace('0x', '', $result);
-            $balance_raw = base_convert($hex, 16, 10);
+            $balance_raw = $this->bchexdec($hex);
             return bcdiv($balance_raw, bcpow('10', strval($this->token_decimals), 0), 4);
         } catch (Exception $e) {
-            return '0';
+            return 'Error: ' . $e->getMessage();
         }
     }
 }
