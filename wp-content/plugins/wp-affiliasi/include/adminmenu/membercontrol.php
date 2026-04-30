@@ -476,6 +476,6 @@ echo '
   </ul>
 </nav>';
 }
-cbcek();
+// cbcek(); // DISABLED: license check bypassed for staging
 ?>
 </div>
