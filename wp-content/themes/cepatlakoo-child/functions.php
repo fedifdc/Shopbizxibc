@@ -289,7 +289,7 @@ add_action('wp_head', 'custom_button_style');
 
 // Filter order by status
 function custom_order_status_filter() {
-    if (function_exists('is_account_page') && is_account_page() && function_exists('is_wc_endpoint_url') && is_wc_endpoint_url('orders')) {
+    if (is_account_page() && is_wc_endpoint_url('orders')) {
         $statuses = wc_get_order_statuses();
         $current_status = isset($_GET['order_status']) ? wc_clean($_GET['order_status']) : '';
 
@@ -821,7 +821,7 @@ add_action('wp_head', 'add_custom_flex_styles');
 // hide my account title
 add_action('wp_head', 'hide_my_account_page_title_css');
 function hide_my_account_page_title_css() {
-    if (function_exists('is_account_page') && is_account_page()) {
+    if (is_account_page()) {
         echo '<style>.woocommerce-account .page-title { display: none; }</style>';
     }
 }
@@ -1443,7 +1443,7 @@ add_action('wp_head', 'custom_modal_shopbiz_upgrade');
 // Hide became a vendor
 function hide_element_on_my_account_page() {
     // Only add script if we're on the "My Account" page
-    if (function_exists('is_account_page') && is_account_page()) {
+    if (is_account_page()) {
         ?>
         <!-- <script type="text/javascript">
             document.addEventListener('DOMContentLoaded', function() {
@@ -1601,16 +1601,12 @@ function restore_cart_checkout() {
 add_action( 'woocommerce_thankyou', 'restore_cart_checkout' );
 
 function restore_cart_after_checkout() {
-    // Pastikan WooCommerce sudah siap
-    if ( ! function_exists('WC') || ! WC()->session ) {
-        return;
-    }
     // Pastikan ini hanya terjadi di halaman checkout atau halaman "thank you"
-    if ( is_page('checkout') ){
+  if ( is_page('checkout') ){
 
     }else if(is_page('checkout-affiliate') ) {
        
-    }else if( function_exists('is_order_received_page') && is_order_received_page() ){
+    }else if(is_order_received_page()){
 
     }else {
         $saved_products = WC()->session->get('saved_products');
@@ -3010,7 +3006,7 @@ function group_orders_by_date() {
 // Hide the default WooCommerce order table
 // Hide the default WooCommerce order table but keep the custom table visible
 function hide_default_woocommerce_order_table() {
-    if (function_exists('is_account_page') && is_account_page() && function_exists('is_wc_endpoint_url') && is_wc_endpoint_url('orders')) {
+    if (is_account_page() && is_wc_endpoint_url('orders')) {
         echo '<style>
             .woocommerce-orders-table:not(.custom-orders-table) {
                 display: none !important;
@@ -3135,7 +3131,7 @@ function custom_woocommerce_filter_button() {
     $current_max_price = isset($_GET['max_price']) ? (int) $_GET['max_price'] : $max_price;
 	// Get the current category if we're on a category page
     $current_category = '';
-    if (function_exists('is_product_category') && is_product_category()) {
+    if (is_product_category()) {
         $current_category = get_queried_object()->slug;
     }
 
@@ -3354,7 +3350,7 @@ function custom_input_styles() {
 add_action('wp_head', 'custom_input_styles');
 
 function custom_zip_code_search_script() {
-    if ((function_exists('is_checkout') && is_checkout()) || (function_exists('dokan_is_seller_dashboard') && dokan_is_seller_dashboard()) || (function_exists('is_account_page') && is_account_page())) {
+    if (is_checkout() || dokan_is_seller_dashboard() || is_account_page()) {
         ?>
         <script type="text/javascript">
             jQuery(document).ready(function($) {
@@ -3497,7 +3493,7 @@ function custom_billing_zip_code_field($fields) {
 add_filter('woocommerce_checkout_fields', 'custom_billing_zip_code_field',20);
 
 function inject_default_zip_code_script() {
-    if ((function_exists('is_checkout') && is_checkout()) || (function_exists('is_account_page') && is_account_page())) {
+    if (is_checkout() || is_account_page()) {
         ?>
         <script>
         jQuery(document).ready(function($) {
@@ -3721,7 +3717,7 @@ function save_custom_zip_code_field_edit($user_id, $address_type){
     }
 }
 function inject_default_shipping_zip_code_script() {
-    if ((function_exists('is_checkout') && is_checkout()) || (function_exists('is_account_page') && is_account_page())) {
+    if (is_checkout() || is_account_page()) {
         ?>
         <script>
         jQuery(document).ready(function($) {
@@ -5155,7 +5151,7 @@ function disable_add_to_cart_button_for_affiliate_products_on_product_page() {
     global $product;
 
     // Check if we're on a single product page
-    if (function_exists('is_product') && is_product() && $product) {
+    if (is_product() && $product) {
         // Check if the current product is an affiliate product
         $is_affiliate_product = get_post_meta($product->get_id(), '_is_affiliate_product', true);
 
@@ -5947,7 +5943,6 @@ add_action('manage_product_posts_custom_column', function ($column, $post_id) {
 // END FIELD DROPSHIP URL
 
 function add_custom_product_title_css() {
-    if ( ! function_exists('is_shop') ) return;
     if (is_shop() || is_product_category() || is_product_tag()) {
         $custom_css = "
             .woocommerce-loop-product__title {
@@ -6655,7 +6650,7 @@ function add_share_and_copy_buttons($content) {
 add_filter('the_content', 'add_share_and_copy_buttons');
 
 function custom_single_product_price_styles() {
-    if (function_exists('is_product') && is_product()) { // Pastikan hanya berlaku di halaman produk tunggal
+    if (is_product()) { // Pastikan hanya berlaku di halaman produk tunggal
         ?>
         <style>
              .woocommerce-Price-amount {
@@ -7545,7 +7540,7 @@ add_filter('woocommerce_cart_needs_shipping_address', function($needs_shipping) 
 
 // Tambahkan class khusus ke <body> untuk digunakan di JS dan CSS
 add_filter('body_class', function($classes) {
-    if (function_exists('is_checkout') && is_checkout() && function_exists('is_virtual_cart') && is_virtual_cart()) {
+    if (is_checkout() && is_virtual_cart()) {
         $classes[] = 'woocommerce-cart-virtual';
     }
     return $classes;
@@ -7616,7 +7611,6 @@ add_action( 'woocommerce_after_checkout_validation', function( $data, $errors ) 
 }, 20, 2 );
 
 add_action('wp_enqueue_scripts', function () {
-    if ( ! function_exists('is_checkout') ) return;
     if ( ! is_checkout() || ! function_exists('is_virtual_cart') || ! is_virtual_cart() ) {
         return;
     }
@@ -8378,9 +8372,6 @@ function render_affiliator_update_page() {
 }
 
 add_action( 'wp_enqueue_scripts', function() {
-    if ( ! function_exists( 'is_cart' ) || ! function_exists( 'is_checkout' ) ) {
-        return;
-    }
     if ( is_cart() || is_checkout() ) {
 
         // pastikan frontend.js tetap dimuat
