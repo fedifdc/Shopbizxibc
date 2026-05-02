@@ -417,20 +417,21 @@ function cb_list_control() {
 	
 }
 
-function cbcek() {
-	$options = get_option('cb_pengaturan');
-	$post = array(
-		'url'=> site_url(),
-		'c'=> $options['lisensi']
-	);
-	$url = 'https://'.'lisensi.'.'cafe'.'bisnis.com/newcek.php';
-	$cbcek = postData($url,$_SERVER['HTTP_USER_AGENT'],$post);
-	//$cbcek = getData($url,$_SERVER['HTTP_USER_AGENT']);
-	if ($cbcek == 'error') {
-		unset($options['lisensi']);
-		update_option('cb_pengaturan', $options);
-	} 
-}
+// DISABLED: License check bypassed for staging environment
+// function cbcek() {
+// 	$options = get_option('cb_pengaturan');
+// 	$post = array(
+// 		'url'=> site_url(),
+// 		'c'=> $options['lisensi']
+// 	);
+// 	$url = 'https://'.'lisensi.'.'cafe'.'bisnis.com/newcek.php';
+// 	$cbcek = postData($url,$_SERVER['HTTP_USER_AGENT'],$post);
+// 	//$cbcek = getData($url,$_SERVER['HTTP_USER_AGENT']);
+// 	if ($cbcek == 'error') {
+// 		unset($options['lisensi']);
+// 		update_option('cb_pengaturan', $options);
+// 	} 
+// }
 
 function cb_aff_init() {
 	$ops_stats = array('classname' => 'wp_aff_stats', 'description' => "Menampilkan statistik jumlah member", 'number' => 5 );

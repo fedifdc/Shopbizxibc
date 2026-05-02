@@ -3,16 +3,17 @@
 add_action('activate_wp-affiliasi/wp-affiliasi.php', 'cb_install');
 $options = get_option('cb_pengaturan');
 
-if (!isset($options['lisensi'])) {
-	add_action('admin_menu', 'cafebisnis_lisensi');
-	if (isset($_GET['page']) && $_GET['page'] != 'lisensi_cb') {
-		add_action('admin_notices', 'wpaff_blmaktif');
-	}
-} else {
+// DISABLED: License check bypassed for staging environment
+// if (!isset($options['lisensi'])) {
+// 	add_action('admin_menu', 'cafebisnis_lisensi');
+// 	if (isset($_GET['page']) && $_GET['page'] != 'lisensi_cb') {
+// 		add_action('admin_notices', 'wpaff_blmaktif');
+// 	}
+// } else {
 	add_action('admin_head', 'cb_head');
 	add_action('admin_menu', 'adminarea');
 	add_action('admin_menu', 'konfigurasi');
-}
+// }
 
 function wpaff_blmaktif() {
 	echo '<div class="notice notice-warning is-dismissible">
