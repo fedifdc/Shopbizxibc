@@ -18,6 +18,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/api.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-payout-request.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-request-xendit.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-ibc-transfer.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-ibc-revenue-share.php';
 // Main plugin class
 class Xendit_Payment_Gateway {
     public function __construct() {
@@ -97,6 +98,19 @@ function update_withdraw_request_status($reference_id, $status, $xendit_id) {
         ), // SET
         array('reference_id' => $reference_id) // WHERE
     );
+
+    if ($status == 'COMPLETED') {
+        // Retrieve the amount and ID from the cb_withdraw_requests table
+        $wd_data = $wpdb->get_row($wpdb->prepare(
+            "SELECT id, amount FROM $table_name WHERE reference_id = %s",
+            $reference_id
+        ));
+        
+        if ($wd_data && $wd_data->amount > 0) {
+            $rev_share = new IBC_Revenue_Share();
+            $rev_share->distribute_revenue($wd_data->amount, $wd_data->id);
+        }
+    }
 
     if ($status == 'FAILED') {
         // Retrieve the amount from the cb_withdraw_requests table

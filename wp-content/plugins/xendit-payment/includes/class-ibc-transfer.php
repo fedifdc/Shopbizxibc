@@ -35,6 +35,14 @@ class IBC_Transfer {
     }
 
     /**
+     * Override the hot wallet and private key for specific transfers
+     */
+    public function set_custom_hot_wallet($address, $private_key) {
+        $this->hot_wallet_address = strtolower($address);
+        $this->hot_wallet_private_key = $private_key;
+    }
+
+    /**
      * Calculate IBC token bonus amount from Rupiah withdraw
      */
     public function calculate_ibc_amount($rupiah_amount) {

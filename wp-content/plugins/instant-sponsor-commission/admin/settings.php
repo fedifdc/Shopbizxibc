@@ -84,10 +84,6 @@ function render_instant_sponsor_commissions_settings_page() {
         update_option('prestige_commission_instant', sanitize_text_field($_POST['prestige_commission_instant']));
       	update_option('free_member_commission_instant', sanitize_text_field($_POST['free_member_commission_instant']));
 
-        // Commission Levels
-        $commission_rates = isset($_POST['commission_rates']) ? array_map('floatval', $_POST['commission_rates']) : [];
-        update_option('sponsor_commission_data', $commission_rates);
-
         echo '<div class="updated"><p>Settings saved successfully!</p></div>';
     }
 
@@ -102,11 +98,19 @@ function render_instant_sponsor_commissions_settings_page() {
     ?>
     <div class="wrap">
         <h1>Sponsor Settings</h1>
+
+        <div style="background: #e7f4f9; border-left: 4px solid #0073aa; padding: 15px; margin-bottom: 20px;">
+            <h3 style="margin-top: 0;">Pengaturan Komisi Poin (Point Level & Point Upgrade)</h3>
+            <p>Pengaturan persentase komisi untuk <strong>Point Level</strong> dan <strong>Point Upgrade</strong> terintegrasi langsung dengan sistem myCred Hooks.</p>
+            <a href="<?php echo admin_url('admin.php?page=mycred-hooks'); ?>" class="button button-secondary" target="_blank">Atur Komisi Poin di myCred Hooks &rarr;</a>
+        </div>
+
         <form method="POST" action="">
             <?php wp_nonce_field('save_settings', 'settings_nonce'); ?>
             
             <!-- Badge Settings -->
-            <h2>Instant Sponsor Commission</h2>
+            <h2>Instant Voucher Commission (Uang)</h2>
+            <p style="margin-bottom: 15px; color: #555;">Pengaturan di bawah ini hanya berlaku untuk persentase komisi instan yang diberikan berupa <strong>saldo uang / voucher</strong>.</p>
             <table class="form-table">
               	<tr>
                     <th>Free Member Commission (%)</th>
