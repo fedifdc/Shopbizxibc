@@ -6825,7 +6825,7 @@ function affiliator_withdraw_shortcode() {
                 'total_amount' => $total_ammount,
                 'payment_method' => $user_data->bank,
                 'account_number' => $user_data->rekening,
-                'created_at' => current_time('mysql', 1),
+                'created_at' => current_time('mysql'),
             ]);
             $wpdb->query($wpdb->prepare(
                 "UPDATE wp_member
