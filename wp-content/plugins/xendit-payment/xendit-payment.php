@@ -158,36 +158,52 @@ function handle_xendit_webhook(WP_REST_Request $request) {
     ));
 
     if ($existing_entry) {
-        return new WP_REST_Response('Webhook already processed', 200);
+        if ($existing_entry->status === $status) {
+            return new WP_REST_Response('Webhook already processed', 200);
+        } else {
+            // Update the existing webhook entry with the new status
+            $wpdb->update(
+                $table_name,
+                array(
+                    'status' => $status,
+                    'data' => wp_json_encode($data),
+                    'updated_at' => current_time('mysql')
+                ),
+                array('external_id' => $external_id),
+                array('%s', '%s', '%s'),
+                array('%s')
+            );
+        }
+    } else {
+        // Insert the data into the xendit_webhook table
+        $wpdb->insert(
+            $table_name,
+            array(
+                'event' => $event,
+                'external_id' => $external_id,
+                'xendit_id' => $xendit_id,
+                'status' => $status,
+                'amount' => $amount,
+                'bank_code' => $bank_code,
+                'account_number' => $account_number,
+                'data' => wp_json_encode($data),
+                'created_at' => current_time('mysql'),
+                'updated_at' => current_time('mysql')
+            ),
+            array(
+                '%s',
+                '%s',
+                '%s',
+                '%s',
+                '%f',
+                '%s',
+                '%s',
+                '%s',
+                '%s',
+                '%s'
+            )
+        );
     }
-    // Insert the data into the xendit_webhook table
-    $wpdb->insert(
-        $table_name,
-        array(
-            'event' => $event,
-            'external_id' => $external_id,
-            'xendit_id' => $xendit_id,
-            'status' => $status,
-            'amount' => $amount,
-            'bank_code' => $bank_code,
-            'account_number' => $account_number,
-            'data' => wp_json_encode($data),
-            'created_at' => current_time('mysql'),
-            'updated_at' => current_time('mysql')
-        ),
-        array(
-            '%s',
-            '%s',
-            '%s',
-            '%s',
-            '%f',
-            '%s',
-            '%s',
-            '%s',
-            '%s',
-            '%s'
-        )
-    );
   
 
     $xendit_id = $data['id'];
