@@ -56,6 +56,22 @@ function approve_withdraw_requests() {
         try {
             $response = $payout_request->create_payout($id);
             $result['xendit'] = 'sent';
+            
+            // Save Xendit response data to database
+            if (isset($response['response'])) {
+                $xendit_data = $response['response'];
+                $xendit_id = isset($xendit_data['id']) ? $xendit_data['id'] : '';
+                $xendit_status = isset($xendit_data['status']) ? $xendit_data['status'] : '';
+                
+                // Update withdraw request with xendit_id and initial status
+                update_withdraw_request_status(
+                    $xendit_data['external_id'] ?? '',
+                    $xendit_status,
+                    $xendit_id
+                );
+                
+                error_log('Xendit payout response for WD#' . $id . ': status=' . $xendit_status . ', xendit_id=' . $xendit_id);
+            }
         } catch (Exception $e) {
             $result['xendit'] = 'error: ' . $e->getMessage();
             error_log('Xendit payout error for WD#' . $id . ': ' . $e->getMessage());
