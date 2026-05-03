@@ -152,17 +152,33 @@ add_action('rest_api_init', function () {
 });
 
 function handle_xendit_webhook(WP_REST_Request $request) {
-    $body = $request->get_json_params();
-
     global $wpdb;
     $table_name = 'wp_xendit_webhooks';
     $body = $request->get_body();
     $data = json_decode($body, true);
-    
-    $event = isset($data['event']) ? $data['event'] : '';
+
+    if (!$data) {
+        return new WP_REST_Response('Invalid webhook payload', 400);
+    }
+
+    // Handle batch format: {"disbursements":[{...},...]}
+    if (isset($data['disbursements']) && is_array($data['disbursements'])) {
+        foreach ($data['disbursements'] as $disb) {
+            process_webhook_disbursement($disb, $wpdb, $table_name);
+        }
+        return new WP_REST_Response('Batch webhooks processed', 200);
+    }
+
+    // Handle single format
+    $event = isset($data['event']) ? $data['event'] : 'disbursements';
     $external_id = isset($data['external_id']) ? $data['external_id'] : '';
     $xendit_id = isset($data['id']) ? $data['id'] : '';
     $status = isset($data['status']) ? $data['status'] : '';
+
+    if (empty($external_id)) {
+        return new WP_REST_Response('Missing external_id', 400);
+    }
+
     $amount = isset($data['amount']) ? $data['amount'] : 0;
     $bank_code = isset($data['bank_code']) ? $data['bank_code'] : '';
     $account_number = isset($data['account_number']) ? $data['account_number'] : '';
@@ -220,13 +236,64 @@ function handle_xendit_webhook(WP_REST_Request $request) {
             )
         );
     }
-  
 
-    $xendit_id = $data['id'];
-
-   
     update_withdraw_request_status($external_id, $status, $xendit_id);
     return new WP_REST_Response('Webhook handled successfully', 200);
+}
+
+function process_webhook_disbursement($disb, $wpdb, $table_name) {
+    $external_id = isset($disb['external_id']) ? $disb['external_id'] : '';
+    $xendit_id = isset($disb['id']) ? $disb['id'] : '';
+    $status = isset($disb['status']) ? $disb['status'] : '';
+
+    if (empty($external_id)) {
+        error_log('Xendit webhook: missing external_id in batch entry');
+        return;
+    }
+
+    // Check if already exists
+    $existing_entry = $wpdb->get_row($wpdb->prepare(
+        "SELECT * FROM $table_name WHERE external_id = %s",
+        $external_id
+    ));
+
+    if ($existing_entry) {
+        if ($existing_entry->status === $status) {
+            error_log('Xendit webhook already processed: ' . $external_id);
+            return;
+        } else {
+            $wpdb->update(
+                $table_name,
+                array(
+                    'status' => $status,
+                    'data' => wp_json_encode($disb),
+                    'updated_at' => current_time('mysql')
+                ),
+                array('external_id' => $external_id),
+                array('%s', '%s', '%s'),
+                array('%s')
+            );
+        }
+    } else {
+        $wpdb->insert(
+            $table_name,
+            array(
+                'event' => 'disbursements',
+                'external_id' => $external_id,
+                'xendit_id' => $xendit_id,
+                'status' => $status,
+                'amount' => isset($disb['amount']) ? $disb['amount'] : 0,
+                'bank_code' => isset($disb['bank_code']) ? $disb['bank_code'] : '',
+                'account_number' => isset($disb['bank_account_number']) ? $disb['bank_account_number'] : '',
+                'data' => wp_json_encode($disb),
+                'created_at' => current_time('mysql'),
+                'updated_at' => current_time('mysql')
+            ),
+            array('%s', '%s', '%s', '%s', '%f', '%s', '%s', '%s', '%s', '%s')
+        );
+    }
+
+    update_withdraw_request_status($external_id, $status, $xendit_id);
 }
 
 add_action('wp_ajax_reject_withdraw_requests', 'reject_withdraw_requests');
