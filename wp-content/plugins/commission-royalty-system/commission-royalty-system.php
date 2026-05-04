@@ -23,6 +23,7 @@ require_once CRS_PLUGIN_DIR . 'includes/hooks.php';
 require_once CRS_PLUGIN_DIR . 'includes/admin.php';
 require_once CRS_PLUGIN_DIR . 'includes/cron.php';
 require_once CRS_PLUGIN_DIR . 'includes/dashboard.php';
+require_once CRS_PLUGIN_DIR . 'includes/member-dashboard.php';
 require_once CRS_PLUGIN_DIR . 'includes/database.php';
 
 // ============================================================
@@ -139,6 +140,13 @@ function crs_activate() {
         if (!in_array($col_name, $existing_cols)) {
             $wpdb->query($alter_sql);
         }
+    }
+
+    // Ensure total_omset exists in wp_member
+    $member_table = $wpdb->prefix . 'member';
+    $existing_member_cols = $wpdb->get_col("SHOW COLUMNS FROM $member_table", 0);
+    if (!in_array('total_omset', $existing_member_cols)) {
+        $wpdb->query("ALTER TABLE $member_table ADD COLUMN total_omset decimal(15,2) NOT NULL DEFAULT 0.00");
     }
 
     // Default tier rates

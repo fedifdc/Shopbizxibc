@@ -89,6 +89,62 @@ function crs_accumulate_all_omset() {
  * @param int $idwp The member's idwp
  * @return array ['qualified' => bool, 'reasons' => string[]]
  */
+function crs_get_rank_point_threshold($rank) {
+    switch ($rank) {
+        case 'prestige': return 5000000;
+        case 'premium':  return 3000000;
+        case 'basic':    return 1000000;
+        case 'starter':  return 250000;
+        default:         return 0;
+    }
+}
+
+/**
+ * Modified version of crs_check_downline_qualifies to check for a specific target rank.
+ */
+function crs_check_downline_qualifies_for_rank($user_id, $rank_key) {
+    global $wpdb;
+    $rank_caps_table = $wpdb->prefix . 'crs_rank_caps';
+    $member = crs_get_member($user_id);
+    
+    $req = $wpdb->get_row($wpdb->prepare(
+        "SELECT * FROM $rank_caps_table WHERE rank_key = %s LIMIT 1",
+        $rank_key
+    ), ARRAY_A);
+
+    if (!$req) return ['qualified' => false];
+
+    $qualified = true;
+    
+    // Check points (implicit in rank system)
+    if (crs_get_point_upgrade($user_id) < crs_get_rank_point_threshold($rank_key)) {
+        $qualified = false;
+    }
+
+    // Check direct DL
+    if ((int)$member['downline_lngsg'] < (int)$req['min_direct_dl']) {
+        $qualified = false;
+    }
+
+    // Check omset
+    if ((float)$member['total_omset'] < (float)$req['min_total_omset']) {
+        $qualified = false;
+    }
+
+    // Check DL rank
+    if ((int)$req['min_dl_rank_count'] > 0) {
+        $count = crs_count_direct_downlines_with_min_rank($user_id, $req['min_dl_rank']);
+        if ($count < (int)$req['min_dl_rank_count']) {
+            $qualified = false;
+        }
+    }
+
+    return ['qualified' => $qualified];
+}
+
+/**
+ * Check if a member qualifies for their current point-based rank.
+ */
 function crs_check_downline_qualifies($idwp) {
     global $wpdb;
     $member_table = $wpdb->prefix . 'member';
@@ -226,6 +282,33 @@ function crs_check_alt_path($idwp, $member, $alt) {
 }
 
 /**
+ * Determine the effective rank of a member.
+ * Checks from point-based rank downwards until requirements are met.
+ */
+function crs_get_effective_rank($idwp) {
+    $member = crs_get_member($idwp);
+    if (!$member) return 'free';
+
+    $point_rank = crs_get_rank($member);
+    if ($point_rank === 'free') return 'free';
+
+    $ranks_order = ['prestige', 'premium', 'basic', 'starter', 'free'];
+    $start_index = array_search($point_rank, $ranks_order);
+
+    for ($i = $start_index; $i < count($ranks_order); $i++) {
+        $rank_to_check = $ranks_order[$i];
+        if ($rank_to_check === 'free') return 'free';
+
+        $check = crs_check_downline_qualifies_for_rank($idwp, $rank_to_check);
+        if ($check['qualified']) {
+            return $rank_to_check;
+        }
+    }
+
+    return 'free';
+}
+
+/**
  * Calculate royalty for a buyer.
  *
  * @param int $buyer_id WordPress user ID of the buyer
@@ -260,39 +343,33 @@ function crs_calculate_royalty($buyer_id) {
                 break; // Root reached
             }
 
-            $upline_member = crs_get_member($upline_id);
-            $position_member = crs_get_member($position);
-
-            // Check if upline is Free rank — floor, cannot receive royalty
-            $upline_rank = crs_get_rank($upline_member);
-            if ($upline_rank === 'free') {
+            // GET EFFECTIVE RANK (Point rank with fallback based on qualifications)
+            $upline_effective_rank = crs_get_effective_rank($upline_id);
+            
+            // 1. Check if upline is Free (Effective) — floor, cannot receive royalty
+            if ($upline_effective_rank === 'free') {
                 $position = $upline_id;
                 continue;
             }
 
-            // Compare ranks: upline must have rank >= direct child below
-            $below_rank = crs_get_rank($position_member);
-            if (!crs_rank_qualifies($upline_rank, $below_rank)) {
+            // 2. Compare ranks: upline must have rank >= direct child below
+            // For the person below, we use their point-based rank to ensure compression works correctly
+            $below_member = crs_get_member($position);
+            $below_rank = crs_get_rank($below_member);
+            
+            if (!crs_rank_qualifies($upline_effective_rank, $below_rank)) {
                 $position = $upline_id;
                 continue;
             }
 
-            // Check Rank Cap
-            $max_tier = crs_get_max_tier_for_rank($upline_rank);
+            // 3. Check Rank Cap based on Effective Rank
+            $max_tier = crs_get_max_tier_for_rank($upline_effective_rank);
             if ($tier_number > $max_tier) {
                 $position = $upline_id;
                 continue;
             }
 
-            // Check Downline Qualifications (min_dl, total_omset, min_dl_rank)
-            $dl_check = crs_check_downline_qualifies($upline_id);
-            if (!$dl_check['qualified']) {
-                crs_log("Upline $upline_id ($upline_rank): DL qualification failed — " . implode('; ', $dl_check['reasons']));
-                $position = $upline_id;
-                continue;
-            }
-
-            // ✅ QUALIFIED
+            // ✅ QUALIFIED via Fallback System
             $assigned[$tier_number] = [
                 'user_id'      => $upline_id,
                 'rate_percent' => $rate,

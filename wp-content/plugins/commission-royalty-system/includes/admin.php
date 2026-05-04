@@ -74,10 +74,26 @@ function crs_render_tiers_tab() {
     global $wpdb;
     $table = $wpdb->prefix . 'crs_tiers';
 
-    // Handle form submissions
+    // 1. Handle Delete Action (via GET for cleaner separation)
+    if (isset($_GET['action']) && $_GET['action'] === 'delete_tier' && isset($_GET['tier_id'])) {
+        check_admin_referer('crs_delete_tier_' . $_GET['tier_id']);
+        $tier_id = intval($_GET['tier_id']);
+        $wpdb->delete($table, ['id' => $tier_id]);
+
+        // Reorder tier numbers to ensure no gaps
+        $tiers = $wpdb->get_results("SELECT id FROM $table ORDER BY tier_number ASC", ARRAY_A);
+        foreach ($tiers as $i => $t) {
+            $wpdb->update($table, ['tier_number' => $i + 1], ['id' => $t['id']]);
+        }
+
+        echo '<div class="notice notice-success is-dismissible"><p>Tier deleted successfully.</p></div>';
+    }
+
+    // 2. Handle Save/Add Action
     if (isset($_POST['crs_action']) && $_POST['crs_action'] === 'save_tiers') {
         check_admin_referer('crs_save_tiers');
 
+        // Update existing tiers
         if (isset($_POST['tier_rate']) && is_array($_POST['tier_rate'])) {
             foreach ($_POST['tier_rate'] as $tier_id => $rate) {
                 $rate = floatval($rate);
@@ -88,7 +104,8 @@ function crs_render_tiers_tab() {
             }
         }
 
-        if (isset($_POST['new_tier_rate'])) {
+        // Add new tier only if the input is not empty
+        if (isset($_POST['new_tier_rate']) && $_POST['new_tier_rate'] !== '') {
             $new_rate = floatval($_POST['new_tier_rate']);
             $max_tier = $wpdb->get_var("SELECT MAX(tier_number) FROM $table");
             $new_tier_number = $max_tier ? (int)$max_tier + 1 : 1;
@@ -98,25 +115,7 @@ function crs_render_tiers_tab() {
             ]);
         }
 
-        echo '<div class="notice notice-success"><p>Tiers saved successfully.</p></div>';
-    }
-
-    // Handle delete
-    if (isset($_POST['crs_action']) && $_POST['crs_action'] === 'delete_tier') {
-        check_admin_referer('crs_delete_tier');
-        $tier_id = intval($_POST['tier_id']);
-        $wpdb->delete($table, ['id' => $tier_id]);
-
-        // Reorder tier numbers
-        $tiers = $wpdb->get_results("SELECT id FROM $table ORDER BY tier_number ASC", ARRAY_A);
-        foreach ($tiers as $i => $t) {
-            $wpdb->update($table,
-                ['tier_number' => $i + 1],
-                ['id' => $t['id']]
-            );
-        }
-
-        echo '<div class="notice notice-success"><p>Tier deleted.</p></div>';
+        echo '<div class="notice notice-success is-dismissible"><p>Tiers updated successfully.</p></div>';
     }
 
     $tiers = $wpdb->get_results("SELECT * FROM $table ORDER BY tier_number ASC", ARRAY_A);
@@ -124,51 +123,56 @@ function crs_render_tiers_tab() {
     <h2>Dynamic Tiers Management</h2>
     <p>Configure the percentage rate for each tier. Tiers are numbered sequentially from top to bottom.</p>
 
-    <form method="post" action="">
+    <form method="post" action="<?php echo esc_url(admin_url('admin.php?page=commission-royalty&tab=tiers')); ?>">
         <?php wp_nonce_field('crs_save_tiers'); ?>
         <input type="hidden" name="crs_action" value="save_tiers">
 
         <table class="wp-list-table widefat fixed striped">
             <thead>
                 <tr>
-                    <th>Tier</th>
+                    <th style="width: 80px;">Tier</th>
                     <th>Rate (%)</th>
-                    <th>Actions</th>
+                    <th style="width: 100px;">Actions</th>
                 </tr>
             </thead>
             <tbody>
-                <?php foreach ($tiers as $tier): ?>
-                <tr>
-                    <td><strong>Tier <?php echo esc_html($tier['tier_number']); ?></strong></td>
-                    <td>
-                        <input type="number" step="0.01" min="0" max="100" name="tier_rate[<?php echo $tier['id']; ?>]"
-                            value="<?php echo esc_attr($tier['rate_percent']); ?>" class="regular-text">
-                    </td>
-                    <td>
-                        <form method="post" style="display:inline;">
-                            <?php wp_nonce_field('crs_delete_tier'); ?>
-                            <input type="hidden" name="crs_action" value="delete_tier">
-                            <input type="hidden" name="tier_id" value="<?php echo $tier['id']; ?>">
-                            <button type="submit" class="button button-link-delete" onclick="return confirm('Delete this tier?')">Delete</button>
-                        </form>
-                    </td>
-                </tr>
-                <?php endforeach; ?>
+                <?php if (empty($tiers)): ?>
+                    <tr><td colspan="3">No tiers configured. Add your first tier below.</td></tr>
+                <?php else: ?>
+                    <?php foreach ($tiers as $tier): ?>
+                    <tr>
+                        <td><strong>Tier <?php echo esc_html($tier['tier_number']); ?></strong></td>
+                        <td>
+                            <input type="number" step="0.01" min="0" max="100" name="tier_rate[<?php echo $tier['id']; ?>]"
+                                value="<?php echo esc_attr($tier['rate_percent']); ?>" class="small-text"> %
+                        </td>
+                        <td>
+                            <?php 
+                            $delete_url = wp_nonce_url(
+                                admin_url('admin.php?page=commission-royalty&tab=tiers&action=delete_tier&tier_id=' . $tier['id']),
+                                'crs_delete_tier_' . $tier['id']
+                            );
+                            ?>
+                            <a href="<?php echo esc_url($delete_url); ?>" class="submitdelete" 
+                               style="color: #d63638; text-decoration: none;"
+                               onclick="return confirm('Are you sure you want to delete Tier <?php echo $tier['tier_number']; ?>?')">
+                                Delete
+                            </a>
+                        </td>
+                    </tr>
+                    <?php endforeach; ?>
+                <?php endif; ?>
             </tbody>
         </table>
 
-        <h3>Add New Tier</h3>
-        <table class="form-table">
-            <tr>
-                <th><label>Rate (%)</label></th>
-                <td>
-                    <input type="number" step="0.01" min="0" max="100" name="new_tier_rate" value="0" class="regular-text">
-                </td>
-            </tr>
-        </table>
+        <div style="margin-top: 20px; background: #fff; padding: 15px; border: 1px solid #ccd0d4; border-radius: 4px;">
+            <h3 style="margin-top: 0;">Add New Tier</h3>
+            <p>Enter a rate to add a new tier level to the bottom of the list.</p>
+            <input type="number" step="0.01" min="0" max="100" name="new_tier_rate" value="" placeholder="e.g. 2.5" class="regular-text"> %
+        </div>
 
         <p class="submit">
-            <button type="submit" class="button button-primary">Save Tiers & Add New</button>
+            <button type="submit" class="button button-primary">Save All Changes</button>
         </p>
     </form>
     <?php
@@ -245,13 +249,16 @@ function crs_render_upgrade_tab() {
 
         if (isset($_POST['dl_qual']) && is_array($_POST['dl_qual'])) {
             foreach ($_POST['dl_qual'] as $rank_key => $data) {
+                $rank_key = sanitize_key($rank_key);
+                
                 // Assemble alt_requirements JSON from individual fields
                 $alt = [
-                    'min_dl'        => intval($data['alt_min_dl'] ?? 0),
-                    'min_omset'     => floatval($data['alt_min_omset'] ?? 0),
-                    'dl_rank'       => sanitize_key($data['alt_dl_rank'] ?? 'free'),
-                    'dl_rank_count' => intval($data['alt_dl_rank_count'] ?? 0),
+                    'min_dl'        => isset($data['alt_min_dl']) ? intval($data['alt_min_dl']) : 0,
+                    'min_omset'     => isset($data['alt_min_omset']) ? floatval($data['alt_min_omset']) : 0,
+                    'dl_rank'       => isset($data['alt_dl_rank']) ? sanitize_key($data['alt_dl_rank']) : 'free',
+                    'dl_rank_count' => isset($data['alt_dl_rank_count']) ? intval($data['alt_dl_rank_count']) : 0,
                 ];
+                
                 // Only save JSON if at least one alt field has a value
                 $alt_json = '';
                 if ($alt['min_dl'] > 0 || $alt['min_omset'] > 0 || $alt['dl_rank'] !== 'free' || $alt['dl_rank_count'] > 0) {
@@ -259,20 +266,18 @@ function crs_render_upgrade_tab() {
                 }
 
                 $wpdb->update($caps_table, [
-                    'min_direct_dl'      => intval($data['min_direct_dl']),
-                    'min_total_omset'    => floatval($data['min_total_omset']),
-                    'min_dl_rank'        => sanitize_key($data['min_dl_rank']),
-                    'min_dl_rank_count'  => intval($data['min_dl_rank_count']),
+                    'min_direct_dl'      => isset($data['min_direct_dl']) ? intval($data['min_direct_dl']) : 0,
+                    'min_total_omset'    => isset($data['min_total_omset']) ? floatval($data['min_total_omset']) : 0,
+                    'min_dl_rank'        => isset($data['min_dl_rank']) ? sanitize_key($data['min_dl_rank']) : 'free',
+                    'min_dl_rank_count'  => isset($data['min_dl_rank_count']) ? intval($data['min_dl_rank_count']) : 0,
                     'alt_requirements'   => $alt_json,
                     'updated_at'         => current_time('mysql'),
-                ], ['rank_key' => sanitize_key($rank_key)]);
+                ], ['rank_key' => $rank_key]);
             }
         }
 
-        echo '<div class="notice notice-success is-dismissible"><p>✅ DL Qualification requirements saved.</p></div>';
+        echo '<div class="notice notice-success is-dismissible"><p>✅ DL Qualification requirements saved successfully.</p></div>';
     }
-
-
 
     $caps = $wpdb->get_results("SELECT * FROM $caps_table ORDER BY CASE rank_key WHEN 'free' THEN 0 WHEN 'starter' THEN 1 WHEN 'basic' THEN 2 WHEN 'premium' THEN 3 WHEN 'prestige' THEN 4 END ASC", ARRAY_A);
     $ranks = ['free', 'starter', 'basic', 'premium', 'prestige'];
@@ -341,7 +346,7 @@ function crs_render_upgrade_tab() {
         </ul>
     </div>
 
-    <form method="post" action="">
+    <form method="post" action="<?php echo esc_url(admin_url('admin.php?page=commission-royalty&tab=upgrade')); ?>">
         <?php wp_nonce_field('crs_save_dl_qualification'); ?>
         <input type="hidden" name="crs_action" value="save_dl_qualification">
 

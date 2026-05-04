@@ -50,6 +50,10 @@ if (!isset($options['matauang'])) {
 
 $jmldownline = $wpdb->get_var("SELECT COUNT(*) FROM `wp_member` WHERE `id_referral`=".$user_ID);
 
+if (function_exists('crs_render_member_royalty_indicator')) {
+    $showtxt .= crs_render_member_royalty_indicator($user_ID);
+}
+
 $showtxt .= '
 <div class="wpaff-stats-grid">
     <div class="wpaff-stat-card">
