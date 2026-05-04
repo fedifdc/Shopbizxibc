@@ -248,8 +248,9 @@ function crs_render_upgrade_tab() {
         check_admin_referer('crs_save_dl_qualification');
 
         if (isset($_POST['dl_qual']) && is_array($_POST['dl_qual'])) {
-            foreach ($_POST['dl_qual'] as $rank_key => $data) {
-                $rank_key = sanitize_key($rank_key);
+            $success_count = 0;
+            foreach ($_POST['dl_qual'] as $id => $data) {
+                $id = intval($id);
                 
                 // Assemble alt_requirements JSON from individual fields
                 $alt = [
@@ -265,18 +266,27 @@ function crs_render_upgrade_tab() {
                     $alt_json = wp_json_encode($alt);
                 }
 
-                $wpdb->update($caps_table, [
+                $update_data = [
                     'min_direct_dl'      => isset($data['min_direct_dl']) ? intval($data['min_direct_dl']) : 0,
                     'min_total_omset'    => isset($data['min_total_omset']) ? floatval($data['min_total_omset']) : 0,
                     'min_dl_rank'        => isset($data['min_dl_rank']) ? sanitize_key($data['min_dl_rank']) : 'free',
                     'min_dl_rank_count'  => isset($data['min_dl_rank_count']) ? intval($data['min_dl_rank_count']) : 0,
                     'alt_requirements'   => $alt_json,
                     'updated_at'         => current_time('mysql'),
-                ], ['rank_key' => $rank_key]);
+                ];
+
+                $res = $wpdb->update($caps_table, $update_data, ['id' => $id]);
+                if ($res !== false) {
+                    $success_count++;
+                }
+            }
+            
+            if ($success_count > 0) {
+                echo '<div class="notice notice-success is-dismissible"><p>✅ ' . $success_count . ' Rank requirements updated successfully.</p></div>';
+            } else {
+                echo '<div class="notice notice-warning is-dismissible"><p>⚠️ No changes were made or an error occurred.</p></div>';
             }
         }
-
-        echo '<div class="notice notice-success is-dismissible"><p>✅ DL Qualification requirements saved successfully.</p></div>';
     }
 
     $caps = $wpdb->get_results("SELECT * FROM $caps_table ORDER BY CASE rank_key WHEN 'free' THEN 0 WHEN 'starter' THEN 1 WHEN 'basic' THEN 2 WHEN 'premium' THEN 3 WHEN 'prestige' THEN 4 END ASC", ARRAY_A);
@@ -289,7 +299,7 @@ function crs_render_upgrade_tab() {
         if (!empty($cap['alt_requirements'])) {
             $parsed = json_decode($cap['alt_requirements'], true) ?: [];
         }
-        $alt_data[$cap['rank_key']] = [
+        $alt_data[$cap['id']] = [
             'min_dl'          => isset($parsed['min_dl']) ? (int)$parsed['min_dl'] : 0,
             'min_omset'       => isset($parsed['min_omset']) ? (float)$parsed['min_omset'] : 0,
             'dl_rank'         => isset($parsed['dl_rank']) ? $parsed['dl_rank'] : 'free',
@@ -380,16 +390,16 @@ function crs_render_upgrade_tab() {
                 </tr>
             </thead>
             <tbody>
-                <?php foreach ($caps as $cap): $alt = $alt_data[$cap['rank_key']] ?? []; ?>
+                <?php foreach ($caps as $cap): $alt = $alt_data[$cap['id']] ?? []; ?>
                 <tr>
                     <td><strong><?php echo esc_html(ucfirst($cap['rank_key'])); ?></strong></td>
                     <!-- Main requirements -->
                     <td>
-                        <input type="number" min="0" name="dl_qual[<?php echo esc_attr($cap['rank_key']); ?>][min_direct_dl]"
+                        <input type="number" min="0" name="dl_qual[<?php echo $cap['id']; ?>][min_direct_dl]"
                             value="<?php echo esc_attr($cap['min_direct_dl']); ?>" class="small-text" style="width:50px;">
                     </td>
                     <td>
-                        <select name="dl_qual[<?php echo esc_attr($cap['rank_key']); ?>][min_dl_rank]" style="width:100%;">
+                        <select name="dl_qual[<?php echo $cap['id']; ?>][min_dl_rank]" style="width:100%;">
                             <?php foreach ($ranks as $r): ?>
                             <option value="<?php echo esc_attr($r); ?>" <?php selected($cap['min_dl_rank'], $r); ?>>
                                 <?php echo esc_html(ucfirst($r)); ?>
@@ -398,20 +408,20 @@ function crs_render_upgrade_tab() {
                         </select>
                     </td>
                     <td>
-                        <input type="number" min="0" name="dl_qual[<?php echo esc_attr($cap['rank_key']); ?>][min_dl_rank_count]"
+                        <input type="number" min="0" name="dl_qual[<?php echo $cap['id']; ?>][min_dl_rank_count]"
                             value="<?php echo esc_attr($cap['min_dl_rank_count']); ?>" class="small-text" style="width:50px;">
                     </td>
                     <td>
-                        <input type="number" min="0" step="1000000" name="dl_qual[<?php echo esc_attr($cap['rank_key']); ?>][min_total_omset]"
+                        <input type="number" min="0" step="1000000" name="dl_qual[<?php echo $cap['id']; ?>][min_total_omset]"
                             value="<?php echo esc_attr($cap['min_total_omset']); ?>" class="regular-text" style="width:120px;">
                     </td>
                     <!-- Alt requirements -->
                     <td>
-                        <input type="number" min="0" name="dl_qual[<?php echo esc_attr($cap['rank_key']); ?>][alt_min_dl]"
+                        <input type="number" min="0" name="dl_qual[<?php echo $cap['id']; ?>][alt_min_dl]"
                             value="<?php echo esc_attr($alt['min_dl']); ?>" class="small-text" style="width:50px;">
                     </td>
                     <td>
-                        <select name="dl_qual[<?php echo esc_attr($cap['rank_key']); ?>][alt_dl_rank]" style="width:100%;">
+                        <select name="dl_qual[<?php echo $cap['id']; ?>][alt_dl_rank]" style="width:100%;">
                             <?php foreach ($ranks as $r): ?>
                             <option value="<?php echo esc_attr($r); ?>" <?php selected($alt['dl_rank'], $r); ?>>
                                 <?php echo esc_html(ucfirst($r)); ?>
@@ -420,11 +430,11 @@ function crs_render_upgrade_tab() {
                         </select>
                     </td>
                     <td>
-                        <input type="number" min="0" name="dl_qual[<?php echo esc_attr($cap['rank_key']); ?>][alt_dl_rank_count]"
+                        <input type="number" min="0" name="dl_qual[<?php echo $cap['id']; ?>][alt_dl_rank_count]"
                             value="<?php echo esc_attr($alt['dl_rank_count']); ?>" class="small-text" style="width:50px;">
                     </td>
                     <td>
-                        <input type="number" min="0" step="1000000" name="dl_qual[<?php echo esc_attr($cap['rank_key']); ?>][alt_min_omset]"
+                        <input type="number" min="0" step="1000000" name="dl_qual[<?php echo $cap['id']; ?>][alt_min_omset]"
                             value="<?php echo esc_attr($alt['min_omset']); ?>" class="regular-text" style="width:120px;">
                     </td>
                 </tr>
