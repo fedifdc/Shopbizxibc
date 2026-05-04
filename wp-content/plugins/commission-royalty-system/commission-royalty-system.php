@@ -52,6 +52,11 @@ function crs_activate() {
         rank_key varchar(50) NOT NULL,
         rank_label varchar(100) NOT NULL DEFAULT '',
         max_tier int(11) NOT NULL DEFAULT 0,
+        min_direct_dl int(11) NOT NULL DEFAULT 0,
+        min_total_omset decimal(15,2) NOT NULL DEFAULT 0.00,
+        min_dl_rank varchar(50) NOT NULL DEFAULT 'free',
+        min_dl_rank_count int(11) NOT NULL DEFAULT 0,
+        alt_requirements text DEFAULT NULL,
         created_at datetime DEFAULT CURRENT_TIMESTAMP,
         updated_at datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
         PRIMARY KEY (id),
@@ -113,11 +118,28 @@ function crs_activate() {
         KEY created_at (created_at)
     ) $charset_collate;";
 
+    require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+
     dbDelta($sql_tiers);
     dbDelta($sql_caps);
     dbDelta($sql_assign);
     dbDelta($sql_tier_rates);
     dbDelta($sql_trans);
+
+    // Fallback: ALTER TABLE to add missing columns if table already exists
+    $existing_cols = $wpdb->get_col("SHOW COLUMNS FROM $table_caps", 0);
+    $alter_cols = [
+        'min_direct_dl'    => "ALTER TABLE $table_caps ADD COLUMN min_direct_dl int(11) NOT NULL DEFAULT 0 AFTER max_tier",
+        'min_total_omset'  => "ALTER TABLE $table_caps ADD COLUMN min_total_omset decimal(15,2) NOT NULL DEFAULT 0.00 AFTER min_direct_dl",
+        'min_dl_rank'      => "ALTER TABLE $table_caps ADD COLUMN min_dl_rank varchar(50) NOT NULL DEFAULT 'free' AFTER min_total_omset",
+        'min_dl_rank_count' => "ALTER TABLE $table_caps ADD COLUMN min_dl_rank_count int(11) NOT NULL DEFAULT 0 AFTER min_dl_rank",
+        'alt_requirements' => "ALTER TABLE $table_caps ADD COLUMN alt_requirements text DEFAULT NULL AFTER min_dl_rank_count",
+    ];
+    foreach ($alter_cols as $col_name => $alter_sql) {
+        if (!in_array($col_name, $existing_cols)) {
+            $wpdb->query($alter_sql);
+        }
+    }
 
     // Default tier rates
     $existing_tier_rates = $wpdb->get_var("SELECT COUNT(*) FROM $table_tier_rates");
