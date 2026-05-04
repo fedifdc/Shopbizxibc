@@ -1,5 +1,10 @@
 <?php
 function handle_order_status_cancel($order_id) {
+    // Skip if MLM connection is disabled in admin settings
+    if (get_option('shopbiz_mlm_enabled', '1') !== '1') {
+        error_log("MLM connection disabled - skipping point deduction for cancelled order $order_id");
+        return;
+    }
     
     global $wpdb;
     $table_name = $wpdb->prefix . 'myCRED_log'; // Update table name if different

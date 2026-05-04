@@ -87,12 +87,70 @@ function shopbiz_connect_register_settings()
     'shopbiz-connect-section'
   );
 
+  // =============================================
+  // Feature Settings Section
+  // =============================================
+  add_settings_section(
+    'shopbiz-feature-section',
+    'Feature Settings',
+    'shopbiz_feature_section_callback',
+    'shopbiz-connect-settings'
+  );
+
+  // MLM Connection toggle
+  add_settings_field(
+    'shopbiz_mlm_enabled',
+    'Koneksi MLM Eksternal',
+    'shopbiz_mlm_enabled_callback',
+    'shopbiz-connect-settings',
+    'shopbiz-feature-section'
+  );
+
+  // Countdown Timer toggle
+  add_settings_field(
+    'shopbiz_countdown_enabled',
+    'Countdown Timer Upgrade',
+    'shopbiz_countdown_enabled_callback',
+    'shopbiz-connect-settings',
+    'shopbiz-feature-section'
+  );
+
+  // Countdown Timer duration (days) — for non-member
+  add_settings_field(
+    'shopbiz_countdown_duration',
+    'Durasi Countdown (Hari) — Non-Member',
+    'shopbiz_countdown_duration_callback',
+    'shopbiz-connect-settings',
+    'shopbiz-feature-section'
+  );
+
+  // Countdown Timer duration (days) — for existing member
+  add_settings_field(
+    'shopbiz_countdown_duration_member',
+    'Durasi Countdown (Hari) — Member',
+    'shopbiz_countdown_duration_member_callback',
+    'shopbiz-connect-settings',
+    'shopbiz-feature-section'
+  );
+
   // Register the settings
   register_setting('shopbiz-connect-settings', 'shopbiz_api_url');
   register_setting('shopbiz-connect-settings', 'shopbiz_api_token');
   register_setting('shopbiz-connect-settings', 'shopbiz_api_mlm_url');
   register_setting('shopbiz-connect-settings', 'shopbiz_api_mlm_api_key');
   register_setting('shopbiz-connect-settings', 'shopbiz_point_level_percentage');
+  register_setting('shopbiz-connect-settings', 'shopbiz_mlm_enabled');
+  register_setting('shopbiz-connect-settings', 'shopbiz_countdown_enabled');
+  register_setting('shopbiz-connect-settings', 'shopbiz_countdown_duration', array(
+    'type' => 'integer',
+    'default' => 30,
+    'sanitize_callback' => 'absint',
+  ));
+  register_setting('shopbiz-connect-settings', 'shopbiz_countdown_duration_member', array(
+    'type' => 'integer',
+    'default' => 60,
+    'sanitize_callback' => 'absint',
+  ));
 }
 
 // Callback function for the settings section
@@ -131,4 +189,54 @@ function shopbiz_connect_point_level_percentage_callback()
 {
   $percentage = get_option('shopbiz_point_level_percentage');
   echo '<input type="number" name="shopbiz_point_level_percentage" value="' . esc_attr($percentage) . '" style="width:70%" min="0" max="100" step="0.01">';
+}
+
+// =============================================
+// Feature Settings Callbacks
+// =============================================
+
+// Section description
+function shopbiz_feature_section_callback()
+{
+  echo '<p>Konfigurasi fitur-fitur utama ShopBiz Connect:</p>';
+}
+
+// MLM Connection toggle callback
+function shopbiz_mlm_enabled_callback()
+{
+  $enabled = get_option('shopbiz_mlm_enabled', '1');
+  echo '<input type="hidden" name="shopbiz_mlm_enabled" value="0">';
+  echo '<label>';
+  echo '<input type="checkbox" name="shopbiz_mlm_enabled" value="1" ' . checked($enabled, '1', false) . '>';
+  echo ' Aktifkan koneksi ke Sistem MLM Eksternal (affiliasi.virans.com)';
+  echo '</label>';
+  echo '<p class="description">Jika dinonaktifkan, tombol "Network Marketing Manager" dan proses upgrade MLM tidak akan ditampilkan.</p>';
+}
+
+// Countdown Timer toggle callback
+function shopbiz_countdown_enabled_callback()
+{
+  $enabled = get_option('shopbiz_countdown_enabled', '1');
+  echo '<input type="hidden" name="shopbiz_countdown_enabled" value="0">';
+  echo '<label>';
+  echo '<input type="checkbox" name="shopbiz_countdown_enabled" value="1" ' . checked($enabled, '1', false) . '>';
+  echo ' Aktifkan Countdown Timer untuk upgrade membership';
+  echo '</label>';
+  echo '<p class="description">Jika dinonaktifkan, countdown timer tidak akan ditampilkan dan poin user tidak akan di-reset otomatis.</p>';
+}
+
+// Countdown Timer duration callback — non-member
+function shopbiz_countdown_duration_callback()
+{
+  $duration = get_option('shopbiz_countdown_duration', 30);
+  echo '<input type="number" name="shopbiz_countdown_duration" value="' . esc_attr($duration) . '" min="1" max="365" style="width:80px"> hari';
+  echo '<p class="description">Durasi countdown sejak tanggal registrasi WordPress untuk user yang belum menjadi member MLM. Default: 30 hari.</p>';
+}
+
+// Countdown Timer duration callback — member
+function shopbiz_countdown_duration_member_callback()
+{
+  $duration = get_option('shopbiz_countdown_duration_member', 60);
+  echo '<input type="number" name="shopbiz_countdown_duration_member" value="' . esc_attr($duration) . '" min="1" max="365" style="width:80px"> hari';
+  echo '<p class="description">Durasi countdown sejak tanggal registrasi MLM untuk member existing. Default: 60 hari.</p>';
 }

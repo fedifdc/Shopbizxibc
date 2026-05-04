@@ -28,6 +28,15 @@ function shopbiz_upgrade()
     die('Nonce value cannot be verified.');
   }
 
+  // Check if MLM connection is enabled
+  if (get_option('shopbiz_mlm_enabled', '1') !== '1') {
+    wp_send_json(array(
+      'success' => false,
+      'message' => 'Koneksi ke sistem MLM saat ini dinonaktifkan oleh admin.',
+    ));
+    return;
+  }
+
   global $wpdb;
   $userdata = wp_get_current_user();
   

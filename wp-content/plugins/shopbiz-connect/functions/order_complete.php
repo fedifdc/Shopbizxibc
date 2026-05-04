@@ -1,6 +1,12 @@
 <?php
 // Update points for both customer and sponsor when an order is completed
 function shopbiz_order_complete($order_id) {
+    // Skip if MLM connection is disabled in admin settings
+    if (get_option('shopbiz_mlm_enabled', '1') !== '1') {
+        error_log("MLM connection disabled - skipping point sync for order $order_id");
+        return;
+    }
+
     error_log("ADD COMMISSION TO MLM");
     global $wpdb;
     $order = wc_get_order($order_id);

@@ -751,10 +751,12 @@ function custom_list_tile_shortcode($atts) {
 		</div>	
 	<?php }
 	 else{ ?>
+		<?php if (get_option('shopbiz_countdown_enabled', '1') === '1') : ?>
 		<div class="affiliate-upgrade-notice" style="border: 1px solid #f1c40f; background-color: #fdf8e4; padding: 15px; margin: 20px 0; border-radius: 5px; color: #333;">
         <strong>Perhatian:</strong> Jika waktu upgrade habis, poin level yang dihitung adalah poin Anda saat itu. Contohnya, jika poin Anda <strong>3.000.000</strong>, Anda berada di level premium. Poin yang bertambah setelah waktu upgrade tidak akan dihitung dalam sistem. Maka level Anda akan tetap dianggap <strong>Premium</strong>.
 
 	</div>
+		<?php endif; ?>
 	<?php }?>
     <div class="list-tile level-affiliate" style="display: flex; align-items: center; padding: 10px; ">
         <div class="list-tile-image" style="margin-right: 15px;">
@@ -918,6 +920,12 @@ function shopbiz_upgrade_shortcode() {
     // Retrieve dynamic variables
     $current_point = mycred_get_users_total(get_current_user_id(), 'point_level');
     $is_member = get_user_meta(get_current_user_id(), 'shopbiz_user_id', true);
+
+    // Read admin settings from ShopBiz Connect
+    $mlm_enabled = get_option('shopbiz_mlm_enabled', '1');
+    $countdown_enabled = get_option('shopbiz_countdown_enabled', '1');
+    $countdown_duration = intval(get_option('shopbiz_countdown_duration', 30));
+    $countdown_duration_member = intval(get_option('shopbiz_countdown_duration_member', 60));
     
     // Get current user ID
     $user_id = get_current_user_id();
@@ -935,15 +943,17 @@ function shopbiz_upgrade_shortcode() {
 
     // Determine the upgrade status
     ?> 
+	<?php if ($countdown_enabled === '1') : ?>
 	<div class="countdown-head">
 		<?php
 			if(!$is_member){
 				echo '<h4 class="subheading">Ayo buruan, upgrade akunmu sebelum:</h4>';
 			} 
 		?>
-		</div> 
+		</div>
+	<?php endif; ?> 
     <?php
-    if ( !$is_member || $current_point < 5000000) :
+    if ( $countdown_enabled === '1' && (!$is_member || $current_point < 5000000) ) :
         ?>
 		
         <div id="countdown-container" style="margin-top: 20px">
@@ -971,6 +981,7 @@ function shopbiz_upgrade_shortcode() {
             </div>
         </div>
          <?php endif; ?>
+		<?php if ($mlm_enabled === '1') : ?>
 		<?php if((!$is_member && $is_process == null)) : ?>
 			<div id="upgrade" class="mt-4">
 				<div class="cepatlakoo-message woocommerce-message" style="display: none;"></div>
@@ -1002,6 +1013,7 @@ function shopbiz_upgrade_shortcode() {
             <p><b>*<?php echo $reg_message ?></b></p>
 
         <?php endif; ?>
+		<?php endif; /* end mlm_enabled */ ?>
 		
         <!-- Modal Structure -->
         <div id="upgradeModal" class="modal" style="display: none;">
@@ -1047,13 +1059,13 @@ function shopbiz_upgrade_shortcode() {
         </div>
 
 	<?php
-    if ( $is_member && $is_premium == 2) :
+    if ( $mlm_enabled === '1' && $is_member && $is_premium == 2) :
         ?>
         <div class="mt-4">
             <a id="login-mlm" href="https://affiliasi.virans.com/" target="_blank" class="button">Network Marketing Manager</a>
         </div>
      <?php
-    elseif (!$is_member && $is_process == 0) :
+    elseif ($mlm_enabled === '1' && !$is_member && $is_process == 0) :
     ?>
 		<?php if($is_button_process == 2) : ?>
         <div id="upgrade" class="mt-4">
@@ -1067,11 +1079,11 @@ function shopbiz_upgrade_shortcode() {
 		
     jQuery(document).ready(function($) {
         // Countdown timer
-		<?php if (!$is_member) : ?>
+		<?php if ($countdown_enabled === '1' && !$is_member) : ?>
 		     
 			let serverTimeUTC = "<?php
 				$registered_date = new DateTime(get_userdata(get_current_user_id())->user_registered, new DateTimeZone('UTC'));
-				$registered_date->modify('+30 days');
+				$registered_date->modify('+' . $countdown_duration . ' days');
 				echo $registered_date->format('Y-m-d\TH:i:s\Z');
 			?>";
 
@@ -1107,14 +1119,14 @@ function shopbiz_upgrade_shortcode() {
 				}
 			}, 1000);
 
-		<?php elseif ($is_member && $current_point < 5000000) : ?>
+		<?php elseif ($countdown_enabled === '1' && $is_member && $current_point < 5000000) : ?>
 		   
 			let serverTimeUTC = "<?php
 				$table_reg = $wpdb->prefix . 'shopbiz_registration';
 				$query = $wpdb->prepare("SELECT registered_at FROM $table_reg WHERE customer_id = %d", get_current_user_id());
 				$user_registered_date = $wpdb->get_var($query);
 				$registered_date = new DateTime($user_registered_date, new DateTimeZone('UTC'));
-				$registered_date->modify('+60 days');
+				$registered_date->modify('+' . $countdown_duration_member . ' days');
 				echo $registered_date->format('Y-m-d\TH:i:s\Z');
 			?>";
 
