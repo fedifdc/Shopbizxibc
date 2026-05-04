@@ -19,8 +19,15 @@ if ( class_exists( 'woocommerce' ) ) {
     $store_city        = get_option( 'woocommerce_store_city' );
     $store_postcode    = get_option( 'woocommerce_store_postcode' );
     $split_country     = explode( ":", get_option( 'woocommerce_default_country' ) );
-    $store_country     = $countries[$split_country[0]];
-    $store_state       = $states[$split_country[0]][$pok_helper->map_ongkir_states($split_country[1])];
+    $store_country     = isset($countries[$split_country[0]]) ? $countries[$split_country[0]] : '';
+    $store_state       = '';
+    if ( isset($states[$split_country[0]]) ) {
+        $state_key = isset($split_country[1]) ? $split_country[1] : '';
+        if ( is_object( $pok_helper ) && method_exists( $pok_helper, 'map_ongkir_states' ) ) {
+            $state_key = $pok_helper->map_ongkir_states($state_key);
+        }
+        $store_state = isset($states[$split_country[0]][$state_key]) ? $states[$split_country[0]][$state_key] : '';
+    }
 
     $cl_store_address = $store_address .' '. $store_address_2 .', '. $store_city .', '. $store_state .', '. $store_postcode .', '. $store_country;
 }
