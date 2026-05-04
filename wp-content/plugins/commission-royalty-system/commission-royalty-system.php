@@ -27,6 +27,45 @@ require_once CRS_PLUGIN_DIR . 'includes/member-dashboard.php';
 require_once CRS_PLUGIN_DIR . 'includes/database.php';
 
 // ============================================================
+// AUTO-UPGRADE: Ensure required columns exist on every admin load
+// ============================================================
+add_action('admin_init', 'crs_check_db_schema');
+function crs_check_db_schema() {
+    $current_version = get_option('crs_db_version', '0');
+    $required_version = '1.2';
+
+    if (version_compare($current_version, $required_version, '>=')) {
+        return; // Already up to date
+    }
+
+    global $wpdb;
+    $table_caps = $wpdb->prefix . 'crs_rank_caps';
+
+    $existing_cols = $wpdb->get_col("SHOW COLUMNS FROM $table_caps", 0);
+    $alter_cols = [
+        'min_direct_dl'    => "ALTER TABLE $table_caps ADD COLUMN min_direct_dl int(11) NOT NULL DEFAULT 0 AFTER max_tier",
+        'min_total_omset'  => "ALTER TABLE $table_caps ADD COLUMN min_total_omset decimal(15,2) NOT NULL DEFAULT 0.00 AFTER min_direct_dl",
+        'min_dl_rank'      => "ALTER TABLE $table_caps ADD COLUMN min_dl_rank varchar(50) NOT NULL DEFAULT 'free' AFTER min_total_omset",
+        'min_dl_rank_count' => "ALTER TABLE $table_caps ADD COLUMN min_dl_rank_count int(11) NOT NULL DEFAULT 0 AFTER min_dl_rank",
+        'alt_requirements' => "ALTER TABLE $table_caps ADD COLUMN alt_requirements text DEFAULT NULL AFTER min_dl_rank_count",
+    ];
+    foreach ($alter_cols as $col_name => $alter_sql) {
+        if (!in_array($col_name, $existing_cols)) {
+            $wpdb->query($alter_sql);
+        }
+    }
+
+    // Ensure total_omset exists in wp_member
+    $member_table = $wpdb->prefix . 'member';
+    $member_cols = $wpdb->get_col("SHOW COLUMNS FROM $member_table", 0);
+    if (!in_array('total_omset', $member_cols)) {
+        $wpdb->query("ALTER TABLE $member_table ADD COLUMN total_omset decimal(15,2) NOT NULL DEFAULT 0.00");
+    }
+
+    update_option('crs_db_version', $required_version);
+}
+
+// ============================================================
 // ACTIVATION
 // ============================================================
 register_activation_hook(__FILE__, 'crs_activate');
