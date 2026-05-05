@@ -27,6 +27,24 @@ function cepatlakoo_child_enqueue_styles() {
 
 add_action(  'wp_enqueue_scripts', 'cepatlakoo_child_enqueue_styles' );
 
+/**
+ * Enqueue cart animation script for Single Product & Quick View
+ * Memberikan visual feedback (toast, fly-to-cart, bounce) saat add to cart.
+ */
+function shopbiz_enqueue_cart_animation() {
+    if ( ! class_exists( 'WooCommerce' ) ) {
+        return;
+    }
+    wp_enqueue_script(
+        'shopbiz-cart-animation',
+        get_stylesheet_directory_uri() . '/assets/js/cart-animation.js',
+        array( 'jquery', 'wc-add-to-cart' ),
+        '1.0.0',
+        true  // load in footer
+    );
+}
+add_action( 'wp_enqueue_scripts', 'shopbiz_enqueue_cart_animation', 99 );
+
 function webroom_wc_remove_password_strength() {
 if ( wp_script_is( 'wc-password-strength-meter', 'enqueued' ) ) {
     wp_dequeue_script( 'wc-password-strength-meter' );
@@ -3076,6 +3094,19 @@ function custom_cart_button_shortcode() {
                 height: 20px; /* Fixed height for the circle */
                 line-height: 8px; /* Center text vertically */
 				font-weight: bold;
+                transition: transform 0.1s ease;
+            }
+
+            .cart-quantity.bounce {
+                animation: cartBadgeBounce 0.5s ease forwards;
+            }
+
+            @keyframes cartBadgeBounce {
+                0%   { transform: scale(1); }
+                30%  { transform: scale(1.6); }
+                60%  { transform: scale(0.85); }
+                80%  { transform: scale(1.2); }
+                100% { transform: scale(1); }
             }
 
             /* Hover effect */
@@ -3088,10 +3119,43 @@ function custom_cart_button_shortcode() {
     // Enqueue FontAwesome for cart icon
     wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
-    // Return the button HTML and inline CSS
-    return $button_html . $inline_css;
+    // JavaScript: update cart count badge via AJAX when item added to cart
+    $inline_js = '
+        <script type="text/javascript">
+        jQuery(function($) {
+            $(document.body).on("added_to_cart", function(event, fragments, cart_hash, $button) {
+                $.ajax({
+                    url: wc_add_to_cart_params.ajax_url,
+                    type: "GET",
+                    data: { action: "custom_get_cart_count" },
+                    success: function(response) {
+                        if (response && response.count !== undefined) {
+                            var $badge = $(".cart-quantity");
+                            $badge.text(response.count);
+                            // Trigger bounce animation
+                            $badge.removeClass("bounce");
+                            void $badge[0].offsetWidth; // reflow to restart animation
+                            $badge.addClass("bounce");
+                        }
+                    }
+                });
+            });
+        });
+        </script>
+    ';
+
+    // Return the button HTML, inline CSS, and inline JS
+    return $button_html . $inline_css . $inline_js;
 }
 add_shortcode('custom_cart_button', 'custom_cart_button_shortcode');
+
+// AJAX handler: return current cart item count as JSON
+add_action('wp_ajax_custom_get_cart_count', 'custom_get_cart_count_handler');
+add_action('wp_ajax_nopriv_custom_get_cart_count', 'custom_get_cart_count_handler');
+function custom_get_cart_count_handler() {
+    $count = WC()->cart ? WC()->cart->get_cart_contents_count() : 0;
+    wp_send_json(array('count' => $count));
+}
 
 // Enqueue jQuery UI for WooCommerce price filter with two-point slider
 function enqueue_jquery_ui_slider() {
