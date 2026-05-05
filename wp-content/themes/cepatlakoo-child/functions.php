@@ -3477,22 +3477,6 @@ function custom_login_redirect_script() {
     ";
 }
 
-// Remove the gap between top bar and header caused by parent theme's adminBar()
-// The parent theme's adminBar() function sets body padding-top = masthead height
-// for sticky header offset. Since the header is not fixed here, reset it to 0.
-add_action('wp_footer', 'fix_body_padding_top_gap', 99);
-function fix_body_padding_top_gap() {
-    echo "
-        <script type='text/javascript'>
-        jQuery(window).on('load', function() {
-            jQuery('body').css('padding-top', '0');
-        });
-        // Also run immediately in case load already fired
-        jQuery('body').css('padding-top', '0');
-        </script>
-    ";
-}
-
 // Prevent Safari from zooming in on input fields
 function custom_viewport_meta_tag() {
     echo '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">';

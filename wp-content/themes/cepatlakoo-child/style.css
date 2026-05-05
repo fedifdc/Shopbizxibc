@@ -467,3 +467,8 @@
 form.woocommerce-form-register br {
     display: none !important;
 }
+
+/* ── Mencegah JS dari tema merusak layout dengan padding-top ── */
+body {
+    padding-top: 0 !important;
+}
