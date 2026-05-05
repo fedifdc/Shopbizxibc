@@ -3120,10 +3120,13 @@ function custom_cart_button_shortcode() {
     wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
     // JavaScript: update cart count badge via AJAX when item added to cart
+    // Also intercept single product form submit to convert to AJAX add-to-cart
     $inline_js = '
         <script type="text/javascript">
         jQuery(function($) {
-            $(document.body).on("added_to_cart", function(event, fragments, cart_hash, $button) {
+
+            // ── Helper: fetch cart count and animate badge ──────────────────────
+            function updateCartBadge() {
                 $.ajax({
                     url: wc_add_to_cart_params.ajax_url,
                     type: "GET",
@@ -3132,14 +3135,79 @@ function custom_cart_button_shortcode() {
                         if (response && response.count !== undefined) {
                             var $badge = $(".cart-quantity");
                             $badge.text(response.count);
-                            // Trigger bounce animation
                             $badge.removeClass("bounce");
                             void $badge[0].offsetWidth; // reflow to restart animation
                             $badge.addClass("bounce");
                         }
                     }
                 });
+            }
+
+            // ── 1. Shop / archive page: listen to WooCommerce AJAX event ───────
+            $(document.body).on("added_to_cart", function() {
+                updateCartBadge();
             });
+
+            // ── 2. Single product page: intercept form submit → convert to AJAX ─
+            $(document.body).on("submit", "form.cart", function(e) {
+                var $form = $(this);
+
+                // Only intercept simple products (has add-to-cart button, no variation selects pending)
+                var $btn = $form.find("[name=add-to-cart]");
+                if (!$btn.length) return; // Let WooCommerce handle variations normally
+
+                // Do not intercept if a product variation is required but not yet selected
+                var $variationInput = $form.find("input[name=variation_id]");
+                if ($variationInput.length && (!$variationInput.val() || $variationInput.val() === "0")) return;
+
+                e.preventDefault();
+
+                var product_id = $btn.val();
+                var quantity   = $form.find("[name=quantity]").val() || 1;
+                var variation_id = $variationInput.length ? $variationInput.val() : 0;
+
+                // Build data object
+                var data = {
+                    action:     "woocommerce_add_to_cart",
+                    product_id: product_id,
+                    quantity:   quantity,
+                    nonce:      wc_add_to_cart_params.wc_ajax_url
+                };
+
+                if (variation_id) {
+                    data.variation_id = variation_id;
+                    // Include all variation attributes
+                    $form.find("[name^=attribute_]").each(function() {
+                        data[$(this).attr("name")] = $(this).val();
+                    });
+                }
+
+                // Use WooCommerce AJAX endpoint (?wc-ajax=add_to_cart)
+                var ajax_url = wc_add_to_cart_params.wc_ajax_url.replace("%%endpoint%%", "add_to_cart");
+
+                $btn.prop("disabled", true).addClass("loading");
+
+                $.post(ajax_url, {
+                    product_id:   product_id,
+                    quantity:     quantity,
+                    variation_id: variation_id || 0
+                }, function(res) {
+                    $btn.prop("disabled", false).removeClass("loading");
+                    if (res && res.fragments) {
+                        // Update WooCommerce fragments (mini-cart etc.)
+                        $.each(res.fragments, function(key, value) {
+                            $(key).replaceWith(value);
+                        });
+                        // Trigger standard WooCommerce event so other plugins stay in sync
+                        $(document.body).trigger("added_to_cart", [res.fragments, res.cart_hash, $btn]);
+                    }
+                    // Always update our badge
+                    updateCartBadge();
+                }).fail(function() {
+                    $btn.prop("disabled", false).removeClass("loading");
+                });
+            });
+
         });
         </script>
     ';
