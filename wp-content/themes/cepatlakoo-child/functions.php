@@ -3483,6 +3483,18 @@ function custom_viewport_meta_tag() {
 }
 add_action('wp_head', 'custom_viewport_meta_tag');
 
+// Remove the gap between top bar and header caused by parent theme's adminBar()
+// Parent theme adds padding-top inline to body via JS. We force it to 0.
+function force_body_padding_zero() {
+    echo '<style type="text/css">
+        body, html {
+            padding-top: 0 !important;
+            margin-top: 0 !important;
+        }
+    </style>';
+}
+add_action('wp_head', 'force_body_padding_zero', 999);
+
 // Add custom styles to ensure proper input field size
 function custom_input_styles() {
     echo '<style>
