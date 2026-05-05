@@ -468,3 +468,10 @@ form.woocommerce-form-register br {
     display: none !important;
 }
 
+/* ── Remove gap between WordPress admin bar and site header ──────────────── */
+html.wp-toolbar {
+    padding-top: 0 !important;
+}
+#wpadminbar {
+    position: fixed !important;
+}
